@@ -39,7 +39,7 @@ db/*.sqlite
 db/*.sqlite3
 
 # Logs
-logs/*
+logs/**
 !logs/**/
 !logs/**/.gitkeep
 *.log

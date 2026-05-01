@@ -1,0 +1,31 @@
+event_types:
+  - model_release
+  - product_update
+  - company_strategy
+  - research_paper
+  - policy
+  - tool_launch
+  - funding
+  - safety_issue
+  - market_signal
+  - industry_trend
+  - other
+
+entity_types:
+  - company
+  - model
+  - tool
+  - person
+  - organization
+
+topic_slugs:
+  - ai-agents
+  - vibe-coding
+  - rag
+  - mcp
+  - ai-search
+  - embodied-ai
+  - llm
+  - multimodal
+  - ai-safety
+  - ai-policy

@@ -1,0 +1,34 @@
+{{ define "main" }}
+<article class="single">
+  <header class="single-header">
+    <p class="eyebrow">{{ .Type }}</p>
+    <h1>{{ .Title }}</h1>
+    <div class="meta-row">
+      <span>{{ .Date.Format "2006-01-02 15:04" }}</span>
+      {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
+      {{ with .Params.event_type }}<span class="badge subtle">{{ . }}</span>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Params.topics }}
+  <div class="tag-row">
+    {{ range . }}<span>#{{ .name | default .slug }}</span>{{ end }}
+  </div>
+  {{ end }}
+
+  <div class="content-body">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.sources }}
+  <section class="source-box">
+    <h2>来源</h2>
+    <ul>
+      {{ range . }}
+      <li><a href="{{ .url }}">{{ .title | default .url }}</a>{{ with .publisher }} · {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

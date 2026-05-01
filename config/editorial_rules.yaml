@@ -1,0 +1,34 @@
+grades:
+  A:
+    importance_score_min: 75
+    seo_value_score_min: 60
+    knowledge_value_score_min: 70
+    confidence_min: 0.75
+    risk_score_max: 69
+    action: publish_article
+    need_review: true
+
+  B:
+    importance_score_min: 45
+    knowledge_value_score_min: 40
+    confidence_min: 0.65
+    action: daily_brief_only
+    need_review: false
+
+  C:
+    has_related_event: true
+    action: update_assets_only
+    need_review: false
+
+  D:
+    action: ignore
+    need_review: false
+
+review_triggers:
+  - a_grade_article
+  - new_entity_created
+  - risk_score_gte: 70
+  - event_confidence_lt: 0.70
+  - claim_confidence_lt: 0.70
+  - major_asset_update
+  - deploy_approval

@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="daily-brief">
+  <header class="brief-header">
+    <p class="eyebrow">日报</p>
+    <h1>{{ .Title }}</h1>
+    <div class="meta-row">
+      <span>{{ .Date.Format "2006-01-02" }}</span>
+    </div>
+  </header>
+
+  <div class="content-body">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.covered_events }}
+  <div class="event-tracker">
+    <h2>关联事件</h2>
+    <div class="event-chips">
+      {{ range . }}<span class="chip">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{ with .Params.neican }}
+  <div class="neican-meta">
+    <span>生成方式：{{ .generated_by }}</span>
+    <span>审核状态：<span class="badge {{ if eq .review_status "approved" }}ok{{ else }}pending{{ end }}">{{ .review_status }}</span></span>
+  </div>
+  {{ end }}
+</article>
+
+{{ $allBriefs := where (where site.RegularPages "Section" "briefs") "Params.type" "==" "daily_brief" }}
+{{ $prev := where $allBriefs "Date" "lt" .Date | first 1 }}
+{{ $next := where $allBriefs "Date" "gt" .Date | first 1 }}
+<nav class="brief-nav">
+  {{ with index $prev 0 }}<a href="{{ .RelPermalink }}" class="nav-prev">← {{ .Date.Format "01-02" }}</a>{{ end }}
+  {{ with index $next 0 }}<a href="{{ .RelPermalink }}" class="nav-next">{{ .Date.Format "01-02" }} →</a>{{ end }}
+</nav>
+{{ end }}

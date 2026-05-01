@@ -1,0 +1,83 @@
+baseURL = "https://neican.ai/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "AI内参"
+
+ignoreFiles = [
+  "@eaDir",
+  "@SynoEAStream",
+  "@SynoResource",
+  "@tmp",
+  "\\.DS_Store$",
+  "Thumbs\\.db$"
+]
+ignoreLogs = ["warning-goldmark-raw-html"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = false
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    noClasses = true
+    tabWidth = 2
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  topic = "topics"
+  entity = "entities"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[params]
+  description = "AI 行业的结构化洞察、日报与知识资产。"
+  author = "neican.ai"
+  recent_posts_number = 12
+  custom_css = ["css/custom.css", "css/article-enhancements.css"]
+  home_main_section = "insights"
+
+[[menus.main]]
+name = "首页"
+url = "/"
+weight = 10
+
+[[menus.main]]
+name = "洞察"
+url = "/insights/"
+weight = 20
+
+[[menus.main]]
+name = "日报"
+url = "/briefs/daily/"
+weight = 30
+
+[[menus.main]]
+name = "主题探索"
+url = "/topics/"
+weight = 40
+
+[[menus.main]]
+name = "关于"
+url = "/about/"
+weight = 50

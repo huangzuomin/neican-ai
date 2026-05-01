@@ -1,0 +1,15 @@
+<article class="card">
+  <div class="card-meta">
+    <span>{{ .Date.Format "2006-01-02" }}</span>
+    {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
+  </div>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.topics }}
+  <p class="card-tags">
+    {{ range first 3 . }}
+      <span>#{{ .name | default .slug }}</span>
+    {{ end }}
+  </p>
+  {{ end }}
+  <p>{{ .Summary | plainify | truncate 140 }}</p>
+</article>

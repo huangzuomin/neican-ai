@@ -1,0 +1,233 @@
+---
+title: 2026 年时间线
+type: timeline
+year: '2026'
+event_count: 224
+---
+
+# 2026 年 AI 行业时间线
+
+- **2026-01-02** — Announcing OpenAI Grove Cohort 2 [tool_launch] · OpenAI
+- **2026-01-07** — Introducing ChatGPT Health [model_release]
+- **2026-01-07** — How Tolan builds voice-first AI with GPT-5.1 [model_release]
+- **2026-01-08** — Netomi’s lessons for scaling agentic systems into the enterprise [model_release]
+- **2026-01-08** — OpenAI for Healthcare [other] · OpenAI
+- **2026-01-09** — Datadog uses Codex for system-level code review [other] · OpenAI
+- **2026-01-09** — OpenAI and SoftBank Group partner with SB Energy [other] · OpenAI
+- **2026-01-13** — Zenken boosts a lean sales team with ChatGPT Enterprise [model_release]
+- **2026-01-14** — OpenAI partners with Cerebras [model_release] · OpenAI
+- **2026-01-15** — Strengthening the U.S. AI supply chain through domestic manufacturing [tool_launch] · OpenAI
+- **2026-01-15** — Investing in Merge Labs [other] · OpenAI
+- **2026-01-16** — Introducing ChatGPT Go, now available worldwide [model_release]
+- **2026-01-16** — Our approach to advertising and expanding access to ChatGPT [model_release] · OpenAI
+- **2026-01-18** — A business that scales with the value of intelligence [model_release] · OpenAI
+- **2026-01-20** — Our approach to age prediction [model_release]
+- **2026-01-20** — ServiceNow powers actionable enterprise AI with OpenAI [model_release] · OpenAI
+- **2026-01-20** — Cisco and OpenAI redefine enterprise engineering with AI agents [other] · OpenAI
+- **2026-01-20** — Stargate Community [other]
+- **2026-01-20** — Horizon 1000: Advancing AI for primary healthcare [tool_launch] · OpenAI
+- **2026-01-21** — Introducing Edu for Countries [other] · OpenAI
+- **2026-01-21** — How countries can end the capability overhang [other]
+- **2026-01-21** — How Higgsfield turns simple ideas into cinematic social videos [model_release] · OpenAI
+- **2026-01-22** — Inside Praktika's conversational approach to language learning [model_release]
+- **2026-01-22** — Inside GPT-5 for Work: How Businesses Use GPT-5 [model_release]
+- **2026-01-22** — Scaling PostgreSQL to power 800 million ChatGPT users [model_release] · OpenAI
+- **2026-01-23** — Unrolling the Codex agent loop [model_release]
+- **2026-01-26** — How Indeed uses AI to help evolve the job search [other]
+- **2026-01-27** — Introducing Prism [model_release]
+- **2026-01-27** — TRUSTBANK uses AI agents to personalize Furusato Nozei gifts [model_release] · OpenAI
+- **2026-01-27** — PVH reimagines the future of fashion with OpenAI [model_release] · OpenAI
+- **2026-01-28** — Keeping your data safe when an AI agent clicks a link [other] · OpenAI
+- **2026-01-28** — EMEA Youth & Wellbeing Grant [funding]
+- **2026-01-28** — The next chapter for AI in the EU [tool_launch] · OpenAI
+- **2026-01-29** — Taisei Corporation shapes the next generation of talent with AI [model_release]
+- **2026-01-29** — Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT [model_release] · OpenAI
+- **2026-01-29** — Inside OpenAI’s in-house data agent [model_release] · OpenAI
+- **2026-02-02** — Introducing the Codex app [other]
+- **2026-02-02** — Snowflake and OpenAI partner to bring frontier intelligence to enterprise data [other] · OpenAI
+- **2026-02-03** — The Sora feed philosophy [other]
+- **2026-02-04** — Unlocking the Codex harness: how we built the App Server [tool_launch]
+- **2026-02-05** — Introducing GPT-5.3-Codex [model_release]
+- **2026-02-05** — GPT-5.3-Codex System Card [model_release]
+- **2026-02-05** — Introducing OpenAI Frontier [other] · OpenAI
+- **2026-02-05** — Introducing Trusted Access for Cyber [other] · OpenAI
+- **2026-02-05** — GPT-5 lowers the cost of cell-free protein synthesis [model_release] · OpenAI
+- **2026-02-06** — Making AI work for everyone, everywhere: our approach to localization [model_release] · OpenAI
+- **2026-02-09** — Testing ads in ChatGPT [model_release] · OpenAI
+- **2026-02-09** — Bringing ChatGPT to GenAI.mil [model_release] · OpenAI
+- **2026-02-11** — Harness engineering: leveraging Codex in an agent-first world [other]
+- **2026-02-12** — Introducing GPT-5.3-Codex-Spark [model_release]
+- **2026-02-13** — Scaling social science research [model_release] · OpenAI
+- **2026-02-13** — Beyond rate limits: scaling access to Codex and Sora [other] · OpenAI
+- **2026-02-13** — Introducing Lockdown Mode and Elevated Risk labels in ChatGPT [model_release]
+- **2026-02-13** — GPT-5.2 derives a new result in theoretical physics [model_release] · OpenAI
+- **2026-02-18** — Introducing EVMbench [other] · OpenAI
+- **2026-02-18** — Introducing OpenAI for India [other] · OpenAI
+- **2026-02-19** — Advancing independent research on AI alignment [research_paper] · OpenAI
+- **2026-02-20** — Our First Proof submissions [model_release]
+- **2026-02-23** — OpenAI announces Frontier Alliance Partners [other] · OpenAI
+- **2026-02-23** — Why we no longer evaluate SWE-bench Verified [other]
+- **2026-02-24** — Arvind KC appointed Chief People Officer [other] · OpenAI
+- **2026-02-25** — Disrupting malicious uses of AI | February 2026 [model_release]
+- **2026-02-26** — OpenAI Codex and Figma launch seamless code-to-design experience [tool_launch] · OpenAI
+- **2026-02-26** — Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting [other] · OpenAI
+- **2026-02-27** — An update on our mental health-related work [product_update] · OpenAI
+- **2026-02-27** — Scaling AI for everyone [other]
+- **2026-02-27** — Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock [other] · OpenAI
+- **2026-02-27** — Joint Statement from OpenAI and Microsoft [research_paper] · OpenAI
+- **2026-02-27** — OpenAI and Amazon announce strategic partnership [model_release] · OpenAI
+- **2026-02-28** — Our agreement with the Department of War [other] · OpenAI
+- **2026-03-04** — Understanding AI and learning outcomes [other] · OpenAI
+- **2026-03-04** — How Axios uses AI to help deliver high-impact local journalism [other]
+- **2026-03-04** — Extending single-minus amplitudes to gravitons [model_release]
+- **2026-03-05** — Introducing ChatGPT for Excel and new financial data integrations [model_release] · OpenAI
+- **2026-03-05** — Introducing the Adoption news channel [other]
+- **2026-03-05** — VfL Wolfsburg turns ChatGPT into a club-wide capability [model_release]
+- **2026-03-05** — The five AI value models driving business reinvention [model_release]
+- **2026-03-05** — Ensuring AI use in education leads to opportunity [tool_launch] · OpenAI
+- **2026-03-05** — Reasoning models struggle to control their chains of thought, and that’s good [model_release] · OpenAI
+- **2026-03-05** — Introducing GPT-5.4 [model_release] · OpenAI
+- **2026-03-06** — How Descript engineers multilingual video dubbing at scale [model_release] · OpenAI
+- **2026-03-06** — How Balyasny Asset Management built an AI research engine [model_release] · OpenAI
+- **2026-03-06** — Codex Security: now in research preview [research_paper]
+- **2026-03-09** — OpenAI to acquire Promptfoo [other] · OpenAI
+- **2026-03-10** — New ways to learn math and science in ChatGPT [model_release]
+- **2026-03-10** — Improving instruction hierarchy in frontier LLMs [model_release]
+- **2026-03-11** — Wayfair boosts catalog accuracy and support speed with OpenAI [model_release] · OpenAI, Meta AI
+- **2026-03-11** — From model to agent: Equipping the Responses API with a computer environment [model_release] · OpenAI
+- **2026-03-11** — Designing AI agents to resist prompt injection [model_release]
+- **2026-03-16** — Why Codex Security Doesn’t Include a SAST Report [other]
+- **2026-03-17** — Equipping workers with insights about compensation [model_release]
+- **2026-03-17** — OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first [other] · OpenAI
+- **2026-03-17** — Introducing GPT-5.4 mini and nano [model_release]
+- **2026-03-19** — OpenAI to acquire Astral [tool_launch] · OpenAI
+- **2026-03-19** — How we monitor internal coding agents for misalignment [other] · OpenAI
+- **2026-03-23** — Creating with Sora Safely [model_release]
+- **2026-03-24** — Powering product discovery in ChatGPT [model_release]
+- **2026-03-24** — Update on the OpenAI Foundation [product_update] · OpenAI
+- **2026-03-24** — Helping developers build safer AI experiences for teens [model_release] · OpenAI
+- **2026-03-25** — Introducing the OpenAI Safety Bug Bounty program [tool_launch] · OpenAI
+- **2026-03-25** — Inside our approach to the Model Spec [model_release] · OpenAI
+- **2026-03-27** — STADLER reshapes knowledge work at a 230-year-old company [model_release]
+- **2026-03-29** — Helping disaster response teams turn AI into action across Asia [other] · OpenAI
+- **2026-03-31** — Accelerating the next phase of AI [model_release] · OpenAI
+- **2026-04-01** — Gradient Labs gives every bank customer an AI account manager [model_release]
+- **2026-04-02** — Codex now offers more flexible pricing for teams [model_release]
+- **2026-04-02** — OpenAI acquires TBPN [other] · OpenAI
+- **2026-04-06** — Industrial policy for the Intelligence Age [policy]
+- **2026-04-06** — Announcing the OpenAI Safety Fellowship [research_paper] · OpenAI
+- **2026-04-08** — Introducing the Child Safety Blueprint [other] · OpenAI
+- **2026-04-08** — The next phase of enterprise AI [model_release] · OpenAI
+- **2026-04-09** — CyberAgent moves faster with ChatGPT Enterprise and Codex [model_release]
+- **2026-04-09** — OpenAI Full Fan Mode Contest: Terms & Conditions [other] · OpenAI
+- **2026-04-10** — Working with files in ChatGPT [model_release]
+- **2026-04-10** — Creating images with ChatGPT [model_release]
+- **2026-04-10** — ChatGPT for research [model_release]
+- **2026-04-10** — Brainstorming with ChatGPT [model_release]
+- **2026-04-10** — Writing with ChatGPT [model_release]
+- **2026-04-10** — Responsible and safe use of AI [model_release]
+- **2026-04-10** — Research with ChatGPT [model_release]
+- **2026-04-10** — ChatGPT for managers [model_release]
+- **2026-04-10** — Financial services [model_release]
+- **2026-04-10** — Applications of AI at OpenAI [model_release] · OpenAI
+- **2026-04-10** — ChatGPT for sales teams [model_release]
+- **2026-04-10** — ChatGPT for finance teams [model_release]
+- **2026-04-10** — Healthcare [model_release]
+- **2026-04-10** — Our response to the Axios developer tool compromise [tool_launch] · OpenAI
+- **2026-04-10** — Using projects in ChatGPT [model_release]
+- **2026-04-10** — Using skills [model_release]
+- **2026-04-10** — Personalizing ChatGPT [model_release]
+- **2026-04-10** — ChatGPT for customer success teams [model_release]
+- **2026-04-10** — Using custom GPTs [model_release]
+- **2026-04-10** — Prompting fundamentals [model_release]
+- **2026-04-10** — ChatGPT for marketing teams [model_release]
+- **2026-04-10** — AI fundamentals [model_release]
+- **2026-04-10** — Analyzing data with ChatGPT [model_release]
+- **2026-04-10** — ChatGPT for operations teams [model_release]
+- **2026-04-10** — Getting started with ChatGPT [model_release]
+- **2026-04-13** — Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI [model_release] · OpenAI
+- **2026-04-14** — Trusted access for the next era of cyber defense [model_release] · OpenAI
+- **2026-04-15** — The next evolution of the Agents SDK [model_release] · OpenAI
+- **2026-04-16** — Accelerating the cyber defense ecosystem that protects us all [model_release] · OpenAI
+- **2026-04-16** — Introducing GPT-Rosalind for life sciences research [model_release] · OpenAI
+- **2026-04-16** — Codex for (almost) everything [product_update]
+- **2026-04-20** — OpenAI helps Hyatt advance AI among colleagues [model_release] · OpenAI
+- **2026-04-21** — Scaling Codex to enterprises worldwide [tool_launch] · OpenAI
+- **2026-04-21** — Introducing ChatGPT Images 2.0 [model_release]
+- **2026-04-22** — Introducing OpenAI Privacy Filter [model_release] · OpenAI
+- **2026-04-22** — Speeding up agentic workflows with WebSockets in the Responses API [model_release]
+- **2026-04-22** — Workspace agents [model_release]
+- **2026-04-22** — Introducing workspace agents in ChatGPT [model_release]
+- **2026-04-22** — Making ChatGPT better for clinicians [model_release] · OpenAI
+- **2026-04-23** — GPT-5.5 Bio Bug Bounty [model_release]
+- **2026-04-23** — How to get started with Codex [other]
+- **2026-04-23** — What is Codex? [tool_launch]
+- **2026-04-23** — Codex settings [other]
+- **2026-04-23** — Plugins and skills [tool_launch]
+- **2026-04-23** — Top 10 uses for Codex at work [tool_launch]
+- **2026-04-23** — Automations [other]
+- **2026-04-23** — Working with Codex [other]
+- **2026-04-23** — Introducing GPT-5.5 [model_release]
+- **2026-04-26** — Our principles [other]
+- **2026-04-27** — An open-source spec for orchestration: Symphony [other]
+- **2026-04-27** — Choco automates food distribution with AI agents [other] · OpenAI
+- **2026-04-27** — The next phase of the Microsoft OpenAI partnership [other] · OpenAI
+- **2026-04-27** — OpenAI available at FedRAMP Moderate [model_release] · OpenAI
+- **2026-04-28** — Our commitment to community safety [model_release] · OpenAI
+- **2026-04-28** — OpenAI models, Codex, and Managed Agents come to AWS [model_release] · OpenAI
+- **2026-04-29** — Cybersecurity in the Intelligence Age [other] · OpenAI
+- **2026-04-29** — The Download: storing nuclear waste and orchestrating agents [model_release] · OpenAI, Anthropic
+- **2026-04-29** — Building the compute infrastructure for the Intelligence Age [other] · OpenAI
+- **2026-04-29** — Where the goblins came from [model_release]
+- **2026-04-30** — 氪星晚报｜澳门一季度GDP按年实质增长7.1%；小红书发内部信：加大AI投入，柯南出任总裁 [model_release] · OpenAI
+- **2026-04-30** — “小长假”前一天北京拍地91.597亿，最贵楼面价超6万 [other]
+- **2026-04-30** — HappyHorse没有惊喜 [tool_launch]
+- **2026-04-30** — 从扫地机到火箭车，追觅在硅谷造了一场“瞬息全宇宙” [other] · Anthropic
+- **2026-04-30** — 巅峰集结，FBIF2026首日回顾！全球食品高层共探破局之路 [other]
+- **2026-04-30** — 错过第一波投影上市潮后，索诺克想靠「枭龙系列」实现超车｜项目报道 [other]
+- **2026-04-30** — 元禾原点领投，硫化物固态电解质材料商「天石科丰」完成数千万元pre-A轮融资 | 36氪首发 [tool_launch]
+- **2026-04-30** — Introducing Advanced Account Security [other]
+- **2026-04-30** — Gemini is rolling out to cars with Google built-in [model_release]
+- **2026-04-30** — The Download: the North Pole’s future and humanoid data [model_release] · OpenAI, Anthropic
+- **2026-04-30** — Meta is running get-rich-quick ads for its AI tools [tool_launch]
+- **2026-04-30** — Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI [model_release] · OpenAI, Meta AI
+- **2026-04-30** — Elon Musk confirms xAI used OpenAI’s models to train Grok [model_release] · OpenAI
+- **2026-04-30** — All the evidence unveiled so far in Musk v. Altman [other] · OpenAI
+- **2026-04-30** — This startup’s new mechanistic interpretability tool lets you debug LLMs [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-04-30** — Exclusive eBook: Inside the stealthy startup that pitched brainless human clones [research_paper]
+- **2026-04-30** — The craziest part of Musk v. Altman happened while the jury was out of the room [other] · Meta AI
+- **2026-05-01** — 借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线 [tool_launch]
+- **2026-05-01** — 36氪首发｜国内首家落地“筷子夹”塔架回收技术的商业航天公司，完成5亿元融资 [policy]
+- **2026-05-01** — 腾讯已入股游戏科学，持股24% [other]
+- **2026-05-01** — 北京人形将发布天工Omni机器人 [other]
+- **2026-05-01** — 蔚来公司4月交付29,356台，同比增长22.8% [other]
+- **2026-05-01** — 岚图汽车4月交付15146辆，同比增长51% [other]
+- **2026-05-01** — 鸿蒙智行4月交付32759台，同比增长18.9% [other]
+- **2026-05-01** — 上汽乘用车4月零售超7.8万辆，同比增长15.5% [other]
+- **2026-05-01** — 今日铁路运输迎高峰，预计97万人次出京 [other]
+- **2026-05-01** — 杭州为具身智能机器人立法，今起施行 [other]
+- **2026-05-01** — 2026五一档档期总票房破亿 [other]
+- **2026-05-01** — A股年度派现金额创历史新高 [tool_launch]
+- **2026-05-01** — 29家高股息且高增长公司连续派现 [other]
+- **2026-05-01** — 界面财联社入股小红书关联公司 [other]
+- **2026-05-01** — 苹果称印度反垄断机构越权，双方争端愈演愈烈 [policy]
+- **2026-05-01** — 小鹏集团4月共交付新车31011台 [tool_launch]
+- **2026-05-01** — 云深处科技完成IPO辅导 [other]
+- **2026-05-01** — 极氪4月交付新车31787辆，同比增长132% [other]
+- **2026-05-01** — 美股总市值首次突破75万亿美元 创历史新高 [other]
+- **2026-05-01** — 苹果美股盘前涨近3% [other]
+- **2026-05-01** — 美银：全球超大规模云计算企业2027年AI资本开支或达1万亿美元 [other]
+- **2026-05-01** — 苹果现金战略重大转向 [other]
+- **2026-05-01** — 追觅造车，从“火箭”开始 [tool_launch]
+- **2026-05-01** — Microsoft wants lawyers to trust its new AI agent in Word documents [model_release]
+- **2026-05-01** — Trump’s mass firing just dealt another blow to American science [funding]
+- **2026-05-01** — A new US phone network for Christians aims to block porn and gender-related content [model_release]
+- **2026-05-01** — Christian content creators are outsourcing AI slop to gig workers on Fiverr [other]
+- **2026-05-01** — Elon Musk had a bad week in court [other] · OpenAI
+- **2026-05-01** — Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining [funding]
+- **2026-05-01** — Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic [tool_launch] · OpenAI, Anthropic
+- **2026-05-01** — The Download: a new Christian phone network, and debugging LLMs [model_release] · OpenAI
+- **2026-05-01** — Musk v. Altman trial reveals OpenAI founding documents and early tensions [policy] · Elon Musk, Sam Altman, OpenAI
+- **2026-05-01** — Operationalizing AI for Scale and Sovereignty [model_release]
+- **2026-05-01** — Cyber-Insecurity in the AI Era [research_paper]
+- **2026-05-01** — Musk v. OpenAI trial week 1: Musk testifies he was deceived, warns of AI risk, admits xAI uses OpenAI models [other] · Elon Musk, Sam Altman, Greg Brockman

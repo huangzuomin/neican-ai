@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="hero">
+  <p class="eyebrow">AI News 模板迁移版</p>
+  <h1>把 AI 行业噪音转成结构化洞察</h1>
+  <p>这里保留 AInews 模板的信息架构思路，但站点内容完全由 neican.ai 的结构化流水线生成。</p>
+</section>
+
+{{ $insights := first (site.Params.recent_posts_number | default 12) (where site.RegularPages "Section" "insights") }}
+{{ $briefs := first 6 (where site.RegularPages "Section" "briefs") }}
+
+<section class="section-block">
+  <div class="section-head">
+    <h2>最新洞察</h2>
+    <a href="/insights/">查看全部</a>
+  </div>
+  <div class="grid">
+    {{ range $insights }}
+      {{ partial "card.html" . }}
+    {{ else }}
+      <p>暂无洞察内容。</p>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section-block">
+  <div class="section-head">
+    <h2>最近日报</h2>
+    <a href="/briefs/daily/">查看全部</a>
+  </div>
+  <div class="grid">
+    {{ range $briefs }}
+      {{ partial "card.html" . }}
+    {{ else }}
+      <p>暂无日报内容。</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

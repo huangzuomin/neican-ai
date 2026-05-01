@@ -1,0 +1,75 @@
+{{ define "main" }}
+<article class="insight-detail">
+  <header class="insight-header">
+    <div class="eyebrow">{{ .Params.event_type | default "insight" }}</div>
+    <h1>{{ .Title }}</h1>
+    <div class="meta-row">
+      <span>{{ .Date.Format "2006-01-02 15:04" }}</span>
+      {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
+      {{ with .Params.event_type }}<span class="badge subtle">{{ . }}</span>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Params.entities }}
+  <div class="entity-row">
+    {{ range . }}
+    <a href="/entities/{{ .slug }}/" class="entity-chip">
+      <span class="chip-type">{{ .type }}</span>
+      {{ .name }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Params.topics }}
+  <div class="tag-row">
+    {{ range . }}<a href="/topics/{{ .slug }}/">#{{ .name | default .slug }}</a>{{ end }}
+  </div>
+  {{ end }}
+
+  <div class="content-body">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.claims }}
+  <section class="claims-box">
+    <h2>结构化声明</h2>
+    <ul>
+      {{ range . }}
+      {{ if .statement }}
+      <li>
+        <span class="claim-statement">{{ .statement }}</span>
+        <span class="claim-conf">{{ mul .confidence 100 | lang.FormatNumber 0 }}%</span>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.sources }}
+  <section class="source-box">
+    <h2>来源</h2>
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="{{ .url }}">{{ .title | default .url }}</a>
+        {{ with .publisher }}<span class="source-pub">· {{ . }}</span>{{ end }}
+        {{ with .date }}<span class="source-date">{{ . }}</span>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.seo }}
+  {{ if not .noindex }}
+  <aside class="share-bar">
+    <span>分享：</span>
+    <a href="https://twitter.com/intent/tweet?text={{ $.Title }}&url={{ $.Permalink }}" target="_blank" rel="noopener">X</a>
+    <a href="http://service.weibo.com/share/share.php?title={{ $.Title }}&url={{ $.Permalink }}" target="_blank" rel="noopener">微博</a>
+  </aside>
+  {{ end }}
+  {{ end }}
+</article>
+{{ end }}

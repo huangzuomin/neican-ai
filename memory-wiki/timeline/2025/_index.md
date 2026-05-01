@@ -1,0 +1,309 @@
+---
+title: 2025 年时间线
+type: timeline
+year: '2025'
+event_count: 300
+---
+
+# 2025 年 AI 行业时间线
+
+- **2025-01-14** — Adebayo Ogunlesi joins OpenAI’s Board of Directors [other] · OpenAI
+- **2025-01-15** — Partnering with Axios expands OpenAI’s work with the news industry [model_release] · OpenAI
+- **2025-01-17** — The power of personalized AI [other]
+- **2025-01-21** — Stargate Infrastructure [other] · OpenAI
+- **2025-01-21** — Announcing The Stargate Project [other]
+- **2025-01-22** — Trading inference-time compute for adversarial robustness [other]
+- **2025-01-22** — Bertelsmann powers creativity and productivity with OpenAI [other] · OpenAI
+- **2025-01-23** — Operator System Card [model_release] · OpenAI
+- **2025-01-30** — Strengthening America’s AI leadership with the U.S. National Laboratories [model_release] · OpenAI
+- **2025-01-31** — OpenAI o3-mini System Card [model_release] · OpenAI
+- **2025-02-02** — Understanding complex trends with deep research [research_paper] · OpenAI
+- **2025-02-02** — Introducing deep research [research_paper]
+- **2025-02-04** — Creating nail art with ChatGPT [model_release]
+- **2025-02-04** — Catching halibut with ChatGPT [model_release]
+- **2025-02-04** — Building a custom math tutor powered by ChatGPT [model_release]
+- **2025-02-04** — OpenAI and the CSU system bring AI to 500,000 students & faculty [model_release] · OpenAI
+- **2025-02-05** — Introducing data residency in Europe [other] · OpenAI
+- **2025-02-09** — Introducing the Intelligence Age [model_release]
+- **2025-02-10** — OpenAI partners with Schibsted Media Group [model_release] · OpenAI
+- **2025-02-13** — Using OpenAI o1 for financial analysis [research_paper] · OpenAI
+- **2025-02-13** — Wayfair is shaping the future of retail with AI [other] · Meta AI
+- **2025-02-13** — Fanatics Betting and Gaming uses AI to focus on the big picture [other]
+- **2025-02-14** — OpenAI and Guardian Media Group launch content partnership [model_release] · OpenAI
+- **2025-02-18** — Introducing the SWE-Lancer benchmark [model_release]
+- **2025-02-20** — Uber enables outstanding on-demand experiences with AI [other]
+- **2025-02-25** — Estonia and OpenAI to bring ChatGPT to schools nationwide [model_release] · OpenAI
+- **2025-02-25** — Deep research System Card [research_paper]
+- **2025-02-27** — Building an autonomous financial analyst with o1 and o3-mini [model_release] · OpenAI
+- **2025-02-27** — OpenAI GPT-4.5 System Card [model_release] · OpenAI
+- **2025-02-27** — Supporting sellers with enhanced product listings [model_release]
+- **2025-02-28** — 1,000 Scientist AI Jam Session [other] · OpenAI
+- **2025-03-04** — Introducing NextGenAI [funding] · OpenAI
+- **2025-03-04** — LaunchDarkly's approach to AI-powered product management [tool_launch]
+- **2025-03-06** — Accelerating engineering cycles 20% with OpenAI [other] · OpenAI
+- **2025-03-07** — Nubank elevates customer experiences with OpenAI [other] · OpenAI
+- **2025-03-10** — Detecting misbehavior in frontier reasoning models [model_release]
+- **2025-03-12** — Driving growth and ‘WOW’ moments with OpenAI [other] · OpenAI
+- **2025-03-13** — OpenAI’s proposals for the U.S. AI Action Plan [other] · OpenAI
+- **2025-03-14** — The court rejects Elon’s latest attempt to slow OpenAI down [other] · OpenAI
+- **2025-03-18** — New in ChatGPT for Business: March 2025 [model_release]
+- **2025-03-18** — EliseAI improves housing and healthcare efficiency with AI [other]
+- **2025-03-20** — Introducing next-generation audio models in the API [model_release]
+- **2025-03-20** — Personalizing travel at scale with OpenAI [model_release] · OpenAI
+- **2025-03-21** — Early methods for studying affective use and emotional well-being on ChatGPT [model_release] · OpenAI
+- **2025-03-24** — Leadership updates [research_paper] · OpenAI
+- **2025-03-25** — Automating 90% of finance and legal work with agents [research_paper] · OpenAI
+- **2025-03-25** — Addendum to GPT-4o System Card: 4o image generation [model_release]
+- **2025-03-25** — Introducing 4o Image Generation [model_release] · OpenAI
+- **2025-03-26** — Security on the path to AGI [model_release] · OpenAI
+- **2025-03-27** — Moving from intent-based bots to proactive AI agents [other]
+- **2025-03-31** — New funding to build towards AGI [model_release]
+- **2025-04-02** — Our response to the UK’s copyright consultation [other]
+- **2025-04-02** — PaperBench: Evaluating AI’s Ability to Replicate AI Research [research_paper]
+- **2025-04-02** — New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit [other] · OpenAI
+- **2025-04-07** — OpenAI’s EU Economic Blueprint [other] · OpenAI
+- **2025-04-07** — Canva enables creativity with AI [other]
+- **2025-04-10** — BrowseComp: a benchmark for browsing agents [other]
+- **2025-04-14** — Introducing GPT-4.1 in the API [model_release]
+- **2025-04-15** — Our updated Preparedness Framework [product_update]
+- **2025-04-15** — OpenAI announces nonprofit commission advisors [other] · OpenAI, Anthropic
+- **2025-04-16** — Introducing OpenAI o3 and o4-mini [model_release] · OpenAI
+- **2025-04-16** — OpenAI o3 and o4-mini System Card [tool_launch] · OpenAI
+- **2025-04-22** — The Washington Post partners with OpenAI on search content [model_release] · OpenAI
+- **2025-04-22** — Speak is personalizing language learning with AI [other]
+- **2025-04-23** — Introducing our latest image generation model in the API [model_release]
+- **2025-04-24** — New in ChatGPT for Business: April 2025 [model_release]
+- **2025-04-29** — Sycophancy in GPT-4o: what happened and what we’re doing about it [model_release]
+- **2025-05-02** — Expanding on what we missed with sycophancy [other]
+- **2025-05-05** — Lowe’s leverages AI to power home improvement retail [other]
+- **2025-05-05** — Evolving OpenAI’s structure [product_update] · OpenAI
+- **2025-05-06** — AI helps John Deere transform agriculture [other]
+- **2025-05-06** — Introducing AI stories: daily benefits shine a light on bigger opportunities [other]
+- **2025-05-07** — Introducing OpenAI for Countries [other] · OpenAI
+- **2025-05-07** — Lowe’s puts project expertise into every hand [tool_launch] · OpenAI
+- **2025-05-07** — The San Antonio Spurs use ChatGPT to scale impact on and off the court [model_release]
+- **2025-05-07** — Introducing data residency in Asia [other] · OpenAI
+- **2025-05-07** — OpenAI’s response to the Department of Energy on AI infrastructure [other] · OpenAI
+- **2025-05-07** — OpenAI Expands Leadership with Fidji Simo [other] · OpenAI
+- **2025-05-12** — Introducing HealthBench [model_release]
+- **2025-05-14** — AI powers Expedia’s marketing evolution [other]
+- **2025-05-16** — Addendum to o3 and o4-mini system card: Codex [other] · OpenAI
+- **2025-05-22** — Introducing Stargate UAE [tool_launch] · OpenAI
+- **2025-05-22** — Shipping code faster with o3, o4-mini, and GPT-4.1 [model_release] · OpenAI
+- **2025-05-23** — Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator [model_release] · OpenAI
+- **2025-05-29** — Creating websites in minutes with AI Website Builder [other] · OpenAI
+- **2025-06-05** — Disrupting malicious uses of AI: June 2025 [other]
+- **2025-06-05** — How we’re responding to The New York Times’ data demands in order to protect user privacy [model_release] · OpenAI
+- **2025-06-09** — Scaling security with responsible disclosure [policy] · OpenAI
+- **2025-06-12** — Bringing the magic of AI to Mattel’s iconic brands [other] · OpenAI
+- **2025-06-16** — Introducing OpenAI for Government [tool_launch] · OpenAI
+- **2025-06-18** — Toward understanding and preventing misalignment generalization [model_release]
+- **2025-06-18** — Preparing for future AI risks in biology [funding]
+- **2025-06-24** — Driving scalable growth with OpenAI o3, GPT-4.1, and CUA [model_release] · OpenAI
+- **2025-06-26** — Customizable, no-code voice agent automation with GPT-4o [model_release]
+- **2025-06-30** — AI in Australia—OpenAI’s Economic Blueprint [other] · OpenAI
+- **2025-07-01** — No-code personal agents, powered by GPT-4.1 and Realtime API [model_release] · OpenAI
+- **2025-07-08** — Working with 400,000 teachers to shape the future of AI in schools [tool_launch] · OpenAI
+- **2025-07-11** — The EU Code of Practice and future of AI in Europe [other] · OpenAI
+- **2025-07-15** — Intellectual freedom by design [model_release]
+- **2025-07-17** — Invideo AI uses OpenAI models to create videos 10x faster [model_release] · OpenAI
+- **2025-07-17** — OpenAI nonprofit jam [tool_launch] · OpenAI
+- **2025-07-17** — Statement from the OpenAI Board of Directors on the Nonprofit Commission Report [other] · OpenAI
+- **2025-07-17** — ChatGPT agent System Card [model_release] · OpenAI
+- **2025-07-17** — Introducing ChatGPT agent [model_release]
+- **2025-07-18** — A $50 million fund to build with communities [tool_launch] · OpenAI
+- **2025-07-21** — AI as the greatest source of empowerment for all [other]
+- **2025-07-21** — OpenAI and UK Government announce strategic partnership to deliver AI-driven growth [other] · OpenAI
+- **2025-07-22** — OpenAI’s new economic analysis [model_release] · OpenAI
+- **2025-07-22** — Stargate advances with 4.5 GW partnership with Oracle [other] · OpenAI
+- **2025-07-22** — Pioneering an AI clinical copilot with Penda Health [other] · OpenAI
+- **2025-07-23** — Announcing OpenAI DevDay 2025 [other] · OpenAI
+- **2025-07-23** — Model ML is helping financial firms rebuild with AI from the ground up [model_release]
+- **2025-07-24** — Resolving digital threats 100x faster with OpenAI [model_release] · OpenAI
+- **2025-07-29** — Introducing study mode in ChatGPT [model_release]
+- **2025-07-30** — Three lessons for creating a sustainable AI advantage [other]
+- **2025-07-31** — Introducing Stargate Norway [tool_launch] · OpenAI
+- **2025-08-01** — Figma uses AI to transform digital design [tool_launch]
+- **2025-08-04** — What we’re optimizing ChatGPT for [model_release]
+- **2025-08-05** — Estimating worst case frontier risks of open weight LLMs [model_release]
+- **2025-08-05** — gpt-oss-120b & gpt-oss-20b Model Card [model_release]
+- **2025-08-05** — Open Weights and AI for All [model_release]
+- **2025-08-05** — Introducing gpt-oss [model_release]
+- **2025-08-06** — Providing ChatGPT to the Entire U.S. Federal Workforce [model_release] · OpenAI
+- **2025-08-07** — Introducing GPT-5 [model_release]
+- **2025-08-07** — From hard refusals to safe-completions: toward output-centric safety training [model_release] · OpenAI
+- **2025-08-07** — First look at GPT-5 [model_release]
+- **2025-08-07** — How Amgen uses GPT-5 [model_release]
+- **2025-08-07** — How Cursor uses GPT-5 [model_release]
+- **2025-08-07** — GPT-5 System Card [model_release]
+- **2025-08-07** — Medical research with GPT-5 [model_release]
+- **2025-08-07** — Creative writing with GPT-5 [model_release]
+- **2025-08-07** — Coding and design with GPT-5 [model_release]
+- **2025-08-07** — Introducing GPT-5 for developers [model_release]
+- **2025-08-07** — GPT-5 and the new era of work [model_release] · OpenAI
+- **2025-08-12** — Scaling accounting capacity with OpenAI [model_release] · OpenAI
+- **2025-08-12** — OpenAI’s letter to Governor Newsom on harmonized regulation [policy] · OpenAI
+- **2025-08-18** — Q&A with DoorDash’s CPO, Mariana Garavaglia [other]
+- **2025-08-20** — Mixi reimagines communication with ChatGPT [model_release]
+- **2025-08-21** — Scaling domain expertise in complex, regulated domains [model_release]
+- **2025-08-22** — Accelerating life sciences research [model_release] · OpenAI
+- **2025-08-26** — Helping people when they need it most [other]
+- **2025-08-27** — OpenAI and Anthropic share findings from a joint safety evaluation [model_release] · OpenAI, Anthropic
+- **2025-08-27** — Collective alignment: public input on our Model Spec [model_release] · OpenAI
+- **2025-08-28** — Supporting nonprofit and community innovation [research_paper] · OpenAI
+- **2025-08-28** — Introducing gpt-realtime and Realtime API updates [model_release]
+- **2025-09-02** — Building more helpful ChatGPT experiences for everyone [model_release]
+- **2025-09-02** — Vijaye Raji to become CTO of Applications with acquisition of Statsig [other]
+- **2025-09-04** — Expanding economic opportunity with AI [tool_launch] · OpenAI
+- **2025-09-05** — OpenAI and Greek Government launch ‘OpenAI for Greece’ [model_release] · OpenAI
+- **2025-09-05** — Why language models hallucinate [model_release] · OpenAI
+- **2025-09-08** — A People-First AI Fund: $50M to support nonprofits [other] · OpenAI
+- **2025-09-09** — SafetyKit scales risk agents with OpenAI’s most capable models [model_release] · OpenAI
+- **2025-09-11** — A joint statement from OpenAI and Microsoft [other] · OpenAI
+- **2025-09-11** — Statement on OpenAI’s Nonprofit and PBC [other] · OpenAI
+- **2025-09-12** — Working with US CAISI and UK AISI to build more secure AI systems [other] · OpenAI
+- **2025-09-15** — Addendum to GPT-5 system card: GPT-5-Codex [model_release]
+- **2025-09-15** — How people are using ChatGPT [model_release]
+- **2025-09-15** — Introducing upgrades to Codex [other]
+- **2025-09-16** — Building towards age prediction [model_release] · OpenAI
+- **2025-09-16** — Teen safety, freedom, and privacy [other] · OpenAI
+- **2025-09-17** — Detecting and reducing scheming in AI models [model_release] · OpenAI
+- **2025-09-22** — Outbound coordinated vulnerability disclosure policy [policy]
+- **2025-09-22** — OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems [tool_launch] · OpenAI
+- **2025-09-22** — SchoolAI builds an AI platform that empowers teachers [model_release]
+- **2025-09-22** — CNA is transforming its newsroom with AI [other] · OpenAI
+- **2025-09-23** — OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites [other] · OpenAI
+- **2025-09-24** — SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’ [tool_launch] · OpenAI
+- **2025-09-24** — ENEOS Materials brings ChatGPT Enterprise to manufacturing [model_release]
+- **2025-09-25** — Introducing ChatGPT Pulse [model_release]
+- **2025-09-25** — Measuring the performance of our models on real-world tasks [model_release] · OpenAI
+- **2025-09-25** — More ways to work with your team and tools in ChatGPT [model_release]
+- **2025-09-26** — Partnering with AARP to help keep older adults safe online [tool_launch] · OpenAI
+- **2025-09-29** — Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol [model_release]
+- **2025-09-29** — Combating online child sexual exploitation & abuse [tool_launch] · OpenAI
+- **2025-09-29** — Introducing parental controls [model_release]
+- **2025-09-29** — Empowering teams to unlock insights faster at OpenAI [research_paper] · OpenAI
+- **2025-09-29** — Turning contracts into searchable data at OpenAI [other] · OpenAI
+- **2025-09-29** — Converting inbound leads into customers at OpenAI [other] · OpenAI
+- **2025-09-29** — Driving sales productivity and customer success at OpenAI [other] · OpenAI
+- **2025-09-29** — Improving support with every interaction at OpenAI [other] · OpenAI
+- **2025-09-29** — Building OpenAI with OpenAI [other] · OpenAI
+- **2025-09-30** — Launching Sora responsibly [model_release]
+- **2025-09-30** — Sora 2 System Card [model_release]
+- **2025-09-30** — Sora 2 is here [model_release]
+- **2025-10-01** — Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure [other] · OpenAI
+- **2025-10-02** — OpenAI announces strategic collaboration with Japan’s Digital Agency [other] · OpenAI
+- **2025-10-02** — With GPT-5, Wrtn builds lifestyle AI for millions in Korea [model_release]
+- **2025-10-06** — Introducing AgentKit, new Evals, and RFT for agents [tool_launch]
+- **2025-10-06** — Accelerating AI adoption in Europe [policy] · OpenAI
+- **2025-10-06** — AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs [product_update] · OpenAI
+- **2025-10-06** — Introducing apps in ChatGPT and the new Apps SDK [model_release]
+- **2025-10-06** — Codex is now generally available [tool_launch] · OpenAI
+- **2025-10-07** — Disrupting malicious uses of AI: October 2025 [other] · OpenAI
+- **2025-10-08** — HiBob turns 2,500 GPTs into product and team growth [model_release]
+- **2025-10-09** — Defining and evaluating political bias in LLMs [model_release] · OpenAI
+- **2025-10-10** — HYGH speeds development and campaigns with ChatGPT Business [model_release]
+- **2025-10-13** — OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators [other] · OpenAI
+- **2025-10-14** — Argentina’s AI opportunity [other] · OpenAI
+- **2025-10-14** — Expert Council on Well-Being and AI [model_release] · OpenAI
+- **2025-10-15** — Plex Coffee delivers fast, personal service with ChatGPT [model_release]
+- **2025-10-21** — Introducing ChatGPT Atlas, the browser with ChatGPT built in [model_release]
+- **2025-10-21** — Continue your ChatGPT experience beyond WhatsApp [model_release]
+- **2025-10-22** — AI in Japan—OpenAI’s Japan Economic Blueprint [other] · OpenAI
+- **2025-10-22** — The next chapter for UK sovereign AI [model_release] · OpenAI
+- **2025-10-23** — AI in South Korea—OpenAI’s Economic Blueprint [other] · OpenAI
+- **2025-10-23** — Work smarter with your company knowledge in ChatGPT [model_release]
+- **2025-10-23** — Consensus accelerates research with GPT-5 and Responses API [model_release] · OpenAI
+- **2025-10-23** — OpenAI acquires Software Applications Incorporated, maker of Sky [model_release] · OpenAI
+- **2025-10-27** — Steuerrecht.com delivers client-ready legal analysis with ChatGPT [model_release]
+- **2025-10-27** — Strengthening ChatGPT’s responses in sensitive conversations [model_release] · OpenAI
+- **2025-10-27** — Addendum to GPT-5 System Card: Sensitive conversations [model_release]
+- **2025-10-27** — Seizing the AI opportunity [other] · OpenAI
+- **2025-10-28** — Built to benefit everyone [other] · OpenAI
+- **2025-10-28** — The next chapter of the Microsoft–OpenAI partnership [other] · OpenAI
+- **2025-10-28** — Doppel’s AI defense system stops attacks before they spread [model_release]
+- **2025-10-28** — Advancing organizational transformation for business innovation [model_release]
+- **2025-10-29** — Introducing gpt-oss-safeguard [model_release] · OpenAI
+- **2025-10-29** — gpt-oss-safeguard technical report [model_release]
+- **2025-10-30** — How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas [model_release]
+- **2025-10-30** — Introducing Aardvark: OpenAI’s agentic security researcher [research_paper] · OpenAI
+- **2025-10-30** — Expanding Stargate to Michigan [other] · OpenAI
+- **2025-11-03** — AWS and OpenAI announce multi-year strategic partnership [model_release] · OpenAI
+- **2025-11-03** — Introducing IndQA [other] · OpenAI
+- **2025-11-05** — 1 million business customers putting AI to work [model_release] · OpenAI
+- **2025-11-05** — How Chime is redefining marketing through AI [model_release]
+- **2025-11-05** — How CRED is tapping AI to deliver premium customer experiences [model_release] · OpenAI
+- **2025-11-06** — Introducing the Teen Safety Blueprint [other] · OpenAI
+- **2025-11-06** — AI progress and recommendations [other]
+- **2025-11-07** — Notion’s GPT‑5 rebuild unlocks autonomous AI workflows [model_release]
+- **2025-11-07** — Understanding prompt injections: a frontier security challenge [model_release] · OpenAI
+- **2025-11-10** — Free ChatGPT for transitioning U.S. servicemembers and veterans [model_release] · OpenAI
+- **2025-11-12** — GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum [model_release]
+- **2025-11-12** — GPT-5.1: A smarter, more conversational ChatGPT [model_release]
+- **2025-11-12** — Fighting the New York Times’ invasion of user privacy [model_release] · OpenAI
+- **2025-11-12** — Neuro drives national retail wins with ChatGPT Business [model_release]
+- **2025-11-13** — How Philips is scaling AI literacy across 70,000 employees [model_release]
+- **2025-11-13** — Introducing group chats in ChatGPT [model_release]
+- **2025-11-13** — Introducing GPT-5.1 for developers [model_release]
+- **2025-11-13** — Understanding neural networks through sparse circuits [model_release] · OpenAI
+- **2025-11-14** — Introducing OpenAI for Ireland [tool_launch] · OpenAI
+- **2025-11-17** — OpenAI named Emerging Leader in Generative AI [model_release] · OpenAI
+- **2025-11-18** — Intuit and OpenAI join forces on new AI-powered experiences [model_release] · OpenAI
+- **2025-11-19** — A free version of ChatGPT built for teachers [model_release]
+- **2025-11-19** — Building more with GPT-5.1-Codex-Max [model_release]
+- **2025-11-19** — GPT-5.1-Codex-Max System Card [model_release]
+- **2025-11-19** — How Scania accelerates work with AI across its global workforce [model_release]
+- **2025-11-19** — OpenAI and Target team up on new AI-powered experiences [model_release] · OpenAI
+- **2025-11-19** — How evals drive the next chapter in AI for businesses [other]
+- **2025-11-19** — Strengthening our safety ecosystem with external testing [model_release] · OpenAI
+- **2025-11-20** — Early experiments in accelerating science with GPT-5 [model_release] · OpenAI
+- **2025-11-20** — Helping 1,000 small businesses build with AI [tool_launch] · OpenAI
+- **2025-11-20** — OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain [other] · OpenAI
+- **2025-11-24** — Introducing shopping research in ChatGPT [model_release]
+- **2025-11-24** — GPT-5 and the future of mathematical discovery [model_release]
+- **2025-11-25** — Inside JetBrains—the company reshaping how the world writes code [model_release]
+- **2025-11-25** — Our approach to mental health-related litigation [model_release]
+- **2025-11-25** — Expanding data residency access to business customers worldwide [model_release] · OpenAI
+- **2025-11-26** — Mixpanel security incident: what OpenAI users need to know [other] · OpenAI
+- **2025-12-01** — Accenture and OpenAI accelerate enterprise AI success [other] · OpenAI
+- **2025-12-01** — OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption [model_release] · OpenAI
+- **2025-12-01** — OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa” [model_release] · OpenAI
+- **2025-12-01** — Funding grants for new research into AI and mental health [funding] · OpenAI
+- **2025-12-01** — Inside Mirakl's agentic commerce vision [model_release]
+- **2025-12-03** — Announcing the initial People-First AI Fund grantees [other] · OpenAI
+- **2025-12-03** — OpenAI to acquire Neptune [model_release] · OpenAI
+- **2025-12-03** — How confessions can keep language models honest [model_release] · OpenAI
+- **2025-12-04** — Introducing OpenAI for Australia [tool_launch] · OpenAI
+- **2025-12-08** — How Virgin Atlantic uses AI to enhance every step of travel [other]
+- **2025-12-08** — The state of enterprise AI [other] · OpenAI
+- **2025-12-08** — Instacart and OpenAI partner on AI shopping experiences [model_release] · OpenAI
+- **2025-12-09** — Bringing powerful AI to millions across Europe with Deutsche Telekom [model_release] · OpenAI
+- **2025-12-09** — Commonwealth Bank of Australia builds AI fluency at scale [model_release] · OpenAI
+- **2025-12-09** — OpenAI appoints Denise Dresser as Chief Revenue Officer [other] · OpenAI
+- **2025-12-09** — Launching our first OpenAI Certifications courses [tool_launch] · OpenAI
+- **2025-12-09** — OpenAI co-founds Agentic AI Foundation, donates AGENTS.md [other] · OpenAI
+- **2025-12-09** — How Scout24 is building the next generation of real-estate search with AI [model_release]
+- **2025-12-10** — Strengthening cyber resilience as AI capabilities advance [model_release] · OpenAI
+- **2025-12-11** — The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora [model_release] · OpenAI
+- **2025-12-11** — Update to GPT-5 System Card: GPT-5.2 [model_release] · OpenAI
+- **2025-12-11** — How Podium is arming 10,000+ SMBs with AI agents [model_release] · OpenAI
+- **2025-12-11** — Introducing GPT-5.2 [model_release] · OpenAI
+- **2025-12-11** — Ten years [research_paper] · OpenAI
+- **2025-12-11** — Advancing science and math with GPT-5.2 [model_release] · OpenAI
+- **2025-12-12** — BBVA and OpenAI collaborate to transform global banking [model_release] · OpenAI
+- **2025-12-12** — How We Used Codex to Ship Sora for Android in 28 Days [other] · OpenAI
+- **2025-12-12** — BNY builds “AI for everyone, everywhere” with OpenAI [other] · OpenAI
+- **2025-12-16** — Staying ahead in the age of AI [other]
+- **2025-12-16** — The new ChatGPT Images is here [model_release]
+- **2025-12-16** — Measuring AI’s capability to accelerate biological research [model_release] · OpenAI
+- **2025-12-16** — Evaluating AI’s ability to perform scientific research tasks [research_paper] · OpenAI
+- **2025-12-17** — The state of enterprise AI [other]
+- **2025-12-17** — Developers can now submit apps to ChatGPT [model_release]
+- **2025-12-17** — Introducing OpenAI Academy for News Organizations [tool_launch] · OpenAI
+- **2025-12-18** — Introducing GPT-5.2-Codex [model_release] · OpenAI
+- **2025-12-18** — Updating our Model Spec with teen protections [model_release] · OpenAI
+- **2025-12-18** — Deepening our collaboration with the U.S. Department of Energy [research_paper] · OpenAI
+- **2025-12-18** — AI literacy resources for teens and parents [model_release] · OpenAI
+- **2025-12-18** — Evaluating chain-of-thought monitorability [model_release] · OpenAI
+- **2025-12-22** — Continuously hardening ChatGPT Atlas against prompt injection [model_release] · OpenAI
+- **2025-12-22** — One in a million: celebrating the customers shaping AI’s future [other] · OpenAI

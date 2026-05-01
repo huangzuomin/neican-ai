@@ -1,0 +1,14 @@
+title:
+  min_chars: 10
+  max_chars: 60
+
+description:
+  min_chars: 60
+  max_chars: 150
+
+requirements:
+  min_entities: 1
+  min_topics: 1
+  min_sources: 1
+  no_unsourced_claims: true
+  no_pure_translation: true

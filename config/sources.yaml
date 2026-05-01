@@ -1,0 +1,58 @@
+sources:
+  # ── 中文源 ──
+  - name: "36kr AI"
+    type: rss
+    url: "https://36kr.com/feed?tag=AI"
+    enabled: true
+    trust_level: 3
+    language: zh
+    fetch_interval_minutes: 120
+
+  - name: "36kr 人工智能"
+    type: rss
+    url: "https://36kr.com/feed?tag=人工智能"
+    enabled: true
+    trust_level: 3
+    language: zh
+    fetch_interval_minutes: 120
+
+  # ── 英文源 ──
+  - name: "OpenAI Blog"
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  - name: "Anthropic News"
+    type: rss
+    url: "https://www.anthropic.com/news/rss"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  - name: "Google DeepMind Blog"
+    type: rss
+    url: "https://deepmind.google/blog/rss.xml"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  - name: "MIT Technology Review AI"
+    type: rss
+    url: "https://www.technologyreview.com/feed/"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  - name: "The Verge AI"
+    type: rss
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    enabled: true
+    trust_level: 3
+    language: en
+    fetch_interval_minutes: 120

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-header">
+  <p class="eyebrow">{{ .Section | default .Data.Plural }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+</header>
+<div class="grid">
+  {{ range .Paginator.Pages }}
+    {{ partial "card.html" . }}
+  {{ else }}
+    <p>这里还没有内容。</p>
+  {{ end }}
+</div>
+{{ template "_internal/pagination.html" . }}
+{{ end }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<header class="page-header">
+  <p class="eyebrow">taxonomy</p>
+  <h1>{{ .Title }}</h1>
+</header>
+<ul class="term-list">
+  {{ range .Data.Terms.Alphabetical }}
+    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span>({{ .Count }})</span></li>
+  {{ end }}
+</ul>
+{{ end }}

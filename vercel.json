@@ -1,5 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd hugo-site && hugo --gc --minify",
-  "outputDirectory": "hugo-site/public"
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.148.2/hugo_extended_0.148.2_linux-amd64.tar.gz | tar -xz hugo && ./hugo version",
+  "env": {
+    "HUGO_VERSION": "0.148.2"
+  }
 }

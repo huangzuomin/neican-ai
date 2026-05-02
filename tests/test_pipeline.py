@@ -73,6 +73,7 @@ def test_run_pipeline_mock_end_to_end(tmp_path, monkeypatch):
     assert result.export["daily_briefs"] == 1
     assert result.export["insights"] == 0
     assert (site_dir / "content" / "briefs" / "daily" / "2026-05-01.md").exists()
+    assert (site_dir / "content" / "timeline" / "_index.md").exists()
     assert not (site_dir / "content" / "insights").exists()
 
 
@@ -106,11 +107,16 @@ def test_run_pipeline_passes_flags_and_order(monkeypatch, tmp_path):
         calls.append(("export", kwargs))
         return Result(daily_briefs=1, insights=0, skipped_approved=0, failed_count=0)
 
+    def fake_run_timeline_product(**kwargs):
+        calls.append(("timeline", kwargs))
+        return Result(generated=1, exported_events=1, exported_years=1, skipped=0)
+
     monkeypatch.setattr("pipeline.fetch_sources", fake_fetch_sources)
     monkeypatch.setattr("pipeline.extract_content", fake_extract_content)
     monkeypatch.setattr("pipeline.model_events", fake_model_events)
     monkeypatch.setattr("pipeline.make_decisions", fake_make_decisions)
     monkeypatch.setattr("pipeline.export_hugo", fake_export_hugo)
+    monkeypatch.setattr("pipeline.run_timeline_product", fake_run_timeline_product)
     monkeypatch.setattr("pipeline.update_knowledge_assets", lambda **kwargs: Result(entities_created=0, entities_updated=0, topics_created=0, topics_updated=0, timeline_entries=0, claims_written=0))
 
     result = run_pipeline(
@@ -135,6 +141,7 @@ def test_run_pipeline_passes_flags_and_order(monkeypatch, tmp_path):
         "decide": {"decided_count": 1, "failed_count": 0},
         "assets": {"entities_created": 0, "entities_updated": 0, "topics_created": 0, "topics_updated": 0, "timeline_entries": 0, "claims_written": 0},
         "export": {"daily_briefs": 1, "insights": 0, "skipped_approved": 0, "failed_count": 0},
+        "timeline": {"generated": 0, "exported_events": 0, "exported_years": 0, "skipped": 0},
     }
     assert [name for name, _ in calls] == ["fetch", "extract", "model", "decide", "export"]
     assert calls[0][1]["source_name"] == "OpenAI Blog"
@@ -157,6 +164,7 @@ def test_pipeline_main_json_shape(tmp_path, monkeypatch, capsys):
             decide={"decided_count": 1, "failed_count": 0},
             assets={"entities_created": 0, "entities_updated": 0, "topics_created": 0, "topics_updated": 0, "timeline_entries": 0, "claims_written": 0},
             export={"daily_briefs": 1, "insights": 1, "skipped_approved": 0, "failed_count": 0},
+            timeline={"generated": 1, "exported_events": 1, "exported_years": 1, "skipped": 0},
         ),
     )
 

@@ -13,6 +13,7 @@ from export_hugo import export_hugo
 from extract_content import extract_content
 from fetch_sources import fetch_sources
 from knowledge_assets import update_knowledge_assets
+from timeline_product import run as run_timeline_product
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,6 +33,7 @@ class PipelineResult:
     decide: dict[str, Any]
     assets: dict[str, Any]
     export: dict[str, Any]
+    timeline: dict[str, Any]
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -94,6 +96,11 @@ def run_pipeline(
         mock=mock,
         dry_run=dry_run,
     )
+    timeline_result = None if dry_run else run_timeline_product(
+        db_path=db_path,
+        site_dir=site_dir,
+    )
+    timeline_dict = timeline_result.to_dict() if timeline_result else {"generated": 0, "exported_events": 0, "exported_years": 0, "skipped": 0}
 
     return PipelineResult(
         date=run_date,
@@ -103,6 +110,7 @@ def run_pipeline(
         decide=decide_result.to_dict(),
         assets=assets_dict,
         export=export_result.to_dict(),
+        timeline=timeline_dict,
     )
 
 

@@ -7,7 +7,11 @@
   {{ with .Params.topics }}
   <p class="card-tags">
     {{ range first 3 . }}
-      <span>#{{ .name | default .slug }}</span>
+      {{ if reflect.IsMap . }}
+        <span>#{{ .name | default .slug }}</span>
+      {{ else }}
+        <span>#{{ . }}</span>
+      {{ end }}
     {{ end }}
   </p>
   {{ end }}

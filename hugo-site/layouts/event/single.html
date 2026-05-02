@@ -1,0 +1,61 @@
+{{ define "main" }}
+<article class="event-detail-page">
+  <header class="event-detail-hero">
+    <p class="eyebrow">Timeline Event</p>
+    <h1>{{ .Title }}</h1>
+    <div class="meta-row">
+      <span>{{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
+      {{ with .Params.event_type }}<span class="badge subtle">{{ . }}</span>{{ end }}
+      {{ with .Params.confidence }}<span>置信度 {{ mul . 100 | lang.FormatNumber 0 }}%</span>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Params.entities }}
+  <div class="entity-row event-entity-row">
+    {{ range . }}
+      {{ if reflect.IsMap . }}
+        {{ $slug := .slug | default (urlize .name) }}
+        <a href="/entities/{{ $slug }}/" class="entity-chip"><span class="chip-type">{{ .type | default "entity" }}</span>{{ .name | default $slug }}</a>
+      {{ else }}
+        {{ $slug := urlize . }}
+        <a href="/entities/{{ $slug }}/" class="entity-chip"><span class="chip-type">entity</span>{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Params.topics }}
+  <div class="tag-row event-topic-row">
+    {{ range . }}
+      {{ if reflect.IsMap . }}
+        {{ $slug := .slug | default (urlize .name) }}
+        <a href="/topics/{{ $slug }}/">#{{ .name | default $slug }}</a>
+      {{ else }}
+        {{ $slug := urlize . }}
+        <a href="/topics/{{ $slug }}/">#{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="event-detail-grid">
+    <div class="event-main content-body">{{ .Content }}</div>
+    <aside class="event-sidecar">
+      <section><h2>节点信息</h2>
+        <dl>
+          {{ with .Params.timeline.date }}<dt>日期</dt><dd>{{ . }}</dd>{{ end }}
+          {{ with .Params.timeline.year }}<dt>年份</dt><dd><a href="/timeline/{{ . }}/">{{ . }}</a></dd>{{ end }}
+          {{ with .Params.importance_score }}<dt>重要性</dt><dd>{{ . }}</dd>{{ end }}
+          {{ with .Params.neican.review_status }}<dt>审核状态</dt><dd>{{ . }}</dd>{{ end }}
+        </dl>
+      </section>
+      {{ with .Params.sources }}
+      <section><h2>来源</h2><ul>
+        {{ range . }}{{ if .url }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title | default .url }}</a>{{ with .publisher }}<small>{{ . }}</small>{{ end }}</li>{{ end }}{{ end }}
+      </ul></section>
+      {{ end }}
+    </aside>
+  </div>
+</article>
+{{ end }}

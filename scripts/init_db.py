@@ -6,7 +6,7 @@ from sqlite_ops import get_conn
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "db" / "neican.sqlite"
 SCHEMA_PATH = ROOT / "db" / "schema.sql"
-EXPECTED_TABLES = 7
+EXPECTED_TABLES = 8
 
 
 def init_db() -> None:

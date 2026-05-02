@@ -87,6 +87,36 @@ CREATE TABLE IF NOT EXISTS publish_log (
   message TEXT
 );
 
+CREATE TABLE IF NOT EXISTS timeline_nodes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  event_id INTEGER NOT NULL UNIQUE,
+  date TEXT NOT NULL,
+  year TEXT NOT NULL,
+  month TEXT NOT NULL,
+  slug TEXT NOT NULL UNIQUE,
+  title TEXT NOT NULL,
+  summary TEXT,
+  why_it_matters TEXT,
+  event_type TEXT,
+  grade TEXT NOT NULL,
+  importance_score REAL DEFAULT 0,
+  confidence REAL DEFAULT 0,
+  risk_score REAL DEFAULT 0,
+  entities_json TEXT,
+  topics_json TEXT,
+  claims_json TEXT,
+  sources_json TEXT,
+  status TEXT NOT NULL DEFAULT 'public',
+  review_status TEXT NOT NULL DEFAULT 'draft',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (event_id) REFERENCES events(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_timeline_nodes_date ON timeline_nodes(date);
+CREATE INDEX IF NOT EXISTS idx_timeline_nodes_year ON timeline_nodes(year);
+CREATE INDEX IF NOT EXISTS idx_timeline_nodes_grade ON timeline_nodes(grade);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run_type TEXT NOT NULL,

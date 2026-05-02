@@ -1,4 +1,13 @@
 {{ define "main" }}
+{{ $demoSections := slice "radar" "events" "claims" "entities" "timeline" "concepts" }}
+{{ if in $demoSections .Section }}
+  {{ .Content }}
+  {{ if gt (len .Pages) 0 }}
+    <div class="grid section-children">
+      {{ range .Pages }}{{ partial "card.html" . }}{{ end }}
+    </div>
+  {{ end }}
+{{ else }}
 <header class="page-header">
   <p class="eyebrow">{{ .Section | default .Data.Plural }}</p>
   <h1>{{ .Title }}</h1>
@@ -12,4 +21,5 @@
   {{ end }}
 </div>
 {{ template "_internal/pagination.html" . }}
+{{ end }}
 {{ end }}

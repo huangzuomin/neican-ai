@@ -117,6 +117,26 @@ CREATE INDEX IF NOT EXISTS idx_timeline_nodes_date ON timeline_nodes(date);
 CREATE INDEX IF NOT EXISTS idx_timeline_nodes_year ON timeline_nodes(year);
 CREATE INDEX IF NOT EXISTS idx_timeline_nodes_grade ON timeline_nodes(grade);
 
+CREATE TABLE IF NOT EXISTS entity_profiles (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  slug TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL,
+  entity_type TEXT NOT NULL DEFAULT 'organization',
+  summary TEXT,
+  signal TEXT,
+  related_events INTEGER DEFAULT 0,
+  related_topics_json TEXT,
+  timeline_nodes_json TEXT,
+  claims_json TEXT,
+  sources_json TEXT,
+  status TEXT NOT NULL DEFAULT 'public',
+  review_status TEXT NOT NULL DEFAULT 'draft',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_entity_profiles_type ON entity_profiles(entity_type);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run_type TEXT NOT NULL,

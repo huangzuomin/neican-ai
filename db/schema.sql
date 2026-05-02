@@ -137,6 +137,32 @@ CREATE TABLE IF NOT EXISTS entity_profiles (
 
 CREATE INDEX IF NOT EXISTS idx_entity_profiles_type ON entity_profiles(entity_type);
 
+CREATE TABLE IF NOT EXISTS event_catalog (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  event_id INTEGER,
+  slug TEXT NOT NULL UNIQUE,
+  title TEXT NOT NULL,
+  date TEXT,
+  summary TEXT,
+  event_type TEXT,
+  grade TEXT,
+  importance_score REAL DEFAULT 0,
+  confidence REAL DEFAULT 0,
+  entities_json TEXT,
+  topics_json TEXT,
+  claims_json TEXT,
+  sources_json TEXT,
+  url TEXT,
+  status TEXT NOT NULL DEFAULT 'public',
+  review_status TEXT NOT NULL DEFAULT 'draft',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_event_catalog_date ON event_catalog(date);
+CREATE INDEX IF NOT EXISTS idx_event_catalog_grade ON event_catalog(grade);
+CREATE INDEX IF NOT EXISTS idx_event_catalog_type ON event_catalog(event_type);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run_type TEXT NOT NULL,

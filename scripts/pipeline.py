@@ -15,6 +15,7 @@ from fetch_sources import fetch_sources
 from knowledge_assets import update_knowledge_assets
 from timeline_product import run as run_timeline_product
 from entity_product import run as run_entity_product
+from event_product import run as run_event_product
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +37,7 @@ class PipelineResult:
     export: dict[str, Any]
     timeline: dict[str, Any]
     entities: dict[str, Any]
+    events: dict[str, Any]
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -109,6 +111,11 @@ def run_pipeline(
         memory_dir=memory_dir,
     )
     entities_dict = entities_result.to_dict() if entities_result else {"generated": 0, "exported": 0, "source": "skipped"}
+    events_result = None if dry_run else run_event_product(
+        db_path=db_path,
+        site_dir=site_dir,
+    )
+    events_dict = events_result.to_dict() if events_result else {"generated": 0, "exported": 0, "source": "skipped"}
 
     return PipelineResult(
         date=run_date,
@@ -120,6 +127,7 @@ def run_pipeline(
         export=export_result.to_dict(),
         timeline=timeline_dict,
         entities=entities_dict,
+        events=events_dict,
     )
 
 

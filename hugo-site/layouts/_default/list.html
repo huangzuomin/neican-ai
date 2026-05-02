@@ -1,8 +1,9 @@
 {{ define "main" }}
 {{ $demoSections := slice "radar" "events" "claims" "entities" "timeline" "concepts" }}
+{{ $selfContainedSections := slice "events" "entities" "timeline" }}
 {{ if in $demoSections .Section }}
   {{ .Content }}
-  {{ if gt (len .Pages) 0 }}
+  {{ if and (not (in $selfContainedSections .Section)) (gt (len .Pages) 0) }}
     <div class="grid section-children">
       {{ range .Pages }}{{ partial "card.html" . }}{{ end }}
     </div>

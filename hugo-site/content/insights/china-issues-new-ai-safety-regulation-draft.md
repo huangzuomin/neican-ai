@@ -1,5 +1,6 @@
 ---
 title: China Issues New AI Safety Regulation Draft
+draft: true
 date: '2026-05-01T10:00:00+08:00'
 slug: china-issues-new-ai-safety-regulation-draft
 type: insight

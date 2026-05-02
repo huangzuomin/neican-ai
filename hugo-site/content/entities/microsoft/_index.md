@@ -2,46 +2,34 @@
 title: Microsoft
 type: entity_profile
 entity_type: company
-related_events: 6
-topics: []
-claims:
-- text: The Musk v. Altman jury trial began on Monday in a federal courtroom in California.
-  confidence: 0.95
-- text: Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.
-  confidence: 0.9
-- text: Musk largely drafted OpenAI's mission and heavily influenced its early structure.
-  confidence: 0.85
-- text: OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level
-    of control over the company.
-  confidence: 0.85
-- text: Musk highlighted the importance of a nonprofit with a mission of broadly beneficial
-    AI.
-  confidence: 0.8
-sources: []
+topics: ["ai-agents", "enterprise-ai-governance"]
 neican:
-  generated_by: entity_product
-  review_status: draft
+  generated_by: reader_demo
+  review_status: demo
 ---
 
-<div class="entity-profile-page">
-<p class="eyebrow">company File</p>
-<h1>Microsoft</h1>
-<p class="page-lead">Microsoft 的实体档案由 neican.ai 从结构化事件、时间线节点和声明库自动生成。</p>
-<section class="entity-signal"><h2>当前信号</h2>
-<p>Microsoft 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</p></section>
-<section><h2>相关时间线/事件</h2><div class="entity-event-list">
-<article><time>2026-05-01</time><h3>2026-05-01: Musk v. Altman trial reveals OpenAI founding documents and early tensions</h3><p></p></article>
-<article><time></time><h3>The Musk v. Altman jury trial began on Monday in a federal courtroom in California.（95%）</h3><p></p></article>
-<article><time></time><h3>Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.（90%）</h3><p></p></article>
-<article><time></time><h3>Musk largely drafted OpenAI's mission and heavily influenced its early structure.（85%）</h3><p></p></article>
-<article><time></time><h3>OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level of control over the company.（85%）</h3><p></p></article>
-<article><time></time><h3>Musk highlighted the importance of a nonprofit with a mission of broadly beneficial AI.（80%）</h3><p></p></article>
-</div></section>
-<section><h2>结构化声明</h2><div class="entity-claims">
-<p><span>The Musk v. Altman jury trial began on Monday in a federal courtroom in California.</span><b>95%</b></p>
-<p><span>Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.</span><b>90%</b></p>
-<p><span>Musk largely drafted OpenAI's mission and heavily influenced its early structure.</span><b>85%</b></p>
-<p><span>OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level of control over the company.</span><b>85%</b></p>
-<p><span>Musk highlighted the importance of a nonprofit with a mission of broadly beneficial AI.</span><b>80%</b></p>
-</div></section>
-</div>
+## 当前信号
+
+Microsoft 的优势在于它已经拥有企业身份、权限、文档、协作和开发环境。Agent 如果要进入组织流程，Microsoft 比模型纯厂商更接近部署边界。
+
+## 为什么值得跟踪
+
+企业 Agent 的关键不是单点聪明，而是能不能嵌进已有组织系统。Microsoft 的生态位置让它有机会把 Agent 变成 Office、GitHub、Azure 和安全体系之间的工作流层。
+
+## 相关主题
+
+- Enterprise AI Governance
+- AI Agents
+- Agent Runtime
+- Developer Workflow
+
+## 关键判断
+
+- 企业工作流 Agent 的先发优势可能来自组织上下文，而不是模型发布速度。
+- 身份、权限和审计系统会成为 Microsoft 的结构性优势。
+
+## 后续观察
+
+- Copilot 产品是否强化跨应用任务执行和回滚。
+- Azure 是否把 Agent 评测、权限和日志作为平台能力。
+- GitHub 场景是否继续作为开发者 Agent 的验证场。

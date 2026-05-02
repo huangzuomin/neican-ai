@@ -1,5 +1,6 @@
 ---
 title: Google
+draft: true
 type: entity_profile
 entity_type: company
 related_events: 6

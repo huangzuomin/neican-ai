@@ -1,11 +1,13 @@
 <article class="card">
   <div class="card-meta">
-    <span>{{ .Date.Format "2006-01-02" }}</span>
+    {{ if not .Date.IsZero }}<span>{{ .Date.Format "2006-01-02" }}</span>{{ end }}
     {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
+    {{ with .Params.type }}<span>{{ . }}</span>{{ end }}
   </div>
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <p>{{ .Summary | plainify | truncate 132 }}</p>
   {{ with .Params.topics }}
-  <p class="card-tags">
+  <div class="card-tags">
     {{ range first 3 . }}
       {{ if reflect.IsMap . }}
         <span>#{{ .name | default .slug }}</span>
@@ -13,7 +15,6 @@
         <span>#{{ . }}</span>
       {{ end }}
     {{ end }}
-  </p>
+  </div>
   {{ end }}
-  <p>{{ .Summary | plainify | truncate 140 }}</p>
 </article>

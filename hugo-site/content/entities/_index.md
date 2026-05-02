@@ -1,40 +1,17 @@
 ---
-title: 实体档案
+title: 实体
 type: entity_index
-entity_count: 20
 seo:
-  description: neican.ai 自动生成的 AI 行业实体档案库。
+  description: AI 内参实体档案，长期跟踪 AI 行业中的公司、模型、人物、工具和基础设施。
 ---
 
-<div class="entity-product-page">
-<p class="eyebrow">Entity Files MVP</p>
-<h1>实体档案库：把公司、人物、模型和工具变成长期知识资产</h1>
-<p class="page-lead">实体档案不是百科词条，而是由事件、时间线、声明和来源持续更新的行业对象。它回答：这个对象最近参与了什么变化？关联哪些主题？有哪些可追溯判断？</p>
-<div class="entity-kpis">
-<div><strong>20</strong><span>实体档案</span></div>
-<div><strong>11</strong><span>公司</span></div>
-<div><strong>8</strong><span>人物</span></div>
-<div><strong>1</strong><span>组织/机构</span></div>
-</div><div class="entity-profile-grid">
-<a href="/entities/anthropic/"><b>Anthropic</b><small>company</small><span>Anthropic 近期主要出现在 AI 行业 等主题下；已关联 20 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/meta-ai/"><b>Meta AI</b><small>company</small><span>Meta AI 近期主要出现在 AI 行业 等主题下；已关联 20 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/openai/"><b>OpenAI</b><small>company</small><span>OpenAI 近期主要出现在 AI 行业 等主题下；已关联 20 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/google-deepmind/"><b>Google DeepMind</b><small>company</small><span>Google DeepMind 近期主要出现在 AI 行业 等主题下；已关联 14 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/elon-musk/"><b>Elon Musk</b><small>person</small><span>Elon Musk 近期主要出现在 AI 行业 等主题下；已关联 12 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/greg-brockman/"><b>Greg Brockman</b><small>person</small><span>Greg Brockman 近期主要出现在 AI 行业 等主题下；已关联 12 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/sam-altman/"><b>Sam Altman</b><small>person</small><span>Sam Altman 近期主要出现在 AI 行业 等主题下；已关联 12 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/spacex/"><b>SpaceX</b><small>company</small><span>SpaceX 近期主要出现在 AI 行业 等主题下；已关联 12 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/xai/"><b>xAI</b><small>company</small><span>xAI 近期主要出现在 AI 行业 等主题下；已关联 12 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/google/"><b>Google</b><small>company</small><span>Google 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/ilya-sutskever/"><b>Ilya Sutskever</b><small>person</small><span>Ilya Sutskever 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/jensen-huang/"><b>Jensen Huang</b><small>person</small><span>Jensen Huang 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/larry-page/"><b>Larry Page</b><small>person</small><span>Larry Page 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/mark-zuckerberg/"><b>Mark Zuckerberg</b><small>person</small><span>Mark Zuckerberg 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/meta/"><b>Meta</b><small>company</small><span>Meta 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/microsoft/"><b>Microsoft</b><small>company</small><span>Microsoft 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/nvidia/"><b>Nvidia</b><small>company</small><span>Nvidia 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/tesla/"><b>Tesla</b><small>company</small><span>Tesla 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/william-savitt/"><b>William Savitt</b><small>person</small><span>William Savitt 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-<a href="/entities/y-combinator/"><b>Y Combinator</b><small>organization</small><span>Y Combinator 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</span></a>
-</div>
+实体档案不是百科词条，而是持续更新的行业观察对象。每个实体页回答：它最近参与了什么变化，影响哪些主题，有哪些判断值得继续跟踪。
+
+<div class="directory-grid">
+  <a href="/entities/openai/"><b>OpenAI</b><span>从模型入口扩展到任务执行入口。</span></a>
+  <a href="/entities/anthropic/"><b>Anthropic</b><span>把安全、Computer Use 和 MCP 绑定成可信 Agent 叙事。</span></a>
+  <a href="/entities/microsoft/"><b>Microsoft</b><span>最有条件把 Agent 嵌入企业身份、文档和权限系统。</span></a>
+  <a href="/entities/google-deepmind/"><b>Google DeepMind</b><span>模型研究、产品化和评测能力的长期观察对象。</span></a>
+  <a href="/entities/nvidia/"><b>Nvidia</b><span>Agent 规模化背后的算力、推理成本和企业基础设施变量。</span></a>
+  <a href="/entities/cursor/"><b>Cursor</b><span>开发者 Agent 工作流最早成熟的产品样本之一。</span></a>
 </div>

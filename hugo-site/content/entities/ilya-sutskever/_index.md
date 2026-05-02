@@ -1,5 +1,6 @@
 ---
 title: Ilya Sutskever
+draft: true
 type: entity_profile
 entity_type: person
 related_events: 6

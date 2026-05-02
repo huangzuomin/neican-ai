@@ -1,26 +1,36 @@
 ---
-title: AI 行业时间线
+title: 时间线
 type: timeline
-event_count: 2
 seo:
-  description: neican.ai 从 RSS 到结构化事件自动生成的 AI 行业关键事件时间线。
+  description: AI 内参时间线，把 AI 行业短期事件放回长期结构变化中。
 ---
 
-<div class="timeline-product-page">
-<p class="eyebrow">Timeline Product MVP</p>
-<h1>从资讯噪音到 AI 行业演化地图</h1>
-<p class="page-lead">这不是静态专题页，而是由 RSS → Event → Decision → Timeline Node 自动生成的时间线产品。公开页只展示 A/B 级节点，C/D 级不会制造噪音。</p>
-<div class="timeline-kpis">
-<div><strong>2</strong><span>公开节点</span></div>
-<div><strong>2</strong><span>A 级关键事件</span></div>
-<div><strong>0</strong><span>B 级趋势信号</span></div>
-<div><strong>1</strong><span>覆盖年份</span></div>
-</div>
-<section class="timeline-years"><h2>按年份浏览</h2><div>
-<a href="/timeline/2026/"><b>2026</b><span>2 个节点</span></a>
-</div></section>
-<section class="timeline-node-list"><h2>最新节点</h2>
-<article class="timeline-node grade-a"><time>2026-05-01</time><div><p><span class="badge">A</span> <span class="chip">policy</span></p><h3><a href="/events/2026-05-01-musk-v-altman-trial-reveals-openai-founding-documents-and-early-tensions-873/">Musk v. Altman trial reveals OpenAI founding documents and early tensions</a></h3><p>涉及 Elon Musk、Sam Altman、OpenAI 等关键实体；关联 ai-policy、ai-safety、llm 主题；编辑判断为 A 级，适合作为独立洞察与长期时间线节点；已抽取 5 条结构化声明。</p></div></article>
-<article class="timeline-node grade-a"><time>2026-05-01</time><div><p><span class="badge">A</span> <span class="chip">other</span></p><h3><a href="/events/2026-05-01-musk-v-openai-trial-week-1-musk-testifies-he-was-deceived-warns-of-ai-risk-admit-874/">Musk v. OpenAI trial week 1: Musk testifies he was deceived, warns of AI risk, admits xAI uses OpenAI models</a></h3><p>涉及 Elon Musk、Sam Altman、Greg Brockman 等关键实体；关联 ai-safety、ai-policy 主题；编辑判断为 A 级，适合作为独立洞察与长期时间线节点；已抽取 5 条结构化声明。</p></div></article>
-</section>
+时间线用于观察结构变化，而不是按日期堆新闻。当前样板线索是：AI Agents 如何从聊天助手演化为企业工作流基础设施。
+
+<div class="timeline-board">
+  <section>
+    <time>2024</time>
+    <h2>工具调用成为模型产品标配</h2>
+    <p>模型厂商开始把函数调用、长上下文和多步推理包装成产品能力。Agent 的雏形从“会聊天”转向“能接工具”。</p>
+  </section>
+  <section>
+    <time>2025</time>
+    <h2>开发者工具验证 Agent 工作流</h2>
+    <p>代码编辑、终端操作、文档检索和版本回滚让开发者场景成为最早成熟的 Agent 试验场。Cursor 等产品让任务闭环更加可见。</p>
+  </section>
+  <section>
+    <time>2025</time>
+    <h2>MCP 让连接层升温</h2>
+    <p>MCP 把 Agent 集成从单个插件推向协议层。工具、上下文和服务端生态开始成为模型之外的新竞争点。</p>
+  </section>
+  <section>
+    <time>2026</time>
+    <h2>企业治理成为采用门槛</h2>
+    <p>Agent 要进入核心流程，必须回答权限、审计、失败恢复、人工接管和数据边界问题。运行时治理成为企业 AI 的控制平面。</p>
+  </section>
+  <section>
+    <time>下一步</time>
+    <h2>Eval 从模型指标扩展到任务风险</h2>
+    <p>企业会要求 Agent 在真实权限和数据环境中证明任务成功率、恢复能力和可解释性。评测将成为采购和部署的重要语言。</p>
+  </section>
 </div>

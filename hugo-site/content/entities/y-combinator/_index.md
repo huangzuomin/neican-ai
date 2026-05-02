@@ -1,5 +1,6 @@
 ---
 title: Y Combinator
+draft: true
 type: entity_profile
 entity_type: organization
 related_events: 6

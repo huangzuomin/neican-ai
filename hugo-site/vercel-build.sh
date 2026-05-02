@@ -10,6 +10,6 @@ if [ ! -x "$HUGO_BIN" ]; then
 fi
 
 "$HUGO_BIN" version
-"$HUGO_BIN" --destination "$(pwd)/public" --gc --minify
+"$HUGO_BIN" --destination "$(pwd)/public" --gc --minify --cleanDestinationDir
 
 test -s public/index.html

@@ -1,21 +1,22 @@
 .content-body blockquote {
   margin: 20px 0;
   padding: 12px 16px;
-  border-left: 4px solid #7dd3fc;
-  background: rgba(125, 211, 252, 0.08);
-  color: #dbeafe;
+  border-left: 4px solid #0f766e;
+  background: #f0ebe1;
+  color: #3f3a33;
 }
 .content-body code {
   padding: 2px 6px;
   border-radius: 6px;
-  background: rgba(148, 163, 184, 0.15);
+  background: #ece7dc;
 }
 .content-body pre {
   overflow-x: auto;
   padding: 16px;
   border-radius: 12px;
-  background: #09101f;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: #171717;
+  color: #fffdf8;
+  border: 1px solid #ded8cc;
 }
 .content-body table {
   width: 100%;
@@ -25,5 +26,5 @@
 .content-body th,
 .content-body td {
   padding: 10px 12px;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  border: 1px solid #ded8cc;
 }

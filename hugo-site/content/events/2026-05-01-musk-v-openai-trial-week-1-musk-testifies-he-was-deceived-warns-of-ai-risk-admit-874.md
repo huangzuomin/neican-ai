@@ -1,6 +1,6 @@
 ---
-title: 'Musk v. OpenAI trial week 1: Musk testifies he was deceived, warns of AI risk,
-  admits xAI uses OpenAI models'
+title: 'Musk v. OpenAI trial week 1: Musk testifies he was deceived, warns of AI risk, admits xAI uses OpenAI models'
+draft: true
 date: '2026-05-01T09:00:00+08:00'
 slug: 2026-05-01-musk-v-openai-trial-week-1-musk-testifies-he-was-deceived-warns-of-ai-risk-admit-874
 type: event

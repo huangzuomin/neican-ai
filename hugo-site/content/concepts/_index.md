@@ -1,5 +1,6 @@
 ---
 title: 概念库
+draft: true
 seo:
   description: neican.ai 的概念库入口，解释系统如何定义事件、声明、编辑分级和知识资产。
 ---

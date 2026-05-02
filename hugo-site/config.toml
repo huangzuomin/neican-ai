@@ -41,8 +41,6 @@ ignoreLogs = ["warning-goldmark-raw-html"]
 [taxonomies]
   category = "categories"
   tag = "tags"
-  topic = "topics"
-  entity = "entities"
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -51,7 +49,7 @@ ignoreLogs = ["warning-goldmark-raw-html"]
   term = ["HTML", "RSS"]
 
 [params]
-  description = "AI 行业的结构化洞察、日报与知识资产。"
+  description = "面向 AI 行业的低噪音情报、深度洞察与长期知识资产。"
   author = "neican.ai"
   recent_posts_number = 12
   custom_css = ["css/custom.css", "css/article-enhancements.css"]
@@ -63,23 +61,23 @@ url = "/"
 weight = 10
 
 [[menus.main]]
-name = "情报雷达"
-url = "/radar/"
+name = "日报"
+url = "/briefs/daily/"
 weight = 20
 
 [[menus.main]]
-name = "事件库"
-url = "/events/"
+name = "洞察"
+url = "/insights/"
 weight = 30
 
 [[menus.main]]
-name = "声明库"
-url = "/claims/"
+name = "实体"
+url = "/entities/"
 weight = 40
 
 [[menus.main]]
-name = "实体档案"
-url = "/entities/"
+name = "主题"
+url = "/topics/"
 weight = 50
 
 [[menus.main]]
@@ -88,6 +86,6 @@ url = "/timeline/"
 weight = 60
 
 [[menus.main]]
-name = "洞察"
-url = "/insights/"
+name = "关于"
+url = "/about/"
 weight = 70

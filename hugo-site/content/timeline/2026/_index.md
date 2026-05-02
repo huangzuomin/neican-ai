@@ -1,5 +1,6 @@
 ---
 title: 2026 年 AI 行业时间线
+draft: true
 type: timeline_year
 year: '2026'
 event_count: 2

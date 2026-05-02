@@ -1,5 +1,6 @@
 ---
 title: 事件库
+draft: true
 type: event_index
 event_count: 2
 seo:

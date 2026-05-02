@@ -1,5 +1,6 @@
 ---
 title: Anthropic Raises $5B Series D at $60B Valuation
+draft: true
 date: '2026-05-01T10:00:00+08:00'
 slug: anthropic-raises-5b-series-d-at-60b-valuation
 type: insight

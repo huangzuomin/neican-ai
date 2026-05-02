@@ -1,5 +1,6 @@
 ---
 title: 情报雷达
+draft: true
 date: 2026-05-02T09:00:00+08:00
 seo:
   description: neican.ai 的今日 AI 行业信号雷达，按模型、算力、政策、应用四条线组织事件。

@@ -2,46 +2,34 @@
 title: Nvidia
 type: entity_profile
 entity_type: company
-related_events: 6
-topics: []
-claims:
-- text: The Musk v. Altman jury trial began on Monday in a federal courtroom in California.
-  confidence: 0.95
-- text: Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.
-  confidence: 0.9
-- text: Musk largely drafted OpenAI's mission and heavily influenced its early structure.
-  confidence: 0.85
-- text: OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level
-    of control over the company.
-  confidence: 0.85
-- text: Musk highlighted the importance of a nonprofit with a mission of broadly beneficial
-    AI.
-  confidence: 0.8
-sources: []
+topics: ["ai-agents", "infrastructure"]
 neican:
-  generated_by: entity_product
-  review_status: draft
+  generated_by: reader_demo
+  review_status: demo
 ---
 
-<div class="entity-profile-page">
-<p class="eyebrow">company File</p>
-<h1>Nvidia</h1>
-<p class="page-lead">Nvidia 的实体档案由 neican.ai 从结构化事件、时间线节点和声明库自动生成。</p>
-<section class="entity-signal"><h2>当前信号</h2>
-<p>Nvidia 近期主要出现在 AI 行业 等主题下；已关联 6 个事件，适合持续跟踪其产品路线、生态位置和风险信号。</p></section>
-<section><h2>相关时间线/事件</h2><div class="entity-event-list">
-<article><time>2026-05-01</time><h3>2026-05-01: Musk v. Altman trial reveals OpenAI founding documents and early tensions</h3><p></p></article>
-<article><time></time><h3>The Musk v. Altman jury trial began on Monday in a federal courtroom in California.（95%）</h3><p></p></article>
-<article><time></time><h3>Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.（90%）</h3><p></p></article>
-<article><time></time><h3>Musk largely drafted OpenAI's mission and heavily influenced its early structure.（85%）</h3><p></p></article>
-<article><time></time><h3>OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level of control over the company.（85%）</h3><p></p></article>
-<article><time></time><h3>Musk highlighted the importance of a nonprofit with a mission of broadly beneficial AI.（80%）</h3><p></p></article>
-</div></section>
-<section><h2>结构化声明</h2><div class="entity-claims">
-<p><span>The Musk v. Altman jury trial began on Monday in a federal courtroom in California.</span><b>95%</b></p>
-<p><span>Nvidia CEO Jensen Huang gave OpenAI an in-demand supercomputer.</span><b>90%</b></p>
-<p><span>Musk largely drafted OpenAI's mission and heavily influenced its early structure.</span><b>85%</b></p>
-<p><span>OpenAI president Greg Brockman and Ilya Sutskever worried about Musk's level of control over the company.</span><b>85%</b></p>
-<p><span>Musk highlighted the importance of a nonprofit with a mission of broadly beneficial AI.</span><b>80%</b></p>
-</div></section>
-</div>
+## 当前信号
+
+Nvidia 是 Agent 规模化背后的基础设施变量。随着 Agent 从聊天进入持续执行，推理成本、延迟、吞吐和企业部署会重新抬高算力基础设施的重要性。
+
+## 为什么值得跟踪
+
+Agent 产品一旦进入真实工作流，会产生更多长链路推理、工具调用和状态维护。算力不再只是训练模型的问题，也会变成执行任务的经济性问题。
+
+## 相关主题
+
+- AI Infrastructure
+- Inference Cost
+- AI Agents
+- Enterprise Deployment
+
+## 关键判断
+
+- Agent 普及会提高对推理基础设施和优化软件栈的要求。
+- 算力供应商会从训练叙事转向训练和推理并重的企业 AI 平台叙事。
+
+## 后续观察
+
+- Nvidia 是否把 Agent 推理成本和企业部署作为重点叙事。
+- 云厂商是否围绕 Agent 工作负载推出更细分的基础设施方案。
+- 推理优化是否成为 Agent 产品毛利率的关键变量。

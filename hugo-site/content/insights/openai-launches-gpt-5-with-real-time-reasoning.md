@@ -1,5 +1,6 @@
 ---
 title: OpenAI Launches GPT-5 with Real-Time Reasoning
+draft: true
 date: '2026-05-01T10:00:00+08:00'
 slug: openai-launches-gpt-5-with-real-time-reasoning
 type: insight

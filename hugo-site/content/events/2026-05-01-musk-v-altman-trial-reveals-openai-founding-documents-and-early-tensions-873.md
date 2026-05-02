@@ -1,5 +1,6 @@
 ---
 title: Musk v. Altman trial reveals OpenAI founding documents and early tensions
+draft: true
 date: '2026-05-01T09:00:00+08:00'
 slug: 2026-05-01-musk-v-altman-trial-reveals-openai-founding-documents-and-early-tensions-873
 type: event

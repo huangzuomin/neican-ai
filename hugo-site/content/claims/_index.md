@@ -1,5 +1,6 @@
 ---
 title: 声明库
+draft: true
 date: 2026-05-02T09:20:00+08:00
 seo:
   description: neican.ai 的结构化声明库示范，展示事实、判断、来源和置信度如何被追踪。

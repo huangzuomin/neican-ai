@@ -1,24 +1,15 @@
 {{ define "main" }}
-{{ $demoSections := slice "radar" "events" "claims" "entities" "timeline" "concepts" }}
-{{ $selfContainedSections := slice "events" "entities" "timeline" }}
-{{ if in $demoSections .Section }}
-  {{ .Content }}
-  {{ if and (not (in $selfContainedSections .Section)) (gt (len .Pages) 0) }}
-    <div class="grid section-children">
-      {{ range .Pages }}{{ partial "card.html" . }}{{ end }}
-    </div>
-  {{ end }}
-{{ else }}
+{{ $selfContained := slice "entities" "topics" "timeline" "radar" "events" "claims" "concepts" }}
 <header class="page-header">
-  <p class="eyebrow">{{ .Section | default .Data.Plural }}</p>
+  <p class="section-label">{{ .Section | default .Data.Plural }}</p>
   <h1>{{ .Title }}</h1>
   {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
 </header>
-<div class="grid">
+
+{{ if and (not (in $selfContained .Section)) (gt (len .Pages) 0) }}
+<div class="card-grid">
   {{ range .Paginator.Pages }}
     {{ partial "card.html" . }}
-  {{ else }}
-    <p>这里还没有内容。</p>
   {{ end }}
 </div>
 {{ template "_internal/pagination.html" . }}

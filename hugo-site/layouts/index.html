@@ -1,38 +1,112 @@
 {{ define "main" }}
-<section class="hero">
-  <p class="eyebrow">AI News 模板迁移版</p>
-  <h1>把 AI 行业噪音转成结构化洞察</h1>
-  <p>这里保留 AInews 模板的信息架构思路，但站点内容完全由 neican.ai 的结构化流水线生成。</p>
+{{ $insights := first 3 (where site.RegularPages "Section" "insights") }}
+{{ $briefs := first 2 (where site.RegularPages "Section" "briefs") }}
+{{ $topicCount := len site.Taxonomies.topics }}
+{{ $entityCount := len site.Taxonomies.entities }}
+
+<section class="demo-hero">
+  <div class="demo-hero-copy">
+    <p class="eyebrow">neican.ai intelligence demo</p>
+    <h1>不是再做一个 AI 新闻站，而是把行业噪音加工成可追溯的知识资产。</h1>
+    <p class="hero-lead">neican.ai 从可信来源抓取信息，先建模为事件、实体、主题和声明，再做编辑分级，最后才生成日报、洞察和时间线。读者看到的是结论，背后保留完整证据链。</p>
+    <div class="hero-actions">
+      <a class="primary-action" href="/insights/">查看洞察</a>
+      <a class="secondary-action" href="/topics/">探索知识资产</a>
+    </div>
+  </div>
+  <div class="signal-console" aria-label="结构化信号样例">
+    <div class="console-top"><span></span><span></span><span></span><strong>Signal → Knowledge</strong></div>
+    <div class="signal-card hot">
+      <div class="signal-row"><span class="label">Raw item</span><strong>模型发布 / 融资 / 政策 / 产品更新</strong></div>
+      <div class="signal-row"><span class="label">Event</span><strong>重要性 0.86 · 置信度 0.91</strong></div>
+      <div class="signal-row"><span class="label">Decision</span><strong class="grade-a">A级：独立洞察 + 更新资产</strong></div>
+    </div>
+    <div class="mini-graph">
+      <span>OpenAI</span><i></i><span>LLM</span><i></i><span>实时推理</span><i></i><span>2026 时间线</span>
+    </div>
+    <div class="claim-preview">
+      <p>结构化声明</p>
+      <ul>
+        <li><span>声明文本</span><b>source-backed</b></li>
+        <li><span>关联实体</span><b>machine-readable</b></li>
+        <li><span>发布状态</span><b>reviewable</b></li>
+      </ul>
+    </div>
+  </div>
 </section>
 
-{{ $insights := first (site.Params.recent_posts_number | default 12) (where site.RegularPages "Section" "insights") }}
-{{ $briefs := first 6 (where site.RegularPages "Section" "briefs") }}
+<section class="demo-stats" aria-label="当前系统状态">
+  <div><strong>{{ len (where site.RegularPages "Section" "insights") }}</strong><span>洞察草稿/文章</span></div>
+  <div><strong>{{ len (where site.RegularPages "Section" "briefs") }}</strong><span>日报输出</span></div>
+  <div><strong>{{ $topicCount }}</strong><span>主题索引</span></div>
+  <div><strong>{{ $entityCount }}</strong><span>实体索引</span></div>
+</section>
 
-<section class="section-block">
-  <div class="section-head">
-    <h2>最新洞察</h2>
-    <a href="/insights/">查看全部</a>
+<section class="workflow-panel">
+  <div class="section-head compact">
+    <div>
+      <p class="eyebrow">workflow</p>
+      <h2>一条信息进入系统后，会经历 6 层加工</h2>
+    </div>
   </div>
-  <div class="grid">
-    {{ range $insights }}
-      {{ partial "card.html" . }}
-    {{ else }}
-      <p>暂无洞察内容。</p>
-    {{ end }}
+  <div class="workflow-steps">
+    <div class="workflow-step"><span>01</span><h3>抓取与去重</h3><p>RSS/网页只作为原料，不直接变成文章，先清洗、去重、记录来源。</p></div>
+    <div class="workflow-step"><span>02</span><h3>事件建模</h3><p>LLM 抽取事件类型、日期、实体、主题、claims、置信度和风险。</p></div>
+    <div class="workflow-step"><span>03</span><h3>编辑分级</h3><p>A/B/C/D 决定内容命运：独立洞察、进入日报、补充来源或忽略。</p></div>
+    <div class="workflow-step"><span>04</span><h3>知识沉淀</h3><p>实体页、主题页、概念页和年份时间线持续更新，形成长期资产。</p></div>
+    <div class="workflow-step"><span>05</span><h3>内容生成</h3><p>公开内容从结构化资产生成，而不是从单条新闻改写。</p></div>
+    <div class="workflow-step"><span>06</span><h3>审核发布</h3><p>高风险 claim、A 级内容和公开发布都保留 review/build/diff 边界。</p></div>
   </div>
 </section>
 
-<section class="section-block">
+<section class="demo-split">
+  <div class="intelligence-card">
+    <p class="eyebrow">audience value</p>
+    <h2>读者真正得到什么？</h2>
+    <div class="value-list">
+      <div><b>判断优先</b><span>不是“发生了什么”的流水账，而是这件事为何重要。</span></div>
+      <div><b>证据可追溯</b><span>每个 claim 都保留来源、置信度和关联对象。</span></div>
+      <div><b>趋势可复用</b><span>信息会沉淀到实体、主题和时间线，后续分析可以接着用。</span></div>
+      <div><b>低噪音</b><span>重复、营销化、无新增信息的内容不会被制造成独立页面。</span></div>
+    </div>
+  </div>
+  <div class="decision-board">
+    <p class="eyebrow">editorial routing</p>
+    <h2>A/B/C/D 决策板</h2>
+    <div class="decision-row grade-a"><b>A</b><span>重大事件 → 独立洞察 + 知识资产更新</span></div>
+    <div class="decision-row grade-b"><b>B</b><span>有价值信号 → 日报 + 主题/实体补充</span></div>
+    <div class="decision-row grade-c"><b>C</b><span>补充来源 → 只增强已有事件证据链</span></div>
+    <div class="decision-row grade-d"><b>D</b><span>重复/低质/营销 → 不进入公开内容</span></div>
+  </div>
+</section>
+
+<section class="live-output">
   <div class="section-head">
-    <h2>最近日报</h2>
-    <a href="/briefs/daily/">查看全部</a>
+    <div>
+      <p class="eyebrow">generated outputs</p>
+      <h2>当前 Demo 输出</h2>
+    </div>
+    <a href="/insights/">全部洞察</a>
   </div>
-  <div class="grid">
-    {{ range $briefs }}
-      {{ partial "card.html" . }}
-    {{ else }}
-      <p>暂无日报内容。</p>
-    {{ end }}
+  <div class="output-grid">
+    <div>
+      <h3>最新洞察</h3>
+      <div class="stacked-cards">
+        {{ range $insights }}{{ partial "card.html" . }}{{ else }}<p>暂无洞察内容。</p>{{ end }}
+      </div>
+    </div>
+    <div>
+      <h3>最近日报</h3>
+      <div class="stacked-cards">
+        {{ range $briefs }}{{ partial "card.html" . }}{{ else }}<p>暂无日报内容。</p>{{ end }}
+      </div>
+    </div>
   </div>
+</section>
+
+<section class="final-cta">
+  <p class="eyebrow">positioning</p>
+  <h2>neican.ai 的核心不是“自动发文”，而是 AI 行业知识生产流水线。</h2>
+  <p>网站只是前端呈现；系统的根是 Event、Entity、Topic、Concept、Claim 与可审计的编辑决策。</p>
 </section>
 {{ end }}

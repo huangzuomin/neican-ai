@@ -1,6 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "curl -fsSL https://github.com/gohugoio/hugo/releases/download/v0.148.2/hugo_extended_0.148.2_linux-amd64.tar.gz -o /tmp/hugo.tar.gz && tar -xzf /tmp/hugo.tar.gz -C /tmp hugo && /tmp/hugo version",
-  "buildCommand": "HUGO=/tmp/hugo; if [ ! -x $HUGO ]; then HUGO=hugo; fi; if [ -d hugo-site ]; then $HUGO --source hugo-site --destination public --gc --minify; else $HUGO --destination public --gc --minify; fi",
-  "outputDirectory": "public"
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "framework": null,
+  "env": {
+    "HUGO_VERSION": "0.148.2"
+  }
 }

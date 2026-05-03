@@ -104,7 +104,7 @@ def run_pipeline(
         db_path=db_path,
         site_dir=site_dir,
     )
-    timeline_dict = timeline_result.to_dict() if timeline_result else {"generated": 0, "exported_events": 0, "exported_years": 0, "skipped": 0}
+    timeline_dict = timeline_result.to_dict() if timeline_result else {"generated": 0, "exported_events": 0, "exported_years": 0, "exported_tracks": 0, "skipped": 0}
     entities_result = None if dry_run else run_entity_product(
         db_path=db_path,
         site_dir=site_dir,

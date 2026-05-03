@@ -15,6 +15,7 @@ from sqlite_ops import get_conn
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "db" / "neican.sqlite"
 SITE_DIR = ROOT / "hugo-site"
+TRACKS_PATH = ROOT / "config" / "timeline_tracks.yaml"
 
 PUBLIC_GRADES = {"A", "B"}
 INTERNAL_GRADES = {"C"}
@@ -25,6 +26,7 @@ class TimelineResult:
     generated: int = 0
     exported_events: int = 0
     exported_years: int = 0
+    exported_tracks: int = 0
     skipped: int = 0
 
     def to_dict(self) -> dict[str, int]:
@@ -51,6 +53,7 @@ def ensure_schema(conn) -> None:
           risk_score REAL DEFAULT 0,
           entities_json TEXT,
           topics_json TEXT,
+          tracks_json TEXT,
           claims_json TEXT,
           sources_json TEXT,
           status TEXT NOT NULL DEFAULT 'public',
@@ -64,6 +67,9 @@ def ensure_schema(conn) -> None:
     conn.execute("CREATE INDEX IF NOT EXISTS idx_timeline_nodes_date ON timeline_nodes(date)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_timeline_nodes_year ON timeline_nodes(year)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_timeline_nodes_grade ON timeline_nodes(grade)")
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(timeline_nodes)").fetchall()}
+    if "tracks_json" not in columns:
+        conn.execute("ALTER TABLE timeline_nodes ADD COLUMN tracks_json TEXT")
 
 
 def slugify(value: str) -> str:
@@ -79,6 +85,40 @@ def json_list(value: str | None) -> list[Any]:
     except Exception:
         return []
     return parsed if isinstance(parsed, list) else []
+
+
+def load_tracks(tracks_path: Path = TRACKS_PATH) -> list[dict[str, Any]]:
+    if not tracks_path.exists():
+        return []
+    data = yaml.safe_load(tracks_path.read_text(encoding="utf-8")) or {}
+    tracks = data.get("tracks") or []
+    return [track for track in tracks if isinstance(track, dict) and track.get("slug")]
+
+
+def _slug_from_item(item: Any) -> str:
+    if isinstance(item, dict):
+        return str(item.get("slug") or slugify(str(item.get("name") or ""))).strip()
+    return slugify(str(item))
+
+
+def assign_tracks(row, entities: list[Any], topics: list[Any], tracks: list[dict[str, Any]]) -> list[str]:
+    entity_slugs = {_slug_from_item(entity) for entity in entities if _slug_from_item(entity)}
+    topic_slugs = {_slug_from_item(topic) for topic in topics if _slug_from_item(topic)}
+    event_type = str(row["event_type"] or "")
+    assigned: list[str] = []
+    for track in tracks:
+        match = track.get("match") or {}
+        match_topics = set(match.get("topics") or [])
+        match_entities = set(match.get("entities") or [])
+        match_event_types = set(match.get("event_types") or [])
+        has_semantic_rules = bool(match_topics or match_entities)
+        if (
+            topic_slugs.intersection(match_topics)
+            or entity_slugs.intersection(match_entities)
+            or (not has_semantic_rules and event_type and event_type in match_event_types)
+        ):
+            assigned.append(str(track["slug"]))
+    return assigned
 
 
 def normalize_date(value: str | None) -> str | None:
@@ -174,8 +214,9 @@ def fetch_timeline_candidates(conn, include_internal: bool = False) -> list[Any]
     ).fetchall()
 
 
-def generate_nodes(conn, include_internal: bool = False) -> tuple[int, int]:
+def generate_nodes(conn, include_internal: bool = False, tracks: list[dict[str, Any]] | None = None) -> tuple[int, int]:
     ensure_schema(conn)
+    tracks = tracks or []
     generated = 0
     skipped = 0
     for row in fetch_timeline_candidates(conn, include_internal=include_internal):
@@ -187,6 +228,7 @@ def generate_nodes(conn, include_internal: bool = False) -> tuple[int, int]:
         status = "public" if grade in PUBLIC_GRADES else "internal"
         entities = json_list(row["entities_json"])
         topics = json_list(row["topics_json"])
+        assigned_tracks = assign_tracks(row, entities, topics, tracks)
         claims = json_list(row["claims_json"])
         source = source_from_row(row)
         slug = f"{date}-{slugify(row['event_title'])}-{row['id']}"
@@ -206,6 +248,7 @@ def generate_nodes(conn, include_internal: bool = False) -> tuple[int, int]:
             "risk_score": float(row["risk_score"] or 0),
             "entities_json": json.dumps(entities, ensure_ascii=False),
             "topics_json": json.dumps(topics, ensure_ascii=False),
+            "tracks_json": json.dumps(assigned_tracks, ensure_ascii=False),
             "claims_json": json.dumps(claims, ensure_ascii=False),
             "sources_json": json.dumps([source] if source.get("url") else [], ensure_ascii=False),
             "status": status,
@@ -233,6 +276,7 @@ def frontmatter(data: dict[str, Any], body: str) -> str:
 def write_event_page(site_dir: Path, row) -> None:
     entities = json_list(row["entities_json"])
     topics = json_list(row["topics_json"])
+    tracks = json_list(row["tracks_json"])
     claims = json_list(row["claims_json"])
     sources = json_list(row["sources_json"])
     fm = {
@@ -247,9 +291,10 @@ def write_event_page(site_dir: Path, row) -> None:
         "confidence": row["confidence"],
         "entities": entities,
         "topics": topics,
+        "tracks": tracks,
         "claims": claims,
         "sources": sources,
-        "timeline": {"date": row["date"], "year": row["year"], "month": row["month"]},
+        "timeline": {"date": row["date"], "year": row["year"], "month": row["month"], "tracks": tracks},
         "neican": {"generated_by": "timeline_product", "review_status": row["review_status"]},
     }
     body = [
@@ -307,7 +352,44 @@ def write_year_page(site_dir: Path, year: str, rows: list[Any]) -> None:
     path.write_text(frontmatter(fm, "\n".join(body)), encoding="utf-8")
 
 
-def write_index_page(site_dir: Path, rows: list[Any]) -> None:
+def _track_rows(rows: list[Any], track_slug: str) -> list[Any]:
+    return [row for row in rows if track_slug in json_list(row["tracks_json"])]
+
+
+def write_track_page(site_dir: Path, track: dict[str, Any], rows: list[Any]) -> None:
+    track_slug = str(track["slug"])
+    fm = {
+        "title": track.get("title") or track_slug,
+        "type": "timeline_track",
+        "event_count": len(rows),
+        "track": {
+            "slug": track_slug,
+            "title": track.get("title") or track_slug,
+            "description": track.get("description") or "",
+        },
+        "seo": {"description": track.get("description") or f"{track.get('title') or track_slug} 时间线。"},
+    }
+    body = [
+        "<div class=\"timeline-product-page timeline-track-page\">",
+        "<p class=\"eyebrow\">Timeline Track</p>",
+        f"<h1>{track.get('title') or track_slug}</h1>",
+        f"<p class=\"page-lead\">{track.get('description') or '这条追踪线由结构化事件自动生成。'}</p>",
+        "<section class=\"timeline-node-list\"><h2>事件节点</h2>",
+    ]
+    for row in rows:
+        body.append(
+            f"<article class=\"timeline-node grade-{row['grade'].lower()}\">"
+            f"<time>{row['date']}</time><div><p><span class=\"badge\">{row['grade']}</span> <span class=\"chip\">{row['event_type']}</span></p>"
+            f"<h3><a href=\"/events/{row['slug']}/\">{row['title']}</a></h3>"
+            f"<p>{row['why_it_matters'] or row['summary'] or ''}</p></div></article>"
+        )
+    body += ["</section>", "</div>"]
+    path = site_dir / "content" / "timeline" / track_slug / "_index.md"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(frontmatter(fm, "\n".join(body)), encoding="utf-8")
+
+
+def write_index_page(site_dir: Path, rows: list[Any], tracks: list[dict[str, Any]]) -> None:
     years = sorted({row["year"] for row in rows}, reverse=True)
     grade_counts = {"A": 0, "B": 0}
     for row in rows:
@@ -316,19 +398,36 @@ def write_index_page(site_dir: Path, rows: list[Any]) -> None:
         "title": "AI 行业时间线",
         "type": "timeline",
         "event_count": len(rows),
-        "seo": {"description": "neican.ai 从 RSS 到结构化事件自动生成的 AI 行业关键事件时间线。"},
+        "seo": {"description": "neican.ai 从 RSS 到结构化事件自动生成的 AI 行业关键事件追踪线。"},
     }
     body = [
         "<div class=\"timeline-product-page\">",
-        "<p class=\"eyebrow\">Timeline Product MVP</p>",
+        "<p class=\"eyebrow\">Timeline Product</p>",
         "<h1>从资讯噪音到 AI 行业演化地图</h1>",
-        "<p class=\"page-lead\">这不是静态专题页，而是由 RSS → Event → Decision → Timeline Node 自动生成的时间线产品。公开页只展示 A/B 级节点，C/D 级不会制造噪音。</p>",
+        "<p class=\"page-lead\">时间线不是新闻归档，而是读者用来理解事件如何连成结构变化的地图。每条线都围绕一个长期问题展开；同一个事件可以同时出现在主题、实体和时间线里。</p>",
+        "<div class=\"timeline-explainer\">",
+        "<div><span>1</span><b>先选一条主线</b><p>例如 Agent 企业化、模型竞争、AI 治理、算力供应链。</p></div>",
+        "<div><span>2</span><b>再看事件节点</b><p>每个节点回答“发生了什么”和“为什么它改变趋势”。</p></div>",
+        "<div><span>3</span><b>最后跳转索引</b><p>节点会连接到实体、主题和深度洞察，方便继续追踪。</p></div>",
+        "</div>",
         "<div class=\"timeline-kpis\">",
         f"<div><strong>{len(rows)}</strong><span>公开节点</span></div>",
         f"<div><strong>{grade_counts.get('A', 0)}</strong><span>A 级关键事件</span></div>",
         f"<div><strong>{grade_counts.get('B', 0)}</strong><span>B 级趋势信号</span></div>",
         f"<div><strong>{len(years)}</strong><span>覆盖年份</span></div>",
         "</div>",
+        "<section><h2>当前追踪线</h2><div class=\"timeline-track-grid\">",
+    ]
+    for index, track in enumerate(tracks):
+        track_slug = str(track["slug"])
+        count = len(_track_rows(rows, track_slug))
+        active = " class=\"active\"" if index == 0 else ""
+        body.append(
+            f"<a{active} href=\"/timeline/{track_slug}/\"><span>主线 {chr(65 + index)}</span>"
+            f"<b>{track.get('title') or track_slug}</b><em>{track.get('description') or ''}</em><small>{count} 个节点</small></a>"
+        )
+    body += [
+        "</div></section>",
         "<section class=\"timeline-years\"><h2>按年份浏览</h2><div>",
     ]
     for year in years:
@@ -348,8 +447,9 @@ def write_index_page(site_dir: Path, rows: list[Any]) -> None:
     path.write_text(frontmatter(fm, "\n".join(body)), encoding="utf-8")
 
 
-def export_hugo(conn, site_dir: Path = SITE_DIR) -> tuple[int, int]:
+def export_hugo(conn, site_dir: Path = SITE_DIR, tracks: list[dict[str, Any]] | None = None) -> tuple[int, int, int]:
     ensure_schema(conn)
+    tracks = tracks or []
     rows = conn.execute(
         """
         SELECT * FROM timeline_nodes
@@ -369,23 +469,43 @@ def export_hugo(conn, site_dir: Path = SITE_DIR) -> tuple[int, int]:
         by_year.setdefault(row["year"], []).append(row)
     for year, year_rows in by_year.items():
         write_year_page(site_dir, year, year_rows)
-    write_index_page(site_dir, rows)
-    return len(rows), len(by_year)
+    exported_tracks = 0
+    for track in tracks:
+        rows_for_track = _track_rows(rows, str(track["slug"]))
+        if not rows_for_track:
+            continue
+        write_track_page(site_dir, track, rows_for_track)
+        exported_tracks += 1
+    write_index_page(site_dir, rows, tracks)
+    return len(rows), len(by_year), exported_tracks
 
 
-def run(db_path: Path = DB_PATH, site_dir: Path = SITE_DIR, include_internal: bool = False) -> TimelineResult:
+def run(
+    db_path: Path = DB_PATH,
+    site_dir: Path = SITE_DIR,
+    include_internal: bool = False,
+    tracks_path: Path = TRACKS_PATH,
+) -> TimelineResult:
+    tracks = load_tracks(Path(tracks_path))
     with get_conn(db_path) as conn:
-        generated, skipped = generate_nodes(conn, include_internal=include_internal)
-        exported_events, exported_years = export_hugo(conn, site_dir=site_dir)
-    return TimelineResult(generated=generated, exported_events=exported_events, exported_years=exported_years, skipped=skipped)
+        generated, skipped = generate_nodes(conn, include_internal=include_internal, tracks=tracks)
+        exported_events, exported_years, exported_tracks = export_hugo(conn, site_dir=site_dir, tracks=tracks)
+    return TimelineResult(
+        generated=generated,
+        exported_events=exported_events,
+        exported_years=exported_years,
+        exported_tracks=exported_tracks,
+        skipped=skipped,
+    )
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate timeline_nodes and export timeline/event Hugo pages.")
     parser.add_argument("--include-internal", action="store_true", help="Also create internal C-grade nodes, not exported publicly.")
+    parser.add_argument("--tracks", type=Path, default=TRACKS_PATH, help="Timeline track config YAML path.")
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    result = run(include_internal=args.include_internal)
+    result = run(include_internal=args.include_internal, tracks_path=args.tracks)
     if args.json:
         print(json.dumps(result.to_dict(), ensure_ascii=False, indent=2))
     else:

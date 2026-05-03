@@ -104,6 +104,7 @@ CREATE TABLE IF NOT EXISTS timeline_nodes (
   risk_score REAL DEFAULT 0,
   entities_json TEXT,
   topics_json TEXT,
+  tracks_json TEXT,
   claims_json TEXT,
   sources_json TEXT,
   status TEXT NOT NULL DEFAULT 'public',

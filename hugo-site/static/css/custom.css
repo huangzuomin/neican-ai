@@ -448,6 +448,110 @@ a:hover { color: var(--accent); }
   font-weight: 800;
 }
 
+.timeline-product-page {
+  display: grid;
+  gap: 24px;
+}
+
+.timeline-product-page .page-lead {
+  max-width: 860px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.timeline-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.timeline-kpis div {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.timeline-kpis strong {
+  display: block;
+  color: var(--accent);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.timeline-kpis span {
+  color: var(--muted);
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+  font-size: 13px;
+}
+
+.timeline-years div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.timeline-years a {
+  display: grid;
+  gap: 2px;
+  min-width: 120px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.timeline-node-list {
+  display: grid;
+  gap: 14px;
+}
+
+.timeline-node {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 253, 248, 0.86);
+}
+
+.timeline-node time {
+  color: var(--accent-2);
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+  font-weight: 900;
+}
+
+.timeline-node h3 {
+  margin: 4px 0 8px;
+  font-size: 22px;
+}
+
+.timeline-node p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.badge,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.1);
+  color: var(--accent);
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.chip {
+  background: rgba(217, 119, 6, 0.1);
+  color: var(--accent-2);
+}
+
 .page-header {
   max-width: 860px;
   padding: 56px 0 28px;
@@ -601,7 +705,9 @@ a:hover { color: var(--accent); }
   .split-section,
   .article-row,
   .timeline-explainer,
-  .timeline-track-grid {
+  .timeline-track-grid,
+  .timeline-kpis,
+  .timeline-node {
     grid-template-columns: 1fr;
   }
 

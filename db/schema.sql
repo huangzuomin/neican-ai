@@ -164,6 +164,39 @@ CREATE INDEX IF NOT EXISTS idx_event_catalog_date ON event_catalog(date);
 CREATE INDEX IF NOT EXISTS idx_event_catalog_grade ON event_catalog(grade);
 CREATE INDEX IF NOT EXISTS idx_event_catalog_type ON event_catalog(event_type);
 
+CREATE TABLE IF NOT EXISTS candidate_tracks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  slug TEXT NOT NULL UNIQUE,
+  proposed_title TEXT NOT NULL,
+  summary TEXT,
+  dominant_topics_json TEXT,
+  dominant_entities_json TEXT,
+  event_ids_json TEXT,
+  event_count INTEGER DEFAULT 0,
+  confidence REAL DEFAULT 0,
+  reason TEXT,
+  status TEXT NOT NULL DEFAULT 'proposed',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_candidate_tracks_status ON candidate_tracks(status);
+
+CREATE TABLE IF NOT EXISTS track_review_decisions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  candidate_track_id INTEGER NOT NULL,
+  decision TEXT NOT NULL,
+  target_track TEXT,
+  proposed_title TEXT,
+  reason TEXT,
+  confidence REAL DEFAULT 0,
+  evidence_event_ids_json TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (candidate_track_id) REFERENCES candidate_tracks(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_track_review_decisions_candidate ON track_review_decisions(candidate_track_id);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   run_type TEXT NOT NULL,

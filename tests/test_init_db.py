@@ -17,8 +17,8 @@ def test_init_db_creates_expected_tables_idempotently():
     first = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=True)
     second = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=True)
 
-    assert "[OK] neican.sqlite initialized with 10 tables" in first.stdout
-    assert "[OK] neican.sqlite initialized with 10 tables" in second.stdout
+    assert "[OK] neican.sqlite initialized with 12 tables" in first.stdout
+    assert "[OK] neican.sqlite initialized with 12 tables" in second.stdout
     assert db_path.exists()
 
     with sqlite3.connect(db_path) as conn:
@@ -36,5 +36,7 @@ def test_init_db_creates_expected_tables_idempotently():
         "timeline_nodes",
         "entity_profiles",
         "event_catalog",
+        "candidate_tracks",
+        "track_review_decisions",
         "runs",
     }

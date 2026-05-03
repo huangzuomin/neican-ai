@@ -1,0 +1,4 @@
+interface:
+  display_name: "Track Review"
+  short_description: "Review candidate timeline tracks"
+  default_prompt: "Review candidate timeline tracks and decide whether they should be approved, merged, watched, or rejected."

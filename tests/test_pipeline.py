@@ -108,6 +108,14 @@ def test_run_pipeline_passes_flags_and_order(monkeypatch, tmp_path):
         calls.append(("export", kwargs))
         return Result(daily_briefs=1, insights=0, skipped_approved=0, failed_count=0)
 
+    def fake_discover_candidate_tracks(**kwargs):
+        calls.append(("candidate_tracks", kwargs))
+        return Result(created=1, updated=0, skipped=0)
+
+    def fake_review_candidate_tracks(**kwargs):
+        calls.append(("track_review", kwargs))
+        return Result(approved=0, merged=1, watch=0, rejected=0)
+
     def fake_run_timeline_product(**kwargs):
         calls.append(("timeline", kwargs))
         return Result(generated=1, exported_events=1, exported_years=1, exported_tracks=1, skipped=0)
@@ -124,6 +132,8 @@ def test_run_pipeline_passes_flags_and_order(monkeypatch, tmp_path):
     monkeypatch.setattr("pipeline.extract_content", fake_extract_content)
     monkeypatch.setattr("pipeline.model_events", fake_model_events)
     monkeypatch.setattr("pipeline.make_decisions", fake_make_decisions)
+    monkeypatch.setattr("pipeline.discover_candidate_tracks", fake_discover_candidate_tracks)
+    monkeypatch.setattr("pipeline.review_candidate_tracks", fake_review_candidate_tracks)
     monkeypatch.setattr("pipeline.export_hugo", fake_export_hugo)
     monkeypatch.setattr("pipeline.run_timeline_product", fake_run_timeline_product)
     monkeypatch.setattr("pipeline.run_entity_product", fake_run_entity_product)
@@ -151,6 +161,8 @@ def test_run_pipeline_passes_flags_and_order(monkeypatch, tmp_path):
         "model": {"modeled_count": 1, "failed_count": 0},
         "decide": {"decided_count": 1, "failed_count": 0},
         "assets": {"entities_created": 0, "entities_updated": 0, "topics_created": 0, "topics_updated": 0, "timeline_entries": 0, "claims_written": 0},
+        "candidate_tracks": {"created": 0, "updated": 0, "skipped": 0},
+        "track_review": {"approved": 0, "merged": 0, "watch": 0, "rejected": 0},
         "export": {"daily_briefs": 1, "insights": 0, "skipped_approved": 0, "failed_count": 0},
         "timeline": {"generated": 0, "exported_events": 0, "exported_years": 0, "exported_tracks": 0, "skipped": 0},
         "entities": {"generated": 0, "exported": 0, "source": "skipped"},
@@ -176,6 +188,8 @@ def test_pipeline_main_json_shape(tmp_path, monkeypatch, capsys):
             model={"modeled_count": 1, "failed_count": 0},
             decide={"decided_count": 1, "failed_count": 0},
             assets={"entities_created": 0, "entities_updated": 0, "topics_created": 0, "topics_updated": 0, "timeline_entries": 0, "claims_written": 0},
+            candidate_tracks={"created": 1, "updated": 0, "skipped": 0},
+            track_review={"approved": 0, "merged": 1, "watch": 0, "rejected": 0},
             export={"daily_briefs": 1, "insights": 1, "skipped_approved": 0, "failed_count": 0},
             timeline={"generated": 1, "exported_events": 1, "exported_years": 1, "exported_tracks": 1, "skipped": 0},
             entities={"generated": 1, "exported": 1, "source": "db"},

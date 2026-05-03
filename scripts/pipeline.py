@@ -13,6 +13,8 @@ from export_hugo import export_hugo
 from extract_content import extract_content
 from fetch_sources import fetch_sources
 from knowledge_assets import update_knowledge_assets
+from candidate_tracks import discover_candidate_tracks
+from track_review import review_candidate_tracks
 from timeline_product import run as run_timeline_product
 from entity_product import run as run_entity_product
 from event_product import run as run_event_product
@@ -34,6 +36,8 @@ class PipelineResult:
     model: dict[str, Any]
     decide: dict[str, Any]
     assets: dict[str, Any]
+    candidate_tracks: dict[str, Any]
+    track_review: dict[str, Any]
     export: dict[str, Any]
     timeline: dict[str, Any]
     entities: dict[str, Any]
@@ -92,6 +96,10 @@ def run_pipeline(
         memory_dir=memory_dir,
     ) if not dry_run else update_knowledge_assets.__wrapped__() if hasattr(update_knowledge_assets, '__wrapped__') else None
     assets_dict = assets_result.to_dict() if assets_result else {"entities_created": 0, "entities_updated": 0, "topics_created": 0, "topics_updated": 0, "timeline_entries": 0, "claims_written": 0}
+    candidate_result = None if dry_run else discover_candidate_tracks(db_path=db_path)
+    candidate_dict = candidate_result.to_dict() if candidate_result else {"created": 0, "updated": 0, "skipped": 0}
+    review_result = None if dry_run else review_candidate_tracks(db_path=db_path)
+    review_dict = review_result.to_dict() if review_result else {"approved": 0, "merged": 0, "watch": 0, "rejected": 0}
     export_result = export_hugo(
         db_path=db_path,
         site_dir=site_dir,
@@ -124,6 +132,8 @@ def run_pipeline(
         model=model_result.to_dict(),
         decide=decide_result.to_dict(),
         assets=assets_dict,
+        candidate_tracks=candidate_dict,
+        track_review=review_dict,
         export=export_result.to_dict(),
         timeline=timeline_dict,
         entities=entities_dict,

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+    {{ with .Params.seo.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/article-enhancements.css">
+    {{ hugo.Generator }}
+  </head>
+  <body>
+    {{ partial "site_header.html" . }}
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "site_footer.html" . }}
+  </body>
+</html>

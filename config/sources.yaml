@@ -1,0 +1,138 @@
+sources:
+  # ═══════════════════════════════════════════
+  # 中文源
+  # ═══════════════════════════════════════════
+  - name: "36kr AI"
+    type: rss
+    url: "https://36kr.com/feed?tag=AI"
+    enabled: true
+    trust_level: 3
+    language: zh
+    fetch_interval_minutes: 120
+
+  - name: "36kr 人工智能"
+    type: rss
+    url: "https://36kr.com/feed?tag=人工智能"
+    enabled: true
+    trust_level: 3
+    language: zh
+    fetch_interval_minutes: 120
+
+  # ═══════════════════════════════════════════
+  # 英文源 — Tier 1: 一手来源 (trust_level: 5)
+  # ═══════════════════════════════════════════
+  - name: "OpenAI Blog"
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  - name: "Anthropic News"
+    type: rss
+    url: "https://www.anthropic.com/news/rss"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  - name: "Google DeepMind Blog"
+    type: rss
+    url: "https://deepmind.google/blog/rss.xml"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 120
+
+  # ═══════════════════════════════════════════
+  # 英文源 — Tier 2: 学术与研究 (trust_level: 5)
+  # ═══════════════════════════════════════════
+  - name: "ArXiv CS.AI"
+    type: rss
+    url: "https://arxiv.org/rss/cs.AI"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 360
+
+  - name: "ArXiv CS.CL"
+    type: rss
+    url: "https://arxiv.org/rss/cs.CL"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 360
+
+  - name: "BAIR Berkeley"
+    type: rss
+    url: "https://bair.berkeley.edu/blog/feed.xml"
+    enabled: true
+    trust_level: 5
+    language: en
+    fetch_interval_minutes: 360
+
+  # ═══════════════════════════════════════════
+  # 英文源 — Tier 3: 高质量行业媒体 (trust_level: 4)
+  # ═══════════════════════════════════════════
+  - name: "Hugging Face Blog"
+    type: rss
+    url: "https://huggingface.co/blog/feed.xml"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  - name: "MIT Technology Review AI"
+    type: rss
+    url: "https://www.technologyreview.com/feed/"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  # ═══════════════════════════════════════════
+  # 英文源 — Tier 4: 独立博客与分析 (trust_level: 4)
+  # ═══════════════════════════════════════════
+  - name: "Simon Willison Blog"
+    type: rss
+    url: "https://simonwillison.net/atom/everything/"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  - name: "Import AI (Jack Clark)"
+    type: rss
+    url: "https://jack-clark.net/feed/"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  - name: "Interconnects Blog"
+    type: rss
+    url: "https://www.interconnects.ai/feed"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  - name: "Stratechery"
+    type: rss
+    url: "https://stratechery.com/feed/"
+    enabled: true
+    trust_level: 4
+    language: en
+    fetch_interval_minutes: 180
+
+  # ═══════════════════════════════════════════
+  # 英文源 — Tier 5: 综合科技媒体 (trust_level: 3)
+  # ═══════════════════════════════════════════
+  - name: "The Verge AI"
+    type: rss
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    enabled: true
+    trust_level: 3
+    language: en
+    fetch_interval_minutes: 120

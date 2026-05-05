@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $selfContained := slice "entities" "topics" "timeline" "radar" "events" "claims" "concepts" }}
+<header class="page-header">
+  <p class="section-label">{{ .Section | default .Data.Plural }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+</header>
+
+{{ if and (not (in $selfContained .Section)) (gt (len .Pages) 0) }}
+<div class="card-grid">
+  {{ range .Paginator.Pages }}
+    {{ partial "card.html" . }}
+  {{ end }}
+</div>
+{{ template "_internal/pagination.html" . }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,52 @@
+tracks:
+  - slug: ai-agents-enterprise
+    title: AI Agents 企业化
+    description: 从会调用工具，到能进入企业权限、审计和流程系统。
+    match:
+      topics:
+        - ai-agents
+        - mcp
+      entities:
+        - openai
+        - anthropic
+        - microsoft
+        - cursor
+      event_types:
+        - product_update
+        - tool_launch
+        - company_strategy
+
+  - slug: model-competition
+    title: 模型能力竞争
+    description: 多模态、长上下文、推理成本和产品入口的持续竞赛。
+    match:
+      topics:
+        - llm
+        - multimodal
+      event_types:
+        - model_release
+        - research_paper
+        - product_update
+
+  - slug: ai-governance
+    title: AI 治理与监管
+    description: 安全评测、数据边界、责任链和跨国监管框架。
+    match:
+      topics:
+        - ai-policy
+        - ai-safety
+      event_types:
+        - policy
+        - safety_issue
+
+  - slug: compute-infrastructure
+    title: 算力与基础设施
+    description: GPU、云平台、推理优化和企业部署成本。
+    match:
+      entities:
+        - nvidia
+        - google
+        - microsoft
+      event_types:
+        - market_signal
+        - company_strategy

@@ -1,0 +1,30 @@
+.content-body blockquote {
+  margin: 20px 0;
+  padding: 12px 16px;
+  border-left: 4px solid #0f766e;
+  background: #f0ebe1;
+  color: #3f3a33;
+}
+.content-body code {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #ece7dc;
+}
+.content-body pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: #171717;
+  color: #fffdf8;
+  border: 1px solid #ded8cc;
+}
+.content-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+}
+.content-body th,
+.content-body td {
+  padding: 10px 12px;
+  border: 1px solid #ded8cc;
+}

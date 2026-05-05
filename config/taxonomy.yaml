@@ -1,0 +1,127 @@
+event_types:
+  - model_release
+  - product_update
+  - company_strategy
+  - research_paper
+  - policy
+  - tool_launch
+  - funding
+  - safety_issue
+  - market_signal
+  - industry_trend
+  - other
+
+entity_types:
+  - company
+  - model
+  - tool
+  - person
+  - organization
+
+topic_slugs:
+  - ai-agents
+  - vibe-coding
+  - rag
+  - mcp
+  - ai-search
+  - embodied-ai
+  - llm
+  - multimodal
+  - ai-safety
+  - ai-policy
+
+topics:
+  - slug: ai-agents
+    canonical_name: AI Agents
+    aliases:
+      - agentic workflow
+      - autonomous agents
+      - agent framework
+    parent: null
+    description: 从工具调用到自主执行，AI Agent 的能力边界与企业落地。
+    public: true
+
+  - slug: vibe-coding
+    canonical_name: Vibe Coding
+    aliases:
+      - ai coding
+      - code generation
+      - cursor coding
+    parent: null
+    description: 用自然语言驱动代码生成和修改的新范式。
+    public: true
+
+  - slug: rag
+    canonical_name: RAG
+    aliases:
+      - retrieval augmented generation
+      - retrieval-augmented generation
+    parent: null
+    description: 检索增强生成，让 LLM 连接外部知识。
+    public: true
+
+  - slug: mcp
+    canonical_name: MCP
+    aliases:
+      - model context protocol
+      - model-context-protocol
+    parent: ai-agents
+    description: Model Context Protocol，统一模型与外部工具的接口。
+    public: true
+
+  - slug: ai-search
+    canonical_name: AI Search
+    aliases:
+      - ai search engine
+      - ai-powered search
+    parent: null
+    description: AI 驱动的搜索引擎和信息获取方式。
+    public: true
+
+  - slug: embodied-ai
+    canonical_name: Embodied AI
+    aliases:
+      - robotics
+      - embodied intelligence
+    parent: null
+    description: 具身智能，AI 与物理世界的交互。
+    public: true
+
+  - slug: llm
+    canonical_name: LLM
+    aliases:
+      - large language model
+      - large language models
+      - foundation model
+    parent: null
+    description: 大语言模型的能力、训练、推理和成本竞争。
+    public: true
+
+  - slug: multimodal
+    canonical_name: Multimodal
+    aliases:
+      - multimodal ai
+      - vision language model
+    parent: null
+    description: 文本、图像、视频、音频的统一模型。
+    public: true
+
+  - slug: ai-safety
+    canonical_name: AI Safety
+    aliases:
+      - ai alignment
+      - safety
+      - safety research
+    parent: null
+    description: AI 安全、对齐和风险管理。
+    public: true
+
+  - slug: ai-policy
+    canonical_name: AI Policy
+    aliases:
+      - ai regulation
+      - ai governance
+      - regulation
+    parent: null
+    description: AI 政策、监管和治理框架。
+    public: true

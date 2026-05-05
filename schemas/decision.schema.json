@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neican.ai/schemas/decision.schema.json",
+  "title": "EditorialDecision",
+  "type": "object",
+  "required": ["action", "decision_grade", "need_review"],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["publish_article", "daily_brief_only", "update_assets_only", "ignore"]
+    },
+    "decision_grade": { "type": "string", "enum": ["A", "B", "C", "D"] },
+    "reason": { "type": "string" },
+    "need_review": { "type": "boolean" },
+    "review_triggers": { "type": "array", "items": { "type": "string" } }
+  }
+}

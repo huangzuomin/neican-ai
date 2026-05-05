@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="term-detail">
+  <header class="page-header">
+    <p class="eyebrow">{{ .Data.Singular | humanize }}</p>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  {{ $pages := where .Pages "Kind" "page" }}
+  {{ if $pages }}
+  <div class="grid">
+    {{ range .Paginator.Pages }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </div>
+  {{ template "_internal/pagination.html" . }}
+  {{ else }}
+  <p>暂无内容。</p>
+  {{ end }}
+</div>
+{{ end }}

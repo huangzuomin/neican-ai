@@ -1,0 +1,11 @@
+high_risk_keywords:
+  - 安全漏洞
+  - 法律诉讼
+  - 人物指控
+  - 财务数据
+  - 未经证实
+  - 政治
+  - 监管处罚
+
+risk_score_threshold: 70
+auto_publish_blocked_above: 70

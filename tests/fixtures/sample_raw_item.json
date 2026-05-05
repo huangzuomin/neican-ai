@@ -1,0 +1,12 @@
+{
+  "source_id": 1,
+  "source_url": "https://example.com/openai-model-update",
+  "title": "OpenAI releases a sample model update",
+  "author": "Example Author",
+  "published_at": "2026-05-01",
+  "raw_text": "<article><p>OpenAI released a sample model update for AI agents and LLM users.</p></article>",
+  "clean_text": "OpenAI released a sample model update for AI agents and LLM users.",
+  "content_hash": "fixture-content-hash",
+  "extraction_confidence": 0.85,
+  "status": "new"
+}

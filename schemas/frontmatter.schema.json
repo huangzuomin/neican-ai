@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neican.ai/schemas/frontmatter.schema.json",
+  "title": "HugoFrontMatter",
+  "type": "object",
+  "required": ["title", "date", "description", "sources"],
+  "properties": {
+    "title": { "type": "string" },
+    "date": { "type": "string" },
+    "description": { "type": "string" },
+    "draft": { "type": "boolean" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "entities": { "type": "array", "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "string", "format": "uri" } }
+  }
+}

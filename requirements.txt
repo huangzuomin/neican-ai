@@ -1,0 +1,9 @@
+feedparser
+requests
+beautifulsoup4
+lxml
+pyyaml
+jsonschema
+pytest
+python-dotenv
+openai>=1.0.0

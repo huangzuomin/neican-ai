@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日报 on AI内参</title><link>https://neican.ai/briefs/daily/</link><description>Recent content in 日报 on AI内参</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 07 May 2026 18:00:00 +0800</lastBuildDate><atom:link href="https://neican.ai/briefs/daily/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 内参日报：2026-05-07</title><link>https://neican.ai/briefs/daily/2026-05-07/</link><pubDate>Thu, 07 May 2026 18:00:00 +0800</pubDate><guid>https://neican.ai/briefs/daily/2026-05-07/</guid><description>&lt;h1 id="ai-内参日报2026-05-07">AI 内参日报：2026-05-07&lt;/h1>
+&lt;h2 id="今日关键判断">今日关键判断&lt;/h2>
+&lt;p>今日共跟踪 2 条事件（A级 0，B级 0，C级 2），重点涉及 英特尔、美国证券交易委员会。&lt;/p>
+&lt;h2 id="其他事件">其他事件&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>[C]&lt;/strong> CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing&lt;/li>
+&lt;li>&lt;strong>[C]&lt;/strong> Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense&lt;/li>
+&lt;/ul>
+&lt;h2 id="值得继续观察">值得继续观察&lt;/h2>
+&lt;h2 id="来源索引">来源索引&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2605.02910">CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing&lt;/a> · ArXiv CS.AI&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2605.03034">Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense&lt;/a> · ArXiv CS.AI&lt;/li>
+&lt;/ul></description></item><item><title>AI 内参日报：2026-05-05</title><link>https://neican.ai/briefs/daily/2026-05-05/</link><pubDate>Tue, 05 May 2026 18:00:00 +0800</pubDate><guid>https://neican.ai/briefs/daily/2026-05-05/</guid><description>&lt;h1 id="ai-内参日报2026-05-05">AI 内参日报：2026-05-05&lt;/h1>
+&lt;h2 id="今日关键判断">今日关键判断&lt;/h2>
+&lt;p>今日共跟踪 6 条事件（A级 1，B级 4，C级 1），重点涉及 英特尔、白宫、Anthropic。&lt;/p>
+&lt;h2 id="-a-级事件">⭐ A 级事件&lt;/h2>
+&lt;h2 id="按追踪线组织">按追踪线组织&lt;/h2>
+&lt;h3 id="ai-agents-企业化">AI Agents 企业化&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>[B]&lt;/strong> 苹果考虑让英特尔、三星代工设备处理器
+苹果正与英特尔、三星电子洽谈，计划将设备主处理器交由这两家企业生产，作为台积电之外的备选供应商，以缓解供应链中断和产能瓶颈。谈判仍处于初步阶段，尚未下达订单，苹果对非台积电技术存有顾虑。&lt;/li>
+&lt;li>&lt;strong>[B]&lt;/strong> 中国移动将在2026移动云大会推出AI-eSIM产品
+中国移动宣布于5月7日至9日在苏州举办2026移动云大会，届时将推出AI-eSIM产品。该产品能实时调度云端模型，使设备具备自主思考与即时响应能力，可应用于AI玩具、智慧穿戴等终端。&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-治理与监管">AI 治理与监管&lt;/h3>
+&lt;h3 id="模型能力竞争">模型能力竞争&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>[B]&lt;/strong> 英特尔任命高通前高管Alex Katouzian及代理CTO Pushkar Ranade担任领导职务
+英特尔宣布两项重要领导层任命：高通前高管Alex Katouzian将于5月加入，担任执行副总裁兼客户端计算与物理AI事业部总经理；同时正式任命此前代理首席技术官Pushkar Ranade为首席技术官，负责量子计算、神经拟态计算等新兴领域。两人均直接向CEO陈立武汇报。&lt;/li>
+&lt;/ul>
+&lt;h2 id="其他事件">其他事件&lt;/h2>
+&lt;h2 id="追踪线动态">追踪线动态&lt;/h2>
+&lt;ul>
+&lt;li>🔄 候选线「Agent 评测与企业采用信号」已并入「ai-agents-enterprise」&lt;/li>
+&lt;/ul>
+&lt;h2 id="值得继续观察">值得继续观察&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>英特尔任命高通前高管Alex Katouzian及代理CTO Pushkar Ranade担任领导职务&lt;/strong> (英特尔、Alex Katouzian) — 观察后续是否带来产品、生态或竞争格局变化&lt;/li>
+&lt;li>&lt;strong>苹果考虑让英特尔、三星代工设备处理器&lt;/strong> (苹果、英特尔) — 观察后续是否带来产品、生态或竞争格局变化&lt;/li>
+&lt;li>&lt;strong>中国移动将在2026移动云大会推出AI-eSIM产品&lt;/strong> (中国移动、AI-eSIM) — 观察后续是否带来产品、生态或竞争格局变化&lt;/li>
+&lt;/ul>
+&lt;h2 id="来源索引">来源索引&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://36kr.com/newsflashes/3795844563934467?f=rss">高通前高管将加入英特尔，领导客户端计算与物理AI事业部&lt;/a> · 36kr AI&lt;/li>
+&lt;li>&lt;a href="https://36kr.com/newsflashes/3795834368302088?f=rss">苹果考虑让英特尔、三星代工设备处理器&lt;/a> · 36kr AI&lt;/li>
+&lt;li>&lt;a href="https://36kr.com/newsflashes/3795830533643523?f=rss">中国移动将推出AI-eSIM产品&lt;/a> · 36kr AI&lt;/li>
+&lt;/ul></description></item><item><title>AI 内参日报：2026-05-04</title><link>https://neican.ai/briefs/daily/2026-05-04/</link><pubDate>Mon, 04 May 2026 18:00:00 +0800</pubDate><guid>https://neican.ai/briefs/daily/2026-05-04/</guid><description>&lt;h1 id="ai-内参日报2026-05-04">AI 内参日报：2026-05-04&lt;/h1>
+&lt;h2 id="今日关键判断">今日关键判断&lt;/h2>
+&lt;h2 id="按追踪线组织">按追踪线组织&lt;/h2>
+&lt;h3 id="ai-agents-企业化">AI Agents 企业化&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>[B]&lt;/strong> 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格
+字节跳动旗下的AI产品豆包计划在免费服务基础上推出付费订阅，提供三档月包/年包价格（标准版68元/月、加强版200元/月、专业版500元/月）。付费功能主要面向复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。目前方案仍在测试阶段，正式上线时将发布完整信息。&lt;/li>
+&lt;/ul>
+&lt;h3 id="模型能力竞争">模型能力竞争&lt;/h3>
+&lt;h2 id="其他事件">其他事件&lt;/h2>
+&lt;h2 id="追踪线动态">追踪线动态&lt;/h2>
+&lt;ul>
+&lt;li>🔄 候选线「Agent 评测与企业采用信号」已并入「ai-agents-enterprise」&lt;/li>
+&lt;/ul>
+&lt;h2 id="值得继续观察">值得继续观察&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>豆包将在免费模式外新增付费订阅，推出三档月包/年包价格&lt;/strong> (豆包、字节跳动) — 观察后续是否带来产品、生态或竞争格局变化&lt;/li>
+&lt;/ul>
+&lt;h2 id="来源索引">来源索引&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://36kr.com/p/3794799114476809?f=rss">豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线&lt;/a> · 36kr AI&lt;/li>
+&lt;/ul></description></item><item><title>AI 内参日报：Agent 工作流进入企业治理阶段</title><link>https://neican.ai/briefs/daily/2026-05-03/</link><pubDate>Fri, 01 May 2026 08:30:00 +0800</pubDate><guid>https://neican.ai/briefs/daily/2026-05-03/</guid><description>&lt;h2 id="今日判断">今日判断&lt;/h2>
+&lt;p>Agent 产品的竞争焦点正在从“能替用户完成任务”转向“能否在企业权限、审计、数据边界和失败恢复中稳定运行”。&lt;/p>
+&lt;h2 id="模型">模型&lt;/h2>
+&lt;p>主流模型厂商继续把工具调用、长上下文和多步推理作为产品能力的默认前提。值得注意的不是单次 benchmark 提升，而是模型接口越来越像任务执行层的基础设施。&lt;/p>
+&lt;p>&lt;strong>为什么重要：&lt;/strong> 一旦模型能力被包装成可调用、可审计、可回放的执行单元，企业采购关注点就会从“模型聪不聪明”转向“系统能不能负责”。&lt;/p>
+&lt;p>&lt;strong>关联实体：&lt;/strong> OpenAI、Anthropic、Google DeepMind。&lt;/p>
+&lt;h2 id="agent">Agent&lt;/h2>
+&lt;p>企业客户开始追问 Agent 的权限边界、操作日志、失败恢复和人工接管机制。能完成 demo 任务已经不够，能被组织安全地放进流程才是下一阶段门槛。&lt;/p>
+&lt;p>&lt;strong>为什么重要：&lt;/strong> Agent 正在从个人效率工具进入业务流程，产品竞争会转向运行时治理能力。&lt;/p>
+&lt;p>&lt;strong>关联实体：&lt;/strong> Microsoft、Anthropic、OpenAI。&lt;/p>
+&lt;h2 id="基础设施">基础设施&lt;/h2>
+&lt;p>MCP 的意义正在从“让工具接入更方便”升级为“谁能定义 Agent 的连接层”。如果更多产品围绕同一协议组织上下文、权限和工具，生态入口会重新排序。&lt;/p>
+&lt;p>&lt;strong>为什么重要：&lt;/strong> Agent 生态的关键不只是模型，而是模型如何稳定接入真实工作环境。&lt;/p>
+&lt;p>&lt;strong>关联实体：&lt;/strong> Anthropic、Cursor、Microsoft。&lt;/p>
+&lt;h2 id="政策与治理">政策与治理&lt;/h2>
+&lt;p>企业部署 Agent 时会自然引入审计、数据驻留、合规责任和员工授权问题。监管不一定先到，但企业内部治理会先成为采购门槛。&lt;/p>
+&lt;p>&lt;strong>为什么重要：&lt;/strong> 治理能力越早产品化，越可能成为大型客户选择 Agent 平台的理由。&lt;/p>
+&lt;p>&lt;strong>关联主题：&lt;/strong> Enterprise AI Governance、Evals。&lt;/p>
+&lt;h2 id="应用">应用&lt;/h2>
+&lt;p>开发者工具仍是 Agent 工作流最早成熟的场景。代码编辑、上下文检索、命令执行和变更回滚天然提供了可观察的闭环，也更容易检验 Agent 是否真正提升产出。&lt;/p>
+&lt;p>&lt;strong>为什么重要：&lt;/strong> Cursor 这类工具展示了一个路径：先在高频、可验证、强上下文场景中成熟，再外溢到更宽的企业工作流。&lt;/p>
+&lt;p>&lt;strong>关联实体：&lt;/strong> Cursor、Microsoft、OpenAI。&lt;/p>
+&lt;h2 id="明日观察">明日观察&lt;/h2>
+&lt;ul>
+&lt;li>哪些厂商开始把 Agent 日志、权限、回滚和人工接管作为核心卖点。&lt;/li>
+&lt;li>MCP 是否从开发者生态继续进入企业软件集成层。&lt;/li>
+&lt;li>Eval 能否从模型评测扩展到端到端任务成功率、风险和恢复能力。&lt;/li>
+&lt;/ul></description></item></channel></rss>

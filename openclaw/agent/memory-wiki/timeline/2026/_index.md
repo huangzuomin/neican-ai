@@ -94,8 +94,8 @@ event_count: 123
 - **2026-05-06** — Live blog: Code w/ Claude 2026 [model_release] · Anthropic
 - **2026-05-07** — GitHub Repo Stats [model_release]
 - **2026-05-07** — What’s next for IVF [model_release] · 英特尔
-- **2026-05-07** — An Interview with Joanna Stern About Living With AI [other]
 - **2026-05-07** — The balcony solar boom is coming to the US [product_update] · 美国证券交易委员会
+- **2026-05-07** — An Interview with Joanna Stern About Living With AI [other]
 - **2026-05-07** — The Download: the tech reshaping IVF and the rise of balcony solar [model_release] · OpenAI, Anthropic, Google DeepMind
 - **2026-05-07** — Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI [model_release] · OpenAI, Anthropic, Meta AI
 - **2026-05-07** — ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns [model_release] · OpenAI

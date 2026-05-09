@@ -97,12 +97,8 @@ claims:
 
     Conmy et al'
   confidence: 0.5
-- text: 'It’s a clear, current equilibrium that open models will be in
-
-    perpetual catch-up of closed models
-
-    , but this gap being viewed as a single number, a “distance”, covers up a nuanced
-    and crucial dynamic at what capabilities the models are covering'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
   confidence: 0.5
 sources:
 - url: https://36kr.com/p/3799984046333186?f=rss
@@ -129,42 +125,50 @@ sources:
 - url: http://bair.berkeley.edu/blog/2026/03/13/spex/
   title: Identifying Interactions at Scale for LLMs
   publisher: BAIR Berkeley
-- url: https://www.interconnects.ai/p/reading-todays-open-closed-performance
-  title: Reading today's open-closed performance gap
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026
-  title: My bets on open models, mid-2026
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model
-  title: The inevitable need for an open model consortium
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model
-  title: Gemma 4 and what makes an open model succeed
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/lossy-self-improvement
-  title: Lossy self-improvement
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/the-next-phase-of-open-models
-  title: What comes next with open models
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open
-  title: Dean Ball on open models and government control
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/open-models-in-perpetual-catch-up
-  title: Open models in perpetual catch-up
-  publisher: Interconnects Blog
-- url: https://www.interconnects.ai/p/why-nvidia-builds-open-models-with
-  title: Why Nvidia builds open models with Bryan Catanzaro
-  publisher: Interconnects Blog
-- url: https://stratechery.com/2026/amazons-durability/
-  title: Amazon’s Durability
-  publisher: Stratechery
-- url: https://stratechery.com/2026/long-term-peripheral-myopic-visions/
-  title: '2026.18: Long-term, Peripheral & Myopic Visions'
-  publisher: Stratechery
-- url: https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/
-  title: Intel Earnings, Intel’s Differentiation?, Whither Terafab
-  publisher: Stratechery
+- url: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
+  title: 'Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that
+    Musk tried to poach Sam Altman'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/
+  title: 'The Download: AI malaise and babymaking tech'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/
+  title: What’s next for IVF
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/
+  title: 'The Download: seafloor science and military chatbots'
+  publisher: MIT Technology Review AI
+- url: https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/
+  title: 'Import AI 455: Automating AI Research'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/
+  title: 'Import AI 454: Automating alignment research; safety study of a Chinese
+    model; HiFloat4'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/
+  title: 'Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual
+    disempowerment'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/03/30/import-ai-451-political-superintelligence-googles-society-of-minds-and-a-robot-drummer/
+  title: 'Import AI 451: Political superintelligence; Google’s society of minds, and
+    a robot drummer'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/
+  title: 'Import AI 450: China’s electronic warfare model; traumatized LLMs; and a
+    scaling law for cyberattacks'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/
+  title: 'ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer
+    vision is harder than generative text'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/
+  title: 'Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite
+    AI'
+  publisher: Import AI (Jack Clark)
+- url: https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/
+  title: 'Import AI 447: The AGI economy; testing AIs with generated games; and agent
+    ecologies'
+  publisher: Import AI (Jack Clark)
 neican:
   generated_by: entity_product
   review_status: draft
@@ -187,9 +191,6 @@ neican:
 AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸显：CPU成为数据调度与交互的核心限制，GPU之间通信效率不足，内存无法实现统一地址空间共享，整体算力利用率较低。
 
 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，石</p></article>
-<article><time>2026-05-08</time><span class="chip">funding</span><h3>All the latest updates on AI data centers</h3><p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.
-
-From</p></article>
 <article><time>2026-05-08</time><span class="chip">model_release</span><h3>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</h3><p>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.
 
 Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed </p></article>
@@ -201,17 +202,20 @@ our weekday newsletter that provides a daily dose of what’s going on in the wo
 We’ve entered the era of AI malaise
 
 AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society? Will it</p></article>
-<article><time>2026-05-07</time><span class="chip">model_release</span><h3>Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</h3><p>Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
-ChatGPT
-. In
-2024, Musk filed a lawsuit
-accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
+<article><time>2026-05-08</time><span class="chip">funding</span><h3>All the latest updates on AI data centers</h3><p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.
+
+From</p></article>
 <article><time>2026-05-07</time><span class="chip">model_release</span><h3>What’s next for IVF</h3><p>MIT Technology Review
 ’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them
 here
 .
 
 Forty-eight years ago this July, Louise Joy Brown became the world’s first person born with the help of in vitro fertilization. </p></article>
+<article><time>2026-05-07</time><span class="chip">model_release</span><h3>Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</h3><p>Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
+ChatGPT
+. In
+2024, Musk filed a lawsuit
+accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>The Download: seafloor science and military chatbots</h3><p>This is today’s edition of
 The Download
 ,
@@ -248,15 +252,15 @@ highlighted links are free for everyone
 Good morning,
 
 As I noted yesterday, today’s Stratechery Interview is early in terms of my timing — Tuesday instead of Thursday — and late in terms of delivery — 1pm Eastern instead of 6am — because the topic was embargoed. That embargo created a bit of a weird situation for me</p></article>
-<article><time>2026-04-20</time><span class="chip">model_release</span><h3>Reading today's open-closed performance gap</h3><p>It’s a clear, current equilibrium that open models will be in
-perpetual catch-up of closed models
-, but this gap being viewed as a single number, a “distance”, covers up a nuanced and crucial dynamic at what capabilities the models are covering. The most popular benchmark to comment on this gap is t</p></article>
 <article><time>2026-04-20</time><span class="chip">model_release</span><h3>Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
 
 Subscribe now
 
 Huawei’s HiFloat4 training format beats Western-developed MXFP4 in Ascend chip bakeoff:
 …Could this also be a symptom of the impac</p></article>
+<article><time>2026-04-20</time><span class="chip">model_release</span><h3>Reading today's open-closed performance gap</h3><p>It’s a clear, current equilibrium that open models will be in
+perpetual catch-up of closed models
+, but this gap being viewed as a single number, a “distance”, covers up a nuanced and crucial dynamic at what capabilities the models are covering. The most popular benchmark to comment on this gap is t</p></article>
 <article><time>2026-04-15</time><span class="chip">model_release</span><h3>My bets on open models, mid-2026</h3><p>We’re living through the period of time when we’ll learn if open models can keep up with closed labs. The obvious answer is that no, they won’t. This answer is a form of saying they won’t keep up in
 every area
 . This framing closes off a popular prediction where the open models completely
@@ -304,5 +308,5 @@ A</p></article>
 <p><span>5 Pro continues to be loved by developers as the best model for coding, and 2</span></p>
 <p><span>5 Flash is getting even better with a new update</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3799984046333186?f=rss">36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构</a></li><li><a href="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/">Gemma 4: Byte for byte, the most capable open models</a></li><li><a href="https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/">Gemini 3.1 Flash-Lite: Built for intelligence at scale</a></li><li><a href="https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/">Gemini 3 Flash: frontier intelligence built for speed</a></li><li><a href="https://deepmind.google/blog/rethinking-how-we-measure-ai-intelligence/">Rethinking how we measure AI intelligence</a></li><li><a href="https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/">Gemini 2.5: Our most intelligent models are getting even better</a></li><li><a href="https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/">Gemini 2.5: Our most intelligent AI model</a></li><li><a href="http://bair.berkeley.edu/blog/2026/03/13/spex/">Identifying Interactions at Scale for LLMs</a></li><li><a href="https://www.interconnects.ai/p/reading-todays-open-closed-performance">Reading today's open-closed performance gap</a></li><li><a href="https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026">My bets on open models, mid-2026</a></li><li><a href="https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model">The inevitable need for an open model consortium</a></li><li><a href="https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model">Gemma 4 and what makes an open model succeed</a></li><li><a href="https://www.interconnects.ai/p/lossy-self-improvement">Lossy self-improvement</a></li><li><a href="https://www.interconnects.ai/p/the-next-phase-of-open-models">What comes next with open models</a></li><li><a href="https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open">Dean Ball on open models and government control</a></li><li><a href="https://www.interconnects.ai/p/open-models-in-perpetual-catch-up">Open models in perpetual catch-up</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://stratechery.com/2026/long-term-peripheral-myopic-visions/">2026.18: Long-term, Peripheral & Myopic Visions</a></li><li><a href="https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/">Intel Earnings, Intel’s Differentiation?, Whither Terafab</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3799984046333186?f=rss">36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构</a></li><li><a href="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/">Gemma 4: Byte for byte, the most capable open models</a></li><li><a href="https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/">Gemini 3.1 Flash-Lite: Built for intelligence at scale</a></li><li><a href="https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/">Gemini 3 Flash: frontier intelligence built for speed</a></li><li><a href="https://deepmind.google/blog/rethinking-how-we-measure-ai-intelligence/">Rethinking how we measure AI intelligence</a></li><li><a href="https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/">Gemini 2.5: Our most intelligent models are getting even better</a></li><li><a href="https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/">Gemini 2.5: Our most intelligent AI model</a></li><li><a href="http://bair.berkeley.edu/blog/2026/03/13/spex/">Identifying Interactions at Scale for LLMs</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/">The Download: AI malaise and babymaking tech</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/">What’s next for IVF</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/">Import AI 455: Automating AI Research</a></li><li><a href="https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/">Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4</a></li><li><a href="https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/">Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment</a></li><li><a href="https://jack-clark.net/2026/03/30/import-ai-451-political-superintelligence-googles-society-of-minds-and-a-robot-drummer/">Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer</a></li><li><a href="https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/">Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks</a></li><li><a href="https://jack-clark.net/2026/03/16/importai-449-llms-training-other-llms-72b-distributed-training-run-computer-vision-is-harder-than-generative-text/">ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text</a></li><li><a href="https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/">Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI</a></li><li><a href="https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/">Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies</a></li></ul></section>
 </div>

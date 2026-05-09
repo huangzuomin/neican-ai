@@ -2,7 +2,7 @@
 title: ai policy
 slug: ai-policy
 type: topic
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 1
 related_entities:
 - anthropic

@@ -4,7 +4,7 @@ slug: meta-ai
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 14
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could

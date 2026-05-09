@@ -4,7 +4,7 @@ slug: entity-72045fac
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 18
 claims:
 - text: Massive new data centers are the physical foundation for tech companies’ hopes
@@ -574,10 +574,6 @@ claims:
 
 ## 关联事件 (18)
 
-- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
-- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
-- 2026-05-06: The Download: seafloor science and military chatbots
-- 2026-05-08: The Download: AI malaise and babymaking tech
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-05-05: Amazon’s Durability
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
@@ -590,6 +586,10 @@ claims:
 - 2026-04-15: My bets on open models, mid-2026
 - 2026-05-04: The distillation panic
 - 2026-05-07: Notes from inside China's AI labs
+- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-08: The Download: AI malaise and babymaking tech
 - 2026-05-08: 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 

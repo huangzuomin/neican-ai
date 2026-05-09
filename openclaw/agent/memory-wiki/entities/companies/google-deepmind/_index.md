@@ -4,7 +4,7 @@ slug: google-deepmind
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 19
 claims:
 - text: 'The San Francisco–based startup Goodfire just released a new tool, called
@@ -291,13 +291,13 @@ claims:
 
 ## 关联事件 (19)
 
+- 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
 - 2026-04-13: Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
 - 2026-05-04: Import AI 455: Automating AI Research
 - 2026-05-06: The Download: seafloor science and military chatbots
 - 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
 - 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
-- 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2025-02-25: Start building with Gemini 2.0 Flash and Flash-Lite
 - 2025-03-12: Experiment with Gemini 2.0 Flash native image generation
 - 2025-04-14: DolphinGemma: How Google AI is helping decode dolphin communication

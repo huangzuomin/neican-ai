@@ -4,7 +4,7 @@ slug: openai
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 36
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
@@ -3554,14 +3554,6 @@ claims:
 
 ## 关联事件 (36)
 
-- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
-- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
-- 2026-04-06: Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting
-- 2026-05-04: Import AI 455: Automating AI Research
-- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
-- 2026-05-06: The Download: seafloor science and military chatbots
-- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
-- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns
 - 2026-05-07: Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster
@@ -3574,6 +3566,14 @@ claims:
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2026-02-09: Opus 4.6, Codex 5.3, and the post-benchmark era
 - 2026-02-17: Open models in perpetual catch-up
+- 2026-02-24: How much does distillation really matter for Chinese LLMs?
+- 2026-03-16: What comes next with open models
+- 2026-03-18: GPT 5.4 is a big step for Codex
+- 2026-04-09: Claude Mythos and misguided open-weight fearmongering
+- 2026-04-11: The inevitable need for an open model consortium
+- 2026-04-20: Reading today's open-closed performance gap
+- 2026-05-04: The distillation panic
+- 2026-05-07: Notes from inside China's AI labs
 
 ## 结构化声明 (771)
 

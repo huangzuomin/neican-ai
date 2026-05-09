@@ -4,7 +4,7 @@ slug: entity-2235eea8
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 54
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
@@ -1341,26 +1341,26 @@ claims:
 
 ## 关联事件 (54)
 
-- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
-- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
-- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
-- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
-- 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
-- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
-- 2026-04-06: Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting
-- 2026-04-13: Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
-- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
-- 2026-05-04: Import AI 455: Automating AI Research
-- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
-- 2026-05-07: The balcony solar boom is coming to the US
-- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
-- 2026-05-08: Here’s how technology transformed babymaking
-- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-04-28: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
 - 2026-05-05: Amazon’s Durability
 - 2026-05-08: 2026.19: Earning & Spending
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
+- 2026-02-17: Open models in perpetual catch-up
+- 2026-03-05: Olmo Hybrid and future LLM architectures
+- 2026-03-06: Dean Ball on open models and government control
+- 2026-04-03: Gemma 4 and what makes an open model succeed
+- 2026-04-09: Claude Mythos and misguided open-weight fearmongering
+- 2026-04-11: The inevitable need for an open model consortium
+- 2026-04-14: What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research
+- 2026-04-15: My bets on open models, mid-2026
+- 2026-05-04: The distillation panic
+- 2026-05-07: Notes from inside China's AI labs
+- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
 
 ## 结构化声明 (235)
 

@@ -4,7 +4,7 @@ slug: entity-e6803e21
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 12
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
@@ -367,8 +367,6 @@ claims:
 
 ## 关联事件 (12)
 
-- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
-- 2026-05-06: The Download: seafloor science and military chatbots
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: Apple&#8217;s AirPods with cameras for AI are apparently close to production
 - 2026-05-05: Amazon’s Durability
@@ -377,6 +375,8 @@ claims:
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2026-02-09: Opus 4.6, Codex 5.3, and the post-benchmark era
 - 2026-03-06: Dean Ball on open models and government control
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-05-06: The Download: seafloor science and military chatbots
 - 2026-05-08: Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 

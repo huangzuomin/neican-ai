@@ -82,7 +82,7 @@ when to decompose and parallelize independent subtasks, how many concurrent thre
 - **[C]** (2026-05-04) Granite 4.1 3B SVG Pelican Gallery
 - **[C]** (2026-05-04) April 2026 newsletter
 - **[C]** (2026-05-04) Redis Array Playground
-- **[C]** (2026-05-04) The distillation panic
+- **[C]** (2026-05-04) Import AI 455: Automating AI Research
 
 ## 来源统计
 

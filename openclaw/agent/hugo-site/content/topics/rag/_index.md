@@ -87,11 +87,11 @@ when to decompose and parallelize independent subtasks, how many concurrent thre
 - **[C]** (2026-05-08) The Download: AI malaise and babymaking tech
 - **[C]** (2026-05-07) Notes from inside China's AI labs
 - **[C]** (2026-05-06) Vibe coding and agentic engineering are getting closer than I'd like
-- **[C]** (2026-05-05) Amazon’s Durability
 - **[C]** (2026-05-05) The Download: inside the Musk v. Altman trial, and AI for democracy
 - **[C]** (2026-05-05) A blueprint for using AI to strengthen democracy
-- **[C]** (2026-05-04) The distillation panic
+- **[C]** (2026-05-05) Amazon’s Durability
 - **[C]** (2026-05-04) Import AI 455: Automating AI Research
+- **[C]** (2026-05-04) The distillation panic
 - **[C]** (2026-04-30) The Zig project's rationale for their firm anti-AI contribution policy
 - **[C]** (2026-04-29) LLM 0.32a0  is a major backwards-compatible refactor
 - **[C]** (2026-04-20) Gradient-based Planning for World Models at Longer Horizons

@@ -2,7 +2,7 @@
 title: ai safety
 slug: ai-safety
 type: topic
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 9
 related_entities:
 - anthropic

@@ -37,7 +37,8 @@ our weekday newsletter that provides a daily dose of what’s going on in the wo
 Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining
 
 Last week, two oblong neon submersibles started to descend nearly 6,000 meter
-2. **Our AI started a cafe in Stockholm**（model_release）：Our AI started a cafe in Stockholm
+2. **A blueprint for using AI to strengthen democracy**（model_release）：Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele
+3. **Our AI started a cafe in Stockholm**（model_release）：Our AI started a cafe in Stockholm
 
 Andon Labs previously
 started an AI-run retail store
@@ -46,7 +47,6 @@ in San Francisco. Now they're running a similar experiment in Stockholm, Sweden,
 These experiments are interesting, and often throw out amusing anecdotes:
 
 During the first week of i
-3. **A blueprint for using AI to strengthen democracy**（model_release）：Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele
 
 ## 下一步观察
 
@@ -57,8 +57,8 @@ During the first week of i
 ## 相关事件
 
 - **[C]** (2026-05-06) The Download: seafloor science and military chatbots
-- **[C]** (2026-05-05) Our AI started a cafe in Stockholm
 - **[C]** (2026-05-05) A blueprint for using AI to strengthen democracy
+- **[C]** (2026-05-05) Our AI started a cafe in Stockholm
 - **[C]** (2026-05-04) Import AI 455: Automating AI Research
 - **[C]** (2026-04-20) Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
 - **[C]** (2026-04-13) Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment

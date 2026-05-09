@@ -55,31 +55,23 @@ claims:
 - text: 0 Flash-Lite is now generally available in the Gemini API for production use
     in Google AI Studio and for enterprise customers on Vertex AI
   confidence: 0.5
-- text: One of the big stories of 2025 for me was how Nvidia massively stepped up
-    their open model program — more releases, higher quality models, joining a small
-    handful of companies releasing datasets, etc
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
   confidence: 0.5
-- text: 'In this interview, I sat down with one of the 3 VP’s leading the effort of
-    500+ technical staff, Bryan Catanzaro, to discuss:
-
-    Their very impressive Nemotron 3 Nano model released in Dec'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
   confidence: 0.5
-- text: The biggest takeaway I had from this interview is how Nvidia understands their
-    unique roll as a company that and both build and directly capture the value they
-    get from building open language models, giving them a uniquely sustainable advantage
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
   confidence: 0.5
-- text: Bryan has a beautiful analogy for open models this early in AI’s development,
-    and how they are a process of creating “potential energy” for AI’s future applications
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
   confidence: 0.5
-- text: 'I hope you enjoy it!
-
-    Share
-
-    Guest:
-
-    Bryan Catanzaro
-
-    , VP Applied Deep Learning Research (ADLR), NVIDIA'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
   confidence: 0.5
 sources:
 - url: https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/
@@ -120,9 +112,6 @@ sources:
 - url: https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/
   title: Start building with Gemini 2.0 Flash and Flash-Lite
   publisher: Google DeepMind Blog
-- url: https://www.interconnects.ai/p/why-nvidia-builds-open-models-with
-  title: Why Nvidia builds open models with Bryan Catanzaro
-  publisher: Interconnects Blog
 - url: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
   title: 'Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that
     Musk tried to poach Sam Altman'
@@ -144,6 +133,9 @@ sources:
   title: 'Import AI 450: China’s electronic warfare model; traumatized LLMs; and a
     scaling law for cyberattacks'
   publisher: Import AI (Jack Clark)
+- url: https://www.interconnects.ai/p/why-nvidia-builds-open-models-with
+  title: Why Nvidia builds open models with Bryan Catanzaro
+  publisher: Interconnects Blog
 neican:
   generated_by: entity_product
   review_status: draft
@@ -225,5 +217,5 @@ Why does Google’s model hate itself and</p></article>
 <p><span>5 Deep Think model entered into the IMO competition</span></p>
 <p><span>DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/">Announcing our partnership with the Republic of Korea</a></li><li><a href="https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/">Partnering with industry leaders to accelerate AI transformation</a></li><li><a href="https://deepmind.google/blog/protecting-people-from-harmful-manipulation/">Protecting people from harmful manipulation</a></li><li><a href="https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/">Accelerating discovery in India through AI-powered science and education</a></li><li><a href="https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/">Project Genie: Experimenting with infinite, interactive worlds</a></li><li><a href="https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/">Deepening our partnership with the UK AI Security Institute</a></li><li><a href="https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/">Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery</a></li><li><a href="https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/">We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region</a></li><li><a href="https://deepmind.google/blog/try-deep-think-in-the-gemini-app/">Try Deep Think in the Gemini app</a></li><li><a href="https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/">DolphinGemma: How Google AI is helping decode dolphin communication</a></li><li><a href="https://deepmind.google/blog/experiment-with-gemini-20-flash-native-image-generation/">Experiment with Gemini 2.0 Flash native image generation</a></li><li><a href="https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/">Start building with Gemini 2.0 Flash and Flash-Lite</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/">The Download: the tech reshaping IVF and the rise of balcony solar</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/">Import AI 455: Automating AI Research</a></li><li><a href="https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/">Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment</a></li><li><a href="https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/">Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/">Announcing our partnership with the Republic of Korea</a></li><li><a href="https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/">Partnering with industry leaders to accelerate AI transformation</a></li><li><a href="https://deepmind.google/blog/protecting-people-from-harmful-manipulation/">Protecting people from harmful manipulation</a></li><li><a href="https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/">Accelerating discovery in India through AI-powered science and education</a></li><li><a href="https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/">Project Genie: Experimenting with infinite, interactive worlds</a></li><li><a href="https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/">Deepening our partnership with the UK AI Security Institute</a></li><li><a href="https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/">Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery</a></li><li><a href="https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/">We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region</a></li><li><a href="https://deepmind.google/blog/try-deep-think-in-the-gemini-app/">Try Deep Think in the Gemini app</a></li><li><a href="https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/">DolphinGemma: How Google AI is helping decode dolphin communication</a></li><li><a href="https://deepmind.google/blog/experiment-with-gemini-20-flash-native-image-generation/">Experiment with Gemini 2.0 Flash native image generation</a></li><li><a href="https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/">Start building with Gemini 2.0 Flash and Flash-Lite</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/">The Download: the tech reshaping IVF and the rise of balcony solar</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/">Import AI 455: Automating AI Research</a></li><li><a href="https://jack-clark.net/2026/04/13/import-ai-453-breaking-ai-agents-mirrorcode-and-ten-views-on-gradual-disempowerment/">Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment</a></li><li><a href="https://jack-clark.net/2026/03/23/import-ai-450-chinas-electronic-warfare-model-traumatized-llms-and-a-scaling-law-for-cyberattacks/">Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li></ul></section>
 </div>

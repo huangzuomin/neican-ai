@@ -2,7 +2,7 @@
 title: embodied ai
 slug: embodied-ai
 type: topic
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 2
 related_entities:
 - anthropic

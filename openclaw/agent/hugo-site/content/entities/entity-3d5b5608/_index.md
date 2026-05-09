@@ -8,8 +8,8 @@ related_events: 10
 topics:
 - rag
 - llm
-- ai-safety
 - ai-agents
+- ai-safety
 claims:
 - text: '整理
 
@@ -56,94 +56,83 @@ claims:
   confidence: 0.5
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
-- text: There weren't a lot of big new announcements from Anthropic at yesterday's
-    Code w/ Claude event, but the biggest by far was the deal they've struck with
-    SpaceX/xAI to use "all of the capacity of their Colossus data center"
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
   confidence: 0.5
-- text: 'As I mentioned in my
-
-    live blog of the keynote
-
-    , that''s the one with the
-
-    particularly bad environmental record'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
   confidence: 0.5
-- text: The gas turbines installed to power the facility initially ran without Clean
-    Air Act permits or pollution control devices, which they got away with by classifying
-    them as "temporary"
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
   confidence: 0.5
-- text: Credible reports link it to increases in hospital admissions relating to low
-    air quality
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
   confidence: 0.5
-- text: There was a lot of initial chatter about how this meant xAI were clearly giving
-    up on their own Grok models, since all of their capacity would be sold to Anthropic
-    instead
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
   confidence: 0.5
-- text: 'Listen to this
+- text: 'This is today’s edition of
 
-    post
+    The Download
 
-    :
+    ,
 
-
-    Log in to listen
-
-
-    When it comes to the AI soap opera — there is news every day, and the company
-    on top and the bottom seems to shift by the quarter if not the month — the news
-    that I find most intriguing and instructive this week is about physical goods
-    and logistics'
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
   confidence: 0.5
-- text: 'From
-
-    Bloomberg
-
-    :
+- text: 'What’s next for IVF
 
 
-    Amazon'
+    IVF has brought millions of babies into the world over the last four decades'
   confidence: 0.5
-- text: unveiled a suite of logistics services that will let businesses buy its existing
-    freight and distribution offerings as a package, sending shares of rival delivery
-    companies such as FedEx Corp
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
   confidence: 0.5
-- text: and United Parcel Service Inc
+- text: Now, a wave of new technologies aims to change that
   confidence: 0.5
-- text: The world’s largest online retailer on Monday announced Amazon Supply Chain
-    Services (ASCS), offering other companies access to its “full portfolio” of supply-chain
-    and distribution offerings
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
   confidence: 0.5
-- text: Massive new data centers are the physical foundation for tech companies’ hopes
-    and dreams for AI
-  confidence: 0.5
-- text: But the rush to expand warehouses full of energy-hungry servers has also kicked
-    up fights across the world over their impact on power grids, utility bills, nearby
-    communities, and the environment
-  confidence: 0.5
-- text: 'From audacious plans to
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
 
-    launch data centers into space
 
-    to the latest
-
-    legal battles
-
-    over pollution,
-
-    The Verge
-
-    has the biggest news and reporting surrounding data centers'
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
   confidence: 0.5
-- text: 43 percent of Americans blame data centers as a major reason for rising power
-    bills
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
   confidence: 0.5
-- text: A 40,000-acre data center project was just approved in Utah, despite outcry
-    from the community
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+- text: Week one of the Musk v
   confidence: 0.5
 sources:
 - url: https://36kr.com/p/3801348046151428?f=rss
   title: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
   publisher: 36kr AI
+- url: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
+  title: 'Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that
+    Musk tried to poach Sam Altman'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/
+  title: 'The Download: the tech reshaping IVF and the rise of balcony solar'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/
+  title: 'The Download: seafloor science and military chatbots'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/
+  title: 'The Download: inside the Musk v. Altman trial, and AI for democracy'
+  publisher: MIT Technology Review AI
 - url: https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything
   title: Notes on the xAI/Anthropic data center deal
   publisher: Simon Willison Blog
@@ -160,19 +149,6 @@ sources:
   title: Live updates from Elon Musk and Sam Altman’s court battle over the future
     of OpenAI
   publisher: The Verge AI
-- url: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
-  title: 'Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that
-    Musk tried to poach Sam Altman'
-  publisher: MIT Technology Review AI
-- url: https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/
-  title: 'The Download: the tech reshaping IVF and the rise of balcony solar'
-  publisher: MIT Technology Review AI
-- url: https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/
-  title: 'The Download: seafloor science and military chatbots'
-  publisher: MIT Technology Review AI
-- url: https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/
-  title: 'The Download: inside the Musk v. Altman trial, and AI for democracy'
-  publisher: MIT Technology Review AI
 neican:
   generated_by: entity_product
   review_status: draft
@@ -183,8 +159,8 @@ neican:
 <h1>马斯克</h1>
 <p class="page-lead">马斯克 是 neican.ai 追踪的 AI 行业公司。</p>
 <section class="entity-signal"><h2>当前信号</h2>
-<p>马斯克 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、ai-safety，已沉淀 10 个相关事件。</p></section>
-<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/ai-safety/">#ai-safety</a><a href="/topics/ai-agents/">#ai-agents</a></div></section>
+<p>马斯克 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、ai-agents，已沉淀 10 个相关事件。</p></section>
+<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/ai-agents/">#ai-agents</a><a href="/topics/ai-safety/">#ai-safety</a></div></section>
 <section><h2>相关时间线/事件</h2><div class="entity-event-list">
 <article><time>2026-05-09</time><span class="chip">model_release</span><h3>9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</h3><p>整理
 ｜Kris
@@ -210,12 +186,20 @@ DeepSeek拟募资最高500亿元
 “全国销冠”任晓敏被刑拘，泰康人寿回应
 
 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间</p></article>
-<article><time>2026-05-08</time><span class="chip">funding</span><h3>All the latest updates on AI data centers</h3><p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.
-
-From</p></article>
 <article><time>2026-05-08</time><span class="chip">model_release</span><h3>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</h3><p>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.
 
 Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed </p></article>
+<article><time>2026-05-08</time><span class="chip">funding</span><h3>All the latest updates on AI data centers</h3><p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.
+
+From</p></article>
+<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+What’s next for IVF
+
+IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
 <article><time>2026-05-07</time><span class="chip">model_release</span><h3>Notes on the xAI/Anthropic data center deal</h3><p>There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use "all of the capacity of their Colossus data center".
 
 As I mentioned in my
@@ -232,14 +216,6 @@ ChatGPT
 . In
 2024, Musk filed a lawsuit
 accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
-<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
-The Download
-,
-our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
-
-What’s next for IVF
-
-IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>The Download: seafloor science and military chatbots</h3><p>This is today’s edition of
 The Download
 ,
@@ -248,14 +224,6 @@ our weekday newsletter that provides a daily dose of what’s going on in the wo
 Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining
 
 Last week, two oblong neon submersibles started to descend nearly 6,000 meter</p></article>
-<article><time>2026-05-05</time><span class="chip">model_release</span><h3>Amazon’s Durability</h3><p>Listen to this
-post
-:
-
-Log in to listen
-
-When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
-Blo</p></article>
 <article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
 The Download
 ,
@@ -264,6 +232,14 @@ our weekday newsletter that provides a daily dose of what’s going on in the wo
 Week one of the Musk v. Altman trial: what it was like in the room
 
 Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
+<article><time>2026-05-05</time><span class="chip">model_release</span><h3>Amazon’s Durability</h3><p>Listen to this
+post
+:
+
+Log in to listen
+
+When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
+Blo</p></article>
 </div></section>
 <section><h2>关键信息</h2><div class="entity-claims">
 <p><span>整理
@@ -294,26 +270,18 @@ DeepSeek拟募资最高500亿元
 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注</span></p>
 <p><span>对此，公司高度重视，第一时间组织专项工作组派驻青岛，全力配合公安机关的工作，并同步启动对该事件的内部自查和客户排查，绝不姑息任何违法犯罪行为</span></p>
 <p><span>此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露</span></p>
-<p><span>There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use "all of the capacity of their Colossus data center"</span></p>
-<p><span>As I mentioned in my
-live blog of the keynote
-, that's the one with the
-particularly bad environmental record</span></p>
-<p><span>The gas turbines installed to power the facility initially ran without Clean Air Act permits or pollution control devices, which they got away with by classifying them as "temporary"</span></p>
-<p><span>Credible reports link it to increases in hospital admissions relating to low air quality</span></p>
-<p><span>There was a lot of initial chatter about how this meant xAI were clearly giving up on their own Grok models, since all of their capacity would be sold to Anthropic instead</span></p>
-<p><span>Listen to this
-post
-:
+<p><span>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny</span></p>
+<p><span>Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company</span></p>
+<p><span>He claimed that they’d promised to maintain it as a nonprofit dedicated to developing AI for the benefit of humanity, only to later accept billions of dollars of investment from Microsoft and restructure the company to operate a for-profit subsidiary</span></p>
+<p><span>This week, Brockman fired back with his side of the story, arguing that Musk had actually pushed for OpenAI to create a for-profit arm and fought a bitter battle to have “absolute control” over it</span></p>
+<p><span>OpenAI has argued that Musk is suing because he didn’t get his way and is now trying to undermine a competitor to his own AI company, xAI</span></p>
+<p><span>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology</span></p>
+<p><span>What’s next for IVF
 
-Log in to listen
-
-When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics</span></p>
-<p><span>From
-Bloomberg
-:
-
-Amazon</span></p>
+IVF has brought millions of babies into the world over the last four decades</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything">Notes on the xAI/Anthropic data center deal</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">All the latest updates on AI data centers</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips">SpaceX has a $55 billion plan to build AI chips in Texas</a></li><li><a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit">Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/">The Download: the tech reshaping IVF and the rise of balcony solar</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/">The Download: inside the Musk v. Altman trial, and AI for democracy</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/">The Download: the tech reshaping IVF and the rise of balcony solar</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/">The Download: inside the Musk v. Altman trial, and AI for democracy</a></li><li><a href="https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything">Notes on the xAI/Anthropic data center deal</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">All the latest updates on AI data centers</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips">SpaceX has a $55 billion plan to build AI chips in Texas</a></li><li><a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit">Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</a></li></ul></section>
 </div>

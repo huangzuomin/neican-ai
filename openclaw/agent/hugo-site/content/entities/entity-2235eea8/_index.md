@@ -127,18 +127,19 @@ sources:
   title: Defending against Prompt Injection with Structured Queries (StruQ) and Preference
     Optimization (SecAlign)
   publisher: BAIR Berkeley
-- url: https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything
-  title: 'Using Claude Code: The Unreasonable Effectiveness of HTML'
-  publisher: Simon Willison Blog
-- url: https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything
-  title: Behind the Scenes Hardening Firefox with Claude Mythos Preview
-  publisher: Simon Willison Blog
-- url: https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything
-  title: Vibe coding and agentic engineering are getting closer than I'd like
-  publisher: Simon Willison Blog
-- url: https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything
-  title: datasette-referrer-policy 0.1
-  publisher: Simon Willison Blog
+- url: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
+  title: 'Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that
+    Musk tried to poach Sam Altman'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/
+  title: Here’s how technology transformed babymaking
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/
+  title: 'The Download: the tech reshaping IVF and the rise of balcony solar'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/
+  title: The balcony solar boom is coming to the US
+  publisher: MIT Technology Review AI
 neican:
   generated_by: entity_product
   review_status: draft
@@ -157,6 +158,14 @@ neican:
 What if a reasoning model could decide
 for itself
 when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the </p></article>
+<article><time>2026-05-08</time><span class="chip">model_release</span><h3>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</h3><p>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.
+
+Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed </p></article>
+<article><time>2026-05-08</time><span class="chip">other</span><h3>Here’s how technology transformed babymaking</h3><p>Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then.
+
+This week, I’ve been working on
+a piece
+about the cutting edge of IVF technologies and what’s coming </p></article>
 <article><time>2026-05-08</time><span class="chip">model_release</span><h3>Using Claude Code: The Unreasonable Effectiveness of HTML</h3><p>Using Claude Code: The Unreasonable Effectiveness of HTML
 
 Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude.
@@ -171,14 +180,17 @@ Welcome back to This Week in Stratechery!
 As a reminder, each week, every Friday, we’re sending out this overview of content in the Stratechery bundle;
 highlighted links are free for everyone
 . Additionally, you have complete control over what we send to you. I</p></article>
-<article><time>2026-05-08</time><span class="chip">model_release</span><h3>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</h3><p>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.
+<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
 
-Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed </p></article>
-<article><time>2026-05-08</time><span class="chip">other</span><h3>Here’s how technology transformed babymaking</h3><p>Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then.
+What’s next for IVF
 
-This week, I’ve been working on
-a piece
-about the cutting edge of IVF technologies and what’s coming </p></article>
+IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
+<article><time>2026-05-07</time><span class="chip">product_update</span><h3>The balcony solar boom is coming to the US</h3><p>Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills.
+
+Balcony solar is already popular in Europe, and proponents say that the systems c</p></article>
 <article><time>2026-05-07</time><span class="chip">model_release</span><h3>Behind the Scenes Hardening Firefox with Claude Mythos Preview</h3><p>Behind the Scenes Hardening Firefox with Claude Mythos Preview
 
 Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of vulnerabilities in Firefox:
@@ -192,20 +204,17 @@ ChatGPT
 . In
 2024, Musk filed a lawsuit
 accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
-<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
+<article><time>2026-05-06</time><span class="chip">model_release</span><h3>Vibe coding and agentic engineering are getting closer than I'd like</h3><p>I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast:
+Ep. #9, The AI Coding Paradigm Shift with Simon Willison
+. Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own </p></article>
+<article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
 The Download
 ,
 our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
 
-What’s next for IVF
+Week one of the Musk v. Altman trial: what it was like in the room
 
-IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
-<article><time>2026-05-07</time><span class="chip">product_update</span><h3>The balcony solar boom is coming to the US</h3><p>Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills.
-
-Balcony solar is already popular in Europe, and proponents say that the systems c</p></article>
-<article><time>2026-05-06</time><span class="chip">model_release</span><h3>Vibe coding and agentic engineering are getting closer than I'd like</h3><p>I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast:
-Ep. #9, The AI Coding Paradigm Shift with Simon Willison
-. Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own </p></article>
+Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
 <article><time>2026-05-05</time><span class="chip">model_release</span><h3>datasette-referrer-policy 0.1</h3><p>Release:
 
 datasette-referrer-policy 0.1
@@ -227,14 +236,6 @@ Log in to listen
 
 When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
 Blo</p></article>
-<article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
-The Download
-,
-our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
-
-Week one of the Musk v. Altman trial: what it was like in the room
-
-Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>April 2026 newsletter</h3><p>I just sent out the April edition of my
 sponsors-only monthly newsletter
 . If you are a sponsor (or if you start a sponsorship now) you can
@@ -263,7 +264,6 @@ regular expression engine was worth exploring in a little more detail.
 I had Claude Code build an experimental Python binding (it used
 ctypes
 ) and try some malicio</p></article>
-<article><time>2026-05-04</time><span class="chip">model_release</span><h3>The distillation panic</h3><p>‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack i</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>Import AI 455: Automating AI Research</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
 
 Subscribe now
@@ -271,6 +271,7 @@ Subscribe now
 AI systems are about to start building themselves. What does that mean?
 
 I’m writing this post because when I look at all the publ</p></article>
+<article><time>2026-05-04</time><span class="chip">model_release</span><h3>The distillation panic</h3><p>‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack i</p></article>
 <article><time>2026-04-30</time><span class="chip">model_release</span><h3>Our evaluation of OpenAI's GPT-5.5 cyber capabilities</h3><p>Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
 The UK's AI Security Institute
@@ -305,5 +306,5 @@ Lian et al</span></p>
 <p><span>, 2025
 ), one of the methods discussed below</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/">A new way to express yourself: Gemini can now create music</a></li><li><a href="https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/">Deepening our partnership with the UK AI Security Institute</a></li><li><a href="https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/">Strengthening our partnership with the UK government to support prosperity and security in the AI era</a></li><li><a href="https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/">Genie 3: A new frontier for world models</a></li><li><a href="https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/">Introducing CodeMender: an AI agent for code security</a></li><li><a href="https://deepmind.google/blog/advancing-geminis-security-safeguards/">Advancing Gemini's security safeguards</a></li><li><a href="https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/">Generate videos in Gemini and Whisk with Veo 2</a></li><li><a href="https://deepmind.google/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/">Evaluating potential cybersecurity threats of advanced AI</a></li><li><a href="http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/">Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling</a></li><li><a href="http://bair.berkeley.edu/blog/2026/04/20/grasp/">Gradient-based Planning for World Models at Longer Horizons</a></li><li><a href="http://bair.berkeley.edu/blog/2026/03/13/spex/">Identifying Interactions at Scale for LLMs</a></li><li><a href="http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/">Information-Driven Design of Imaging Systems</a></li><li><a href="http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/">RL without TD learning</a></li><li><a href="http://bair.berkeley.edu/blog/2025/09/01/qwem-word2vec-theory/">What exactly does word2vec learn?</a></li><li><a href="http://bair.berkeley.edu/blog/2025/07/01/peva/">Whole-Body Conditioned Egocentric Video Prediction</a></li><li><a href="http://bair.berkeley.edu/blog/2025/04/11/prompt-injection-defense/">Defending against Prompt Injection with Structured Queries (StruQ) and Preference Optimization (SecAlign)</a></li><li><a href="https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything">Using Claude Code: The Unreasonable Effectiveness of HTML</a></li><li><a href="https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything">Behind the Scenes Hardening Firefox with Claude Mythos Preview</a></li><li><a href="https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything">Vibe coding and agentic engineering are getting closer than I'd like</a></li><li><a href="https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything">datasette-referrer-policy 0.1</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/">A new way to express yourself: Gemini can now create music</a></li><li><a href="https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/">Deepening our partnership with the UK AI Security Institute</a></li><li><a href="https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/">Strengthening our partnership with the UK government to support prosperity and security in the AI era</a></li><li><a href="https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/">Genie 3: A new frontier for world models</a></li><li><a href="https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/">Introducing CodeMender: an AI agent for code security</a></li><li><a href="https://deepmind.google/blog/advancing-geminis-security-safeguards/">Advancing Gemini's security safeguards</a></li><li><a href="https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/">Generate videos in Gemini and Whisk with Veo 2</a></li><li><a href="https://deepmind.google/blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/">Evaluating potential cybersecurity threats of advanced AI</a></li><li><a href="http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/">Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling</a></li><li><a href="http://bair.berkeley.edu/blog/2026/04/20/grasp/">Gradient-based Planning for World Models at Longer Horizons</a></li><li><a href="http://bair.berkeley.edu/blog/2026/03/13/spex/">Identifying Interactions at Scale for LLMs</a></li><li><a href="http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/">Information-Driven Design of Imaging Systems</a></li><li><a href="http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/">RL without TD learning</a></li><li><a href="http://bair.berkeley.edu/blog/2025/09/01/qwem-word2vec-theory/">What exactly does word2vec learn?</a></li><li><a href="http://bair.berkeley.edu/blog/2025/07/01/peva/">Whole-Body Conditioned Egocentric Video Prediction</a></li><li><a href="http://bair.berkeley.edu/blog/2025/04/11/prompt-injection-defense/">Defending against Prompt Injection with Structured Queries (StruQ) and Preference Optimization (SecAlign)</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/">Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/">Here’s how technology transformed babymaking</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/">The Download: the tech reshaping IVF and the rise of balcony solar</a></li><li><a href="https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/">The balcony solar boom is coming to the US</a></li></ul></section>
 </div>

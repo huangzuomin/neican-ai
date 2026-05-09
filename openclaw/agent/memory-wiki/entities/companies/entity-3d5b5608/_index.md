@@ -4,7 +4,7 @@ slug: entity-3d5b5608
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 10
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
@@ -346,15 +346,15 @@ claims:
 
 ## 关联事件 (10)
 
-- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
-- 2026-05-06: The Download: seafloor science and military chatbots
-- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
-- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: SpaceX has a $55 billion plan to build AI chips in Texas
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-05-05: Amazon’s Durability
 - 2026-05-07: Notes on the xAI/Anthropic data center deal
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
+- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 
 ## 结构化声明 (50)

@@ -4,7 +4,7 @@ slug: entity-7eced918
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 2
 claims:
 - text: Staring out the window on a new, high-speed train from Hangzhou to Shanghai

@@ -4,7 +4,7 @@ slug: entity-d2015451
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 1
 claims:
 - text: '整理

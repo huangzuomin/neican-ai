@@ -4,7 +4,7 @@ slug: anthropic
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-09'
+last_updated: '2026-05-10'
 related_events: 33
 claims:
 - text: 'The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia,
@@ -1256,15 +1256,6 @@ claims:
 
 ## 关联事件 (33)
 
-- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
-- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
-- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
-- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
-- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
-- 2026-05-04: Import AI 455: Automating AI Research
-- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
-- 2026-05-06: The Download: seafloor science and military chatbots
-- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-04-28: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
@@ -1276,6 +1267,15 @@ claims:
 - 2026-02-24: How much does distillation really matter for Chinese LLMs?
 - 2026-03-06: Dean Ball on open models and government control
 - 2026-04-11: The inevitable need for an open model consortium
+- 2026-04-20: Reading today's open-closed performance gap
+- 2026-05-04: The distillation panic
+- 2026-05-07: Notes from inside China's AI labs
+- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
+- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
+- 2026-05-04: Import AI 455: Automating AI Research
 
 ## 结构化声明 (216)
 

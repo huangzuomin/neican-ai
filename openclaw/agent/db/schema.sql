@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS sources (
   trust_level INTEGER NOT NULL DEFAULT 3,
   language TEXT DEFAULT 'en',
   fetch_interval_minutes INTEGER DEFAULT 120,
+  last_fetched_at TEXT,
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );

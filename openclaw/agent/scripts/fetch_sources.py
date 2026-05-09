@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
@@ -159,6 +159,37 @@ def existing_hash(conn, content_hash: str) -> bool:
     return row is not None
 
 
+def is_within_fetch_window(entry: Any, last_fetched_at: str | None, fetch_interval_minutes: int) -> bool:
+    """Check if entry is within the fetch window.
+
+    If last_fetched_at is set, only include entries published after
+    (last_fetched_at - grace_period). If last_fetched_at is None (first
+    fetch), allow all entries.
+    """
+    if not last_fetched_at:
+        return True  # First fetch, allow all
+
+    published = entry.get("published") or entry.get("updated")
+    if not published:
+        return True  # No publish date, include it
+
+    try:
+        pub_dt = parsedate_to_datetime(published)
+        if pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+
+        last_dt = datetime.fromisoformat(last_fetched_at)
+        if last_dt.tzinfo is None:
+            last_dt = last_dt.replace(tzinfo=timezone.utc)
+
+        # Grace period: 2x fetch_interval to avoid missing edge cases
+        grace = timedelta(minutes=fetch_interval_minutes * 2)
+        cutoff = last_dt - grace
+        return pub_dt >= cutoff
+    except Exception:
+        return True
+
+
 def insert_raw_item(conn, source_id: int, entry: Any, full_text: str | None = None) -> int:
     source_url = entry.get("link") or entry.get("id")
     title = entry.get("title")
@@ -239,6 +270,17 @@ def fetch_sources(
                 break
 
             source_id = source_ids.get(source["url"])
+            fetch_interval = int(source.get("fetch_interval_minutes", 120))
+
+            # Read last_fetched_at for time-window filtering
+            last_fetched_at = None
+            if not dry_run and source_id:
+                row = conn.execute(
+                    "SELECT last_fetched_at FROM sources WHERE id = ?",
+                    (source_id,),
+                ).fetchone()
+                if row and row[0]:
+                    last_fetched_at = row[0]
 
             try:
                 resp = requests.get(
@@ -269,6 +311,11 @@ def fetch_sources(
                         errors.append(f"{source['name']}: item missing source_url")
                         continue
 
+                    # Time-window filter: skip entries outside fetch interval
+                    if not is_within_fetch_window(entry, last_fetched_at, fetch_interval):
+                        skipped_duplicate_count += 1
+                        continue
+
                     if not dry_run and existing_hash(conn, content_hash):
                         skipped_duplicate_count += 1
                         continue
@@ -290,6 +337,14 @@ def fetch_sources(
                 except Exception as exc:  # Keep batch collection alive.
                     failed_count += 1
                     errors.append(f"{source['name']}: {exc}")
+
+            # Update last_fetched_at for this source
+            if not dry_run and source_id:
+                now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                conn.execute(
+                    "UPDATE sources SET last_fetched_at = ? WHERE id = ?",
+                    (now_utc, source_id),
+                )
 
         result = FetchResult(
             inserted_count,

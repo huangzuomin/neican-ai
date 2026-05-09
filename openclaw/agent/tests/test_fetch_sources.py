@@ -200,3 +200,103 @@ def test_fetch_sources_handles_network_error_gracefully(tmp_path, monkeypatch):
     assert result.failed_count >= 1
     # The second source should still have been processed
     assert result.inserted_count >= 1
+
+
+def test_fetch_sources_updates_last_fetched_at(tmp_path):
+    """Each source should have last_fetched_at updated after fetching."""
+    db_path = init_temp_db(tmp_path)
+    sources_path = write_sources(tmp_path)
+
+    fetch_sources(db_path=db_path, sources_path=sources_path, limit=5)
+
+    with get_conn(db_path) as conn:
+        rows = conn.execute(
+            "SELECT name, last_fetched_at FROM sources WHERE enabled = 1 ORDER BY name"
+        ).fetchall()
+
+    assert len(rows) == 2
+    for row in rows:
+        assert row["last_fetched_at"] is not None, f"{row['name']} missing last_fetched_at"
+
+
+def test_fetch_sources_time_window_skips_old_entries_on_second_run(tmp_path, monkeypatch):
+    """Second fetch with last_fetched_at should skip entries outside the window.
+
+    Uses a fixture where entries have old pubDates (2026-05-01). On first fetch,
+    last_fetched_at is set to 'now'. On second fetch, the entries are too old
+    (published before last_fetched_at - grace_period) and get skipped.
+    """
+    db_path = init_temp_db(tmp_path)
+    sources_path = write_sources(tmp_path)
+
+    # First fetch: allow all
+    first = fetch_sources(db_path=db_path, sources_path=sources_path, limit=2)
+    assert first.inserted_count == 2
+
+    # Set last_fetched_at to a future date so entries become "old"
+    with get_conn(db_path) as conn:
+        conn.execute(
+            "UPDATE sources SET last_fetched_at = '2099-06-01T00:00:00Z' WHERE enabled = 1"
+        )
+
+    # Second fetch: entries from 2026-05-01 are outside the window
+    second = fetch_sources(db_path=db_path, sources_path=sources_path, limit=2)
+    assert second.inserted_count == 0
+    assert second.skipped_duplicate_count == 2
+
+
+def test_fetch_sources_time_window_allows_recent_entries_on_second_run(tmp_path, monkeypatch):
+    """Second fetch with last_fetched_at should allow entries published after the cutoff.
+
+    Uses a fixture where entries have pubDates set to 'now'. Both fetches
+    should succeed because entries are within the time window.
+    """
+    from datetime import datetime, timezone
+    import email.utils
+
+    db_path = init_temp_db(tmp_path)
+    sources_path = write_sources(tmp_path)
+
+    now_rfc = email.utils.formatdate(usegmt=True)
+    recent_rss = f'''<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Recent Feed</title>
+    <link>https://example.com/ai</link>
+    <item>
+      <title>Recent Entry</title>
+      <link>https://example.com/recent-entry</link>
+      <pubDate>{now_rfc}</pubDate>
+      <description>Recent content</description>
+    </item>
+  </channel>
+</rss>'''
+
+    def fake_get_recent(url, **kwargs):
+        return FakeResponse(recent_rss.encode())
+
+    monkeypatch.setattr("fetch_sources.requests.get", fake_get_recent)
+    monkeypatch.setattr("fetch_sources.feedparser.parse", lambda c: ORIGINAL_PARSE(c))
+
+    # First fetch
+    first = fetch_sources(db_path=db_path, sources_path=sources_path, limit=2)
+    assert first.inserted_count >= 1  # At least 1 recent entry (sources share same fake RSS)
+
+    # Set last_fetched_at to 1 hour ago — entries published 'now' are within window
+    cutoff = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with get_conn(db_path) as conn:
+        conn.execute(
+            "UPDATE sources SET last_fetched_at = ? WHERE enabled = 1",
+            (cutoff,)
+        )
+
+    # Change URL to avoid content_hash collision
+    newer_rss = recent_rss.replace(
+        "recent-entry", "newer-entry"
+    ).replace(
+        "Recent Entry", "Newer Entry"
+    )
+    monkeypatch.setattr("fetch_sources.requests.get", lambda url, **kw: FakeResponse(newer_rss.encode()))
+
+    second = fetch_sources(db_path=db_path, sources_path=sources_path, limit=2)
+    assert second.inserted_count >= 1  # Recent entries should pass time window

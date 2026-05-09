@@ -5,12 +5,10 @@ slug: embodied-ai
 aliases: []
 parent: null
 description: Embodied AI 主题下的 AI 行业事件、实体和趋势。
-event_count: 3
-entity_count: 17
-source_count: 3
-related_tracks:
-- model-competition
-- ai-agents-enterprise
+event_count: 1
+entity_count: 0
+source_count: 1
+related_tracks: []
 seo:
   title: Embodied AI - neican.ai
   description: AI 行业 Embodied AI 相关事件、实体和趋势分析。
@@ -21,23 +19,33 @@ neican:
 
 # Embodied AI
 
+## 一句话定义
+
 Embodied AI 主题下的 AI 行业事件、实体和趋势。
+
+## 当前判断
+
+Embodied AI 目前仍以弱信号积累为主，需要等待更多高质量事件确认方向。
+
+## 最近事件
+
+1. **Nanoleaf bets its future on robots, red light therapy, and AI**（tool_launch）：Nanoleaf teased a trio of new products focused on embodied AI as it looks to move its brand beyond smart lighting. | Image: Nanoleaf
+
+Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been
+pumping out new products
+and
+innovative f
+
+## 下一步观察
+
+- 是否出现连续的高优先级事件。
+- 核心实体是否推出产品、政策、研究或平台能力变化。
+- 来源可信度是否足以支撑更强判断。
 
 ## 相关事件
 
-- **[B]** (2026-05-05) 英特尔任命高通前高管Alex Katouzian及代理CTO Pushkar Ranade担任领导职务
-- **[A]** (2026-05-02) 卓驭转向物理AI：发布原生多模态基础模型，探索订阅与动作令牌商业模式
-- **[A]** (2026-05-02) 魔法原子在硅谷举办全球具身智能创新大会，发布多项新产品
-
-## 关键实体
-
-卓驭科技, 于贝贝, 小鹏, 魔法原子, 智元机器人, 宇树科技, 亚马逊前沿AI与机器人研究院, 英伟达GEAR Lab
-
-## 相关追踪线
-
-- [model-competition](/timeline/model-competition/)
-- [ai-agents-enterprise](/timeline/ai-agents-enterprise/)
+- **[C]** (2026-05-08) Nanoleaf bets its future on robots, red light therapy, and AI
 
 ## 来源统计
 
-共 3 个来源。
+共 1 个来源。

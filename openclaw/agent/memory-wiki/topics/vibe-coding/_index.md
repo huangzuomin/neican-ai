@@ -2,36 +2,26 @@
 title: vibe coding
 slug: vibe-coding
 type: topic
-last_updated: '2026-05-05'
-related_events: 1
+last_updated: '2026-05-09'
+related_events: 3
 related_entities:
-- aaron-perris
+- 36-fac4f559
 - anthropic
-- apple
-- apple-support
-- claude-code
-- claude-md
-- gemini
-- juno-ai
-- macrumors
-- mark-gurman
+- entity-2235eea8
+- entity-7eced918
 ---
 
 # vibe coding
 
-## 事件时间线 (1)
+## 事件时间线 (3)
 
-- 2026-05-02: 苹果官方App误打包Claude.md，内部使用Claude Code构建生产应用
+- 2026-05-08: 小红书四年AI 路：FOMO、犹豫，到突然加速
+- 2026-05-06: Vibe coding and agentic engineering are getting closer than I'd like
+- 2026-04-30: We need RSS for sharing abundant vibe-coded apps
 
-## 相关实体 (10)
+## 相关实体 (4)
 
-- [[aaron-perris]]
+- [[36-fac4f559]]
 - [[anthropic]]
-- [[apple]]
-- [[apple-support]]
-- [[claude-code]]
-- [[claude-md]]
-- [[gemini]]
-- [[juno-ai]]
-- [[macrumors]]
-- [[mark-gurman]]
+- [[entity-2235eea8]]
+- [[entity-7eced918]]

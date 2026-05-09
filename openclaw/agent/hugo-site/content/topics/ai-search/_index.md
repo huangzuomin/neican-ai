@@ -5,12 +5,10 @@ slug: ai-search
 aliases: []
 parent: null
 description: AI Search 主题下的 AI 行业事件、实体和趋势。
-event_count: 4
-entity_count: 16
-source_count: 4
-related_tracks:
-- ai-agents-enterprise
-- model-competition
+event_count: 0
+entity_count: 0
+source_count: 0
+related_tracks: []
 seo:
   title: AI Search - neican.ai
   description: AI 行业 AI Search 相关事件、实体和趋势分析。
@@ -21,24 +19,20 @@ neican:
 
 # AI Search
 
+## 一句话定义
+
 AI Search 主题下的 AI 行业事件、实体和趋势。
 
-## 相关事件
+## 当前判断
 
-- **[B]** (2026-05-05) 中国移动将在2026移动云大会推出AI-eSIM产品
-- **[B]** (2026-05-05) 苹果考虑让英特尔、三星代工设备处理器
-- **[C]** (2026-05-04) 职场Bonus更名为有三思，聚焦青年职业选择与成长
-- **[B]** (2026-05-02) 威马汽车破产清算：亿元债权以9.35万元白菜价拍卖
+AI Search 目前仍以弱信号积累为主，需要等待更多高质量事件确认方向。
 
-## 关键实体
+## 最近事件
 
-职场Bonus, 有三思, 36氪, 有三思 U Sense, 威马汽车, 博世汽车部件（苏州）有限公司, 上海喜泊客科技有限公司, 宁德时代新能源科技股份有限公司
+1. 暂无可公开展示的近期事件。
 
-## 相关追踪线
+## 下一步观察
 
-- [ai-agents-enterprise](/timeline/ai-agents-enterprise/)
-- [model-competition](/timeline/model-competition/)
-
-## 来源统计
-
-共 4 个来源。
+- 是否出现连续的高优先级事件。
+- 核心实体是否推出产品、政策、研究或平台能力变化。
+- 来源可信度是否足以支撑更强判断。

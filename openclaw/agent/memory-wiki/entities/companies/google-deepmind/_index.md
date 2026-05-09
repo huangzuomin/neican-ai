@@ -4,8 +4,8 @@ slug: google-deepmind
 type: entity
 entity_type: company
 role: mentioned
-last_updated: '2026-05-02'
-related_events: 4
+last_updated: '2026-05-09'
+related_events: 13
 claims:
 - text: 'The San Francisco–based startup Goodfire just released a new tool, called
     Silico, that lets researchers and engineers peer inside an AI model and adjust
@@ -57,20 +57,118 @@ claims:
     and MineRL
   confidence: 0.5
   date: '2020-06-20T07:00:00+00:00'
+- text: One of the big stories of 2025 for me was how Nvidia massively stepped up
+    their open model program — more releases, higher quality models, joining a small
+    handful of companies releasing datasets, etc
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 'In this interview, I sat down with one of the 3 VP’s leading the effort of
+    500+ technical staff, Bryan Catanzaro, to discuss:
+
+    Their very impressive Nemotron 3 Nano model released in Dec'
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: The biggest takeaway I had from this interview is how Nvidia understands their
+    unique roll as a company that and both build and directly capture the value they
+    get from building open language models, giving them a uniquely sustainable advantage
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: Bryan has a beautiful analogy for open models this early in AI’s development,
+    and how they are a process of creating “potential energy” for AI’s future applications
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 'I hope you enjoy it!
+
+    Share
+
+    Guest:
+
+    Bryan Catanzaro
+
+    , VP Applied Deep Learning Research (ADLR), NVIDIA'
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 0 Flash-Lite is now generally available in the Gemini API for production use
+    in Google AI Studio and for enterprise customers on Vertex AI
+  confidence: 0.5
+  date: '2025-02-25T18:02:12+00:00'
+- text: Native image output is available in Gemini 2
+  confidence: 0.5
+  date: '2025-03-12T14:58:00+00:00'
+- text: 0 Flash for developers to experiment with in Google AI Studio and the Gemini
+    API
+  confidence: 0.5
+  date: '2025-03-12T14:58:00+00:00'
+- text: DolphinGemma, a large language model developed by Google, is helping scientists
+    study how dolphins communicate — and hopefully find out what they're saying, too
+  confidence: 0.5
+  date: '2025-04-14T17:00:00+00:00'
+- text: We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers,
+    and we're giving select mathematicians access to the full version of the Gemini
+    2
+  confidence: 0.5
+  date: '2025-10-23T18:54:19+00:00'
+- text: 5 Deep Think model entered into the IMO competition
+  confidence: 0.5
+  date: '2025-10-23T18:54:19+00:00'
+- text: Google DeepMind opens a new Singapore research lab, accelerating AI progress
+    in the Asia-Pacific region
+  confidence: 0.5
+  date: '2025-11-18T17:00:00+00:00'
+- text: Google DeepMind and the DOE partner on Genesis, a new effort to accelerate
+    science with AI
+  confidence: 0.5
+  date: '2025-11-24T14:12:03+00:00'
+- text: Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration
+    on critical AI safety and security research
+  confidence: 0.5
+  date: '2025-12-11T00:06:40+00:00'
+- text: Google AI Ultra subscribers in the U
+  confidence: 0.5
+  date: '2026-01-29T17:01:05+00:00'
+- text: can try out Project Genie, an experimental research prototype that lets you
+    create and explore worlds
+  confidence: 0.5
+  date: '2026-01-29T17:01:05+00:00'
+- text: Google DeepMind brings National Partnerships for AI initiative to India, scaling
+    AI for science and education
+  confidence: 0.5
+  date: '2026-02-17T13:42:20+00:00'
+- text: Google DeepMind researches AI's harmful manipulation risks across areas like
+    finance and health, leading to new safety measures
+  confidence: 0.5
+  date: '2026-03-25T16:46:20+00:00'
+- text: Google DeepMind partners with global consultancies to bring the power of frontier
+    AI to organizations around the world
+  confidence: 0.5
+  date: '2026-04-21T14:54:15+00:00'
+- text: Google DeepMind and Korea partner to accelerate scientific breakthroughs using
+    frontier AI models
+  confidence: 0.5
+  date: '2026-04-27T07:00:06+00:00'
 ---
 
 # Google DeepMind
 
 **角色**: mentioned
 
-## 关联事件 (4)
+## 关联事件 (13)
 
-- 2026-04-30: This startup’s new mechanistic interpretability tool lets you debug LLMs
-- 2017-06-13: Learning from human preferences
-- 2019-04-15: OpenAI Five defeats Dota 2 world champions
-- 2020-06-20: Procgen and MineRL Competitions
+- 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
+- 2025-02-25: Start building with Gemini 2.0 Flash and Flash-Lite
+- 2025-03-12: Experiment with Gemini 2.0 Flash native image generation
+- 2025-04-14: DolphinGemma: How Google AI is helping decode dolphin communication
+- 2025-10-23: Try Deep Think in the Gemini app
+- 2025-11-18: We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region
+- 2025-11-24: Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery
+- 2025-12-11: Deepening our partnership with the UK AI Security Institute
+- 2026-01-29: Project Genie: Experimenting with infinite, interactive worlds
+- 2026-02-17: Accelerating discovery in India through AI-powered science and education
+- 2026-03-25: Protecting people from harmful manipulation
+- 2026-04-21: Partnering with industry leaders to accelerate AI transformation
+- 2026-04-27: Announcing our partnership with the Republic of Korea
 
-## 结构化声明 (10)
+## 结构化声明 (30)
 
 - The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the
 settings that determine a model’s behavior
@@ -84,3 +182,18 @@ settings that determine a model’s behavior
 - OpenAI Five is the first AI to beat the world champions in an esports game, having won two back-to-back games versus the world champion Dota 2 team, OG, at Finals this weekend（50%）
 - Both OpenAI Five and DeepMind’s AlphaStar had previously beaten good pros privately but lost their live pro matches, making this also the first time an AI has beaten esports pros on livestream（50%）
 - We’re excited to announce that OpenAI is co-organizing two NeurIPS 2020 competitions with AIcrowd, Carnegie Mellon University, and DeepMind, using Procgen Benchmark and MineRL（50%）
+- One of the big stories of 2025 for me was how Nvidia massively stepped up their open model program — more releases, higher quality models, joining a small handful of companies releasing datasets, etc（50%）
+- In this interview, I sat down with one of the 3 VP’s leading the effort of 500+ technical staff, Bryan Catanzaro, to discuss:
+Their very impressive Nemotron 3 Nano model released in Dec（50%）
+- The biggest takeaway I had from this interview is how Nvidia understands their unique roll as a company that and both build and directly capture the value they get from building open language models, giving them a uniquely sustainable advantage（50%）
+- Bryan has a beautiful analogy for open models this early in AI’s development, and how they are a process of creating “potential energy” for AI’s future applications（50%）
+- I hope you enjoy it!
+Share
+Guest:
+Bryan Catanzaro
+, VP Applied Deep Learning Research (ADLR), NVIDIA（50%）
+- 0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI（50%）
+- Native image output is available in Gemini 2（50%）
+- 0 Flash for developers to experiment with in Google AI Studio and the Gemini API（50%）
+- DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too（50%）
+- We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers, and we're giving select mathematicians access to the full version of the Gemini 2（50%）

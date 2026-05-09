@@ -5,13 +5,10 @@ slug: ai-agents
 aliases: []
 parent: null
 description: AI Agents 主题下的 AI 行业事件、实体和趋势。
-event_count: 7
-entity_count: 33
-source_count: 7
-related_tracks:
-- ai-agents-enterprise
-- model-competition
-- ai-governance
+event_count: 3
+entity_count: 2
+source_count: 3
+related_tracks: []
 seo:
   title: AI Agents - neican.ai
   description: AI 行业 AI Agents 相关事件、实体和趋势分析。
@@ -22,28 +19,40 @@ neican:
 
 # AI Agents
 
+## 一句话定义
+
 AI Agents 主题下的 AI 行业事件、实体和趋势。
+
+## 当前判断
+
+AI Agents 目前仍以弱信号积累为主，需要等待更多高质量事件确认方向。
+
+## 最近事件
+
+1. **Our AI started a cafe in Stockholm**（model_release）：Our AI started a cafe in Stockholm
+
+Andon Labs previously
+started an AI-run retail store
+in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe.
+
+These experiments are interesting, and often throw out amusing anecdotes:
+
+During the first week of i
+2. **Lossy self-improvement**（model_release）：Fast takeoff, the singularity, and recursive self-improvement (RSI) are all top of mind in AI circles these days. There are elements of truth to them in what’s happening in the AI industry. Two, maybe three, labs are consolidating as an oligopoly with access to the best AI models (and the resources 
+3. **Gemini Robotics 1.5 brings AI agents into the physical world**（model_release）：We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.
+
+## 下一步观察
+
+- 是否出现连续的高优先级事件。
+- 核心实体是否推出产品、政策、研究或平台能力变化。
+- 来源可信度是否足以支撑更强判断。
 
 ## 相关事件
 
-- **[B]** (2026-05-05) 中国移动将在2026移动云大会推出AI-eSIM产品
-- **[B]** (2026-05-05) 苹果考虑让英特尔、三星代工设备处理器
-- **[C]** (2026-05-04) 职场Bonus更名为有三思，聚焦青年职业选择与成长
-- **[B]** (2026-05-04) 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格
-- **[A]** (2026-05-02) 卓驭转向物理AI：发布原生多模态基础模型，探索订阅与动作令牌商业模式
-- **[A]** (2026-05-02) 魔法原子在硅谷举办全球具身智能创新大会，发布多项新产品
-- **[A]** (2026-05-02) 苹果官方App误打包Claude.md，内部使用Claude Code构建生产应用
-
-## 关键实体
-
-36氪, 苹果, 职场Bonus, 有三思, 有三思 U Sense, 豆包, 李小霞, 卓驭科技
-
-## 相关追踪线
-
-- [ai-agents-enterprise](/timeline/ai-agents-enterprise/)
-- [model-competition](/timeline/model-competition/)
-- [ai-governance](/timeline/ai-governance/)
+- **[C]** (2026-05-05) Our AI started a cafe in Stockholm
+- **[C]** (2026-03-22) Lossy self-improvement
+- **[C]** (2025-10-23) Gemini Robotics 1.5 brings AI agents into the physical world
 
 ## 来源统计
 
-共 7 个来源。
+共 3 个来源。

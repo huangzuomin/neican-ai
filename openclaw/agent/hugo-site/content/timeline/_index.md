@@ -17,8 +17,8 @@ seo:
 </div>
 <div class="timeline-kpis">
 <div><strong>0</strong><span>公开节点</span></div>
-<div><strong>0</strong><span>A 级关键事件</span></div>
-<div><strong>0</strong><span>B 级趋势信号</span></div>
+<div><strong>0</strong><span>重点事件</span></div>
+<div><strong>0</strong><span>趋势信号</span></div>
 <div><strong>0</strong><span>覆盖年份</span></div>
 </div>
 <section><h2>当前追踪线</h2><div class="timeline-track-grid">

@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 39
+related_events: 54
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -1022,36 +1022,347 @@ claims:
     3, empowering anyone to make 30-second tracks using text or images
   confidence: 0.5
   date: '2026-02-18T16:01:38+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: As someone who has spent their professional life in AI writing about AI measurement
+    and building teams (e
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: There are also examples where you can measure something to shift incentives
+    – for instance, satellite imagery of methane emissions can help shift incentives
+    for people that build gas infrastructure
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: 'Subscribe now
+
+
+    AI progress is moving faster than even well regarded forecasters can guess:
+
+    …Ajeya Cotra updates her timelines…
+
+    “On Jan 14th, I made predictions about AI progress in 2026'
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: My forecasts for software engineering capabilities already feel much too conservative,”
+    writes Ajeya Cotra in a blog
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: 'Subscribe now
+
+
+    Can LLMs autonomously refine other LLMs for new tasks? Somewhat'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: '…PostTrainBench shows startling growth in AI capabilities at post-training…
+
+    AI-driven R&D might be the most important thing in all of AI, because it helps
+    us understand whether AI systems might eventually build their own successors'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: A somewhat shorter issue than usual as I had to do a lot of child wrangling
+    this weekend
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Today’s LLMs are generally quite good at writing and coding tasks
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: But getting to a world where a “political superintelligence” exists and helps
+    us is a lot more challenging than just building better AI systems, according to
+    Andy Hall, a political economy professor at Stanford
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: “AI is like the printing press, to a point
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: “Across frontier models released since 2019, the doubling time is 9
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Restricting to models released since 2024, it steepens to 5
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: 'A shorter issue than usual as I was attending the
+
+    2026 Bilderberg conference
+
+    this week'
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: The results show that AI systems are more capable than most people think at
+    certain types of coding task, suggesting AI progress may be even faster than we
+    previously thought
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: This is interesting because it correlates to a broader level of interest in
+    Chinese companies seeking to develop their own low-precision data formats explicitly
+    coupled with their own hardware platforms
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: “Our goal is to enable efficient FP4 LLM pretraining on specialized AI accelerators
+    with strict power constraints
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'Subscribe now
+
+
+    AI systems are about to start building themselves'
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: I don’t know how to wrap my head around it
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: Dozens of US states are considering legislation to allow people to install
+    plug-in solar systems, often called balcony solar
+  confidence: 0.5
+  date: '2026-05-07T10:00:00+00:00'
+- text: These small arrays require little to no setup and could help cut emissions
+    and power bills
+  confidence: 0.5
+  date: '2026-05-07T10:00:00+00:00'
+- text: Balcony solar is already popular in Europe, and proponents say that the systems
+    could make solar power more accessible for more people in the US, including renters
+  confidence: 0.5
+  date: '2026-05-07T10:00:00+00:00'
+- text: As popularity rises, though, some experts caution that there are safety concerns
+    with how balcony solar would work with existing electrical equipment in homes
+  confidence: 0.5
+  date: '2026-05-07T10:00:00+00:00'
+- text: Let’s talk about what balcony solar is, why it’s unique, and how new testing
+    requirements could affect our progress toward deploying the technology in the
+    US
+  confidence: 0.5
+  date: '2026-05-07T10:00:00+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: 'What’s next for IVF
+
+
+    IVF has brought millions of babies into the world over the last four decades'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Now, a wave of new technologies aims to change that
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Technology is changing the way we make babies
+  confidence: 0.5
+  date: '2026-05-08T09:00:00+00:00'
+- text: The pioneering work of the scientists who invented IVF led to the birth of
+    the first “test tube baby” in 1978
+  confidence: 0.5
+  date: '2026-05-08T09:00:00+00:00'
+- text: We’ve come a long, long way since then
+  confidence: 0.5
+  date: '2026-05-08T09:00:00+00:00'
+- text: 'This week, I’ve been working on
+
+    a piece
+
+    about the cutting edge of IVF technologies and what’s coming next'
+  confidence: 0.5
+  date: '2026-05-08T09:00:00+00:00'
+- text: Think AI and robots and, potentially, gene-edited embryos
+  confidence: 0.5
+  date: '2026-05-08T09:00:00+00:00'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
 ---
 
 # 美国证券交易委员会
 
 **角色**: mentioned
 
-## 关联事件 (39)
+## 关联事件 (54)
 
+- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
+- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
+- 2026-04-06: Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting
+- 2026-04-13: Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
+- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
+- 2026-05-04: Import AI 455: Automating AI Research
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-07: The balcony solar boom is coming to the US
+- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
+- 2026-05-08: Here’s how technology transformed babymaking
+- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-04-28: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
 - 2026-05-05: Amazon’s Durability
 - 2026-05-08: 2026.19: Earning & Spending
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
-- 2026-02-17: Open models in perpetual catch-up
-- 2026-03-05: Olmo Hybrid and future LLM architectures
-- 2026-03-06: Dean Ball on open models and government control
-- 2026-04-03: Gemma 4 and what makes an open model succeed
-- 2026-04-09: Claude Mythos and misguided open-weight fearmongering
-- 2026-04-11: The inevitable need for an open model consortium
-- 2026-04-14: What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research
-- 2026-04-15: My bets on open models, mid-2026
-- 2026-05-04: The distillation panic
-- 2026-05-07: Notes from inside China's AI labs
-- 2026-04-29: LLM 0.32a0  is a major backwards-compatible refactor
-- 2026-04-30: Our evaluation of OpenAI's GPT-5.5 cyber capabilities
-- 2026-05-04: TRE Python binding — ReDoS robustness demo
-- 2026-05-04: April 2026 newsletter
-- 2026-05-05: datasette-referrer-policy 0.1
 
-## 结构化声明 (160)
+## 结构化声明 (235)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

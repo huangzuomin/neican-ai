@@ -3,11 +3,12 @@ title: llm
 slug: llm
 type: topic
 last_updated: '2026-05-09'
-related_events: 47
+related_events: 56
 related_entities:
 - 36-fac4f559
 - anthropic
 - entity-2235eea8
+- entity-26ef7017
 - entity-35da3d25
 - entity-3d5b5608
 - entity-72045fac
@@ -20,7 +21,7 @@ related_entities:
 
 # llm
 
-## 事件时间线 (47)
+## 事件时间线 (56)
 
 - 2026-05-09: Quoting Luke Curley
 - 2026-05-08: Using Claude Code: The Unreasonable Effectiveness of HTML
@@ -43,11 +44,12 @@ related_entities:
 - 2026-05-04: The distillation panic
 - 2026-05-04: Redis Array Playground
 
-## 相关实体 (11)
+## 相关实体 (12)
 
 - [[36-fac4f559]]
 - [[anthropic]]
 - [[entity-2235eea8]]
+- [[entity-26ef7017]]
 - [[entity-35da3d25]]
 - [[entity-3d5b5608]]
 - [[entity-72045fac]]

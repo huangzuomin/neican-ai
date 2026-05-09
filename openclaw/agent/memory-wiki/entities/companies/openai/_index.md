@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 28
+related_events: 36
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -3388,14 +3388,180 @@ claims:
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
   date: 2026-05-09 08:57:59  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: 'Subscribe now
+
+
+    Can LLMs autonomously refine other LLMs for new tasks? Somewhat'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: '…PostTrainBench shows startling growth in AI capabilities at post-training…
+
+    AI-driven R&D might be the most important thing in all of AI, because it helps
+    us understand whether AI systems might eventually build their own successors'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: “Across frontier models released since 2019, the doubling time is 9
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Restricting to models released since 2024, it steepens to 5
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'Subscribe now
+
+
+    AI systems are about to start building themselves'
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: I don’t know how to wrap my head around it
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'What’s next for IVF
+
+
+    IVF has brought millions of babies into the world over the last four decades'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Now, a wave of new technologies aims to change that
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
 ---
 
 # OpenAI
 
 **角色**: mentioned
 
-## 关联事件 (28)
+## 关联事件 (36)
 
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-04-06: Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting
+- 2026-05-04: Import AI 455: Automating AI Research
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
+- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns
 - 2026-05-07: Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster
@@ -3408,16 +3574,8 @@ claims:
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2026-02-09: Opus 4.6, Codex 5.3, and the post-benchmark era
 - 2026-02-17: Open models in perpetual catch-up
-- 2026-02-24: How much does distillation really matter for Chinese LLMs?
-- 2026-03-16: What comes next with open models
-- 2026-03-18: GPT 5.4 is a big step for Codex
-- 2026-04-09: Claude Mythos and misguided open-weight fearmongering
-- 2026-04-11: The inevitable need for an open model consortium
-- 2026-04-20: Reading today's open-closed performance gap
-- 2026-05-04: The distillation panic
-- 2026-05-07: Notes from inside China's AI labs
 
-## 结构化声明 (734)
+## 结构化声明 (771)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

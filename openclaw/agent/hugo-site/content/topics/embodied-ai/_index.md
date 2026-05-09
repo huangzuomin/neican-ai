@@ -5,9 +5,9 @@ slug: embodied-ai
 aliases: []
 parent: null
 description: Embodied AI 主题下的 AI 行业事件、实体和趋势。
-event_count: 1
-entity_count: 0
-source_count: 1
+event_count: 2
+entity_count: 2
+source_count: 2
 related_tracks: []
 seo:
   title: Embodied AI - neican.ai
@@ -35,6 +35,13 @@ Smart lighting company Nanoleaf has been unusually quiet recently. While competi
 pumping out new products
 and
 innovative f
+2. **Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy**（model_release）：Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
+
+Subscribe now
+
+Want to make AI go better? Figure out how to measure it:
+…One simple policy intervention that works well…
+Jacob Steinhardt, an AI 
 
 ## 下一步观察
 
@@ -45,7 +52,8 @@ innovative f
 ## 相关事件
 
 - **[C]** (2026-05-08) Nanoleaf bets its future on robots, red light therapy, and AI
+- **[C]** (2026-02-23) Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
 
 ## 来源统计
 
-共 1 个来源。
+共 2 个来源。

@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 24
+related_events: 33
 claims:
 - text: 'The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia,
     Elon Musk''s xAI, and the startup Reflection, allowing the agency to use their
@@ -1075,14 +1075,196 @@ claims:
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
   date: 2026-05-09 08:57:59  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: As someone who has spent their professional life in AI writing about AI measurement
+    and building teams (e
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: There are also examples where you can measure something to shift incentives
+    – for instance, satellite imagery of methane emissions can help shift incentives
+    for people that build gas infrastructure
+  confidence: 0.5
+  date: '2026-02-23T13:31:18+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: 'Subscribe now
+
+
+    Can LLMs autonomously refine other LLMs for new tasks? Somewhat'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: '…PostTrainBench shows startling growth in AI capabilities at post-training…
+
+    AI-driven R&D might be the most important thing in all of AI, because it helps
+    us understand whether AI systems might eventually build their own successors'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: But getting to a world where a “political superintelligence” exists and helps
+    us is a lot more challenging than just building better AI systems, according to
+    Andy Hall, a political economy professor at Stanford
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: “AI is like the printing press, to a point
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: This is interesting because it correlates to a broader level of interest in
+    Chinese companies seeking to develop their own low-precision data formats explicitly
+    coupled with their own hardware platforms
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: “Our goal is to enable efficient FP4 LLM pretraining on specialized AI accelerators
+    with strict power constraints
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'Subscribe now
+
+
+    AI systems are about to start building themselves'
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: I don’t know how to wrap my head around it
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'What’s next for IVF
+
+
+    IVF has brought millions of babies into the world over the last four decades'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Now, a wave of new technologies aims to change that
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
 ---
 
 # Anthropic
 
 **角色**: mentioned
 
-## 关联事件 (24)
+## 关联事件 (33)
 
+- 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
+- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
+- 2026-05-04: Import AI 455: Automating AI Research
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-04-28: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
@@ -1094,17 +1276,8 @@ claims:
 - 2026-02-24: How much does distillation really matter for Chinese LLMs?
 - 2026-03-06: Dean Ball on open models and government control
 - 2026-04-11: The inevitable need for an open model consortium
-- 2026-04-20: Reading today's open-closed performance gap
-- 2026-05-04: The distillation panic
-- 2026-05-07: Notes from inside China's AI labs
-- 2026-04-29: LLM 0.32a0  is a major backwards-compatible refactor
-- 2026-04-30: The Zig project's rationale for their firm anti-AI contribution policy
-- 2026-04-30: Our evaluation of OpenAI's GPT-5.5 cyber capabilities
-- 2026-05-03: Quoting Anthropic
-- 2026-05-06: Vibe coding and agentic engineering are getting closer than I'd like
-- 2026-05-06: Live blog: Code w/ Claude 2026
 
-## 结构化声明 (174)
+## 结构化声明 (216)
 
 - The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an
 announcement on Friday（50%）

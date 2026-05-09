@@ -5,9 +5,9 @@ slug: llm
 aliases: []
 parent: null
 description: LLM 主题下的 AI 行业事件、实体和趋势。
-event_count: 47
-entity_count: 11
-source_count: 47
+event_count: 56
+entity_count: 12
+source_count: 56
 related_tracks: []
 seo:
   title: LLM - neican.ai
@@ -86,4 +86,4 @@ when to decompose and parallelize independent subtasks, how many concurrent thre
 
 ## 来源统计
 
-共 47 个来源。
+共 56 个来源。

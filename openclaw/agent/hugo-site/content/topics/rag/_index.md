@@ -5,9 +5,9 @@ slug: rag
 aliases: []
 parent: null
 description: RAG 主题下的 AI 行业事件、实体和趋势。
-event_count: 22
-entity_count: 14
-source_count: 22
+event_count: 35
+entity_count: 16
+source_count: 35
 related_tracks: []
 seo:
   title: RAG - neican.ai
@@ -83,24 +83,24 @@ when to decompose and parallelize independent subtasks, how many concurrent thre
 - **[C]** (2026-05-09) 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 - **[C]** (2026-05-08) 小红书四年AI 路：FOMO、犹豫，到突然加速
 - **[C]** (2026-05-08) Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling
+- **[C]** (2026-05-08) Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
+- **[C]** (2026-05-08) The Download: AI malaise and babymaking tech
 - **[C]** (2026-05-07) Notes from inside China's AI labs
 - **[C]** (2026-05-06) Vibe coding and agentic engineering are getting closer than I'd like
 - **[C]** (2026-05-05) Amazon’s Durability
+- **[C]** (2026-05-05) The Download: inside the Musk v. Altman trial, and AI for democracy
+- **[C]** (2026-05-05) A blueprint for using AI to strengthen democracy
 - **[C]** (2026-05-04) The distillation panic
+- **[C]** (2026-05-04) Import AI 455: Automating AI Research
 - **[C]** (2026-04-30) The Zig project's rationale for their firm anti-AI contribution policy
 - **[C]** (2026-04-29) LLM 0.32a0  is a major backwards-compatible refactor
 - **[C]** (2026-04-20) Gradient-based Planning for World Models at Longer Horizons
+- **[C]** (2026-04-20) Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
 - **[C]** (2026-04-15) My bets on open models, mid-2026
+- **[C]** (2026-04-13) Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
 - **[C]** (2026-04-09) Claude Mythos and misguided open-weight fearmongering
-- **[C]** (2026-03-30) Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others
-- **[C]** (2026-03-18) GPT 5.4 is a big step for Codex
-- **[C]** (2026-03-13) Identifying Interactions at Scale for LLMs
-- **[C]** (2026-02-17) Open models in perpetual catch-up
-- **[C]** (2026-02-04) Why Nvidia builds open models with Bryan Catanzaro
-- **[C]** (2025-11-10) How AI is giving Northern Ireland teachers time back
-- **[C]** (2025-10-24) Aeneas transforms how historians connect the past
-- **[C]** (2025-10-24) Discovering new solutions to century-old problems in fluid dynamics
+- **[C]** (2026-04-06) Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting
 
 ## 来源统计
 
-共 22 个来源。
+共 35 个来源。

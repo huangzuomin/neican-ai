@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 23
+related_events: 35
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -561,14 +561,286 @@ claims:
 - text: 容芯致远创始人石旭毕业于清华大学电子工程系，在芯片设计与AI领域从业多年，接受硬氪采访时，石旭表示，“在实际部署中，典型的AI服务器配置需要多个CPU协同调度少量GPU，且随着规模扩大，CPU数量也需同步增加，系统复杂度与成本显著上升，这正说明传统架构难以适配AI时代的计算需求
   confidence: 0.5
   date: 2026-05-08 09:45:14  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: 'Subscribe now
+
+
+    AI progress is moving faster than even well regarded forecasters can guess:
+
+    …Ajeya Cotra updates her timelines…
+
+    “On Jan 14th, I made predictions about AI progress in 2026'
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: My forecasts for software engineering capabilities already feel much too conservative,”
+    writes Ajeya Cotra in a blog
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: 'Subscribe now
+
+
+    Can LLMs autonomously refine other LLMs for new tasks? Somewhat'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: '…PostTrainBench shows startling growth in AI capabilities at post-training…
+
+    AI-driven R&D might be the most important thing in all of AI, because it helps
+    us understand whether AI systems might eventually build their own successors'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: A somewhat shorter issue than usual as I had to do a lot of child wrangling
+    this weekend
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Today’s LLMs are generally quite good at writing and coding tasks
+  confidence: 0.5
+  date: '2026-03-23T12:31:45+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: But getting to a world where a “political superintelligence” exists and helps
+    us is a lot more challenging than just building better AI systems, according to
+    Andy Hall, a political economy professor at Stanford
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: “AI is like the printing press, to a point
+  confidence: 0.5
+  date: '2026-03-30T12:28:13+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: 'A shorter issue than usual as I was attending the
+
+    2026 Bilderberg conference
+
+    this week'
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: The results show that AI systems are more capable than most people think at
+    certain types of coding task, suggesting AI progress may be even faster than we
+    previously thought
+  confidence: 0.5
+  date: '2026-04-13T10:02:22+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: This is interesting because it correlates to a broader level of interest in
+    Chinese companies seeking to develop their own low-precision data formats explicitly
+    coupled with their own hardware platforms
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: “Our goal is to enable efficient FP4 LLM pretraining on specialized AI accelerators
+    with strict power constraints
+  confidence: 0.5
+  date: '2026-04-20T12:30:19+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'Subscribe now
+
+
+    AI systems are about to start building themselves'
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: I don’t know how to wrap my head around it
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'MIT Technology Review
+
+    ’s What’s Next series looks across industries, trends, and technologies to give
+    you a first look at the future'
+  confidence: 0.5
+  date: '2026-05-07T09:04:50+00:00'
+- text: 'You can read the rest of them
+
+    here'
+  confidence: 0.5
+  date: '2026-05-07T09:04:50+00:00'
+- text: Forty-eight years ago this July, Louise Joy Brown became the world’s first
+    person born with the help of in vitro fertilization
+  confidence: 0.5
+  date: '2026-05-07T09:04:50+00:00'
+- text: Millions more IVF babies have entered the world since then
+  confidence: 0.5
+  date: '2026-05-07T09:04:50+00:00'
+- text: And that’s partly thanks to advances in technology that have made IVF safer
+    and more effective
+  confidence: 0.5
+  date: '2026-05-07T09:04:50+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: 'We’ve entered the era of AI malaise
+
+
+    AI is spreading everywhere, and it is not going away'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: 'But what will it do? What effect will it have on our society? Will it make
+    life better, or worse? How will we know? What’s the plan?
+
+
+    This technology may very well take our jobs—or just crash the economy instead'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: Our apps are all getting injections of AI, like it or not
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: And it is increasingly impossible to tell whether we are relying too much
+    on AI or not using it enough
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
 ---
 
 # 英特尔
 
 **角色**: mentioned
 
-## 关联事件 (23)
+## 关联事件 (35)
 
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
+- 2026-03-16: ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text
+- 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
+- 2026-03-30: Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer
+- 2026-04-13: Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
+- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
+- 2026-05-04: Import AI 455: Automating AI Research
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-07: What’s next for IVF
+- 2026-05-08: The Download: AI malaise and babymaking tech
+- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-04-28: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
@@ -577,20 +849,8 @@ claims:
 - 2026-05-05: Amazon’s Durability
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
 - 2026-02-17: Open models in perpetual catch-up
-- 2026-03-06: Dean Ball on open models and government control
-- 2026-03-16: What comes next with open models
-- 2026-03-22: Lossy self-improvement
-- 2026-04-03: Gemma 4 and what makes an open model succeed
-- 2026-04-11: The inevitable need for an open model consortium
-- 2026-04-15: My bets on open models, mid-2026
-- 2026-04-20: Reading today's open-closed performance gap
-- 2026-03-13: Identifying Interactions at Scale for LLMs
-- 2025-03-25: Gemini 2.5: Our most intelligent AI model
-- 2025-05-20: Gemini 2.5: Our most intelligent models are getting even better
-- 2025-10-23: Rethinking how we measure AI intelligence
-- 2025-12-17: Gemini 3 Flash: frontier intelligence built for speed
 
-## 结构化声明 (91)
+## 结构化声明 (151)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

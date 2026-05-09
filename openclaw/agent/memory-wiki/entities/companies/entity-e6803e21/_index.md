@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 10
+related_events: 12
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -308,14 +308,67 @@ claims:
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
   date: 2026-05-09 08:57:59  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
 ---
 
 # 苹果
 
 **角色**: mentioned
 
-## 关联事件 (10)
+## 关联事件 (12)
 
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
+- 2026-05-06: The Download: seafloor science and military chatbots
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: Apple&#8217;s AirPods with cameras for AI are apparently close to production
 - 2026-05-05: Amazon’s Durability
@@ -327,7 +380,7 @@ claims:
 - 2026-05-08: Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 
-## 结构化声明 (45)
+## 结构化声明 (55)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

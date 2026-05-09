@@ -4,10 +4,11 @@ type: entity_profile
 entity_type: company
 entity_role: core_actor
 entity_quality: approved
-related_events: 10
+related_events: 12
 topics:
 - rag
 - llm
+- ai-agents
 - ai-safety
 claims:
 - text: '整理
@@ -161,6 +162,13 @@ sources:
   title: Live updates from Elon Musk and Sam Altman’s court battle over the future
     of OpenAI
   publisher: The Verge AI
+- url: https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/
+  title: 'The Download: seafloor science and military chatbots'
+  publisher: MIT Technology Review AI
+- url: https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/
+  title: 'Import AI 447: The AGI economy; testing AIs with generated games; and agent
+    ecologies'
+  publisher: Import AI (Jack Clark)
 neican:
   generated_by: entity_product
   review_status: draft
@@ -171,8 +179,8 @@ neican:
 <h1>苹果</h1>
 <p class="page-lead">苹果 是 neican.ai 追踪的 AI 行业公司。</p>
 <section class="entity-signal"><h2>当前信号</h2>
-<p>苹果 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、ai-safety，已沉淀 10 个相关事件。</p></section>
-<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/ai-safety/">#ai-safety</a></div></section>
+<p>苹果 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、ai-agents，已沉淀 12 个相关事件。</p></section>
+<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/ai-agents/">#ai-agents</a><a href="/topics/ai-safety/">#ai-safety</a></div></section>
 <section><h2>相关时间线/事件</h2><div class="entity-event-list">
 <article><time>2026-05-09</time><span class="chip">model_release</span><h3>9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</h3><p>整理
 ｜Kris
@@ -230,6 +238,14 @@ ChatGPT
 2024, Musk filed a lawsuit
 accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>Microsoft Earnings, Apple Earnings</h3><p>Microsoft unveils its new agentic business model, and Apple confronts shortages in memory and chips even as the Mac benefits from AI.</p></article>
+<article><time>2026-05-06</time><span class="chip">model_release</span><h3>The Download: seafloor science and military chatbots</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining
+
+Last week, two oblong neon submersibles started to descend nearly 6,000 meter</p></article>
 <article><time>2026-05-05</time><span class="chip">model_release</span><h3>Amazon’s Durability</h3><p>Listen to this
 post
 :
@@ -239,6 +255,12 @@ Log in to listen
 When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
 Blo</p></article>
 <article><time>2026-03-06</time><span class="chip">model_release</span><h3>Dean Ball on open models and government control</h3><p>Watching history unfold between Anthropic and the Department of War (DoW) it has been obvious to me that this could be a major turning point in perspectives on open models, but one that’ll take years to be obvious. As AI becomes more powerful, existing power structures will grapple with their roles </p></article>
+<article><time>2026-03-02</time><span class="chip">model_release</span><h3>Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
+
+Subscribe now
+
+The AGI economy – most labor goes to the machines, and humans shift to verification:
+…What grappling with the singularity seriousl</p></article>
 <article><time>2026-02-09</time><span class="chip">model_release</span><h3>Opus 4.6, Codex 5.3, and the post-benchmark era</h3><p>Last Thursday, February 5th, both OpenAI and Anthropic unveiled the next iterations of their models designed as coding assistants,
 GPT-5.3-Codex
 and
@@ -289,5 +311,5 @@ DeepSeek拟募资最高500亿元
 <p><span>Watching history unfold between Anthropic and the Department of War (DoW) it has been obvious to me that this could be a major turning point in perspectives on open models, but one that’ll take years to be obvious</span></p>
 <p><span>As AI becomes more powerful, existing power structures will grapple with their roles relative to existing companies</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://36kr.com/p/3799129165863937?f=rss">Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家</a></li><li><a href="https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open">Dean Ball on open models and government control</a></li><li><a href="https://www.interconnects.ai/p/opus-46-vs-codex-53">Opus 4.6, Codex 5.3, and the post-benchmark era</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://stratechery.com/2026/earning-spending/">2026.19: Earning & Spending</a></li><li><a href="https://stratechery.com/2026/microsoft-earnings-apple-earnings/">Microsoft Earnings, Apple Earnings</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production">Apple&#8217;s AirPods with cameras for AI are apparently close to production</a></li><li><a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit">Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://36kr.com/p/3799129165863937?f=rss">Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家</a></li><li><a href="https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open">Dean Ball on open models and government control</a></li><li><a href="https://www.interconnects.ai/p/opus-46-vs-codex-53">Opus 4.6, Codex 5.3, and the post-benchmark era</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://stratechery.com/2026/earning-spending/">2026.19: Earning & Spending</a></li><li><a href="https://stratechery.com/2026/microsoft-earnings-apple-earnings/">Microsoft Earnings, Apple Earnings</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production">Apple&#8217;s AirPods with cameras for AI are apparently close to production</a></li><li><a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit">Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://jack-clark.net/2026/03/02/import-ai-447-the-agi-economy-testing-ais-with-generated-games-and-agent-ecologies/">Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies</a></li></ul></section>
 </div>

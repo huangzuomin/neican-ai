@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 6
+related_events: 10
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -224,14 +224,132 @@ claims:
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
   date: 2026-05-09 08:57:59  +0800
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: 'What’s next for IVF
+
+
+    IVF has brought millions of babies into the world over the last four decades'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Now, a wave of new technologies aims to change that
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
 ---
 
 # 马斯克
 
 **角色**: mentioned
 
-## 关联事件 (6)
+## 关联事件 (10)
 
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-07: The Download: the tech reshaping IVF and the rise of balcony solar
+- 2026-05-08: Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
 - 2026-05-07: Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI
 - 2026-05-07: SpaceX has a $55 billion plan to build AI chips in Texas
 - 2026-05-08: All the latest updates on AI data centers
@@ -239,7 +357,7 @@ claims:
 - 2026-05-07: Notes on the xAI/Anthropic data center deal
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 
-## 结构化声明 (30)
+## 结构化声明 (50)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

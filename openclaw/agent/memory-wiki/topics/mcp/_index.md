@@ -2,19 +2,24 @@
 title: mcp
 slug: mcp
 type: topic
-last_updated: '2026-05-05'
-related_events: 2
+last_updated: '2026-05-09'
+related_events: 1
 related_entities:
-- entity
+- anthropic
+- entity-2235eea8
+- entity-26ef7017
+- entity-35da3d25
 ---
 
 # mcp
 
-## 事件时间线 (2)
+## 事件时间线 (1)
 
-- 2026-05-02: 荣耀宣布推出张雪机车冠军联名款手表庆祝WSBK夺冠
-- 2026-05-02: 威马汽车破产债权以9.35万元拍卖，亿元应收款成白菜价
+- 2026-04-20: Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4
 
-## 相关实体 (1)
+## 相关实体 (4)
 
-- [[entity]]
+- [[anthropic]]
+- [[entity-2235eea8]]
+- [[entity-26ef7017]]
+- [[entity-35da3d25]]

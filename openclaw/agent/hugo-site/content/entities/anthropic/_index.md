@@ -4,12 +4,16 @@ type: entity_profile
 entity_type: company
 entity_role: core_actor
 entity_quality: approved
-related_events: 24
+related_events: 33
 topics:
 - llm
 - rag
-- vibe-coding
+- ai-agents
 - ai-safety
+- vibe-coding
+- mcp
+- embodied-ai
+- ai-policy
 claims:
 - text: '整理
 
@@ -192,8 +196,8 @@ neican:
 <h1>Anthropic</h1>
 <p class="page-lead">Anthropic 是 neican.ai 追踪的 AI 行业公司。</p>
 <section class="entity-signal"><h2>当前信号</h2>
-<p>Anthropic 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 llm、rag、vibe-coding，已沉淀 20 个相关事件。</p></section>
-<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/llm/">#llm</a><a href="/topics/rag/">#rag</a><a href="/topics/vibe-coding/">#vibe-coding</a><a href="/topics/ai-safety/">#ai-safety</a></div></section>
+<p>Anthropic 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 llm、rag、ai-agents，已沉淀 20 个相关事件。</p></section>
+<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/llm/">#llm</a><a href="/topics/rag/">#rag</a><a href="/topics/ai-agents/">#ai-agents</a><a href="/topics/ai-safety/">#ai-safety</a><a href="/topics/vibe-coding/">#vibe-coding</a><a href="/topics/mcp/">#mcp</a><a href="/topics/embodied-ai/">#embodied-ai</a><a href="/topics/ai-policy/">#ai-policy</a></div></section>
 <section><h2>相关时间线/事件</h2><div class="entity-event-list">
 <article><time>2026-05-09</time><span class="chip">model_release</span><h3>9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</h3><p>整理
 ｜Kris
@@ -255,6 +259,14 @@ ChatGPT
 . In
 2024, Musk filed a lawsuit
 accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
+<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+What’s next for IVF
+
+IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>Live blog: Code w/ Claude 2026</h3><p>I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions.
 
 Tags:
@@ -274,6 +286,14 @@ live-blog</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>Vibe coding and agentic engineering are getting closer than I'd like</h3><p>I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast:
 Ep. #9, The AI Coding Paradigm Shift with Simon Willison
 . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own </p></article>
+<article><time>2026-05-06</time><span class="chip">model_release</span><h3>The Download: seafloor science and military chatbots</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining
+
+Last week, two oblong neon submersibles started to descend nearly 6,000 meter</p></article>
 <article><time>2026-05-05</time><span class="chip">model_release</span><h3>Amazon’s Durability</h3><p>Listen to this
 post
 :
@@ -282,8 +302,23 @@ Log in to listen
 
 When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
 Blo</p></article>
+<article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Week one of the Musk v. Altman trial: what it was like in the room
+
+Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>The distillation panic</h3><p>‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack i</p></article>
 <article><time>2026-05-04</time><span class="chip">other</span><h3>Google Earnings, Meta Earnings</h3><p>Wall Street loved Google's earnings, and hated Meta's, even though the latter's core business was more impressive. The difference is that Google is monetizing its investments now (and it might be all Anthropic).</p></article>
+<article><time>2026-05-04</time><span class="chip">model_release</span><h3>Import AI 455: Automating AI Research</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
+
+Subscribe now
+
+AI systems are about to start building themselves. What does that mean?
+
+I’m writing this post because when I look at all the publ</p></article>
 <article><time>2026-05-03</time><span class="chip">model_release</span><h3>Quoting Anthropic</h3><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situation</p></article>
 <article><time>2026-04-30</time><span class="chip">model_release</span><h3>Our evaluation of OpenAI's GPT-5.5 cyber capabilities</h3><p>Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
@@ -305,26 +340,6 @@ No LLMs for issues.
 No LLMs for pull requests.
 
 No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on</p></article>
-<article><time>2026-04-29</time><span class="chip">model_release</span><h3>LLM 0.32a0  is a major backwards-compatible refactor</h3><p>I just released
-LLM 0.32a0
-, an alpha release of my
-LLM
-Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while.
-
-Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get b</p></article>
-<article><time>2026-04-28</time><span class="chip">model_release</span><h3>An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents</h3><p>Listen to this post:
-
-Good morning,
-
-As I noted yesterday, today’s Stratechery Interview is early in terms of my timing — Tuesday instead of Thursday — and late in terms of delivery — 1pm Eastern instead of 6am — because the topic was embargoed. That embargo created a bit of a weird situation for me</p></article>
-<article><time>2026-04-20</time><span class="chip">model_release</span><h3>Reading today's open-closed performance gap</h3><p>It’s a clear, current equilibrium that open models will be in
-perpetual catch-up of closed models
-, but this gap being viewed as a single number, a “distance”, covers up a nuanced and crucial dynamic at what capabilities the models are covering. The most popular benchmark to comment on this gap is t</p></article>
-<article><time>2026-04-11</time><span class="chip">model_release</span><h3>The inevitable need for an open model consortium</h3><p>Recently, I was talking with
-Percy Liang
-, Stanford professor and lead of the
-Marin
-project (another fully-open model lab), and it set in on me that there will eventually be a consortium of companies funding a foundational set of open models used across industry. It’s not clear when this’ll emerge, </p></article>
 </div></section>
 <section><h2>关键信息</h2><div class="entity-claims">
 <p><span>整理

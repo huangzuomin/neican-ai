@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-09'
-related_events: 14
+related_events: 18
 claims:
 - text: Massive new data centers are the physical foundation for tech companies’ hopes
     and dreams for AI
@@ -450,14 +450,134 @@ claims:
 - text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
   confidence: 0.5
   date: 2026-05-09 08:57:59  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: 'Subscribe now
+
+
+    AI progress is moving faster than even well regarded forecasters can guess:
+
+    …Ajeya Cotra updates her timelines…
+
+    “On Jan 14th, I made predictions about AI progress in 2026'
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: My forecasts for software engineering capabilities already feel much too conservative,”
+    writes Ajeya Cotra in a blog
+  confidence: 0.5
+  date: '2026-03-09T12:45:54+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'This is today’s edition of
+
+    The Download
+
+    ,
+
+    our weekday newsletter that provides a daily dose of what’s going on in the world
+    of technology'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: 'We’ve entered the era of AI malaise
+
+
+    AI is spreading everywhere, and it is not going away'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: 'But what will it do? What effect will it have on our society? Will it make
+    life better, or worse? How will we know? What’s the plan?
+
+
+    This technology may very well take our jobs—or just crash the economy instead'
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: Our apps are all getting injections of AI, like it or not
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
+- text: And it is increasingly impossible to tell whether we are relying too much
+    on AI or not using it enough
+  confidence: 0.5
+  date: '2026-05-08T12:10:00+00:00'
 ---
 
 # 英伟达
 
 **角色**: mentioned
 
-## 关联事件 (14)
+## 关联事件 (18)
 
+- 2026-03-09: Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI
+- 2026-05-05: The Download: inside the Musk v. Altman trial, and AI for democracy
+- 2026-05-06: The Download: seafloor science and military chatbots
+- 2026-05-08: The Download: AI malaise and babymaking tech
 - 2026-05-08: All the latest updates on AI data centers
 - 2026-05-05: Amazon’s Durability
 - 2026-02-04: Why Nvidia builds open models with Bryan Catanzaro
@@ -473,7 +593,7 @@ claims:
 - 2026-05-08: 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 
-## 结构化声明 (70)
+## 结构化声明 (90)
 
 - Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI（50%）
 - But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment（50%）

@@ -4,11 +4,12 @@ type: entity_profile
 entity_type: company
 entity_role: core_actor
 entity_quality: approved
-related_events: 14
+related_events: 18
 topics:
 - rag
 - llm
 - multimodal
+- ai-agents
 claims:
 - text: '整理
 
@@ -144,6 +145,19 @@ sources:
 - url: https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy
   title: All the latest updates on AI data centers
   publisher: The Verge AI
+- url: https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/
+  title: 'The Download: AI malaise and babymaking tech'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/
+  title: 'The Download: seafloor science and military chatbots'
+  publisher: MIT Technology Review AI
+- url: https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/
+  title: 'The Download: inside the Musk v. Altman trial, and AI for democracy'
+  publisher: MIT Technology Review AI
+- url: https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/
+  title: 'Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite
+    AI'
+  publisher: Import AI (Jack Clark)
 neican:
   generated_by: entity_product
   review_status: draft
@@ -154,8 +168,8 @@ neican:
 <h1>英伟达</h1>
 <p class="page-lead">英伟达 是 neican.ai 追踪的 AI 行业公司。</p>
 <section class="entity-signal"><h2>当前信号</h2>
-<p>英伟达 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、multimodal，已沉淀 14 个相关事件。</p></section>
-<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/multimodal/">#multimodal</a></div></section>
+<p>英伟达 最近出现在“9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉”中，事件类型为 model_release；当前主要关联 rag、llm、multimodal，已沉淀 18 个相关事件。</p></section>
+<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/rag/">#rag</a><a href="/topics/llm/">#llm</a><a href="/topics/multimodal/">#multimodal</a><a href="/topics/ai-agents/">#ai-agents</a></div></section>
 <section><h2>相关时间线/事件</h2><div class="entity-event-list">
 <article><time>2026-05-09</time><span class="chip">model_release</span><h3>9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</h3><p>整理
 ｜Kris
@@ -193,7 +207,23 @@ AI浪潮下，算力需求激增，传统以CPU为中心的架构瓶颈愈发凸
 <article><time>2026-05-08</time><span class="chip">funding</span><h3>All the latest updates on AI data centers</h3><p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.
 
 From</p></article>
+<article><time>2026-05-08</time><span class="chip">model_release</span><h3>The Download: AI malaise and babymaking tech</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+We’ve entered the era of AI malaise
+
+AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society? Will it</p></article>
 <article><time>2026-05-07</time><span class="chip">model_release</span><h3>Notes from inside China's AI labs</h3><p>Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun. The mountains cast a backdrop to a mix of spanning fields and clustered skyscrapers. I’m returning from C</p></article>
+<article><time>2026-05-06</time><span class="chip">model_release</span><h3>The Download: seafloor science and military chatbots</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining
+
+Last week, two oblong neon submersibles started to descend nearly 6,000 meter</p></article>
 <article><time>2026-05-05</time><span class="chip">model_release</span><h3>Amazon’s Durability</h3><p>Listen to this
 post
 :
@@ -202,6 +232,14 @@ Log in to listen
 
 When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
 Blo</p></article>
+<article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Week one of the Musk v. Altman trial: what it was like in the room
+
+Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>The distillation panic</h3><p>‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack i</p></article>
 <article><time>2026-04-15</time><span class="chip">model_release</span><h3>My bets on open models, mid-2026</h3><p>We’re living through the period of time when we’ll learn if open models can keep up with closed labs. The obvious answer is that no, they won’t. This answer is a form of saying they won’t keep up in
 every area
@@ -224,6 +262,13 @@ open-weight AI model narratives surged. The TL;DR of the argument is that our di
 <article><time>2026-03-16</time><span class="chip">model_release</span><h3>What comes next with open models</h3><p>2025 was the year where a lot of companies started to take open models seriously as a path to influence in the extremely valuable AI ecosystem — the adoption of a strategy that was massively accelerated downstream of
 DeepSeek R1’s
 breakout success. Most of this is being done as a mission of hope, pr</p></article>
+<article><time>2026-03-09</time><span class="chip">model_release</span><h3>Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
+
+Subscribe now
+
+AI progress is moving faster than even well regarded forecasters can guess:
+…Ajeya Cotra updates her timelines…
+“On Jan 14th, I ma</p></article>
 <article><time>2026-03-06</time><span class="chip">model_release</span><h3>Dean Ball on open models and government control</h3><p>Watching history unfold between Anthropic and the Department of War (DoW) it has been obvious to me that this could be a major turning point in perspectives on open models, but one that’ll take years to be obvious. As AI becomes more powerful, existing power structures will grapple with their roles </p></article>
 <article><time>2026-03-05</time><span class="chip">model_release</span><h3>Olmo Hybrid and future LLM architectures</h3><p>So-called hybrid architectures are far from new in open-weight models these days. We now have the recent
 Qwen 3.5
@@ -280,5 +325,5 @@ DeepSeek拟募资最高500亿元
 <p><span>Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun</span></p>
 <p><span>The mountains cast a backdrop to a mix of spanning fields and clustered skyscrapers</span></p>
 </div></section>
-<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://36kr.com/p/3799984046333186?f=rss">36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构</a></li><li><a href="https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs">Notes from inside China's AI labs</a></li><li><a href="https://www.interconnects.ai/p/the-distillation-panic">The distillation panic</a></li><li><a href="https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026">My bets on open models, mid-2026</a></li><li><a href="https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model">The inevitable need for an open model consortium</a></li><li><a href="https://www.interconnects.ai/p/claude-mythos-and-misguided-open">Claude Mythos and misguided open-weight fearmongering</a></li><li><a href="https://www.interconnects.ai/p/latest-open-artifacts-20-new-orgs">Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others</a></li><li><a href="https://www.interconnects.ai/p/the-next-phase-of-open-models">What comes next with open models</a></li><li><a href="https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open">Dean Ball on open models and government control</a></li><li><a href="https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures">Olmo Hybrid and future LLM architectures</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">All the latest updates on AI data centers</a></li></ul></section>
+<section><h2>来源</h2><ul class="entity-sources"><li><a href="https://36kr.com/p/3801348046151428?f=rss">9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉</a></li><li><a href="https://36kr.com/p/3799984046333186?f=rss">36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构</a></li><li><a href="https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs">Notes from inside China's AI labs</a></li><li><a href="https://www.interconnects.ai/p/the-distillation-panic">The distillation panic</a></li><li><a href="https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026">My bets on open models, mid-2026</a></li><li><a href="https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model">The inevitable need for an open model consortium</a></li><li><a href="https://www.interconnects.ai/p/claude-mythos-and-misguided-open">Claude Mythos and misguided open-weight fearmongering</a></li><li><a href="https://www.interconnects.ai/p/latest-open-artifacts-20-new-orgs">Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others</a></li><li><a href="https://www.interconnects.ai/p/the-next-phase-of-open-models">What comes next with open models</a></li><li><a href="https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open">Dean Ball on open models and government control</a></li><li><a href="https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures">Olmo Hybrid and future LLM architectures</a></li><li><a href="https://www.interconnects.ai/p/why-nvidia-builds-open-models-with">Why Nvidia builds open models with Bryan Catanzaro</a></li><li><a href="https://stratechery.com/2026/amazons-durability/">Amazon’s Durability</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">All the latest updates on AI data centers</a></li><li><a href="https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/">The Download: AI malaise and babymaking tech</a></li><li><a href="https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/">The Download: seafloor science and military chatbots</a></li><li><a href="https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/">The Download: inside the Musk v. Altman trial, and AI for democracy</a></li><li><a href="https://jack-clark.net/2026/03/09/import-ai-448-ai-rd-bytedances-cuda-writing-agent-on-device-satellite-ai/">Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI</a></li></ul></section>
 </div>

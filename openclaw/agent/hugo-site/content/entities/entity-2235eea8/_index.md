@@ -4,12 +4,16 @@ type: entity_profile
 entity_type: company
 entity_role: core_actor
 entity_quality: approved
-related_events: 39
+related_events: 54
 topics:
 - llm
 - rag
 - ai-safety
+- ai-agents
 - vibe-coding
+- mcp
+- multimodal
+- embodied-ai
 claims:
 - text: The Gemini app now features our most advanced music generation model Lyria
     3, empowering anyone to make 30-second tracks using text or images
@@ -146,7 +150,7 @@ neican:
 <p class="page-lead">美国证券交易委员会 是 neican.ai 追踪的 AI 行业公司。</p>
 <section class="entity-signal"><h2>当前信号</h2>
 <p>美国证券交易委员会 最近出现在“Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling”中，事件类型为 model_release；当前主要关联 llm、rag、ai-safety，已沉淀 20 个相关事件。</p></section>
-<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/llm/">#llm</a><a href="/topics/rag/">#rag</a><a href="/topics/ai-safety/">#ai-safety</a><a href="/topics/vibe-coding/">#vibe-coding</a></div></section>
+<section><h2>关联主题</h2><div class="entity-topic-chips"><a href="/topics/llm/">#llm</a><a href="/topics/rag/">#rag</a><a href="/topics/ai-safety/">#ai-safety</a><a href="/topics/ai-agents/">#ai-agents</a><a href="/topics/vibe-coding/">#vibe-coding</a><a href="/topics/mcp/">#mcp</a><a href="/topics/multimodal/">#multimodal</a><a href="/topics/embodied-ai/">#embodied-ai</a></div></section>
 <section><h2>相关时间线/事件</h2><div class="entity-event-list">
 <article><time>2026-05-08</time><span class="chip">model_release</span><h3>Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling</h3><p>Overview of adaptive parallel reasoning.
 
@@ -167,6 +171,14 @@ Welcome back to This Week in Stratechery!
 As a reminder, each week, every Friday, we’re sending out this overview of content in the Stratechery bundle;
 highlighted links are free for everyone
 . Additionally, you have complete control over what we send to you. I</p></article>
+<article><time>2026-05-08</time><span class="chip">model_release</span><h3>Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman</h3><p>In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny.
+
+Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed </p></article>
+<article><time>2026-05-08</time><span class="chip">other</span><h3>Here’s how technology transformed babymaking</h3><p>Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then.
+
+This week, I’ve been working on
+a piece
+about the cutting edge of IVF technologies and what’s coming </p></article>
 <article><time>2026-05-07</time><span class="chip">model_release</span><h3>Behind the Scenes Hardening Firefox with Claude Mythos Preview</h3><p>Behind the Scenes Hardening Firefox with Claude Mythos Preview
 
 Fascinating, in-depth details on how Mozilla used their access to the Claude Mythos preview to locate and then fix hundreds of vulnerabilities in Firefox:
@@ -180,6 +192,17 @@ ChatGPT
 . In
 2024, Musk filed a lawsuit
 accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits</p></article>
+<article><time>2026-05-07</time><span class="chip">model_release</span><h3>The Download: the tech reshaping IVF and the rise of balcony solar</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+What’s next for IVF
+
+IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expensive—and</p></article>
+<article><time>2026-05-07</time><span class="chip">product_update</span><h3>The balcony solar boom is coming to the US</h3><p>Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills.
+
+Balcony solar is already popular in Europe, and proponents say that the systems c</p></article>
 <article><time>2026-05-06</time><span class="chip">model_release</span><h3>Vibe coding and agentic engineering are getting closer than I'd like</h3><p>I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast:
 Ep. #9, The AI Coding Paradigm Shift with Simon Willison
 . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own </p></article>
@@ -204,6 +227,14 @@ Log in to listen
 
 When it comes to the AI soap opera — there is news every day, and the company on top and the bottom seems to shift by the quarter if not the month — the news that I find most intriguing and instructive this week is about physical goods and logistics. From
 Blo</p></article>
+<article><time>2026-05-05</time><span class="chip">model_release</span><h3>The Download: inside the Musk v. Altman trial, and AI for democracy</h3><p>This is today’s edition of
+The Download
+,
+our weekday newsletter that provides a daily dose of what’s going on in the world of technology.
+
+Week one of the Musk v. Altman trial: what it was like in the room
+
+Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle of a landm</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>April 2026 newsletter</h3><p>I just sent out the April edition of my
 sponsors-only monthly newsletter
 . If you are a sponsor (or if you start a sponsorship now) you can
@@ -233,6 +264,13 @@ I had Claude Code build an experimental Python binding (it used
 ctypes
 ) and try some malicio</p></article>
 <article><time>2026-05-04</time><span class="chip">model_release</span><h3>The distillation panic</h3><p>‘Distillation attacks’ is a horrible term for what is happening right now. Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract more signal from model APIs — stopping this is important to maintain the U.S.’s lead in AI capabilities. Referring to this as distillation attack i</p></article>
+<article><time>2026-05-04</time><span class="chip">model_release</span><h3>Import AI 455: Automating AI Research</h3><p>Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe.
+
+Subscribe now
+
+AI systems are about to start building themselves. What does that mean?
+
+I’m writing this post because when I look at all the publ</p></article>
 <article><time>2026-04-30</time><span class="chip">model_release</span><h3>Our evaluation of OpenAI's GPT-5.5 cyber capabilities</h3><p>Our evaluation of OpenAI's GPT-5.5 cyber capabilities
 
 The UK's AI Security Institute
@@ -250,35 +288,6 @@ LLM
 Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while.
 
 Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get b</p></article>
-<article><time>2026-04-28</time><span class="chip">model_release</span><h3>An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents</h3><p>Listen to this post:
-
-Good morning,
-
-As I noted yesterday, today’s Stratechery Interview is early in terms of my timing — Tuesday instead of Thursday — and late in terms of delivery — 1pm Eastern instead of 6am — because the topic was embargoed. That embargo created a bit of a weird situation for me</p></article>
-<article><time>2026-04-20</time><span class="chip">model_release</span><h3>Gradient-based Planning for World Models at Longer Horizons</h3><p>GRASP
-is a new gradient-based planner for learned dynamics (a “world model”) that makes long-horizon planning practical by (1) lifting the trajectory into virtual states so optimization is parallel across time, (2) adding stochasticity directly to the state iterates for exploration, and (3) reshapin</p></article>
-<article><time>2026-04-15</time><span class="chip">model_release</span><h3>My bets on open models, mid-2026</h3><p>We’re living through the period of time when we’ll learn if open models can keep up with closed labs. The obvious answer is that no, they won’t. This answer is a form of saying they won’t keep up in
-every area
-. This framing closes off a popular prediction where the open models completely
-catch up
-,</p></article>
-<article><time>2026-04-14</time><span class="chip">model_release</span><h3>What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research</h3><p>This post is a roundup of my recent efforts that did not warrant a standalone Interconnects post, why I’m spending time on them, and what they accomplished.
-The ATOM Report: Measuring the Open Language Model Ecosystem
-RLHF Book is done & ready for pre-order!
-A post-training course I’m making
-Recent </p></article>
-<article><time>2026-04-11</time><span class="chip">model_release</span><h3>The inevitable need for an open model consortium</h3><p>Recently, I was talking with
-Percy Liang
-, Stanford professor and lead of the
-Marin
-project (another fully-open model lab), and it set in on me that there will eventually be a consortium of companies funding a foundational set of open models used across industry. It’s not clear when this’ll emerge, </p></article>
-<article><time>2026-04-09</time><span class="chip">model_release</span><h3>Claude Mythos and misguided open-weight fearmongering</h3><p>With the announcement of the Claude Mythos model this week and the admittedly very strong stated abilities, especially in cybersecurity, a
-new
-
-wave
-of
-anti
-open-weight AI model narratives surged. The TL;DR of the argument is that our digital infrastructure will not be ready in time for an open-weig</p></article>
 </div></section>
 <section><h2>关键信息</h2><div class="entity-claims">
 <p><span>The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images</span></p>

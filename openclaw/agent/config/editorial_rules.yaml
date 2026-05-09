@@ -1,0 +1,94 @@
+grades:
+  A:
+    importance_score_min: 75
+    seo_value_score_min: 60
+    knowledge_value_score_min: 70
+    confidence_min: 0.75
+    risk_score_max: 69
+    action: publish_article
+    need_review: true
+
+  B:
+    importance_score_min: 45
+    knowledge_value_score_min: 40
+    confidence_min: 0.65
+    action: daily_brief_only
+    need_review: false
+
+  C:
+    has_related_event: true
+    action: update_assets_only
+    need_review: false
+
+  D:
+    action: ignore
+    need_review: false
+
+review_triggers:
+  - a_grade_article
+  - new_entity_created
+  - risk_score_gte: 70
+  - event_confidence_lt: 0.70
+  - claim_confidence_lt: 0.70
+  - major_asset_update
+  - deploy_approval
+
+ai_relevance_gate:
+  enabled: true
+  threshold: 0.65
+  direct_keywords:
+    - ai
+    - artificial intelligence
+    - llm
+    - large language model
+    - model
+    - agent
+    - eval
+    - benchmark
+    - openai
+    - anthropic
+    - google deepmind
+    - gemini
+    - claude
+    - gpt
+    - mcp
+    - cursor
+    - rag
+    - multimodal
+    - inference
+    - training
+    - gpu
+    - nvidia
+    - chip
+    - 人工智能
+    - 大模型
+    - 模型
+    - 智能体
+    - 生成式
+    - 算力
+    - 推理
+    - 训练
+    - 芯片
+    - 开源模型
+    - 多模态
+  context_keywords:
+    - ai-agents
+    - vibe-coding
+    - rag
+    - mcp
+    - ai-search
+    - embodied-ai
+    - llm
+    - multimodal
+    - ai-safety
+    - ai-policy
+  exclusion_keywords:
+    - 黄金期货
+    - 电影票房
+    - 汽车滚装船
+    - kospi
+    - 美联储
+    - 五一人流
+    - 交通运输
+    - 摩托车锦标赛
+    - 物流与采购

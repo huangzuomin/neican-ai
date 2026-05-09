@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="topic-detail">
+  <header class="topic-header">
+    <p class="eyebrow">主题</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="topic-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $pages := where .Pages "Kind" "page" }}
+  {{ if $pages }}
+  <div class="grid">
+    {{ range $pages }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+  <p>该主题下暂无内容。</p>
+  {{ end }}
+
+  <div class="back-link"><a href="/topics/">← 返回主题探索</a></div>
+</div>
+{{ end }}

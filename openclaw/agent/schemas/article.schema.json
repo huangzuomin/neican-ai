@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neican.ai/schemas/article.schema.json",
+  "title": "Article",
+  "type": "object",
+  "required": ["frontmatter", "body"],
+  "properties": {
+    "frontmatter": { "$ref": "frontmatter.schema.json" },
+    "body": { "type": "string" },
+    "claims": { "type": "array", "items": { "$ref": "claim.schema.json" } }
+  }
+}

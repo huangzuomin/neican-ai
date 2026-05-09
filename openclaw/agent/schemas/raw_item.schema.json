@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neican.ai/schemas/raw_item.schema.json",
+  "title": "RawItem",
+  "type": "object",
+  "required": ["source_url", "content_hash", "status"],
+  "properties": {
+    "source_id": { "type": ["integer", "null"] },
+    "source_url": { "type": "string", "format": "uri" },
+    "title": { "type": ["string", "null"] },
+    "author": { "type": ["string", "null"] },
+    "published_at": { "type": ["string", "null"] },
+    "raw_text": { "type": ["string", "null"] },
+    "clean_text": { "type": ["string", "null"] },
+    "content_hash": { "type": "string" },
+    "extraction_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "status": { "type": "string" }
+  }
+}

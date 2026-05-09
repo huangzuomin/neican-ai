@@ -1,0 +1,10 @@
+base_dir: hugo-site/content
+
+paths:
+  insight: insights/{slug}.md
+  daily_brief: briefs/daily/{date}.md
+  weekly_brief: briefs/weekly/{date}.md
+  topic: topics/{slug}/_index.md
+  entity: entities/{entity_type}/{slug}/_index.md
+  concept: concepts/{slug}.md
+  timeline: timeline/{year}/_index.md

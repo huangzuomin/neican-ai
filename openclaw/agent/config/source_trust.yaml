@@ -1,0 +1,23 @@
+tiers:
+  S:
+    min_trust_level: 5
+    description: 官方公告、公司博客、论文、监管文件、GitHub 原始发布。
+  A:
+    min_trust_level: 4
+    description: 权威科技媒体、主流财经媒体、高质量专业分析。
+  B:
+    min_trust_level: 3
+    description: 行业媒体、二手报道、聚合站。
+  C:
+    min_trust_level: 1
+    description: 社交平台爆料、未经证实转述、低可信聚合。
+
+high_risk:
+  event_types:
+    - policy
+    - safety_issue
+  min_a_grade_tier: A
+  weak_source_action: review_required
+  weak_source_grade: C
+  review_type: source_trust_review
+

@@ -1,0 +1,45 @@
+approved_entities:
+  - slug: openai
+    name: OpenAI
+    entity_type: company
+    entity_role: core_actor
+    entity_quality: approved
+
+  - slug: anthropic
+    name: Anthropic
+    entity_type: company
+    entity_role: core_actor
+    entity_quality: approved
+
+  - slug: google-deepmind
+    name: Google DeepMind
+    entity_type: organization
+    entity_role: core_actor
+    entity_quality: approved
+
+  - slug: nvidia
+    name: NVIDIA
+    entity_type: company
+    entity_role: infrastructure
+    entity_quality: approved
+
+  - slug: nvidia-gear-lab
+    name: NVIDIA GEAR Lab
+    entity_type: organization
+    entity_role: infrastructure
+    entity_quality: approved
+
+  - slug: cursor
+    name: Cursor
+    entity_type: tool
+    entity_role: product_or_model
+    entity_quality: approved
+
+suppressed_entities:
+  - slug: 36kr
+    entity_role: source_media
+    entity_quality: suppressed
+
+  - slug: macrumors
+    entity_role: source_media
+    entity_quality: suppressed

@@ -1,0 +1,141 @@
+---
+title: 2024 年时间线
+type: timeline
+year: '2024'
+event_count: 132
+---
+
+# 2024 年 AI 行业时间线
+
+- **2024-01-04** — Delivering LLM-powered health solutions [model_release]
+- **2024-01-08** — OpenAI and journalism [other] · OpenAI
+- **2024-01-10** — Introducing ChatGPT Team [model_release]
+- **2024-01-12** — Building agricultural database for farmers [other] · OpenAI
+- **2024-01-15** — How OpenAI is approaching 2024 worldwide elections [other] · OpenAI
+- **2024-01-16** — Democratic inputs to AI grant program: lessons learned and implementation plans [research_paper]
+- **2024-01-31** — Building an early warning system for LLM-aided biological threat creation [model_release]
+- **2024-02-13** — Memory and new controls for ChatGPT [model_release]
+- **2024-02-15** — Video generation models as world simulators [model_release]
+- **2024-03-05** — OpenAI and Elon Musk [other] · OpenAI
+- **2024-03-06** — Using AI to improve patient access to clinical trials [other] · OpenAI
+- **2024-03-06** — Improving health literacy and patient well-being [model_release]
+- **2024-03-06** — Sparking a more productive company with ChatGPT Enterprise [model_release]
+- **2024-03-08** — OpenAI announces new members to board of directors [model_release] · OpenAI
+- **2024-03-08** — Review completed & Altman, Brockman to continue to lead OpenAI [other] · OpenAI
+- **2024-03-13** — Saving lives with AI health coaching [other] · OpenAI
+- **2024-03-13** — Global news partnerships: Le Monde and Prisa Media [model_release]
+- **2024-03-18** — Reimagining the email experience with AI [other] · OpenAI
+- **2024-03-18** — Enterprise-ready trust and safety [model_release] · OpenAI
+- **2024-03-18** — Building a data-driven, efficient culture with AI [model_release]
+- **2024-03-21** — Embedding AI into developer software [other] · OpenAI
+- **2024-03-25** — Sora first impressions [other]
+- **2024-03-28** — Making education data accessible [model_release]
+- **2024-03-29** — Navigating the challenges and opportunities of synthetic voices [model_release]
+- **2024-04-01** — Reducing health insurance costs and improving care [other]
+- **2024-04-01** — Start using ChatGPT instantly [model_release]
+- **2024-04-02** — Customizing models for legal professionals [model_release] · OpenAI
+- **2024-04-04** — Introducing improvements to the fine-tuning API and expanding our custom models program [model_release] · OpenAI
+- **2024-04-05** — Klarna's AI assistant does the work of 700 full-time agents [other]
+- **2024-04-14** — Introducing OpenAI Japan [model_release] · OpenAI
+- **2024-04-19** — The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions [model_release]
+- **2024-04-23** — Introducing more enterprise-grade features for API customers [tool_launch]
+- **2024-04-24** — Accelerating the development of life-saving treatments [other]
+- **2024-04-24** — GPT-4 API general availability and deprecation of older models in the Completions API [model_release]
+- **2024-04-29** — We’re bringing the Financial Times’ world-class journalism to ChatGPT [model_release]
+- **2024-05-06** — API Partnership with Stack Overflow [model_release] · OpenAI
+- **2024-05-07** — Understanding the source of what we see and hear online [research_paper]
+- **2024-05-07** — Our approach to data and AI [model_release]
+- **2024-05-13** — Introducing GPT-4o and more tools to ChatGPT free users [model_release]
+- **2024-05-13** — Spring Update [model_release]
+- **2024-05-13** — Hello GPT-4o [model_release]
+- **2024-05-16** — Creating an AI-powered Magic Studio [tool_launch]
+- **2024-05-16** — OpenAI and Reddit Partnership [model_release] · OpenAI
+- **2024-05-16** — Improvements to data analysis in ChatGPT [model_release]
+- **2024-05-19** — How the voices for ChatGPT were chosen [model_release]
+- **2024-05-21** — OpenAI safety practices [other] · OpenAI
+- **2024-05-22** — A landmark multi-year global partnership with News Corp [other] · OpenAI
+- **2024-05-29** — A Content and Product Partnership with Vox Media [model_release] · OpenAI
+- **2024-05-29** — Enhancing news in ChatGPT with The Atlantic [model_release] · OpenAI
+- **2024-05-29** — Automating customer support agents [model_release]
+- **2024-05-30** — OpenAI for Education [other] · OpenAI
+- **2024-05-30** — Introducing OpenAI for Nonprofits [model_release] · OpenAI
+- **2024-05-30** — Disrupting deceptive uses of AI by covert influence operations [other]
+- **2024-06-06** — Extracting Concepts from GPT-4 [model_release]
+- **2024-06-07** — Expanding on how Voice Engine works and our safety research [model_release]
+- **2024-06-10** — OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO) [other] · OpenAI
+- **2024-06-10** — OpenAI and Apple announce partnership [model_release] · OpenAI
+- **2024-06-13** — OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors [other] · OpenAI
+- **2024-06-17** — Using GPT-4o reasoning to transform cancer care [model_release] · OpenAI
+- **2024-06-18** — Surging developer productivity with custom GPTs [model_release]
+- **2024-06-20** — A Holistic Approach to Undesired Content Detection in the Real World [other]
+- **2024-06-20** — Consistency Models [model_release]
+- **2024-06-20** — Improved Techniques for Training Consistency Models [model_release]
+- **2024-06-20** — Empowering defenders through our Cybersecurity Grant Program [research_paper]
+- **2024-06-21** — OpenAI acquires Rockset [other] · OpenAI
+- **2024-06-27** — Strategic Content Partnership with TIME [other]
+- **2024-06-27** — Finding GPT-4’s mistakes with GPT-4 [model_release]
+- **2024-07-10** — OpenAI and Los Alamos National Laboratory announce research partnership [model_release] · OpenAI
+- **2024-07-17** — Prover-Verifier Games improve legibility of language model outputs [model_release]
+- **2024-07-18** — New compliance and administrative tools for ChatGPT Enterprise [model_release]
+- **2024-07-24** — Improving Model Safety Behavior with Rule-Based Rewards [model_release]
+- **2024-07-25** — SearchGPT is a prototype of new AI search features [model_release]
+- **2024-08-06** — Introducing Structured Outputs in the API [model_release]
+- **2024-08-07** — Pairing data with APIs to unlock customer value [other]
+- **2024-08-08** — Zico Kolter Joins OpenAI’s Board of Directors [other] · OpenAI
+- **2024-08-13** — Introducing SWE-bench Verified [model_release]
+- **2024-08-14** — Awakening Sleeping Beauties at The Met [other]
+- **2024-08-15** — Delivering contextual job matching for millions with OpenAI [other] · OpenAI
+- **2024-08-20** — Putting AI to work at Upwork [other]
+- **2024-08-20** — OpenAI partners with Condé Nast [other] · OpenAI
+- **2024-08-26** — Personalizing education with ChatGPT [model_release]
+- **2024-09-05** — Using GPT-4 to deliver a new customer service standard [model_release]
+- **2024-09-12** — Coding with OpenAI o1 [other] · OpenAI
+- **2024-09-12** — Answering quantum physics questions with OpenAI o1 [other] · OpenAI
+- **2024-09-12** — Economics and reasoning with OpenAI o1 [other] · OpenAI
+- **2024-09-12** — Decoding genetics with OpenAI o1 [other] · OpenAI
+- **2024-09-12** — OpenAI o1 Contributions [other] · OpenAI
+- **2024-09-12** — OpenAI o1-mini [other] · OpenAI
+- **2024-09-16** — An update on our safety & security practices [product_update]
+- **2024-09-17** — Using GPT-4 to improve teaching and learning in Brazil [model_release]
+- **2024-09-19** — Genmab launches “AI Everywhere” [model_release] · OpenAI
+- **2024-09-24** — Introducing Verdi, an AI dev platform powered by GPT-4o [model_release]
+- **2024-09-26** — OpenAI and GEDI partner for Italian news content [model_release] · OpenAI
+- **2024-09-26** — Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps [model_release]
+- **2024-09-26** — Upgrading the Moderation API with our new multimodal moderation model [model_release]
+- **2024-10-01** — Creating agent and human collaboration with GPT 4o [model_release]
+- **2024-10-01** — Model Distillation in the API [model_release] · OpenAI
+- **2024-10-01** — Prompt Caching in the API [model_release]
+- **2024-10-01** — Introducing vision to the fine-tuning API [model_release]
+- **2024-10-01** — Introducing the Realtime API [other]
+- **2024-10-02** — New funding to scale the benefits of AI [funding]
+- **2024-10-03** — New Credit Facility Enhances Financial Flexibility [funding]
+- **2024-10-03** — Introducing canvas, a new way to write and code with ChatGPT. [model_release]
+- **2024-10-08** — OpenAI and Hearst Content Partnership [other] · OpenAI
+- **2024-10-10** — MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering [other]
+- **2024-10-15** — Evaluating fairness in ChatGPT [model_release] · Meta AI
+- **2024-10-22** — OpenAI and the Lenfest Institute AI Collaborative and Fellowship program [other] · OpenAI
+- **2024-10-23** — Simplifying, stabilizing, and scaling continuous-time consistency models [model_release]
+- **2024-10-29** — Delivering high-performance customer support [other] · OpenAI
+- **2024-10-30** — Introducing SimpleQA [model_release]
+- **2024-10-31** — Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing [model_release]
+- **2024-10-31** — Introducing ChatGPT search [model_release]
+- **2024-11-04** — OpenAI’s comments to the NTIA on data center growth, resilience, and security [other] · OpenAI
+- **2024-11-13** — Data-driven beauty and creativity with ChatGPT [model_release]
+- **2024-11-15** — OpenAI en France [other] · OpenAI
+- **2024-11-19** — Rox goes “all in” on OpenAI [model_release] · OpenAI
+- **2024-11-20** — Building smarter maps with GPT-4o vision fine-tuning [model_release]
+- **2024-11-21** — Advancing red teaming with people and AI [other]
+- **2024-12-04** — Shaping the future of financial services [other]
+- **2024-12-04** — OpenAI and Future partner on specialist content [product_update] · OpenAI
+- **2024-12-05** — OpenAI o1 System Card [other] · OpenAI
+- **2024-12-05** — Introducing ChatGPT Pro [model_release]
+- **2024-12-09** — Animator Lyndon Barrois creates new worlds with Sora [tool_launch]
+- **2024-12-09** — Sora System Card [model_release] · OpenAI
+- **2024-12-09** — Put AI to work for your product team [other]
+- **2024-12-09** — Minne Atairu & Sora [other]
+- **2024-12-09** — Vallée Duhamel & Sora [other]
+- **2024-12-09** — Sora is here [model_release]
+- **2024-12-13** — Elon Musk wanted an OpenAI for-profit [other] · OpenAI
+- **2024-12-17** — OpenAI o1 and new tools for developers [tool_launch] · OpenAI
+- **2024-12-20** — Deliberative alignment: reasoning enables safer language models [model_release]
+- **2024-12-27** — Why OpenAI’s structure must evolve to advance our mission [other] · OpenAI

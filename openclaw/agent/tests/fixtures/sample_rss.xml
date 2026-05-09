@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Sample AI Feed</title>
+    <link>https://example.com/ai</link>
+    <description>Offline RSS fixture for neican tests.</description>
+    <item>
+      <title>OpenAI releases a sample model update</title>
+      <link>https://example.com/openai-model-update</link>
+      <author>Example Author</author>
+      <pubDate>Fri, 01 May 2026 10:00:00 GMT</pubDate>
+      <description><![CDATA[<p>OpenAI announced a model update for testing.</p>]]></description>
+    </item>
+    <item>
+      <title>Anthropic publishes a sample Claude update</title>
+      <link>https://example.com/anthropic-claude-update</link>
+      <pubDate>Fri, 01 May 2026 11:00:00 GMT</pubDate>
+      <description>Anthropic published a short update for testing.</description>
+    </item>
+  </channel>
+</rss>

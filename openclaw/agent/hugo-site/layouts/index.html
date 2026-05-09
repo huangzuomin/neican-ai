@@ -1,0 +1,116 @@
+{{ define "main" }}
+{{ $events := where .Site.RegularPages "Section" "events" }}
+{{ $briefs := where (where .Site.RegularPages "Section" "briefs") "Params.type" "daily_brief" }}
+{{ $entities := where .Site.Pages "Params.type" "entity_profile" }}
+{{ $topics := where .Site.Pages "Params.type" "topic" }}
+{{ $tracks := where .Site.Pages "Params.type" "timeline_track" }}
+
+<section class="front-page">
+  <p class="front-kicker">AI 行业情报台 · {{ now.Format "2006-01-02" }}</p>
+  {{ range first 1 $events.ByDate.Reverse }}
+  <h1>最新判断：{{ .Title }}</h1>
+  <p class="front-lead">{{ .Plain | truncate 180 }}</p>
+  {{ else }}
+  <h1>最新判断正在生成中</h1>
+  <p class="front-lead">AI 内参每天从模型、Agent、算力、政策与应用信号中筛出真正值得跟踪的变化，并沉淀为日报、洞察、实体档案、主题页和时间线。</p>
+  {{ end }}
+</section>
+
+<section class="front-grid">
+  <article class="lead-story">
+    <p class="section-label">最新洞察</p>
+    {{ range first 1 $events.ByDate.Reverse }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Plain | truncate 180 }}</p>
+    <div class="meta-strip">
+      {{ with .Params.event_type }}<span>{{ . }}</span>{{ end }}
+      {{ with .Params.entities }}{{ range first 2 . }}{{ if reflect.IsMap . }}<span>{{ .name | default .slug }}</span>{{ else }}<span>{{ . }}</span>{{ end }}{{ end }}{{ end }}
+      {{ with .Params.topics }}{{ range first 2 . }}{{ if reflect.IsMap . }}<span>{{ .name | default .slug }}</span>{{ else }}<span>{{ . }}</span>{{ end }}{{ end }}{{ end }}
+    </div>
+    {{ else }}
+    <h2>新的事件洞察正在生成中。</h2>
+    <p>当事件页生成后，这里会自动显示最新内容。</p>
+    {{ end }}
+  </article>
+
+  <aside class="brief-panel">
+    <div class="panel-head">
+      <p class="section-label">最新日报</p>
+      {{ range first 1 $briefs.ByDate.Reverse }}<a href="{{ .RelPermalink }}">阅读全文</a>{{ end }}
+    </div>
+    <ol class="signal-list">
+      {{ range first 1 $briefs.ByDate.Reverse }}
+      <li><b>{{ .Date.Format "01-02" }}</b><span>{{ .Plain | truncate 160 }}</span></li>
+      {{ else }}
+      <li><b>待更新</b><span>新的日报正在生成中。</span></li>
+      {{ end }}
+    </ol>
+  </aside>
+</section>
+
+<section class="reader-section">
+  <div class="section-heading">
+    <p class="section-label">深度洞察</p>
+    <h2>最近值得追踪的事件</h2>
+  </div>
+  <div class="article-row">
+    {{ range first 3 $events.ByDate.Reverse }}
+    <a href="{{ .RelPermalink }}">
+      <span>{{ .Params.event_type | default "event" }}</span>
+      <b>{{ .Title }}</b>
+      <em>{{ .Plain | truncate 96 }}</em>
+    </a>
+    {{ else }}
+    <a href="/events/">
+      <span>events</span>
+      <b>新的事件洞察正在生成中。</b>
+      <em>事件内容生成后会自动出现在这里。</em>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="reader-section split-section">
+  <div>
+    <div class="section-heading">
+      <p class="section-label">实体观察</p>
+      <h2>近期被事件关联的对象</h2>
+    </div>
+    <div class="watch-list">
+      {{ range first 4 $entities.ByTitle }}
+      <a href="{{ .RelPermalink }}"><b>{{ .Title }}</b><span>{{ .Plain | truncate 90 }}</span></a>
+      {{ else }}
+      <a href="/entities/"><b>实体档案</b><span>新的实体档案正在生成中。</span></a>
+      {{ end }}
+    </div>
+  </div>
+  <div>
+    <div class="section-heading">
+      <p class="section-label">主题追踪</p>
+      <h2>长期值得跟的主题</h2>
+    </div>
+    <div class="theme-stack">
+      {{ range first 4 $topics.ByTitle }}
+      <a href="{{ .RelPermalink }}"><b>{{ .Title }}</b><span>{{ .Params.description | default (.Plain | truncate 80) }}</span></a>
+      {{ else }}
+      <a href="/topics/"><b>主题库</b><span>新的主题页正在生成中。</span></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="reader-section timeline-preview">
+  <div class="section-heading">
+    <p class="section-label">时间线</p>
+    <h2>最新追踪线</h2>
+  </div>
+  <div class="timeline-line">
+    {{ range first 3 $tracks.ByTitle }}
+    <div><time>{{ .Params.event_count | default 0 }} 个节点</time><span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span></div>
+    {{ else }}
+    <div><time>待更新</time><span>新的时间线节点正在生成中。</span></div>
+    {{ end }}
+  </div>
+  <a class="text-link" href="/timeline/">查看完整时间线</a>
+</section>
+{{ end }}

@@ -1,0 +1,66 @@
+{{ define "main" }}
+<div class="explore-page">
+  <header class="explore-header">
+    <p class="eyebrow">知识资产</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="explore-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $topics := .Site.Taxonomies.topics }}
+  {{ $tags := .Site.Taxonomies.tags }}
+
+  {{ if $topics }}
+  <section class="explore-section">
+    <h2>按主题浏览</h2>
+    <div class="explore-grid">
+      {{ range $name, $items := $topics }}
+      <a href="/topics/{{ $name | urlize }}/" class="explore-card">
+        <div class="explore-card-title">{{ $name | humanize }}</div>
+        <div class="explore-card-count">{{ len $items }} 篇</div>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{ if $tags }}
+  <section class="explore-section">
+    <h2>标签云</h2>
+    <div class="tag-cloud">
+      {{ $max := 0 }}
+      {{ range $tags }}{{ if gt (len .) $max }}{{ $max = len . }}{{ end }}{{ end }}
+      {{ range $name, $items := $tags }}
+        {{ $count := len $items }}
+        {{ $ratio := 0 }}
+        {{ if gt $max 0 }}{{ $ratio = div $count $max }}{{ end }}
+        {{ $size := "sm" }}
+        {{ if gt $ratio 0.7 }}{{ $size = "xl" }}{{ else if gt $ratio 0.4 }}{{ $size = "lg" }}{{ else if gt $ratio 0.2 }}{{ $size = "md" }}{{ end }}
+        <a href="/tags/{{ $name | urlize }}/" class="cloud-tag cloud-tag-{{ $size }}">{{ $name }}</a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="explore-section">
+    <h2>按类型浏览</h2>
+    <div class="explore-grid">
+      <a href="/insights/" class="explore-card">
+        <div class="explore-card-title">洞察文章</div>
+        <div class="explore-card-count">{{ len (where site.RegularPages "Section" "insights") }} 篇</div>
+      </a>
+      <a href="/briefs/daily/" class="explore-card">
+        <div class="explore-card-title">日报</div>
+        <div class="explore-card-count">{{ len (where site.RegularPages "Section" "briefs") }} 期</div>
+      </a>
+      <a href="/concepts/" class="explore-card">
+        <div class="explore-card-title">概念</div>
+        <div class="explore-card-count">{{ len (where site.RegularPages "Section" "concepts") }} 个</div>
+      </a>
+      <a href="/entities/" class="explore-card">
+        <div class="explore-card-title">实体</div>
+        <div class="explore-card-count">{{ len (where site.RegularPages "Section" "entities") }} 个</div>
+      </a>
+    </div>
+  </section>
+</div>
+{{ end }}

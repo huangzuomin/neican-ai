@@ -29,19 +29,29 @@ The agent has access to these local Skills for domain-specific workflows:
 
 Use Skills only when the task matches their scope.
 
-## info-fetcher Route
+## info-fetcher Route（强制规则）
 
-neican-editor must not directly spawn or call info-fetcher. When it needs external information fetching, return a route signal to the main agent:
+**绝对约束：**
 
+1. neican-editor **禁止**直接 spawn、调用或调度 info-fetcher agent。
+2. neican-editor **禁止**自行编写 HTTP 抓取脚本（requests、urllib、curl 等）抓取外部网页全文。
+3. neican-editor **禁止**使用 web_fetch、web_search 等工具直接抓取外部 URL 全文。
+4. neican-editor **禁止**在 tmux、nohup 或任何后台进程中运行外部网页抓取。
+5. 所有外部信息抓取必须通过路由：neican-editor 输出 `需要抓取：<具体任务描述>` → 主 agent（璇玑）调度 info-fetcher → 结果转发回 neican-editor。
+6. 当路由链不通（主 agent 未在线）时，neican-editor 应等待并提示用户启动主 agent，不得自行越权抓取。
+
+**违反以上规则属于越权行为。**
+
+路由信号格式：
 ```text
-需要抓取：<specific fetch task>
+需要抓取：<具体任务描述>
 ```
 
-The main agent（璇玑）is responsible for dispatching info-fetcher and forwarding results back. Local scripts keep deterministic RSS work only:
+主 agent（璇玑）负责调度 info-fetcher 并转发结果。本地脚本仅保留确定性 RSS 逻辑：
 
-- `scripts/fetch_sources.py` parses RSS feeds, deduplicates, writes `raw_items`, and records full-text needs in `info_fetch_requests`.
-- `scripts/heartbeat_pipeline.py` prints pending `需要抓取：...` messages when queued requests exist.
-- `scripts/info_fetch_requests.py` owns request enqueueing, pending route message formatting, and consuming structured results forwarded back to neican-editor.
+- `scripts/fetch_sources.py` 解析 RSS、去重、写入 `raw_items`、记录全文需求到 `info_fetch_requests`
+- `scripts/heartbeat_pipeline.py` 打印待处理的 `需要抓取：...` 信号
+- `scripts/info_fetch_requests.py` 管理请求队列和消费转发回来的结果
 
 ## Development Repository Commands
 

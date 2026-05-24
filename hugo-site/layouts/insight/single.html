@@ -5,7 +5,6 @@
     <h1>{{ .Title }}</h1>
     <div class="meta-row">
       <span>{{ .Date.Format "2006-01-02 15:04" }}</span>
-      {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
       {{ with .Params.event_type }}<span class="badge subtle">{{ . }}</span>{{ end }}
     </div>
   </header>
@@ -36,22 +35,6 @@
   <div class="content-body">
     {{ .Content }}
   </div>
-
-  {{ with .Params.claims }}
-  <section class="claims-box">
-    <h2>结构化声明</h2>
-    <ul>
-      {{ range . }}
-      {{ if .statement }}
-      <li>
-        <span class="claim-statement">{{ .statement }}</span>
-        <span class="claim-conf">{{ mul .confidence 100 | lang.FormatNumber 0 }}%</span>
-      </li>
-      {{ end }}
-      {{ end }}
-    </ul>
-  </section>
-  {{ end }}
 
   {{ with .Params.sources }}
   <section class="source-box">

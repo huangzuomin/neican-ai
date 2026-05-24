@@ -6,7 +6,6 @@
     {{ if not .Date.IsZero }}
     <div class="meta-row">
       <span>{{ .Date.Format "2006-01-02" }}</span>
-      {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
       {{ with .Params.event_type }}<span class="badge subtle">{{ . }}</span>{{ end }}
     </div>
     {{ end }}
@@ -39,19 +38,6 @@
   <div class="content-body">
     {{ .Content }}
   </div>
-
-  {{ with .Params.claims }}
-  <section class="claims-box">
-    <h2>关键声明</h2>
-    <ul>
-      {{ range . }}
-      {{ with .statement }}
-      <li><span>{{ . }}</span>{{ with $.Params.decision_grade }}<em>{{ . }}</em>{{ end }}</li>
-      {{ end }}
-      {{ end }}
-    </ul>
-  </section>
-  {{ end }}
 
   {{ with .Params.sources }}
   <section class="source-box">

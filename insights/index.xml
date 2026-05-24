@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>洞察 on AI内参</title><link>https://neican.ai/insights/</link><description>Recent content in 洞察 on AI内参</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://neican.ai/insights/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>洞察 on AI内参</title><link>https://neican.ai/insights/</link><description>Recent content in 洞察 on AI内参</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 09:00:00 +0800</lastBuildDate><atom:link href="https://neican.ai/insights/index.xml" rel="self" type="application/rss+xml"/><item><title>Google DeepMind、OpenAI 在 AI Agents、大模型 方向的累积变化</title><link>https://neican.ai/insights/ai-agents-enterprise-insight-1/</link><pubDate>Sun, 24 May 2026 09:00:00 +0800</pubDate><guid>https://neican.ai/insights/ai-agents-enterprise-insight-1/</guid><description>&lt;h1 id="google-deepmindopenai-在-ai-agents大模型-方向的累积变化">Google DeepMind、OpenAI 在 AI Agents、大模型 方向的累积变化&lt;/h1>
+&lt;h2 id="核心判断">核心判断&lt;/h2>
+&lt;p>过去 30 天，AI Agents 企业化 这条主线出现 22 个趋势信号，主要关联 AI Agents、大模型。这些事件还不足以证明结构性拐点，但已经值得放在一起观察：OpenClaw 2026.5.22发布：性能优化与安全加固；Models.dev：一个关于人工智能模型规格、定价和功能的开源数据库；微软称，使用人工智能的成本高于支付人工工资。&lt;/p>
+&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-24) OpenClaw 2026.5.22发布：性能优化与安全加固
+OpenClaw 2026.5.22 已上线 ⚡ Gateway/模型启动路径更精简 🧠 /models 响应时间降至约5毫秒 🔒 npm包现提供锁定依赖项 🪟 Windows安装/更新路径更安全 等待更少，意外更少。 https：//github.com&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) StepAudio 2.5实时语音发布：副语言感知与人格化交互
+StepAudio 2.5 Realtime是一款实时语音模型，能够深度理解用户语音中的语气、语速、停顿乃至微表情等副语言特征。它支持通过API接入自定义人格，允许设定个性、背景故事和语言风格，并提供了上万种原生人格选项，可组合出数百万种特征。产&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) Replit Agent与Squidler集成，实现全自动化AI质量保障
+Replit Agent与Squidler已完成集成，形成一套完整的AI驱动质量保障闭环。用户可通过自然语言描述应用功能，由Replit Agent负责构建。构建完成后，Squidler会像真实用户一样对线上应用进行自动化测试，无需编写任何测试脚本。测试中发现的&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) 飞书-Claude Code桥接开源项目
+feishu-claude-code-bridge是一个开源项目，可实现飞书与本机Claude Code CLI的双向连接。用户能从飞书消息中直接指挥Claude Code执行任务，Claude也能读取飞书中的工作上下文并创建、编辑飞书文档。其工作原理是将飞书消息转为Prompt通过命令&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) 微软称，使用人工智能的成本高于支付人工工资
+微软发布报告指出，在特定工作场景中，部署和使用人工智能（AI）的成本目前已高于支付相应的人工工资。报告分析了基于&amp;quot;tokens&amp;quot;（令牌）和&amp;quot;agents&amp;quot;（智能体）的AI使用模式，发现其综合开销超过了雇佣人类员工完成同类任务的费用。这一发现揭示了当前企业应用AI技术面临的现实经济挑战。&lt;/li>
+&lt;/ul>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这些事件的共同价值不在于单条新闻本身，而在于它们指向同一条可追踪的产业变化线。编辑判断应优先解释结构变化、受影响对象和后续验证信号，而不是堆叠全部证据。&lt;/p>
+&lt;h2 id="影响谁">影响谁&lt;/h2>
+&lt;p>OpenAI、Google DeepMind&lt;/p>
+&lt;h2 id="证据链">证据链&lt;/h2>
+&lt;p>本洞察压缩展示 5 个关键事件；其余证据保留在结构化事件和来源中，避免把文章写成全量聚合清单。
+线索来自 AI HOT，原文链接作为主要核验对象；若全文尚未回填，只作为观察信号。&lt;/p></description></item><item><title>Google DeepMind、白宫、马斯克 在 AI 安全、大模型 方向的累积变化</title><link>https://neican.ai/insights/ai-governance-insight-2/</link><pubDate>Sun, 24 May 2026 09:00:00 +0800</pubDate><guid>https://neican.ai/insights/ai-governance-insight-2/</guid><description>&lt;h1 id="google-deepmind白宫马斯克-在-ai-安全大模型-方向的累积变化">Google DeepMind、白宫、马斯克 在 AI 安全、大模型 方向的累积变化&lt;/h1>
+&lt;h2 id="核心判断">核心判断&lt;/h2>
+&lt;p>过去 30 天，AI 治理与监管 这条主线出现 13 个趋势信号，主要关联 AI 安全、大模型。这些事件还不足以证明结构性拐点，但已经值得放在一起观察：OpenClaw 2026.5.22发布：性能优化与安全加固；扩大与新加坡合作，推动AI安全规模化部署；Replit Agent与Squidler集成，实现全自动化AI质量保障。&lt;/p>
+&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-24) OpenClaw 2026.5.22发布：性能优化与安全加固
+OpenClaw 2026.5.22 已上线 ⚡ Gateway/模型启动路径更精简 🧠 /models 响应时间降至约5毫秒 🔒 npm包现提供锁定依赖项 🪟 Windows安装/更新路径更安全 等待更少，意外更少。 https：//github.com&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) StepAudio 2.5实时语音发布：副语言感知与人格化交互
+StepAudio 2.5 Realtime是一款实时语音模型，能够深度理解用户语音中的语气、语速、停顿乃至微表情等副语言特征。它支持通过API接入自定义人格，允许设定个性、背景故事和语言风格，并提供了上万种原生人格选项，可组合出数百万种特征。产&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) Replit Agent与Squidler集成，实现全自动化AI质量保障
+Replit Agent与Squidler已完成集成，形成一套完整的AI驱动质量保障闭环。用户可通过自然语言描述应用功能，由Replit Agent负责构建。构建完成后，Squidler会像真实用户一样对线上应用进行自动化测试，无需编写任何测试脚本。测试中发现的&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-23) 扩大与新加坡合作，推动AI安全规模化部署
+我们正在扩大与新加坡的合作，以帮助安全地大规模部署AI。🇸🇬 与各国专家合作，我们的新项目将重点加速科学发现、加强大流行病防范并改善医疗保健。 了解更多 → https：//goo.gle/49jGwjv&lt;/li>
+&lt;li>&lt;strong>趋势信号&lt;/strong> (2026-05-22) AlphaProof Nexus：用形式化验证驱动AI数学证明搜索
+Google DeepMind提出了AlphaProof Nexus系统，它将大型语言模型与Lean形式化验证工具相结合。该系统允许LLM在生成证明的过程中，不断读取Lean的编译错误并进行修正，还可调用更强的工具辅助解决子问题。这一机制迫使模型将每一步逻&lt;/li>
+&lt;/ul>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这些事件的共同价值不在于单条新闻本身，而在于它们指向同一条可追踪的产业变化线。编辑判断应优先解释结构变化、受影响对象和后续验证信号，而不是堆叠全部证据。&lt;/p>
+&lt;h2 id="影响谁">影响谁&lt;/h2>
+&lt;p>Google DeepMind、白宫、马斯克&lt;/p></description></item></channel></rss>

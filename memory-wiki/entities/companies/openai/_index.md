@@ -3,9 +3,9 @@ title: OpenAI
 slug: openai
 type: entity
 entity_type: company
-role: 被通报拟议计划的AI公司之一
-last_updated: '2026-05-05'
-related_events: 1
+role: mentioned
+last_updated: '2026-05-24'
+related_events: 55
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -2515,17 +2515,1554 @@ claims:
 - text: 白宫官员在上周的会议中已向Anthropic、Alphabet以及OpenAI的高管通报了部分拟议计划
   confidence: 0.9
   date: 2026-05-05 11:50:12  +0800
+- text: 'Elon Musk, his financial manager and Neuralink CEO, Jared Birchall, and
+
+    OpenAI cofounder Greg Brockman
+
+    have already testified before the jury'
+  confidence: 0.5
+  date: '2026-05-07T13:40:50-04:00'
+- text: 'Shivon Zilis
+
+    , a former OpenAI board member who shares four children with Musk, took the stand
+    on Wednesday, and the courtroom also watched former OpenAI CTO Mura Murati’s videotaped
+    deposition'
+  confidence: 0.5
+  date: '2026-05-07T13:40:50-04:00'
+- text: Microsoft CEO Satya Nadella is scheduled to appear on Monday, May 11th, with
+    OpenAI cofounder and former chief scientist Ilya Sutskever lined up to testify
+    after that
+  confidence: 0.5
+  date: '2026-05-07T13:40:50-04:00'
+- text: OpenAI is launching an optional safety feature for ChatGPT that allows adult
+    users to assign an emergency contact for mental health and safety concerns
+  confidence: 0.5
+  date: '2026-05-07T14:00:00-04:00'
+- text: Friends, family members, or caregivers designated as a "Trusted Contact" will
+    be notified if OpenAI detects that a person may have discussed topics like self-harm
+    or suicide with the chatbot
+  confidence: 0.5
+  date: '2026-05-07T14:00:00-04:00'
+- text: '"Trusted Contact is designed around a simple, expert-validated premise: when
+    someone may be in crisis, connecting with someone they know and trust can make
+    a meaningful difference," OpenAI said in its announcement'
+  confidence: 0.5
+  date: '2026-05-07T14:00:00-04:00'
+- text: '"It offers another layer of support alongside the
+
+    localized helplines already available
+
+    …
+
+
+    Read the full story at The Verge'
+  confidence: 0.5
+  date: '2026-05-07T14:00:00-04:00'
+- text: The week leading up to Thanksgiving 2023 was the AI industry's biggest soap
+    opera moment
+  confidence: 0.5
+  date: '2026-05-07T15:55:22-04:00'
+- text: OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker
+  confidence: 0.5
+  date: '2026-05-07T15:55:22-04:00'
+- text: The explanation? That Altman was "not consistently candid in his communications
+    with the board
+  confidence: 0.5
+  date: '2026-05-07T15:55:22-04:00'
+- text: '" Now, via witness testimony and trial exhibits in
+
+    Musk v'
+  confidence: 0.5
+  date: '2026-05-07T15:55:22-04:00'
+- text: 'Altman
+
+    , the public is getting a concrete look behind the scenes of that dramatic weekend
+    for the first time, much of it centered on former CTO Mira Murati'
+  confidence: 0.5
+  date: '2026-05-07T15:55:22-04:00'
+- text: Sometimes, companies pick CEOs based on carefully laid succession plans designed
+    to maximize investor confidence and future performance
+  confidence: 0.5
+  date: '2026-05-08T09:31:37-04:00'
+- text: 'Other times, apparently, companies pick CEOs based on a bunch of video calls
+    while
+
+    the current CEO is texting the former CEO
+
+    about who the new CEO even is'
+  confidence: 0.5
+  date: '2026-05-08T09:31:37-04:00'
+- text: Such was the story of The Blip, the days in 2024 when Sam Altman was ousted
+    from OpenAI
+  confidence: 0.5
+  date: '2026-05-08T09:31:37-04:00'
+- text: 'We knew that situation was chaotic;
+
+    the ongoing Musk v'
+  confidence: 0.5
+  date: '2026-05-08T09:31:37-04:00'
+- text: 'Altman trial
+
+    is showing just how chaotic it really was'
+  confidence: 0.5
+  date: '2026-05-08T09:31:37-04:00'
+- text: OpenAI CEO Sam Altman and Microsoft CTO Kevin Scott
+  confidence: 0.5
+  date: '2026-05-08T11:25:02-04:00'
+- text: '| Image: Getty Images
+
+
+    When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO
+    Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI
+    partnership'
+  confidence: 0.5
+  date: '2026-05-08T11:25:02-04:00'
+- text: 'Court documents from the ongoing
+
+    Musk v'
+  confidence: 0.5
+  date: '2026-05-08T11:25:02-04:00'
+- text: 'Altman
+
+    trial have provided a rare look at the communications between Microsoft''s top
+    executives about investing in OpenAI and fears the AI startup could "storm off
+    to Amazon" and "shit-talk" Microsoft'
+  confidence: 0.5
+  date: '2026-05-08T11:25:02-04:00'
+- text: 'Just days after OpenAI showed a
+
+    bot beating a
+
+    Dota 2
+
+    professional
+
+    in the summer of 2017, Altman responded to Nadella''s congratulations email with
+    a proposal for a much bigger partnership with OpenAI to fund its next phase of
+    AI resear …
+
+
+    Read the full story at The Verge'
+  confidence: 0.5
+  date: '2026-05-08T11:25:02-04:00'
+- text: Massive new data centers are the physical foundation for tech companies’ hopes
+    and dreams for AI
+  confidence: 0.5
+  date: '2026-05-08T14:45:08-04:00'
+- text: But the rush to expand warehouses full of energy-hungry servers has also kicked
+    up fights across the world over their impact on power grids, utility bills, nearby
+    communities, and the environment
+  confidence: 0.5
+  date: '2026-05-08T14:45:08-04:00'
+- text: 'From audacious plans to
+
+    launch data centers into space
+
+    to the latest
+
+    legal battles
+
+    over pollution,
+
+    The Verge
+
+    has the biggest news and reporting surrounding data centers'
+  confidence: 0.5
+  date: '2026-05-08T14:45:08-04:00'
+- text: 43 percent of Americans blame data centers as a major reason for rising power
+    bills
+  confidence: 0.5
+  date: '2026-05-08T14:45:08-04:00'
+- text: A 40,000-acre data center project was just approved in Utah, despite outcry
+    from the community
+  confidence: 0.5
+  date: '2026-05-08T14:45:08-04:00'
+- text: 'Listen to this post:
+
+
+    Good morning,
+
+
+    As I noted yesterday, today’s Stratechery Interview is early in terms of my timing
+    — Tuesday instead of Thursday — and late in terms of delivery — 1pm Eastern instead
+    of 6am — because the topic was embargoed'
+  confidence: 0.5
+  date: '2026-04-28T17:00:00+00:00'
+- text: I think the Microsoft-OpenAI deal makes a lot of sense for both sides
+  confidence: 0.5
+  date: '2026-04-28T17:00:00+00:00'
+- text: 'Here are the bullet points of the new arrangement from
+
+    Microsoft’s post
+
+    :
+
+
+    Microsoft remains OpenAI’s primary cloud partner, and OpenAI products will ship
+    first on Azure, unless Microsoft cannot and chooses not to support the necessary
+    capabilities'
+  confidence: 0.5
+  date: '2026-04-28T17:00:00+00:00'
+- text: OpenAI can now serve all its products to customers across any cloud provider
+  confidence: 0.5
+  date: '2026-04-28T17:00:00+00:00'
+- text: Microsoft will continue to have a license to OpenAI IP for models and products
+    through 2032
+  confidence: 0.5
+  date: '2026-04-28T17:00:00+00:00'
+- text: '(Photo by Noah Berger/Getty Images for Amazon Web Services)
+
+
+    Welcome back to This Week in Stratechery!
+
+
+    As a reminder, each week, every Friday, we’re sending out this overview of content
+    in the Stratechery bundle;
+
+    highlighted links are free for everyone'
+  confidence: 0.5
+  date: '2026-05-01T17:00:00+00:00'
+- text: Additionally, you have complete control over what we send to you
+  confidence: 0.5
+  date: '2026-05-01T17:00:00+00:00'
+- text: 'If you don’t want to receive This Week in Stratechery emails (there is no
+    podcast), please uncheck the box in
+
+    your delivery settings'
+  confidence: 0.5
+  date: '2026-05-01T17:00:00+00:00'
+- text: On that note, here were a few of our favorites this week
+  confidence: 0.5
+  date: '2026-05-01T17:00:00+00:00'
+- text: When it comes to AI, every quarter seems to bring a new winner and loser
+  confidence: 0.5
+  date: '2026-05-01T17:00:00+00:00'
+- text: 'Listen to this
+
+    post
+
+    :
+
+
+    Log in to listen
+
+
+    When it comes to the AI soap opera — there is news every day, and the company
+    on top and the bottom seems to shift by the quarter if not the month — the news
+    that I find most intriguing and instructive this week is about physical goods
+    and logistics'
+  confidence: 0.5
+  date: '2026-05-05T10:01:14+00:00'
+- text: 'From
+
+    Bloomberg
+
+    :
+
+
+    Amazon'
+  confidence: 0.5
+  date: '2026-05-05T10:01:14+00:00'
+- text: unveiled a suite of logistics services that will let businesses buy its existing
+    freight and distribution offerings as a package, sending shares of rival delivery
+    companies such as FedEx Corp
+  confidence: 0.5
+  date: '2026-05-05T10:01:14+00:00'
+- text: and United Parcel Service Inc
+  confidence: 0.5
+  date: '2026-05-05T10:01:14+00:00'
+- text: The world’s largest online retailer on Monday announced Amazon Supply Chain
+    Services (ASCS), offering other companies access to its “full portfolio” of supply-chain
+    and distribution offerings
+  confidence: 0.5
+  date: '2026-05-05T10:01:14+00:00'
+- text: One of the big stories of 2025 for me was how Nvidia massively stepped up
+    their open model program — more releases, higher quality models, joining a small
+    handful of companies releasing datasets, etc
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 'In this interview, I sat down with one of the 3 VP’s leading the effort of
+    500+ technical staff, Bryan Catanzaro, to discuss:
+
+    Their very impressive Nemotron 3 Nano model released in Dec'
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: The biggest takeaway I had from this interview is how Nvidia understands their
+    unique roll as a company that and both build and directly capture the value they
+    get from building open language models, giving them a uniquely sustainable advantage
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: Bryan has a beautiful analogy for open models this early in AI’s development,
+    and how they are a process of creating “potential energy” for AI’s future applications
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 'I hope you enjoy it!
+
+    Share
+
+    Guest:
+
+    Bryan Catanzaro
+
+    , VP Applied Deep Learning Research (ADLR), NVIDIA'
+  confidence: 0.5
+  date: '2026-02-04T18:00:28+00:00'
+- text: 'Last Thursday, February 5th, both OpenAI and Anthropic unveiled the next
+    iterations of their models designed as coding assistants,
+
+    GPT-5'
+  confidence: 0.5
+  date: '2026-02-09T14:03:12+00:00'
+- text: '3-Codex
+
+    and
+
+    Claude Opus 4'
+  confidence: 0.5
+  date: '2026-02-09T14:03:12+00:00'
+- text: 'Ahead of this, Anthropic had a firm grasp of the mindshare as everyone collectively
+
+    grappled with the new world of agents
+
+    , primarily driven by a
+
+    Claude Code with Opus 4'
+  confidence: 0.5
+  date: '2026-02-09T14:03:12+00:00'
+- text: '5
+
+    -induced step change in performance'
+  confidence: 0.5
+  date: '2026-02-09T14:03:12+00:00'
+- text: 'This post doesn’t unpack how software is changing forever,
+
+    Moltbook
+
+    is showcasing the future, ML research is accelerating, and the many broader implications,
+    but rather how to assess, live with, and prepare for new models'
+  confidence: 0.5
+  date: '2026-02-09T14:03:12+00:00'
+- text: Every 4-6 months a new open-weights model comes out that causes a clamor of
+    discussion on how open models are closer than they ever have been to the best
+    closed, frontier models
+  confidence: 0.5
+  date: '2026-02-17T17:27:36+00:00'
+- text: 'ai’s
+
+    GLM 5
+
+    model, which is the latest, leading open weights model from a Chinese company'
+  confidence: 0.5
+  date: '2026-02-17T17:27:36+00:00'
+- text: In the last 12 months the new part of this story is that all of the open models
+    of discussion are coming from China, where previously they were almost always
+    Meta’s Llamas
+  confidence: 0.5
+  date: '2026-02-17T17:27:36+00:00'
+- text: These moments of discussion are always reflective for me — for, despite being
+    one of open models’ biggest advocates, I always find the narrative to be overblown
+    — open models are not meaningfully accelerating towards matching the best closed
+    models in absolute performance
+  confidence: 0.5
+  date: '2026-02-17T17:27:36+00:00'
+- text: The ~6month gap is holding steady
+  confidence: 0.5
+  date: '2026-02-17T17:27:36+00:00'
+- text: Distillation has been one of the most frequent topics of discussion in the
+    broader US-China and technological diffusion story for AI
+  confidence: 0.5
+  date: '2026-02-24T16:06:43+00:00'
+- text: Distillation is a term with many definitions — the colloquial one today is
+    using a stronger AI model’s outputs to teach a weaker model
+  confidence: 0.5
+  date: '2026-02-24T16:06:43+00:00'
+- text: 'The word itself is derived from a more technical and specific definition
+    of
+
+    knowledge distillation
+
+    (Hinton, Vinyals, & Dean 2015), which involves a specific way of learning to match
+    the probability distribution of a teacher model'
+  confidence: 0.5
+  date: '2026-02-24T16:06:43+00:00'
+- text: The distillation of today is better described generally as synthetic data
+  confidence: 0.5
+  date: '2026-02-24T16:06:43+00:00'
+- text: You take outputs from a stronger model, usually via an API, and you train
+    your model to predict those
+  confidence: 0.5
+  date: '2026-02-24T16:06:43+00:00'
+- text: '2025 was the year where a lot of companies started to take open models seriously
+    as a path to influence in the extremely valuable AI ecosystem — the adoption of
+    a strategy that was massively accelerated downstream of
+
+    DeepSeek R1’s
+
+    breakout success'
+  confidence: 0.5
+  date: '2026-03-16T13:00:51+00:00'
+- text: Most of this is being done as a mission of hope, principle, or generosity
+  confidence: 0.5
+  date: '2026-03-16T13:00:51+00:00'
+- text: Very few businesses have a real monetary reason to build open models
+  confidence: 0.5
+  date: '2026-03-16T13:00:51+00:00'
+- text: 'Well-cited reasons, such as
+
+    commoditizing one’s complements
+
+    for Meta’s Llama, are hard to follow up on when the cost of participating well
+    is billions of dollars'
+  confidence: 0.5
+  date: '2026-03-16T13:00:51+00:00'
+- text: Still, AI is in such an early phase of technological development, mostly defined
+    by large-scale industrialization and massive scale-out of infrastructure, that
+    having any sort of influence at the cutting edge of AI is seen as a path to immense
+    potential value
+  confidence: 0.5
+  date: '2026-03-16T13:00:51+00:00'
+- text: I’m a little late to this model review, but that has given me more time to
+    think about the axes that matter for agents
+  confidence: 0.5
+  date: '2026-03-18T13:02:54+00:00'
+- text: Traditional benchmarks reduce model performance to a single score of correctness
+    – they always have because that was simple, easy to quickly use to gauge performance,
+    and so on
+  confidence: 0.5
+  date: '2026-03-18T13:02:54+00:00'
+- text: This is also advice that I give to people trying to build great benchmarks
+    – it needs to reduce to one number that is interpretable
+  confidence: 0.5
+  date: '2026-03-18T13:02:54+00:00'
+- text: This is likely still going to be true in a year or two, and benchmarks for
+    agents will be better, but for the time being it doesn’t really map to what we
+    feel because agentic tasks are all about a mix of correctness, ease of use, speed,
+    and cost
+  confidence: 0.5
+  date: '2026-03-18T13:02:54+00:00'
+- text: Eventually benchmarks will individually address these
+  confidence: 0.5
+  date: '2026-03-18T13:02:54+00:00'
+- text: 'With the announcement of the Claude Mythos model this week and the admittedly
+    very strong stated abilities, especially in cybersecurity, a
+
+    new
+
+
+    wave
+
+    of
+
+    anti
+
+    open-weight AI model narratives surged'
+  confidence: 0.5
+  date: '2026-04-09T21:28:39+00:00'
+- text: The TL;DR of the argument is that our digital infrastructure will not be ready
+    in time for an open-weight version of this model, which will allow attacks to
+    be conducted by numerous parties
+  confidence: 0.5
+  date: '2026-04-09T21:28:39+00:00'
+- text: The backlash against open models in the wake of the Mythos news conflates
+    too many general unknowns into a simple, broad policy recommendation that could
+    actually further weaken cybersecurity readiness
+  confidence: 0.5
+  date: '2026-04-09T21:28:39+00:00'
+- text: We’ve been here before – open-weight models were discussed as being extremely
+    dangerous when OpenAI withheld GPT-2 weights in 2019, and when OpenAI released
+    GPT-4 in 2023
+  confidence: 0.5
+  date: '2026-04-09T21:28:39+00:00'
+- text: Both of these waves came and went
+  confidence: 0.5
+  date: '2026-04-09T21:28:39+00:00'
+- text: 'Recently, I was talking with
+
+    Percy Liang
+
+    , Stanford professor and lead of the
+
+    Marin
+
+    project (another fully-open model lab), and it set in on me that there will eventually
+    be a consortium of companies funding a foundational set of open models used across
+    industry'
+  confidence: 0.5
+  date: '2026-04-11T13:02:06+00:00'
+- text: 'It’s not clear when this’ll emerge, and Nemotron (
+
+    Coalition
+
+    ) is Nvidia’s attempt to bankroll and bootstrap this approach within a single
+    wealthy company, but a consortium is the only long-term stable path to well-funded,
+    near-frontier open models'
+  confidence: 0.5
+  date: '2026-04-11T13:02:06+00:00'
+- text: 'In recent months, we’ve seen a lot of turnover in
+
+    open
+
+
+    model
+
+    labs, with high-profile departures at Qwen and Ai2 (
+
+    my comment
+
+    )'
+  confidence: 0.5
+  date: '2026-04-11T13:02:06+00:00'
+- text: 'This shouldn’t be super surprising to followers of the ecosystem — it’s happened
+    before with Meta
+
+    shifting its focus away from Llama
+
+    , and it’ll only happen more as the cost of trying to keep pace at the frontier
+    of AI only increases'
+  confidence: 0.5
+  date: '2026-04-11T13:02:06+00:00'
+- text: The other leading labs with models available today include Chinese startups
+    such as Moonshot AI, MiniMax, and Z
+  confidence: 0.5
+  date: '2026-04-11T13:02:06+00:00'
+- text: 'It’s a clear, current equilibrium that open models will be in
+
+    perpetual catch-up of closed models
+
+    , but this gap being viewed as a single number, a “distance”, covers up a nuanced
+    and crucial dynamic at what capabilities the models are covering'
+  confidence: 0.5
+  date: '2026-04-20T18:25:02+00:00'
+- text: 'The most popular benchmark to comment on this gap is the
+
+    Artificial Analysis Intelligence Index
+
+    — a composite benchmark of ~10 sub-evals that they maintain over time to capture
+    the “frontier” of current language model capabilities'
+  confidence: 0.5
+  date: '2026-04-20T18:25:02+00:00'
+- text: 'Particularly, I spend a lot of time understanding how dynamics that
+
+    feed into
+
+    that index are misunderstood by the natural tendency to reduce performance and
+    trends to one number'
+  confidence: 0.5
+  date: '2026-04-20T18:25:02+00:00'
+- text: 'Examples include:
+
+    How benchmarks evolve over time, becoming more or less correlated with how people
+    actually use models,
+
+    How different models’ real-world performance relates to their benchmark rankings,
+    and
+
+    How training regimes evolve over time to move said benchmarks'
+  confidence: 0.5
+  date: '2026-04-20T18:25:02+00:00'
+- text: Agentic benchmarks are in a decent place, but benchmarks are no longer as
+    trusted as a correlate to real-world performance
+  confidence: 0.5
+  date: '2026-04-20T18:25:02+00:00'
+- text: ‘Distillation attacks’ is a horrible term for what is happening right now
+  confidence: 0.5
+  date: '2026-05-04T15:56:44+00:00'
+- text: Yes, some Chinese labs are hacking or jailbreaking APIs to attempt to extract
+    more signal from model APIs — stopping this is important to maintain the U
+  confidence: 0.5
+  date: '2026-05-04T15:56:44+00:00'
+- text: ’s lead in AI capabilities
+  confidence: 0.5
+  date: '2026-05-04T15:56:44+00:00'
+- text: Referring to this as distillation attack is going to irrevocably associate
+    all distillation with this behavior, and distillation generally is a core technique
+    needed to diffuse AI capabilities broadly through academic and economic activities
+  confidence: 0.5
+  date: '2026-05-04T15:56:44+00:00'
+- text: We went through this sort of language transition with the open source vs open
+    weight debate
+  confidence: 0.5
+  date: '2026-05-04T15:56:44+00:00'
+- text: Staring out the window on a new, high-speed train from Hangzhou to Shanghai
+    I’m gifted with views of dramatic ridgelines speckled with wind turbines that
+    are silhouetted against the setting sun
+  confidence: 0.5
+  date: '2026-05-07T15:42:43+00:00'
+- text: The mountains cast a backdrop to a mix of spanning fields and clustered skyscrapers
+  confidence: 0.5
+  date: '2026-05-07T15:42:43+00:00'
+- text: I’m returning from China with great humility
+  confidence: 0.5
+  date: '2026-05-07T15:42:43+00:00'
+- text: It’s a very warming, human experience to go somewhere so foreign and be so
+    welcomed
+  confidence: 0.5
+  date: '2026-05-07T15:42:43+00:00'
+- text: I had the honor of meeting so many people in the AI ecosystem who I knew from
+    afar, and they greeted me with big smiles and cheer, reminding me how global my
+    work and the AI ecosystem is
+  confidence: 0.5
+  date: '2026-05-07T15:42:43+00:00'
+- text: 'I just released
+
+    LLM 0'
+  confidence: 0.5
+  date: '2026-04-29T19:01:47+00:00'
+- text: '32a0
+
+    , an alpha release of my
+
+    LLM
+
+    Python library and CLI tool for accessing LLMs, with some consequential changes
+    that I''ve been working towards for quite a while'
+  confidence: 0.5
+  date: '2026-04-29T19:01:47+00:00'
+- text: Previous versions of LLM modeled the world in terms of prompts and responses
+  confidence: 0.5
+  date: '2026-04-29T19:01:47+00:00'
+- text: Send the model a text prompt, get back a text response
+  confidence: 0.5
+  date: '2026-04-29T19:01:47+00:00'
+- text: 'import
+
+
+    llm
+
+
+    model
+
+
+    =
+
+
+    llm'
+  confidence: 0.5
+  date: '2026-04-29T19:01:47+00:00'
+- text: Our evaluation of OpenAI's GPT-5
+  confidence: 0.5
+  date: '2026-04-30T23:03:24+00:00'
+- text: '5 cyber capabilities
+
+
+    The UK''s AI Security Institute
+
+    previously evaluated Claude Mythos
+
+    : now they''ve evaluated GPT-5'
+  confidence: 0.5
+  date: '2026-04-30T23:03:24+00:00'
+- text: 5 for finding security vulnerability and found it to be comparable to Mythos,
+    but unlike Mythos it's generally available right now
+  confidence: 0.5
+  date: '2026-04-30T23:03:24+00:00'
+- text: 'Tags:
+
+    ai
+
+    ,
+
+    openai
+
+    ,
+
+    generative-ai
+
+    ,
+
+    llms
+
+    ,
+
+    anthropic
+
+    ,
+
+    claude
+
+    ,
+
+    ai-security-research
+
+    ,
+
+    gpt'
+  confidence: 0.5
+  date: '2026-04-30T23:03:24+00:00'
+- text: '0 adds /goal
+
+
+    The latest version of OpenAI''s Codex CLI coding agent adds their own version
+    of the
+
+    Ralph loop
+
+    : you can now set a
+
+    /goal
+
+    and Codex will keep on looping until it evaluates that the goal has been completed'
+  confidence: 0.5
+  date: '2026-04-30T23:23:17+00:00'
+- text: or the configured token budget has been exhausted
+  confidence: 0.5
+  date: '2026-04-30T23:23:17+00:00'
+- text: 'It looks like the feature is mainly implemented though the
+
+    goals/continuation'
+  confidence: 0.5
+  date: '2026-04-30T23:23:17+00:00'
+- text: 'md
+
+    and
+
+    goals/budget_limit'
+  confidence: 0.5
+  date: '2026-04-30T23:23:17+00:00'
+- text: 'md
+
+    prompts, which are automatically injected at the end of a turn'
+  confidence: 0.5
+  date: '2026-04-30T23:23:17+00:00'
+- text: 'So it’s well known that Y Combinator owns
+
+    some
+
+    stake in OpenAI'
+  confidence: 0.5
+  date: '2026-05-05T00:46:29+00:00'
+- text: But how big is that stake? This seems like devilishly difficult information
+    to obtain
+  confidence: 0.5
+  date: '2026-05-05T00:46:29+00:00'
+- text: 'I asked around and a little birdie who knows several OpenAI investors came
+    back with an answer: Y Combinator owns about 0'
+  confidence: 0.5
+  date: '2026-05-05T00:46:29+00:00'
+- text: 'At OpenAI’s current
+
+    $852 billion valuation
+
+    , that’s worth over $5 billion'
+  confidence: 0.5
+  date: '2026-05-05T00:46:29+00:00'
+- text: '—
+
+    John Gruber
+
+    , Y Combinator’s Stake in OpenAI
+
+
+    Tags:
+
+    openai
+
+    ,
+
+    y-combinator
+
+    ,
+
+    ai
+
+    ,
+
+    john-gruber'
+  confidence: 0.5
+  date: '2026-05-05T00:46:29+00:00'
+- text: 'WebRTC is designed to
+
+    degrade and drop my prompt
+
+    during poor network conditions'
+  confidence: 0.5
+  date: '2026-05-09T01:03:58+00:00'
+- text: 'wtf my dude
+
+
+    WebRTC aggressively drops audio packets to keep latency low'
+  confidence: 0.5
+  date: '2026-05-09T01:03:58+00:00'
+- text: If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee
+  confidence: 0.5
+  date: '2026-05-09T01:03:58+00:00'
+- text: The idea is that conference calls depend on rapid back-and-forth, so pausing
+    to wait for audio is unacceptable
+  confidence: 0.5
+  date: '2026-05-09T01:03:58+00:00'
+- text: …but as a user, I would much rather wait an extra 200ms for my slow/expensive
+    prompt to be accurate
+  confidence: 0.5
+  date: '2026-05-09T01:03:58+00:00'
+- text: Recent advances in Large Language Models (LLMs) enable exciting LLM-integrated
+    applications
+  confidence: 0.5
+  date: '2025-04-11T03:00:00-07:00'
+- text: However, as LLMs have improved, so have the attacks against them
+  confidence: 0.5
+  date: '2025-04-11T03:00:00-07:00'
+- text: 'Prompt injection attack
+
+    is listed as the
+
+    #1 threat by OWASP
+
+    to LLM-integrated applications, where an LLM input contains a trusted prompt (instruction)
+    and an untrusted data'
+  confidence: 0.5
+  date: '2025-04-11T03:00:00-07:00'
+- text: The data may contain injected instructions to arbitrarily manipulate the LLM
+  confidence: 0.5
+  date: '2025-04-11T03:00:00-07:00'
+- text: As an example, to unfairly promote “Restaurant A”, its owner could use prompt
+    injection to post a review on Yelp, e
+  confidence: 0.5
+  date: '2025-04-11T03:00:00-07:00'
+- text: Overview of adaptive parallel reasoning
+  confidence: 0.5
+  date: '2026-05-08T02:00:00-07:00'
+- text: 'Disclosure: this post is part landscape survey, part perspective on adaptive
+    parallel reasoning'
+  confidence: 0.5
+  date: '2026-05-08T02:00:00-07:00'
+- text: 'One of the authors (Tony Lian) co-led ThreadWeaver (
+
+    Lian et al'
+  confidence: 0.5
+  date: '2026-05-08T02:00:00-07:00'
+- text: ', 2025
+
+    ), one of the methods discussed below'
+  confidence: 0.5
+  date: '2026-05-08T02:00:00-07:00'
+- text: The authors aim to present each approach on its own terms
+  confidence: 0.5
+  date: '2026-05-08T02:00:00-07:00'
+- text: '整理
+
+    ｜Kris
+
+
+    今日热点导览
+
+
+    香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局
+
+
+    油价上调，加满一箱92号汽油将多花12'
+  confidence: 0.5
+  date: 2026-05-09 08:57:59  +0800
+- text: '5元
+
+
+    钱江摩托否认“围剿张雪机车”
+
+
+    30条中日航线4月取消全部航班
+
+
+    SpaceX冲刺上市，资本开支飙升数百亿
+
+
+    TOP3大新闻
+
+
+    DeepSeek拟募资最高500亿元
+
+
+    据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资'
+  confidence: 0.5
+  date: 2026-05-09 08:57:59  +0800
+- text: '(财联社)
+
+
+    “全国销冠”任晓敏被刑拘，泰康人寿回应
+
+
+    5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注'
+  confidence: 0.5
+  date: 2026-05-09 08:57:59  +0800
+- text: 对此，公司高度重视，第一时间组织专项工作组派驻青岛，全力配合公安机关的工作，并同步启动对该事件的内部自查和客户排查，绝不姑息任何违法犯罪行为
+  confidence: 0.5
+  date: 2026-05-09 08:57:59  +0800
+- text: 此前有消息称，泰康人寿青岛分公司销售任晓敏利用其“销冠”光环，以“帮公司冲业绩”“套取营销费用”等名义向客户、同事等短期借款，承诺高额利息，并以滚动方式维持运作，后随资金链断裂而暴露
+  confidence: 0.5
+  date: 2026-05-09 08:57:59  +0800
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: 'What is AGI in an economic sense?
+
+    “We model the AGI transition as the collision of two racing cost curves: an exponentially
+    decaying Cost to Automate and a biologically bottlenecked Cost to Verify,” the
+    authors write'
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: “In an economy where autonomous agents act with broad agency rather than narrow
+    instructions, the binding constraint on growth is no longer intelligence
+  confidence: 0.5
+  date: '2026-03-02T13:45:27+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: 'Subscribe now
+
+
+    Can LLMs autonomously refine other LLMs for new tasks? Somewhat'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: '…PostTrainBench shows startling growth in AI capabilities at post-training…
+
+    AI-driven R&D might be the most important thing in all of AI, because it helps
+    us understand whether AI systems might eventually build their own successors'
+  confidence: 0.5
+  date: '2026-03-16T12:30:50+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: “Across frontier models released since 2019, the doubling time is 9
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Restricting to models released since 2024, it steepens to 5
+  confidence: 0.5
+  date: '2026-04-06T12:31:31+00:00'
+- text: Welcome to Import AI, a newsletter about AI research
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Import AI runs on arXiv and feedback from readers
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: If you’d like to support this, please subscribe
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: 'Subscribe now
+
+
+    AI systems are about to start building themselves'
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: I don’t know how to wrap my head around it
+  confidence: 0.5
+  date: '2026-05-04T12:32:09+00:00'
+- text: Week one of the Musk v
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Altman trial: what it was like in the room
+
+
+    Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle
+    of a landmark legal showdown, with Musk alleging he was misled about OpenAI becoming
+    a for-profit company'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Our reporter Michelle Kim, who also happens to be a lawyer, has been in court
+    each day, and has broken down the first week’s key moments
+
+    in her latest report'
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: In a new Q&A, she also reveals what it was like in the room, the new details
+    that have emerged about how Musk and OpenAI operate—and what we can expect from
+    this week’s proceedings
+  confidence: 0.5
+  date: '2026-05-05T12:10:00+00:00'
+- text: 'Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and
+    mining
+
+
+    Last week, two oblong neon submersibles started to descend nearly 6,000 meters
+    into the Pacific Ocean'
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: Throughout the rest of May, they will map the seafloor in search of critical
+    mineral deposits
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: If all goes well, the vehicles, built by Orpheus Ocean, could help scientists
+    probe the vastly understudied deep sea—and the resources it holds—at a fraction
+    of the cost of existing systems
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: But the same submersibles are also attracting deep-sea mining companies, raising
+    concerns about environmental impacts
+  confidence: 0.5
+  date: '2026-05-06T12:10:00+00:00'
+- text: 'What’s next for IVF
+
+
+    IVF has brought millions of babies into the world over the last four decades'
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: But the process can still be slow, painful, and expensive—and far from guaranteed
+    to work
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Now, a wave of new technologies aims to change that
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: Researchers are using AI to identify promising sperm and embryos, developing
+    robotic systems that could automate parts of the IVF process, and even exploring
+    controversial genetic editing techniques designed to prevent inherited disease
+  confidence: 0.5
+  date: '2026-05-07T12:10:00+00:00'
+- text: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s
+    motivations for bringing the suit were under scrutiny
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president
+    Greg Brockman had deceived him into donating $38 million to the company
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: He claimed that they’d promised to maintain it as a nonprofit dedicated to
+    developing AI for the benefit of humanity, only to later accept billions of dollars
+    of investment from Microsoft and restructure the company to operate a for-profit
+    subsidiary
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: This week, Brockman fired back with his side of the story, arguing that Musk
+    had actually pushed for OpenAI to create a for-profit arm and fought a bitter
+    battle to have “absolute control” over it
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: OpenAI has argued that Musk is suing because he didn’t get his way and is
+    now trying to undermine a competitor to his own AI company, xAI
+  confidence: 0.5
+  date: '2026-05-08T23:59:19+00:00'
+- text: '线索源：AI HOT 精选
+
+    原始发布者：IT之家（RSS）
+
+    AI HOT 分类：industry
+
+
+    据彭博社报道，Anthropic即将完成一轮超300亿美元的融资，最快可能于下周敲定'
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: 此轮融资将使其估值突破9000亿美元，正式超越OpenAI，成为全球估值最高的AI初创企业
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: 同时，公司营收高速增长，预计第二季度营收将达109亿美元，环比增长超一倍，有望迎来首个盈利季度
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: 'dev
+
+    is a comprehensive open-source database of AI model specifications, pricing, and
+    capabilities'
+  confidence: 0.5
+  date: '2026-05-23T01:39:14.985Z'
+- text: There's no single database with information about all the available AI models
+  confidence: 0.5
+  date: '2026-05-23T01:39:14.985Z'
+- text: dev as a community-contributed project to address this
+  confidence: 0.5
+  date: '2026-05-23T01:39:14.985Z'
+- text: 'We also use it internally in
+
+    opencode'
+  confidence: 0.5
+  date: '2026-05-23T01:39:14.985Z'
+- text: 'API
+
+
+    You can access this data through an API'
+  confidence: 0.5
+  date: '2026-05-23T01:39:14.985Z'
+- text: 38 亿元人民币），公司估值则有望突破 9000 亿美元
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: '一旦交易完成，Anthropic 估值将
+
+    正式超过 OpenAI
+
+    ，成为全球估值最高的 AI 初创企业'
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: 知情人士表示，目前本轮融资规模已经超过 Anthropic 原本设定的 300 亿美元目标
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: 不过，最终投资承诺和融资条款仍在确认过程中，后续仍可能出现调整
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: '这轮融资
+
+    仅用了数周时间
+
+    便迅速推进完成，也反映出资本市场对 Anthropic 的强烈追捧'
+  confidence: 0.5
+  date: '2026-05-23T15:12:40.000Z'
+- text: Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked
+    him into giving the company money, only to turn their backs on their original
+    goal
+  confidence: 0.5
+  date: '2026-05-21T16:15:18-04:00'
+- text: 'However,
+
+    OpenAI claimed
+
+    that “This lawsuit has always been a baseless and jealous bid to derail a competitor”
+    in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok
+    as a competitor to ChatGPT'
+  confidence: 0.5
+  date: '2026-05-21T16:15:18-04:00'
+- text: 'In his lawsuit,
+
+    Musk asked for the removal of Altman and Brockman
+
+    , and for OpenAI to stop operating as a public benefit corporation'
+  confidence: 0.5
+  date: '2026-05-21T16:15:18-04:00'
+- text: OpenAI is forming a new company to deploy AI, and the other labs aren't far
+    behind, reinforcing the thesis that AI's impact will require top-down implementation
+  confidence: 0.5
+  date: '2026-05-13T10:00:00+00:00'
+- text: Then, Apple has economic reasons to work with Intel
+  confidence: 0.5
+  date: '2026-05-13T10:00:00+00:00'
+- text: '(Photo by Alex Wong/Getty Images)
+
+
+    Welcome back to This Week in Stratechery!
+
+
+    As a reminder, each week, every Friday, we’re sending out this overview of content
+    in the Stratechery bundle;
+
+    highlighted links are free for everyone'
+  confidence: 0.5
+  date: '2026-05-15T17:00:00+00:00'
+- text: A New Kind of Computing
+  confidence: 0.5
+  date: '2026-05-15T17:00:00+00:00'
+- text: '(Lexi Critchett/Bloomberg via Getty Images)
+
+
+    Welcome back to This Week in Stratechery!
+
+
+    As a reminder, each week, every Friday, we’re sending out this overview of content
+    in the Stratechery bundle;
+
+    highlighted links are free for everyone'
+  confidence: 0.5
+  date: '2026-05-22T17:12:32+00:00'
+- text: Data Center Discontent
+  confidence: 0.5
+  date: '2026-05-22T17:12:32+00:00'
+- text: 'Note: Voice-overs for paywalled posts are available for paid subscribes in
+    podcast apps if you click on settings on Interconnects, then manage your description'
+  confidence: 0.5
+  date: '2026-05-12T15:54:47+00:00'
+- text: 'Thanks for listening!
+
+    Most of the compute to build a leading frontier model comes from R&D costs, rather
+    than the compute to train the final, big model end-to-end'
+  confidence: 0.5
+  date: '2026-05-12T15:54:47+00:00'
+- text: In an ecosystem like China, where all the leading players are open, this creates
+    a potential meaningful advantage in cost structures that’ll let labs keep building
+    longer than outside observers would expect
+  confidence: 0.5
+  date: '2026-05-12T15:54:47+00:00'
+- text: 'There are two recent pieces of research, one from Ai2
+
+    documenting the development of Olmo 3
+
+    and one from Epoch AI
+
+    studying public documentation of costs from various frontier labs
+
+    , that put the estimate of compute spent on R&D rather than the final model at
+    about 80% (with meaningful error bars)'
+  confidence: 0.5
+  date: '2026-05-12T15:54:47+00:00'
+- text: In a world where research and development is most of the compute, the Chinese
+    system is designed around quickly learning from your peers and avoiding double-spending
+    research compute — or infra effort
+  confidence: 0.5
+  date: '2026-05-12T15:54:47+00:00'
+- text: Import AI runs on arXiv, cappuccinos, and feedback from readers
+  confidence: 0.5
+  date: '2026-05-18T13:31:17+00:00'
+- text: 'Subscribe now
+
+
+    Stuxnet before Stuxnet:
+
+    …Fast16 bugs software likely used in weapons programs…
+
+    Here’s a fascinating investigation of a ~20+ year old computer virus called fast16'
+  confidence: 0.5
+  date: '2026-05-18T13:31:17+00:00'
+- text: This software is interesting because it “selectively targets high-precision
+    calculation software, patching code in memory to tamper with results
+  confidence: 0.5
+  date: '2026-05-18T13:31:17+00:00'
+- text: 'I put together these annotated slides from my five minute lightning talk
+    at PyCon US 2026, using the
+
+    latest iteration
+
+    of my
+
+    annotated presentation tool'
+  confidence: 0.5
+  date: '2026-05-19T01:09:44+00:00'
+- text: November was a critical month in LLMs, especially for coding
+  confidence: 0.5
+  date: '2026-05-19T01:09:44+00:00'
+- text: 'Today at Google I/O, Google
+
+    released Gemini 3'
+  confidence: 0.5
+  date: '2026-05-19T22:40:25+00:00'
+- text: 'This one skipped the
+
+    -preview
+
+    modifier and went straight to general availability, and Google appear to be using
+    it for a whole lot of their key products:
+
+
+    3'
+  confidence: 0.5
+  date: '2026-05-19T22:40:25+00:00'
+- text: 'As usual with Gemini, the most interesting details are tucked away in the
+
+    What''s new in Gemini 3'
+  confidence: 0.5
+  date: '2026-05-19T22:40:25+00:00'
+- text: '5 Flash
+
+    developer documentation'
+  confidence: 0.5
+  date: '2026-05-19T22:40:25+00:00'
+- text: It mostly has the same set of platform features as the previous Gemini 3
+  confidence: 0.5
+  date: '2026-05-19T22:40:25+00:00'
+- text: 'We just
+
+    announced the first release of Datasette Agent
+
+    , a new extensible AI assistant for Datasette'
+  confidence: 0.5
+  date: '2026-05-21T19:52:19+00:00'
+- text: 'I''ve been working on my
+
+    LLM
+
+    Python library for just over three years now, and Datasette Agent represents the
+    moment that LLM and
+
+    Datasette
+
+    finally come together'
+  confidence: 0.5
+  date: '2026-05-21T19:52:19+00:00'
+- text: 'I''m really excited about it!
+
+
+    Datasette Agent provides a conversational interface for asking questions of the
+    data you have stored in Datasette'
+  confidence: 0.5
+  date: '2026-05-21T19:52:19+00:00'
+- text: 'Add the
+
+    datasette-agent-charts
+
+    plugin and it can generate charts of your data as well'
+  confidence: 0.5
+  date: '2026-05-21T19:52:19+00:00'
+- text: 'The demo
+
+
+    The
+
+    announcement post
+
+    (on the new Datasette project blog) includes this
+
+    demo video
+
+    :
+
+
+    I recorded the video against the new
+
+    agent'
+  confidence: 0.5
+  date: '2026-05-21T19:52:19+00:00'
+- text: 'Tech researchers are suing the Trump administration over the future of online
+    safety
+
+
+    For months, the Trump administration has been going after researchers who study
+    and try to counter hate speech, harassment, propaganda, and disinformation online'
+  confidence: 0.5
+  date: '2026-05-21T12:10:00+00:00'
+- text: Now, some of those researchers are fighting back
+  confidence: 0.5
+  date: '2026-05-21T12:10:00+00:00'
+- text: In a new lawsuit, they’re seeking to strike down a visa restriction policy
+    against “foreign officials and other persons” announced last year by US Secretary
+    of State Marco Rubio
+  confidence: 0.5
+  date: '2026-05-21T12:10:00+00:00'
+- text: They say the policy violates the speech and due process rights of foreign-born
+    workers whose “work supports greater moderation of content on the [tech] platforms
+  confidence: 0.5
+  date: '2026-05-21T12:10:00+00:00'
+- text: 'The vibes were strong at Code with Claude, Anthropic’s two-day event for
+    software developers in London that kicked off on May 19, the same day as
+
+    Google’s I/O
+
+    in Palo Alto'
+  confidence: 0.5
+  date: '2026-05-21T14:30:45+00:00'
+- text: (A coincidence, not a flex, Anthropic staffers assured me
+  confidence: 0.5
+  date: '2026-05-21T14:30:45+00:00'
+- text: ')
+
+
+    “Who here has shipped a pull request in the last week that was completely written
+    by Claude?” Jeremy Hadfield, an engineer at Anthropic, asked from the main stage'
+  confidence: 0.5
+  date: '2026-05-21T14:30:45+00:00'
+- text: Almost half the people in the packed room—many sitting with laptops on their
+    knees, coding or prompting as they watched the talks—raised their hands
+  confidence: 0.5
+  date: '2026-05-21T14:30:45+00:00'
+- text: Pull requests are fixes or updates to existing software that are submitted
+    for review before they go live
+  confidence: 0.5
+  date: '2026-05-21T14:30:45+00:00'
+- text: During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind,
+    proclaimed that we are currently “standing in the foothills of the singularity
+  confidence: 0.5
+  date: '2026-05-22T10:00:00+00:00'
+- text: ” It was a striking statement—the singularity is the theoretical future moment
+    when AI rapidly exceeds human intelligence and dramatically transforms the world
+  confidence: 0.5
+  date: '2026-05-22T10:00:00+00:00'
+- text: But what struck me as I listened in the audience was the context in which
+    he said those words
+  confidence: 0.5
+  date: '2026-05-22T10:00:00+00:00'
+- text: He was on stage to close out the session with a segment on scientific AI,
+    the centerpiece of which was a video detailing how the company’s weather prediction
+    software provided an advance alert about Hurricane Melissa’s catastrophic landfall
+    in Jamaica last year—and potentially saved lives
+  confidence: 0.5
+  date: '2026-05-22T10:00:00+00:00'
+- text: If that software, called WeatherNext, helped anyone escape the storm or better
+    fortify their home, that’s an enormous and meaningful achievement
+  confidence: 0.5
+  date: '2026-05-22T10:00:00+00:00'
+- text: '8亿买楼：不予置评
+
+
+    雷军透露小米YU7临时降价
+
+
+    教育部拟同意设置34所新大学
+
+
+    腾讯承诺不再与相关版权方达成或变相达成版权独家授权合同
+
+
+    特朗普凯旋门方案获批
+
+
+    TOP 3大新闻
+
+
+    永辉超市向王健林等追债超36亿元
+
+
+    5月21日，永辉超市发布公告称，公司于近日收到法院出具的《受理案件通知书》'
+  confidence: 0.5
+  date: 2026-05-23 09:13:16  +0800
+- text: 永辉超市与大连御锦贸易有限公司（以下简称大连御锦）、王健林、孙喜双、大连一方集团有限公司（以下简称一方集团）仲裁裁决一案，上海国际经济贸易仲裁委员会作出的裁决文书已发生法律效力
+  confidence: 0.5
+  date: 2026-05-23 09:13:16  +0800
+- text: 经公司向法院申请执行，法院出具了《受理案件通知书》，决定立案执行
+  confidence: 0.5
+  date: 2026-05-23 09:13:16  +0800
+- text: 39亿元及相关违约金、律师费、仲裁费等其他费用
+  confidence: 0.5
+  date: 2026-05-23 09:13:16  +0800
+- text: 36氪获悉，天眼查App显示，王健林名下关联40余家企业，其中10家处于存续或者迁出状态，其余企业已注销或被吊销
+  confidence: 0.5
+  date: 2026-05-23 09:13:16  +0800
+- text: “如果没有转型，继续走主流道路，你也会有同等程度的焦虑
+  confidence: 0.5
+  date: 2026-05-23 14:53:35  +0800
+- text: ”王小川说，这次转型，让他真正回归到从创业第一天就最想做的事情：造AI医生
+  confidence: 0.5
+  date: 2026-05-23 14:53:35  +0800
+- text: '访谈｜邓咏仪 杨轩
+
+
+    文｜邓咏仪
+
+
+    编辑｜张雨忻
+
+
+    一年前，王小川带着百川智能来了一次激烈的“大刹车”：大幅缩减通用模型团队，关闭金融等多条行业线，All in医疗大模型'
+  confidence: 0.5
+  date: 2026-05-23 14:53:35  +0800
+- text: 但与此同时，整个大模型行业却热闹非凡，大厂和创业公司轮番进行“轰炸式更新”——过去半年里，平均3天就有一个新版本的通用大模型面世
+  confidence: 0.5
+  date: 2026-05-23 14:53:35  +0800
+- text: 5月22日，王小川安静地交出答卷：新医疗大模型M4，以及Agent产品“百小医”
+  confidence: 0.5
+  date: 2026-05-23 14:53:35  +0800
+- text: 但对于那些积极转型的20%，如何找到、培养并留住他们，这里有一本实战手册
+  confidence: 0.5
+  date: 2026-05-23 15:05:47  +0800
+- text: 只有1%的企业是AI原生企业，20%积极拥抱变化，80%在苦苦挣扎；人才亦然
+  confidence: 0.5
+  date: 2026-05-23 15:05:47  +0800
+- text: 圆桌深入探讨了企业“赶时髦招AI人才”的焦虑、通过黑客松内部挖掘AI人才的方法、以及“事业留人、文化留人”的留存策略
+  confidence: 0.5
+  date: 2026-05-23 15:05:47  +0800
+- text: '以下为圆桌对话内容，经36氪整理编辑：
+
+
+    帮主丨36氪《AI局内人》主播（主持）
+
+
+    郑鹏宇丨杭州颜柯教育科技有限公司创始人
+
+
+    肖玛峰丨AI招聘平台TTC创始人
+
+
+    帮主：
+
+    各位下午好，我是这场圆桌的主持人帮主'
+  confidence: 0.5
+  date: 2026-05-23 15:05:47  +0800
+- text: 这场圆桌不聊技术落地的事，聊一个在座很多老板都非常关心的事——AI人才从哪里来，以及能不能自己培养
+  confidence: 0.5
+  date: 2026-05-23 15:05:47  +0800
+- text: '线索源：AI HOT 精选
+
+    原始发布者：X：宝玉 (@dotey)
+
+    AI HOT 分类：tip
+
+    英文标题：如何在 Codex App 使用 /goal 的简单说明： 1'
+  confidence: 0.5
+  date: '2026-05-22T03:58:28.000Z'
+- text: '先在命令行运行一下下面的指令： > codex features enable go…
+
+
+    OpenAI宣布Codex的/goal模式已结束实验，成为稳定功能'
+  confidence: 0.5
+  date: '2026-05-22T03:58:28.000Z'
+- text: 用户可在Codex应用、IDE扩展或CLI中使用，通过设定具体里程碑，让AI持续工作直至完成，任务可运行数小时甚至数天
+  confidence: 0.5
+  date: '2026-05-22T03:58:28.000Z'
+- text: 使用前需升级应用并启用该功能（可通过命令行指令或手动修改配置文件实现）
+  confidence: 0.5
+  date: '2026-05-22T03:58:28.000Z'
+- text: 开启后，可在输入框管理任务，并利用侧边对话查看进度而不中断主任务
+  confidence: 0.5
+  date: '2026-05-22T03:58:28.000Z'
+- text: '线索源：AI HOT 精选
+
+    原始发布者：IT之家（RSS）
+
+    AI HOT 分类：industry
+
+
+    全球最大的代码托管平台GitHub正面临严重危机'
+  confidence: 0.5
+  date: '2026-05-22T08:10:33.000Z'
+- text: 资深开发者Mitchell Hashimoto公开与平台决裂，因频繁崩溃影响编程
+  confidence: 0.5
+  date: '2026-05-22T08:10:33.000Z'
+- text: 近几个月，花旗银行、英特尔等巨头因持续故障表达不满，OpenAI探索自建方案
+  confidence: 0.5
+  date: '2026-05-22T08:10:33.000Z'
+- text: 更严重的是，3800多个内部仓库遭黑客入侵，源代码被公开叫卖
+  confidence: 0.5
+  date: '2026-05-22T08:10:33.000Z'
+- text: 同时，微软取消GitHub CEO职位，将其并入CoreAI团队，导致大量技术骨干流失
+  confidence: 0.5
+  date: '2026-05-22T08:10:33.000Z'
+- text: '线索源：AI HOT 精选
+
+    原始发布者：X：OpenAI Developers (@OpenAIDevs)
+
+    AI HOT 分类：ai-products
+
+    英文标题：Shipped papercut： new diff markers setting in Appearance'
+  confidence: 0.5
+  date: '2026-05-22T20:16:49.000Z'
+- text: 'Prefer classic + / - markers when reviewi…
+
+
+    已发布剪纸功能：外观设置中新增差异标记样式'
+  confidence: 0.5
+  date: '2026-05-22T20:16:49.000Z'
+- text: 在查看差异时更喜欢经典的 + / - 标记
+  confidence: 0.5
+  date: '2026-05-22T20:16:49.000Z'
+- text: 现在你可以选择使用它们，而不仅仅是彩色差异条
+  confidence: 0.5
+  date: '2026-05-22T20:16:49.000Z'
 ---
 
 # OpenAI
 
-**角色**: 被通报拟议计划的AI公司之一
+**角色**: mentioned
 
-## 关联事件 (1)
+## 关联事件 (55)
 
-- 2026-05-05: 白宫拟在AI模型发布前实施审查
+- 2026-05-21: All of the updates from Elon Musk and Sam Altman’s battle over OpenAI
+- 2026-05-13: The Deployment Company, Back to the 70s, Apple and Intel
+- 2026-05-15: 2026.20: Shifting Alliances in a Changing World
+- 2026-05-22: 2026.21: The Data Center Veto
+- 2026-05-12: How open model ecosystems compound
+- 2026-05-18: Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment
+- 2026-05-19: The last six months in LLMs in five minutes
+- 2026-05-19: Gemini 3.5 Flash: more expensive, but Google plan to use it for everything
+- 2026-05-21: Datasette Agent
+- 2026-05-21: The Download: online safety’s future and climate tech’s big pivot
+- 2026-05-21: Anthropic’s Code with Claude showed off coding’s future—whether you like it or not
+- 2026-05-22: Google I/O showed how the path for AI-driven science is shifting
+- 2026-05-23: 9点1氪丨永辉超市向王健林等追债超36亿元；《柳叶刀》：全球近12亿人有精神障碍；微信回应“只能撤回2分钟内消息”
+- 2026-05-23: 对话王小川：离开通用人工智能的主干道之后
+- 2026-05-23: 圆桌对话：人才特种兵：“AI原生人才”与“产业老炮”的共生手册| 2026AI Partner·北京亦庄AI+产业大会
+- 2026-05-22: OpenAI Codex /goal功能正式发布及使用指南
+- 2026-05-22: 18 年老粉与微软 GitHub 决裂：我希望它更好，但我更想编程
+- 2026-05-22: 新增差异标记样式设置选项
+- 2026-05-23: 消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI
+- 2026-03-02: Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies
 
-## 结构化声明 (598)
+## 结构化声明 (856)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

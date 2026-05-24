@@ -1,11 +1,16 @@
 <article class="card">
   <div class="card-meta">
     {{ if not .Date.IsZero }}<span>{{ .Date.Format "2006-01-02" }}</span>{{ end }}
-    {{ with .Params.decision_grade }}<span class="badge">{{ . }}</span>{{ end }}
     {{ with .Params.type }}<span>{{ . }}</span>{{ end }}
   </div>
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-  <p>{{ .Summary | plainify | truncate 132 }}</p>
+  {{ if .Params.summary }}
+    <p>{{ .Params.summary | plainify | truncate 132 }}</p>
+  {{ else if eq .Params.type "daily_brief" }}
+    <p>打开日报查看今日判断、关键证据、追踪主线和下一步观察。</p>
+  {{ else }}
+    <p>{{ .Summary | plainify | truncate 132 }}</p>
+  {{ end }}
   {{ with .Params.topics }}
   <div class="card-tags">
     {{ range first 3 . }}

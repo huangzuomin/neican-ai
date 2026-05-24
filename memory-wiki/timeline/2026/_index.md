@@ -2,11 +2,259 @@
 title: 2026 年时间线
 type: timeline
 year: '2026'
-event_count: 3
+event_count: 251
 ---
 
 # 2026 年 AI 行业时间线
 
-- **2026-05-02** — 科氪 | 张雪机车再夺冠军！荣耀宣布推出张雪机车冠军联名款手表 [tool_launch] · 36氪, 职场Bonus, 张雪机车
-- **2026-05-04** — 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线 [tool_launch] · 36氪, 职场Bonus, 豆包
-- **2026-05-04** — 五月，适合想清楚一件事｜幕启 [tool_launch] · 36氪, 职场Bonus, 有三思
+- **2026-01-10** — Information-Driven Design of Imaging Systems [model_release] · 美国证券交易委员会
+- **2026-01-16** — D4RT: Teaching AI to see the world in four dimensions [other]
+- **2026-01-29** — Project Genie: Experimenting with infinite, interactive worlds [research_paper] · Google DeepMind
+- **2026-02-02** — Latest open artifacts (#18): Arcee's 400B MoE, LiquidAI's underrated 1B model, new Kimi, and anticipation of a busy month [model_release]
+- **2026-02-04** — Why Nvidia builds open models with Bryan Catanzaro [model_release] · OpenAI, Google DeepMind, 英特尔
+- **2026-02-09** — Opus 4.6, Codex 5.3, and the post-benchmark era [model_release] · OpenAI, Anthropic, 苹果
+- **2026-02-09** — Accelerating Mathematical and Scientific Discovery with Gemini Deep Think [model_release]
+- **2026-02-12** — Gemini 3 Deep Think: Advancing science, research and engineering [model_release]
+- **2026-02-17** — Accelerating discovery in India through AI-powered science and education [other] · Google DeepMind
+- **2026-02-17** — Open models in perpetual catch-up [model_release] · OpenAI, Anthropic, Meta AI
+- **2026-02-18** — A new way to express yourself: Gemini can now create music [model_release] · 美国证券交易委员会
+- **2026-02-19** — Gemini 3.1 Pro: A smarter model for your most complex tasks [model_release]
+- **2026-02-23** — Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy [model_release] · Anthropic, 美国证券交易委员会
+- **2026-02-24** — How much does distillation really matter for Chinese LLMs? [model_release] · OpenAI, Anthropic, Meta AI
+- **2026-02-26** — Nano Banana 2: Combining Pro capabilities with lightning-fast speed [model_release]
+- **2026-03-02** — Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-03-03** — Latest open artifacts (#19): Qwen 3.5, GLM 5, MiniMax 2.5 — Chinese labs' latest push of the frontier [model_release]
+- **2026-03-03** — Gemini 3.1 Flash-Lite: Built for intelligence at scale [model_release] · 英特尔
+- **2026-03-05** — Olmo Hybrid and future LLM architectures [model_release] · Meta AI, 美国证券交易委员会, 英伟达
+- **2026-03-06** — Dean Ball on open models and government control [model_release] · Anthropic, Meta AI, 英特尔
+- **2026-03-09** — Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI [model_release] · 英特尔, 美国证券交易委员会, 英伟达
+- **2026-03-13** — Identifying Interactions at Scale for LLMs [model_release] · 英特尔, 美国证券交易委员会
+- **2026-03-16** — ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-03-16** — What comes next with open models [model_release] · OpenAI, Meta AI, 英特尔
+- **2026-03-17** — Measuring progress toward AGI: A cognitive framework [tool_launch]
+- **2026-03-18** — GPT 5.4 is a big step for Codex [model_release] · OpenAI
+- **2026-03-22** — Lossy self-improvement [model_release] · Meta AI, 英特尔
+- **2026-03-23** — Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks [model_release] · Google DeepMind, 英特尔, 美国证券交易委员会
+- **2026-03-25** — Protecting people from harmful manipulation [research_paper] · Google DeepMind
+- **2026-03-26** — Gemini 3.1 Flash Live: Making audio AI more natural and reliable [model_release]
+- **2026-03-29** — Reimagining the mouse pointer for the AI era [other] · Google DeepMind
+- **2026-03-30** — Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer [model_release] · Anthropic, 英特尔, 美国证券交易委员会
+- **2026-03-30** — Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others [model_release] · 英伟达
+- **2026-04-02** — Gemma 4: Byte for byte, the most capable open models [model_release] · 英特尔
+- **2026-04-03** — Gemma 4 and what makes an open model succeed [model_release] · Meta AI, 英特尔, 美国证券交易委员会
+- **2026-04-06** — Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting [model_release] · OpenAI, 美国证券交易委员会
+- **2026-04-09** — Claude Mythos and misguided open-weight fearmongering [model_release] · OpenAI, Meta AI, 美国证券交易委员会
+- **2026-04-11** — The inevitable need for an open model consortium [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-04-13** — Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment [model_release] · Google DeepMind, 英特尔, 美国证券交易委员会
+- **2026-04-13** — Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning [model_release]
+- **2026-04-14** — What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research [model_release] · 美国证券交易委员会
+- **2026-04-15** — Gemini 3.1 Flash TTS: the next generation of expressive AI speech [model_release]
+- **2026-04-15** — My bets on open models, mid-2026 [model_release] · Meta AI, 英特尔, 美国证券交易委员会
+- **2026-04-20** — Gradient-based Planning for World Models at Longer Horizons [model_release] · 美国证券交易委员会
+- **2026-04-20** — Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4 [model_release] · Anthropic, 央视新闻, 英特尔
+- **2026-04-20** — Reading today's open-closed performance gap [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-04-21** — Partnering with industry leaders to accelerate AI transformation [other] · Google DeepMind
+- **2026-04-27** — Announcing our partnership with the Republic of Korea [model_release] · Google DeepMind
+- **2026-04-27** — AI Hardware, Meta Display, Redefining VR and AR [other]
+- **2026-04-28** — An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents [model_release] · OpenAI, Anthropic, Meta AI
+- **2026-04-29** — Intel Earnings, Intel’s Differentiation?, Whither Terafab [other] · 英特尔
+- **2026-04-29** — llm 0.32a0 [model_release]
+- **2026-04-29** — LLM 0.32a0  is a major backwards-compatible refactor [model_release] · OpenAI, Anthropic, 美国证券交易委员会
+- **2026-04-29** — llm 0.32a1 [model_release]
+- **2026-04-30** — The Zig project's rationale for their firm anti-AI contribution policy [model_release] · Anthropic
+- **2026-04-30** — Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes [other]
+- **2026-04-30** — Enabling a new model for healthcare with AI co-clinician [model_release]
+- **2026-04-30** — We need RSS for sharing abundant vibe-coded apps [model_release]
+- **2026-04-30** — Quoting Andrew Kelley [model_release]
+- **2026-04-30** — Our evaluation of OpenAI's GPT-5.5 cyber capabilities [model_release] · OpenAI, Anthropic, 美国证券交易委员会
+- **2026-04-30** — Codex CLI 0.128.0 adds /goal [model_release] · OpenAI
+- **2026-05-01** — 2026.18: Long-term, Peripheral & Myopic Visions [model_release] · OpenAI, 英特尔
+- **2026-05-01** — iNaturalist Sightings [model_release]
+- **2026-05-02** — Sightings [model_release]
+- **2026-05-03** — Quoting Anthropic [model_release] · Anthropic
+- **2026-05-04** — Google Earnings, Meta Earnings [other] · Anthropic
+- **2026-05-04** — Import AI 455: Automating AI Research [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-04** — Redis Array Playground [model_release]
+- **2026-05-04** — The distillation panic [model_release] · OpenAI, Anthropic, 美国证券交易委员会
+- **2026-05-04** — TRE Python binding — ReDoS robustness demo [model_release] · 美国证券交易委员会
+- **2026-05-04** — April 2026 newsletter [model_release] · 美国证券交易委员会
+- **2026-05-04** — Quoting Andy Masley [other]
+- **2026-05-04** — Granite 4.1 3B SVG Pelican Gallery [model_release]
+- **2026-05-05** — Quoting John Gruber [other] · OpenAI
+- **2026-05-05** — llm-echo 0.5a0 [model_release]
+- **2026-05-05** — datasette-llm 0.1a7 [model_release]
+- **2026-05-05** — A blueprint for using AI to strengthen democracy [model_release]
+- **2026-05-05** — Amazon’s Durability [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-05-05** — The Download: inside the Musk v. Altman trial, and AI for democracy [model_release] · OpenAI, Anthropic, 白宫
+- **2026-05-05** — Our AI started a cafe in Stockholm [model_release]
+- **2026-05-05** — datasette-referrer-policy 0.1 [model_release] · 美国证券交易委员会
+- **2026-05-06** — Microsoft Earnings, Apple Earnings [model_release] · 苹果
+- **2026-05-06** — AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields [model_release]
+- **2026-05-06** — The Download: seafloor science and military chatbots [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-06** — Vibe coding and agentic engineering are getting closer than I'd like [model_release] · Anthropic, 美国证券交易委员会
+- **2026-05-06** — Live blog: Code w/ Claude 2026 [model_release] · Anthropic
+- **2026-05-07** — GitHub Repo Stats [model_release]
+- **2026-05-07** — What’s next for IVF [model_release] · 英特尔
+- **2026-05-07** — An Interview with Joanna Stern About Living With AI [other]
+- **2026-05-07** — The balcony solar boom is coming to the US [product_update] · 美国证券交易委员会
+- **2026-05-07** — The Download: the tech reshaping IVF and the rise of balcony solar [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-07** — Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI [model_release] · OpenAI, Anthropic, Meta AI
+- **2026-05-07** — ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns [model_release] · OpenAI
+- **2026-05-07** — SpaceX has a $55 billion plan to build AI chips in Texas [product_update] · 马斯克
+- **2026-05-07** — Apple&#8217;s AirPods with cameras for AI are apparently close to production [other] · 苹果
+- **2026-05-07** — Notes from inside China's AI labs [model_release] · OpenAI, Anthropic, Meta AI
+- **2026-05-07** — Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster [model_release] · OpenAI
+- **2026-05-07** — Notes on the xAI/Anthropic data center deal [model_release] · Anthropic, Meta AI, 马斯克
+- **2026-05-07** — Behind the Scenes Hardening Firefox with Claude Mythos Preview [model_release] · Anthropic, 美国证券交易委员会
+- **2026-05-07** — llm-gemini 0.31 [model_release]
+- **2026-05-08** — Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家 [model_release] · 苹果
+- **2026-05-08** — 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构 [tool_launch] · 36氪, 英特尔, 英伟达
+- **2026-05-08** — 小红书四年AI 路：FOMO、犹豫，到突然加速 [model_release] · 36氪, 豆包
+- **2026-05-08** — 卡位黄金价格带，问界M6向下争夺年轻群体｜最前线 [model_release]
+- **2026-05-08** — Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling [model_release] · OpenAI, 美国证券交易委员会
+- **2026-05-08** — Nanoleaf bets its future on robots, red light therapy, and AI [tool_launch]
+- **2026-05-08** — Here’s how technology transformed babymaking [other] · 美国证券交易委员会
+- **2026-05-08** — Everybody wants to rule the AI world [other] · OpenAI
+- **2026-05-08** — Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure [other] · OpenAI
+- **2026-05-08** — The Download: AI malaise and babymaking tech [model_release] · 英特尔, 英伟达
+- **2026-05-08** — PlayStation sees AI as a ‘powerful tool’ to help make games [tool_launch]
+- **2026-05-08** — All the latest updates on AI data centers [funding] · OpenAI, Anthropic, 英特尔
+- **2026-05-08** — Here’s what you need to know about the cruise ship hantavirus outbreak [other]
+- **2026-05-08** — 2026.19: Earning & Spending [model_release] · Anthropic, 苹果, 美国证券交易委员会
+- **2026-05-08** — Using Claude Code: The Unreasonable Effectiveness of HTML [model_release] · Anthropic, 美国证券交易委员会
+- **2026-05-08** — Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman [model_release] · OpenAI, Google DeepMind, 英特尔
+- **2026-05-09** — 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉 [model_release] · OpenAI, Anthropic, 36氪
+- **2026-05-09** — 获高秉强、蓝驰领投数千万融资，浙大00后创业者从远景观测切入AI智能影像｜硬氪首发 [tool_launch]
+- **2026-05-09** — AI开始接管年轻人的「精神自留地」 [other]
+- **2026-05-09** — 智源FlagSafe平台正式发布 [safety_issue] · 36氪
+- **2026-05-09** — 百度正式发布文心大模型5.1 [other] · 36氪
+- **2026-05-09** — 字节跳动据悉计划将AI基础设施支出增加25% [other]
+- **2026-05-09** — 光帆带摄像头AI耳机本月开售 [other] · 36氪
+- **2026-05-09** — Quoting Luke Curley [model_release] · OpenAI
+- **2026-05-11** — The Inference Shift [model_release] · Anthropic, 英特尔, 美国证券交易委员会
+- **2026-05-11** — Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer [model_release] · Anthropic, Google DeepMind, Meta AI
+- **2026-05-12** — SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future [other] · Anthropic, 马斯克
+- **2026-05-12** — Co-Scientist: A multi-agent AI partner to accelerate research [model_release]
+- **2026-05-12** — How open model ecosystems compound [model_release] · OpenAI, 英特尔, 苹果
+- **2026-05-13** — The Deployment Company, Back to the 70s, Apple and Intel [other] · OpenAI, 英特尔, 苹果
+- **2026-05-14** — datasette-ip-rate-limit 0.1a0 [model_release] · 美国证券交易委员会
+- **2026-05-14** — An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference [other]
+- **2026-05-14** — datasette-agent 0.1a1 [product_update]
+- **2026-05-14** — Quoting Mitchell Hashimoto [model_release]
+- **2026-05-14** — Not so locked in any more [model_release]
+- **2026-05-15** — datasette-agent 0.1a2 [tool_launch]
+- **2026-05-15** — datasette-llm-limits 0.1a0 [model_release]
+- **2026-05-15** — QR code generator [model_release]
+- **2026-05-15** — 2026.20: Shifting Alliances in a Changing World [model_release] · OpenAI, Anthropic, 英特尔
+- **2026-05-15** — Gemini 3.5: frontier intelligence with action [model_release] · 英特尔
+- **2026-05-16** — How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica [model_release]
+- **2026-05-16** — Accelerating discovery of liver disease mechanisms [other]
+- **2026-05-16** — Strengthening Singapore’s AI Future: A New National Partnership [other] · Google DeepMind
+- **2026-05-16** — Quoting Julia Evans [other]
+- **2026-05-16** — Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment. [model_release] · 美国证券交易委员会
+- **2026-05-16** — Warelay -> OpenClaw [tool_launch]
+- **2026-05-17** — Gemini for Science: AI experiments and tools for a new era of discovery [model_release]
+- **2026-05-17** — GDS weighs in on the NHS's decision to retreat from Open Source [model_release] · 美国证券交易委员会
+- **2026-05-17** — Simulate real-world places with Project Genie and Street View [other] · Google DeepMind
+- **2026-05-18** — Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-19** — The last six months in LLMs in five minutes [model_release] · OpenAI, Anthropic, 美国证券交易委员会
+- **2026-05-19** — datasette-llm 0.1a8 [model_release]
+- **2026-05-19** — llm-gemini 0.32a0 [model_release]
+- **2026-05-19** — datasette-llm-accountant 0.1a4 [model_release]
+- **2026-05-19** — Gemini 3.5 Flash: more expensive, but Google plan to use it for everything [model_release] · OpenAI, Google DeepMind
+- **2026-05-19** — llm-gemini 0.32 [model_release]
+- **2026-05-20** — Google I/O, World Models, I/O Spaghetti [model_release] · Google DeepMind
+- **2026-05-20** — Green steel startup Boston Metal is doubling down on critical metals [funding]
+- **2026-05-20** — datasette-agent-charts 0.1a1 [tool_launch]
+- **2026-05-20** — Google I/O, Gemini Spark, Antigravity [model_release] · 美国证券交易委员会
+- **2026-05-20** — How fast is 10 tokens per second really? [model_release] · 美国证券交易委员会
+- **2026-05-20** — Quoting SpaceX S-1 [model_release] · Anthropic
+- **2026-05-21** — Tech researchers are suing the Trump administration over the future of online safety [funding] · 马斯克, 美国证券交易委员会
+- **2026-05-21** — Climate tech companies are pivoting to critical minerals [model_release] · 美国证券交易委员会
+- **2026-05-21** — An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web [other]
+- **2026-05-21** — Spotify is launching AI-generated remixes [tool_launch]
+- **2026-05-21** — The Download: online safety’s future and climate tech’s big pivot [model_release] · OpenAI, Google DeepMind, 马斯克
+- **2026-05-21** — This AI guitar pedal let me roll my own effects [other]
+- **2026-05-21** — Anthropic’s Code with Claude showed off coding’s future—whether you like it or not [model_release] · OpenAI, Anthropic, 美国证券交易委员会
+- **2026-05-21** — datasette-agent 0.1a3 [tool_launch]
+- **2026-05-21** — datasette-agent-charts 0.1a2 [product_update]
+- **2026-05-21** — In desperate times, graduates find hope in humiliating tech CEOs [funding]
+- **2026-05-21** — All of the updates from Elon Musk and Sam Altman’s battle over OpenAI [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-21** — datasette-agent-sprites 0.1a0 [product_update]
+- **2026-05-21** — Scaling creativity in the age of AI [model_release] · 英伟达
+- **2026-05-21** — Datasette Agent [model_release] · OpenAI
+- **2026-05-21** — Roundtables: Can AI Learn to Understand the World? [model_release]
+- **2026-05-22** — 新鲜零食品牌「金粒门」加速全国化：粤鄂6店同装｜最前线 [other] · 36氪
+- **2026-05-22** — VSAS-Bench：视觉流式辅助模型的实时评估基准 [model_release] · 苹果
+- **2026-05-22** — 可塑界面：AI驱动的未来软件形态 [other]
+- **2026-05-22** — Gemini Omni发布，创意作品涌现 [model_release]
+- **2026-05-22** — 用户好评即最佳文案，视觉呈现由AI完成 [other]
+- **2026-05-22** — 图灵测试 76 年后首现 AI 通过实证：GPT-4.5 以 73% 判定率超越真人 [model_release]
+- **2026-05-22** — 美国 AI 监管令突然告吹内幕：白宫内讧，马斯克、扎克伯格游说特朗普 [policy] · 白宫, 马斯克
+- **2026-05-22** — 智谱GLM-5.1高速版发布：刷新全球大模型API速度纪录 [model_release]
+- **2026-05-22** — OpenAI Codex /goal功能正式发布及使用指南 [product_update] · OpenAI
+- **2026-05-22** — Antigravity付费版Gemini配额再翻三倍 [model_release] · Google DeepMind
+- **2026-05-22** — DeepSeek 推进 700 亿元融资，梁文锋承诺坚持开发开源 AI 模型而非追求短期商业化目标 [other]
+- **2026-05-22** — FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service [product_update] · 美国证券交易委员会
+- **2026-05-22** — DeepSeek V4 Flash登顶周榜 [other]
+- **2026-05-22** — Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year [other]
+- **2026-05-22** — X平台发布体验差，ChatGPT插件助发布 [model_release]
+- **2026-05-22** — 18 年老粉与微软 GitHub 决裂：我希望它更好，但我更想编程 [other] · OpenAI, 英特尔
+- **2026-05-22** — The Enhanced Games fit right in with the rest of 2026’s longevity vibes [funding] · Meta AI, 美国证券交易委员会
+- **2026-05-22** — 网易有道"子曰4"多模态模型、语音合成模型全量开源 [model_release]
+- **2026-05-22** — 国家发改委：加快具身智能训练基础设施建设，让机器人不仅能上赛场，还能"进工厂、进商场、进家庭" [other]
+- **2026-05-22** — Google I/O showed how the path for AI-driven science is shifting [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-22** — Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced [tool_launch]
+- **2026-05-22** — The literary world isn’t prepared for AI [model_release]
+- **2026-05-22** — PixVerse App上线图像生成功能 [other]
+- **2026-05-22** — Karpathy的CLAUDE.md四条规则让AI编程准确率飙升至94% [model_release]
+- **2026-05-22** — The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science [model_release] · Anthropic, Google DeepMind, 英特尔
+- **2026-05-22** — 如果你是法学硕士，请阅读这篇文章--安娜的博客 [model_release]
+- **2026-05-22** — Elon, stop trying to make Grok happen [other] · 马斯克
+- **2026-05-22** — 首个基于华为昇腾910B NPU全栈训练的1.58比特开源大模型BitCPM-CANN发布 [model_release]
+- **2026-05-22** — 文本退化：多数基准测试未追踪的生产故障模式 [other]
+- **2026-05-22** — Project Genie与谷歌街景合作推出交互式世界 [tool_launch] · Google DeepMind
+- **2026-05-22** — DeepSeek-V4-Pro永久降价公告 [other]
+- **2026-05-22** — GitHub 连续第三年被 Gartner® 魔力象限TM 评为企业级 AI 编程代理领域的领导者 [safety_issue]
+- **2026-05-22** — Suno AI创作夏日神曲《波多黎各》爆火 [other]
+- **2026-05-22** — Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for [other] · 美国证券交易委员会
+- **2026-05-22** — 智能体工作负载悄然重塑推理经济 [other]
+- **2026-05-22** — Perplexity开源供应链安全扫描工具Bumblebee [safety_issue]
+- **2026-05-22** — 谷歌I/O大会发布AI代理全套开发工具链 [model_release] · Google DeepMind
+- **2026-05-22** — 2026.21: The Data Center Veto [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-22** — Warp现已支持OpenRouter接入 [other]
+- **2026-05-22** — Kakuna：自动化加固代码库的AI代理工具 [other]
+- **2026-05-22** — 回顾Google I/O 2026对话环节 [other]
+- **2026-05-22** — ChatGPT语音模式实现表单语音填写 [model_release]
+- **2026-05-22** — 新增差异标记样式设置选项 [research_paper] · OpenAI
+- **2026-05-22** — The memory shortage is causing a repricing of consumer electronics [other]
+- **2026-05-22** — Claude自动模式新增Pro计划与模型支持 [model_release]
+- **2026-05-22** — v2.1.149 更新摘要 [model_release]
+- **2026-05-22** — 动作捕捉与角色动画制作更轻松 [tool_launch]
+- **2026-05-22** — 黄仁勋：AI 基建年度开支要冲到 4 万亿美元！ [other] · 英伟达
+- **2026-05-22** — AlphaProof Nexus：用形式化验证驱动AI数学证明搜索 [model_release] · Google DeepMind
+- **2026-05-23** — 9点1氪丨永辉超市向王健林等追债超36亿元；《柳叶刀》：全球近12亿人有精神障碍；微信回应“只能撤回2分钟内消息” [model_release] · OpenAI, Anthropic, 36氪
+- **2026-05-23** — 用AI来管公司，Moka推出三款AI HR工具｜涌现新栏目 [tool_launch]
+- **2026-05-23** — 36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资 [other] · 36氪, 英伟达
+- **2026-05-23** — 圆桌对话：AI浓度与转化率：数字体验的实战增长法则 [tool_launch] · 36氪, 豆包, 抖音
+- **2026-05-23** — 对话王小川：离开通用人工智能的主干道之后 [model_release] · OpenAI, Anthropic, Google DeepMind
+- **2026-05-23** — 圆桌对话：人才特种兵：“AI原生人才”与“产业老炮”的共生手册| 2026AI Partner·北京亦庄AI+产业大会 [model_release] · OpenAI, Anthropic, 36氪
+- **2026-05-23** — 圆桌对话：当AI进入产业前线：未来最稀缺的AI人才，会是谁？| 2026AI Partner·北京亦庄AI+产业大会 [policy] · 36氪, 豆包, 英伟达
+- **2026-05-23** — 圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会 [model_release] · 36氪
+- **2026-05-23** — Nemotron-Labs 扩散语言模型实现光速级文本生成 [model_release] · 英伟达
+- **2026-05-23** — AI 替代入门级工作：科技行业受裁员冲击最重，74% CEO 冻结或缩减招聘 [other]
+- **2026-05-23** — 扩大与新加坡合作，推动AI安全规模化部署 [safety_issue] · Google DeepMind
+- **2026-05-23** — Models.dev：一个关于人工智能模型规格、定价和功能的开源数据库 [model_release]
+- **2026-05-23** — Kling AI亮相戛纳，推动AI赋能电影制作 [other]
+- **2026-05-23** — 微软称，使用人工智能的成本高于支付人工工资 [other]
+- **2026-05-23** — Google’s new anything-to-anything AI model is wild [model_release]
+- **2026-05-23** — 飞书-Claude Code桥接开源项目 [model_release]
+- **2026-05-23** — 加倍投入科学以赢得工业AI [other]
+- **2026-05-23** — 消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI [other] · OpenAI, Anthropic
+- **2026-05-23** — Replit Agent与Squidler集成，实现全自动化AI质量保障 [other]
+- **2026-05-23** — StepAudio 2.5实时语音发布：副语言感知与人格化交互 [other]
+- **2026-05-24** — 一季度AI领域融资超1100亿元 国产大模型融资金额暴增 [other]
+- **2026-05-24** — 一季度韩国前五大企业出口占比达44% [other] · 三星电子
+- **2026-05-24** — 芬兰大学说新型AI聊天机器人有助抵抗错误健康信息 [other]
+- **2026-05-24** — 周鸿祎谈马斯克大尺度预言：十年后人类都不开车了？ [other] · 马斯克
+- **2026-05-24** — OpenClaw 2026.5.22发布：性能优化与安全加固 [model_release]

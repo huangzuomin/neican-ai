@@ -5,9 +5,9 @@ slug: embodied-ai
 aliases: []
 parent: null
 description: Embodied AI 主题下的 AI 行业事件、实体和趋势。
-event_count: 17
+event_count: 18
 entity_count: 13
-source_count: 17
+source_count: 18
 related_tracks: []
 seo:
   title: Embodied AI - neican.ai
@@ -57,8 +57,9 @@ Embodied AI 主题下的 AI 行业事件、实体和趋势。
 - **背景信号** (2026-05-21) All of the updates from Elon Musk and Sam Altman’s battle over OpenAI
 - **背景信号** (2026-05-15) 2026.20: Shifting Alliances in a Changing World
 - **背景信号** (2026-05-08) Nanoleaf bets its future on robots, red light therapy, and AI
+- **背景信号** (2026-04-14) Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning
 - **背景信号** (2026-02-23) Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
 
 ## 来源统计
 
-共 17 个来源。
+共 18 个来源。

@@ -3,7 +3,7 @@ title: ai agents
 slug: ai-agents
 type: topic
 last_updated: '2026-05-24'
-related_events: 67
+related_events: 71
 related_entities:
 - 36-fac4f559
 - anthropic
@@ -21,9 +21,10 @@ related_entities:
 
 # ai agents
 
-## 事件时间线 (67)
+## 事件时间线 (71)
 
 - 2026-05-24: OpenClaw 2026.5.22发布：性能优化与安全加固
+- 2026-05-24: 对话VITURE姜公略：什么才是XR眼镜该有的样子？
 - 2026-05-23: StepAudio 2.5实时语音发布：副语言感知与人格化交互
 - 2026-05-23: Replit Agent与Squidler集成，实现全自动化AI质量保障
 - 2026-05-23: 飞书-Claude Code桥接开源项目
@@ -42,7 +43,6 @@ related_entities:
 - 2026-05-22: Warp现已支持OpenRouter接入
 - 2026-05-22: 2026.21: The Data Center Veto
 - 2026-05-22: 谷歌I/O大会发布AI代理全套开发工具链
-- 2026-05-22: 智能体工作负载悄然重塑推理经济
 
 ## 相关实体 (12)
 

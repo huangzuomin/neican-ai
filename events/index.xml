@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>事件库 on AI内参</title><link>https://neican.ai/events/</link><description>Recent content in 事件库 on AI内参</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://neican.ai/events/index.xml" rel="self" type="application/rss+xml"/><item><title>芬兰大学说新型AI聊天机器人有助抵抗错误健康信息</title><link>https://neican.ai/events/2026-05-24-ai-253/</link><pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-24-ai-253/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>事件库 on AI内参</title><link>https://neican.ai/events/</link><description>Recent content in 事件库 on AI内参</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 24 May 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://neican.ai/events/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 2026.5.22 is live</title><link>https://neican.ai/events/2026-05-24-openclaw-2026-5-22-is-live-327/</link><pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-24-openclaw-2026-5-22-is-live-327/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>OpenClaw 2026.5.22 is live. Gateway/model startup paths got leaner. /models drops to ~5ms. npm packages ship locked deps. Windows install/update paths hardened. Less waiting, fewer surprises.&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 相关产品、模型、公司或开发者生态，并关联 llm。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>线索来自 AI HOT，原文链接作为主要核验对象；若全文尚未回填，只作为观察信号。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>Gateway/model startup paths got leaner&lt;/li>
+&lt;li>/models drops to ~5ms&lt;/li>
+&lt;li>npm packages ship locked deps&lt;/li>
+&lt;li>Windows install/update paths hardened&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>对话VITURE姜公略：什么才是XR眼镜该有的样子？</title><link>https://neican.ai/events/2026-05-24-viture-xr-331/</link><pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-24-viture-xr-331/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>过去十年，XR（扩展现实）赛道始终陷在一种怪异的叙事里—— 在从业者高呼着“下一代计算平台”的宏大愿景时，资本市场也曾在元宇宙的热潮中疯狂押注，而一旦落地到消费端，这个行业却始终未能摆脱极客玩具的宿命。 从Google Glass的黯然退场，再到一众VR/AR厂商的折戟，XR行业在跌宕中，迎来了前所未有的冷静时刻。 行业的艰辛在于，尽管所有人都清楚技术终局，但抵达终局的路径却布满荆棘。在种种“不可能三角”中，行业在缺乏共识中蜿蜒前进。 在略显沉闷的行业氛围中，XR厂商VITURE近日发布了一款全新产品—— VITURE Beast 。作为一个此前主攻海外游戏市场、鲜少发声的“隐形冠军”&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 苹果，并关联 vibe-coding、ai-agents、multimodal。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>已保留原文链接；仍需结合后续来源确认影响范围。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>过去十年，XR（扩展现实）赛道始终陷在一种怪异的叙事里—— 在从业者高呼着“下一代计算平台”的宏大愿景时，资本市场也曾在元宇宙的热潮中疯狂押注，而一旦落地到消费端，这个行业却始终未能摆脱极客玩具的宿命&lt;/li>
+&lt;li>从Google Glass的黯然退场，再到一众VR/AR厂商的折戟，XR行业在跌宕中，迎来了前所未有的冷静时刻&lt;/li>
+&lt;li>行业的艰辛在于，尽管所有人都清楚技术终局，但抵达终局的路径却布满荆棘&lt;/li>
+&lt;li>在种种“不可能三角”中，行业在缺乏共识中蜿蜒前进&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>芬兰大学说新型AI聊天机器人有助抵抗错误健康信息</title><link>https://neican.ai/events/2026-05-24-ai-253/</link><pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-24-ai-253/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>芬兰奥卢大学日前发布新闻公报说，该校研究人员与国际同行合作开发出一款人工智能（AI）聊天机器人，通过使用“认知接种”方法，可帮助人们抵抗健康领域的错误信息。&lt;/p>
 &lt;h2 id="为什么重要">为什么重要&lt;/h2>
 &lt;p>这条信息暂归为背景信号，主要影响 相关产品、模型、公司或开发者生态，并关联 embodied-ai。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
@@ -66,7 +102,7 @@
 &lt;/ul>
 &lt;h2 id="来源">来源&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://x.com/openclaw/status/2058397616124072274">OpenClaw 2026.5.22发布：性能优化与安全加固&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://x.com/openclaw/status/2058397616124072274">OpenClaw 2026.5.22 is live&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资</title><link>https://neican.ai/events/2026-05-23-36-248/</link><pubDate>Sat, 23 May 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-23-36-248/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京维泛智能科技有限公司（以下简称“维泛智能”）近日完成数亿元种子轮融资，由中关村资本及旗下启航投资联合领投，上海未来产业基金、石溪资本、佰维存储、燕创集团、海益投资、探元创投共同投资。 维泛智能成立于2025年5月，孵化自北京大学类脑芯片实验室（PAICORE Lab），专注于具身智能“大小脑”融合芯片研发，致力于打造全国产化机器人核心计算方案。 联合创始人殷积磊毕业于北京大学，拥有超过20年半导体行业经验，曾任知存科技COO兼研发副总裁，以及IBM、GlobalFoundries芯片研发总监，并曾在MTK、VIA等企业从事芯片研发工作。&lt;/p>
 &lt;h2 id="为什么重要">为什么重要&lt;/h2>
@@ -308,7 +344,7 @@
 &lt;/ul>
 &lt;h2 id="来源">来源&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://x.com/Replit/status/2058261705998602548">Replit Agent与Squidler集成，实现全自动化AI质量保障&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://x.com/Replit/status/2058261705998602548">Replit Agent与Squidler集成，实现全自动化AI QA循环&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>StepAudio 2.5实时语音发布：副语言感知与人格化交互</title><link>https://neican.ai/events/2026-05-23-stepaudio-2-5-194/</link><pubDate>Sat, 23 May 2026 09:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-23-stepaudio-2-5-194/</guid><description>&lt;h1 id="stepaudio-25实时语音发布副语言感知与人格化交互">StepAudio 2.5实时语音发布：副语言感知与人格化交互&lt;/h1>
 &lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>StepAudio 2.5 Realtime是一款实时语音模型，能够深度理解用户语音中的语气、语速、停顿乃至微表情等副语言特征。它支持通过API接入自定义人格，允许设定个性、背景故事和语言风格，并提供了上万种原生人格选项，可组合出数百万种特征。产&lt;/p>
@@ -348,7 +384,7 @@
 &lt;/ul>
 &lt;h2 id="来源">来源&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://x.com/dotey/status/2058084478459826432">飞书-Claude Code桥接开源项目&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://x.com/dotey/status/2058084478459826432">飞书-Claude Code桥接开源项目 feishu-claude-code-bridge&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>加倍投入科学以赢得工业AI</title><link>https://neican.ai/events/2026-05-23-ai-197/</link><pubDate>Sat, 23 May 2026 09:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-05-23-ai-197/</guid><description>&lt;h1 id="加倍投入科学以赢得工业ai">加倍投入科学以赢得工业AI&lt;/h1>
 &lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>Mistral AI宣布与物理AI先驱Emmi AI达成最终收购协议，旨在加强其在工业AI领域的领导地位。通过整合Emmi AI在物理仿真与数字孪生方面的专长，Mistral AI将提升其工程解决方案能力，并加速科学研发路线。Emmi AI的30余名研究员与工程师将加入Mistral AI团队，共同构建由物理AI驱动的综合技术栈&lt;/p>
@@ -2601,6 +2637,24 @@
 &lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
 &lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
 &lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>Enabling a new model for healthcare with AI co-clinician</title><link>https://neican.ai/events/2026-04-30-enabling-a-new-model-for-healthcare-with-ai-co-clinician-322/</link><pubDate>Thu, 30 Apr 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-04-30-enabling-a-new-model-for-healthcare-with-ai-co-clinician-322/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>Google DeepMind announces the AI co-clinician research initiative to explore how AI could amplify doctors expertise and deliver higher quality care to patients. Building on MedPaLM and AMIE, the initiative explores triadic care where AI agents help patients under clinical authority of their physicia&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 Google DeepMind，并关联 ai-agents、multimodal、llm、ai-safety。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>已保留原文链接；仍需结合后续来源确认影响范围。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>Google DeepMind announces the AI co-clinician research initiative to explore how AI could amplify doctors expertise and deliver higher quality care to patients&lt;/li>
+&lt;li>Building on MedPaLM and AMIE, the initiative explores triadic care where AI agents help patients under clinical authority of their physician&lt;/li>
+&lt;li>Key findings: In blind evaluations, physicians consistently preferred AI co-clinician responses over leading evidence synthesis tools&lt;/li>
+&lt;li>In 98 realistic primary care queries, the system recorded zero critical errors in 97 cases&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
 &lt;/ul></description></item><item><title>Our evaluation of OpenAI's GPT-5.5 cyber capabilities</title><link>https://neican.ai/events/2026-04-30-our-evaluation-of-openai-s-gpt-5-5-cyber-capabilities-126/</link><pubDate>Thu, 30 Apr 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-04-30-our-evaluation-of-openai-s-gpt-5-5-cyber-capabilities-126/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>Our evaluation of OpenAI's GPT-5.5 cyber capabilities The UK's AI Security Institute previously evaluated Claude Mythos : now they've evaluated GPT-5.5 for finding security vulnerability and found it to be comparable to Mythos, but unlike Mythos it's generally available right now. Tags: ai , opena&lt;/p>
 &lt;h2 id="为什么重要">为什么重要&lt;/h2>
@@ -2794,6 +2848,24 @@
 &lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
 &lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
 &lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning</title><link>https://neican.ai/events/2026-04-14-gemini-robotics-er-1-6-powering-real-world-robotics-tasks-through-enhanced-embodied-reasoning-324/</link><pubDate>Tue, 14 Apr 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-04-14-gemini-robotics-er-1-6-powering-real-world-robotics-tasks-through-enhanced-embodied-reasoning-324/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>Google DeepMind introduces Gemini Robotics-ER 1.6, a significant upgrade to its reasoning-first robotics model enabling robots to understand environments with unprecedented precision. The model enhances spatial reasoning and multi-view understanding for next-generation physical agents. Key capabili&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 Google DeepMind，并关联 ai-agents、llm、ai-safety、embodied-ai。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>已保留原文链接；仍需结合后续来源确认影响范围。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>Google DeepMind introduces Gemini Robotics-ER 1&lt;/li>
+&lt;li>6, a significant upgrade to its reasoning-first robotics model enabling robots to understand environments with unprecedented precision&lt;/li>
+&lt;li>The model enhances spatial reasoning and multi-view understanding for next-generation physical agents&lt;/li>
+&lt;li>Key capabilities: Pointing for spatial reasoning (object detection, counting, comparisons, grasp point identification, constraint compliance)&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
 &lt;/ul></description></item><item><title>What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research</title><link>https://neican.ai/events/2026-04-14-what-i-ve-been-building-atom-report-post-training-course-finishing-my-book-and-ongoing-research-137/</link><pubDate>Tue, 14 Apr 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-04-14-what-i-ve-been-building-atom-report-post-training-course-finishing-my-book-and-ongoing-research-137/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
 &lt;p>This post is a roundup of my recent efforts that did not warrant a standalone Interconnects post, why I’m spending time on them, and what they accomplished. The ATOM Report: Measuring the Open Language Model Ecosystem RLHF Book is done &amp;amp; ready for pre-order! A post-training course I’m making Recent&lt;/p>
 &lt;h2 id="为什么重要">为什么重要&lt;/h2>
@@ -2878,6 +2950,24 @@
 &lt;li>In recent years, there were so few open models, so when Llama 3 was released most people were still doing research on Llama 2 and super happy to get an update&lt;/li>
 &lt;li>When Qwen 3 was released, the Llama 4 fiasco had just gone down, and a whole research community was emerging to study RL on Qwen 2&lt;/li>
 &lt;li>5 — it was a no brainer to upgrade&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>Gemma 4: Byte for byte, the most capable open models</title><link>https://neican.ai/events/2026-04-02-gemma-4-byte-for-byte-the-most-capable-open-models-325/</link><pubDate>Thu, 02 Apr 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-04-02-gemma-4-byte-for-byte-the-most-capable-open-models-325/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>Google DeepMind releases Gemma 4, its most capable open model family, purpose-built for advanced reasoning and agentic workflows. Gemma has been downloaded over 400 million times with 100000+ variants in the Gemmaverse. Released under Apache 2.0 license. Four model sizes: Effective 2B (E2B), Effect&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 Google DeepMind、英伟达，并关联 llm、ai-agents、multimodal。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>已保留原文链接；仍需结合后续来源确认影响范围。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>Google DeepMind releases Gemma 4, its most capable open model family, purpose-built for advanced reasoning and agentic workflows&lt;/li>
+&lt;li>Gemma has been downloaded over 400 million times with 100000+ variants in the Gemmaverse&lt;/li>
+&lt;li>Released under Apache 2&lt;/li>
+&lt;li>Four model sizes: Effective 2B (E2B), Effective 4B (E4B), 26B Mixture of Experts (MoE activating 3&lt;/li>
 &lt;/ul>
 &lt;h2 id="下一步观察">下一步观察&lt;/h2>
 &lt;ul>
@@ -3022,6 +3112,24 @@
 &lt;li>Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI&lt;/li>
 &lt;li>To gain a comprehensive understanding, we can analyze these systems through different lenses: feature attribution , which isolates the specific input features driving a prediction ( Lundberg &amp;amp; Lee, 2017 ; Ribeiro et al&lt;/li>
 &lt;li>, 2022 ); data attribution , which links model behaviors to influential training examples ( Koh &amp;amp; Liang, 2017 ; Ilyas et al&lt;/li>
+&lt;/ul>
+&lt;h2 id="下一步观察">下一步观察&lt;/h2>
+&lt;ul>
+&lt;li>原文或官方后续是否给出更完整细节。&lt;/li>
+&lt;li>是否出现第二来源、客户采用、开发者反馈或反向信号。&lt;/li>
+&lt;li>是否足以改变相关主题页或时间线的当前判断。&lt;/li>
+&lt;/ul></description></item><item><title>From games to biology and beyond: 10 years of AlphaGo impact</title><link>https://neican.ai/events/2026-03-10-from-games-to-biology-and-beyond-10-years-of-alphago-impact-326/</link><pubDate>Tue, 10 Mar 2026 12:00:00 +0800</pubDate><guid>https://neican.ai/events/2026-03-10-from-games-to-biology-and-beyond-10-years-of-alphago-impact-326/</guid><description>&lt;h2 id="发生了什么">发生了什么&lt;/h2>
+&lt;p>Demis Hassabis reflects on 10 years since AlphaGo defeated world champion Lee Sae Dol at Go, marking the beginning of the modern AI era. Over 200 million people watched the match, defined by the creative Move 37 in Game 2. AlphaGo used deep neural networks with advanced search and reinforcement lea&lt;/p>
+&lt;h2 id="为什么重要">为什么重要&lt;/h2>
+&lt;p>这条信息暂归为背景信号，主要影响 相关产品、模型、公司或开发者生态，并关联 llm。它的价值在于提示后续是否会出现连续的产品、采用、融资、治理或生态变化。&lt;/p>
+&lt;h2 id="证据状态">证据状态&lt;/h2>
+&lt;p>已保留原文链接；仍需结合后续来源确认影响范围。&lt;/p>
+&lt;h2 id="可验证线索">可验证线索&lt;/h2>
+&lt;ul>
+&lt;li>Demis Hassabis reflects on 10 years since AlphaGo defeated world champion Lee Sae Dol at Go, marking the beginning of the modern AI era&lt;/li>
+&lt;li>Over 200 million people watched the match, defined by the creative Move 37 in Game 2&lt;/li>
+&lt;li>AlphaGo used deep neural networks with advanced search and reinforcement learning&lt;/li>
+&lt;li>Successors AlphaGo Zero (learned from random play) and AlphaZero (mastered Go, chess, shogi from scratch) followed&lt;/li>
 &lt;/ul>
 &lt;h2 id="下一步观察">下一步观察&lt;/h2>
 &lt;ul>

@@ -35,7 +35,7 @@ sources:
 - url: https://www.ithome.com/0/954/452.htm
   title: 消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI
   publisher: AI HOT 精选
-  date: '2026-05-23T15:12:40.000Z'
+  date: '2026-05-23'
 timeline:
   date: '2026-05-23'
   year: '2026'

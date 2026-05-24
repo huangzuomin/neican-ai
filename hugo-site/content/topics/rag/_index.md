@@ -5,9 +5,9 @@ slug: rag
 aliases: []
 parent: null
 description: RAG 主题下的 AI 行业事件、实体和趋势。
-event_count: 45
+event_count: 46
 entity_count: 16
-source_count: 45
+source_count: 46
 related_tracks: []
 seo:
   title: RAG - neican.ai
@@ -64,4 +64,4 @@ RAG 目前仍以弱信号积累为主，需要等待更多高质量事件确认�
 
 ## 来源统计
 
-共 45 个来源。
+共 46 个来源。

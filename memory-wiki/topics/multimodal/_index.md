@@ -3,7 +3,7 @@ title: multimodal
 slug: multimodal
 type: topic
 last_updated: '2026-05-24'
-related_events: 34
+related_events: 37
 related_entities:
 - 36-fac4f559
 - anthropic
@@ -23,8 +23,9 @@ related_entities:
 
 # multimodal
 
-## 事件时间线 (34)
+## 事件时间线 (37)
 
+- 2026-05-24: 对话VITURE姜公略：什么才是XR眼镜该有的样子？
 - 2026-05-24: 周鸿祎谈马斯克大尺度预言：十年后人类都不开车了？
 - 2026-05-23: StepAudio 2.5实时语音发布：副语言感知与人格化交互
 - 2026-05-23: Google’s new anything-to-anything AI model is wild
@@ -44,7 +45,6 @@ related_entities:
 - 2026-05-21: Datasette Agent
 - 2026-05-21: Scaling creativity in the age of AI
 - 2026-05-21: All of the updates from Elon Musk and Sam Altman’s battle over OpenAI
-- 2026-05-21: In desperate times, graduates find hope in humiliating tech CEOs
 
 ## 相关实体 (14)
 

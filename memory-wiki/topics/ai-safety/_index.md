@@ -3,7 +3,7 @@ title: ai safety
 slug: ai-safety
 type: topic
 last_updated: '2026-05-24'
-related_events: 33
+related_events: 35
 related_entities:
 - 36-fac4f559
 - anthropic
@@ -24,7 +24,7 @@ related_entities:
 
 # ai safety
 
-## 事件时间线 (33)
+## 事件时间线 (35)
 
 - 2026-05-24: OpenClaw 2026.5.22发布：性能优化与安全加固
 - 2026-05-23: StepAudio 2.5实时语音发布：副语言感知与人格化交互

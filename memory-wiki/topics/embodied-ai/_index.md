@@ -3,7 +3,7 @@ title: embodied ai
 slug: embodied-ai
 type: topic
 last_updated: '2026-05-24'
-related_events: 17
+related_events: 18
 related_entities:
 - 36-fac4f559
 - anthropic
@@ -22,7 +22,7 @@ related_entities:
 
 # embodied ai
 
-## 事件时间线 (17)
+## 事件时间线 (18)
 
 - 2026-05-24: 芬兰大学说新型AI聊天机器人有助抵抗错误健康信息
 - 2026-05-24: 一季度AI领域融资超1100亿元 国产大模型融资金额暴增
@@ -40,6 +40,7 @@ related_entities:
 - 2026-05-21: The Download: online safety’s future and climate tech’s big pivot
 - 2026-05-15: 2026.20: Shifting Alliances in a Changing World
 - 2026-05-08: Nanoleaf bets its future on robots, red light therapy, and AI
+- 2026-04-14: Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning
 - 2026-02-23: Import AI 446: Nuclear LLMs; China’s big AI benchmark; measurement and AI policy
 
 ## 相关实体 (13)

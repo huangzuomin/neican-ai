@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-24'
-related_events: 27
+related_events: 28
 claims:
 - text: Massive new data centers are the physical foundation for tech companies’ hopes
     and dreams for AI
@@ -836,14 +836,33 @@ claims:
 - text: 文章可能介绍了该模型在生成速度上的突破，以及相较于传统自回归模型在延迟和吞吐量方面的性能优势
   confidence: 0.5
   date: '2026-05-23T00:02:03.000Z'
+- text: Google DeepMind releases Gemma 4, its most capable open model family, purpose-built
+    for advanced reasoning and agentic workflows
+  confidence: 0.5
+  date: '2026-04-02'
+- text: Gemma has been downloaded over 400 million times with 100000+ variants in
+    the Gemmaverse
+  confidence: 0.5
+  date: '2026-04-02'
+- text: Released under Apache 2
+  confidence: 0.5
+  date: '2026-04-02'
+- text: 'Four model sizes: Effective 2B (E2B), Effective 4B (E4B), 26B Mixture of
+    Experts (MoE activating 3'
+  confidence: 0.5
+  date: '2026-04-02'
+- text: 8B params), and 31B Dense
+  confidence: 0.5
+  date: '2026-04-02'
 ---
 
 # 英伟达
 
 **角色**: mentioned
 
-## 关联事件 (27)
+## 关联事件 (28)
 
+- 2026-04-02: Gemma 4: Byte for byte, the most capable open models
 - 2026-05-11: The Inference Shift
 - 2026-05-15: 2026.20: Shifting Alliances in a Changing World
 - 2026-05-21: The Download: online safety’s future and climate tech’s big pivot
@@ -863,9 +882,8 @@ claims:
 - 2026-03-05: Olmo Hybrid and future LLM architectures
 - 2026-03-06: Dean Ball on open models and government control
 - 2026-03-16: What comes next with open models
-- 2026-03-30: Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others
 
-## 结构化声明 (136)
+## 结构化声明 (141)
 
 - Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI（50%）
 - But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment（50%）

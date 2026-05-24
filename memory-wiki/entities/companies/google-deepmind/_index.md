@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-24'
-related_events: 37
+related_events: 40
 claims:
 - text: 'The San Francisco–based startup Goodfire just released a new tool, called
     Silico, that lets researchers and engineers peer inside an AI model and adjust
@@ -613,14 +613,74 @@ claims:
 - text: 在针对353个Erdős问题和492个开放猜想的测试中，系统成功解决了9个Erdős问题并证明了44个序列猜想
   confidence: 0.5
   date: '2026-05-22T22:37:39.000Z'
+- text: Google DeepMind releases Gemma 4, its most capable open model family, purpose-built
+    for advanced reasoning and agentic workflows
+  confidence: 0.5
+  date: '2026-04-02'
+- text: Gemma has been downloaded over 400 million times with 100000+ variants in
+    the Gemmaverse
+  confidence: 0.5
+  date: '2026-04-02'
+- text: Released under Apache 2
+  confidence: 0.5
+  date: '2026-04-02'
+- text: 'Four model sizes: Effective 2B (E2B), Effective 4B (E4B), 26B Mixture of
+    Experts (MoE activating 3'
+  confidence: 0.5
+  date: '2026-04-02'
+- text: 8B params), and 31B Dense
+  confidence: 0.5
+  date: '2026-04-02'
+- text: Google DeepMind introduces Gemini Robotics-ER 1
+  confidence: 0.5
+  date: '2026-04-14'
+- text: 6, a significant upgrade to its reasoning-first robotics model enabling robots
+    to understand environments with unprecedented precision
+  confidence: 0.5
+  date: '2026-04-14'
+- text: The model enhances spatial reasoning and multi-view understanding for next-generation
+    physical agents
+  confidence: 0.5
+  date: '2026-04-14'
+- text: 'Key capabilities: Pointing for spatial reasoning (object detection, counting,
+    comparisons, grasp point identification, constraint compliance)'
+  confidence: 0.5
+  date: '2026-04-14'
+- text: Success detection as an autonomy engine with multi-view reasoning across multiple
+    camera streams
+  confidence: 0.5
+  date: '2026-04-14'
+- text: Google DeepMind announces the AI co-clinician research initiative to explore
+    how AI could amplify doctors expertise and deliver higher quality care to patients
+  confidence: 0.5
+  date: '2026-04-30'
+- text: Building on MedPaLM and AMIE, the initiative explores triadic care where AI
+    agents help patients under clinical authority of their physician
+  confidence: 0.5
+  date: '2026-04-30'
+- text: 'Key findings: In blind evaluations, physicians consistently preferred AI
+    co-clinician responses over leading evidence synthesis tools'
+  confidence: 0.5
+  date: '2026-04-30'
+- text: In 98 realistic primary care queries, the system recorded zero critical errors
+    in 97 cases
+  confidence: 0.5
+  date: '2026-04-30'
+- text: On the RxQA medication knowledge benchmark, it surpassed other frontier AI
+    systems especially on open-ended questions
+  confidence: 0.5
+  date: '2026-04-30'
 ---
 
 # Google DeepMind
 
 **角色**: mentioned
 
-## 关联事件 (37)
+## 关联事件 (40)
 
+- 2026-04-02: Gemma 4: Byte for byte, the most capable open models
+- 2026-04-14: Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning
+- 2026-04-30: Enabling a new model for healthcare with AI co-clinician
 - 2026-05-21: All of the updates from Elon Musk and Sam Altman’s battle over OpenAI
 - 2026-05-20: Google I/O, World Models, I/O Spaghetti
 - 2026-05-22: 2026.21: The Data Center Veto
@@ -638,11 +698,8 @@ claims:
 - 2026-05-22: Project Genie与谷歌街景合作推出交互式世界
 - 2026-05-22: 谷歌I/O大会发布AI代理全套开发工具链
 - 2026-05-22: AlphaProof Nexus：用形式化验证驱动AI数学证明搜索
-- 2026-05-23: 扩大与新加坡合作，推动AI安全规模化部署
-- 2026-03-23: Import AI 450: China’s electronic warfare model; traumatized LLMs; and a scaling law for cyberattacks
-- 2026-04-13: Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment
 
-## 结构化声明 (121)
+## 结构化声明 (136)
 
 - The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the
 settings that determine a model’s behavior

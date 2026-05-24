@@ -5,7 +5,7 @@ type: entity
 entity_type: company
 role: mentioned
 last_updated: '2026-05-24'
-related_events: 18
+related_events: 19
 claims:
 - text: 'Sam Altman and Elon Musk are facing off in a high-stakes trial that could
     alter the future of OpenAI and its most well-known product,
@@ -490,14 +490,35 @@ claims:
 - text: 为此，研究团队提出了VSAS-Bench，这是一个新的评估基准，专门针对流式视觉语言模型在实时交互任务中的表现，填补了当前评估方法在动态、持续生成场景下的空白
   confidence: 0.5
   date: '2026-05-22T00:00:00.000Z'
+- text: '过去十年，XR（扩展现实）赛道始终陷在一种怪异的叙事里——
+
+
+    在从业者高呼着“下一代计算平台”的宏大愿景时，资本市场也曾在元宇宙的热潮中疯狂押注，而一旦落地到消费端，这个行业却始终未能摆脱极客玩具的宿命'
+  confidence: 0.5
+  date: 2026-05-24 17:09:30  +0800
+- text: 从Google Glass的黯然退场，再到一众VR/AR厂商的折戟，XR行业在跌宕中，迎来了前所未有的冷静时刻
+  confidence: 0.5
+  date: 2026-05-24 17:09:30  +0800
+- text: 行业的艰辛在于，尽管所有人都清楚技术终局，但抵达终局的路径却布满荆棘
+  confidence: 0.5
+  date: 2026-05-24 17:09:30  +0800
+- text: 在种种“不可能三角”中，行业在缺乏共识中蜿蜒前进
+  confidence: 0.5
+  date: 2026-05-24 17:09:30  +0800
+- text: '在略显沉闷的行业氛围中，XR厂商VITURE近日发布了一款全新产品——
+
+    VITURE Beast'
+  confidence: 0.5
+  date: 2026-05-24 17:09:30  +0800
 ---
 
 # 苹果
 
 **角色**: mentioned
 
-## 关联事件 (18)
+## 关联事件 (19)
 
+- 2026-05-24: 对话VITURE姜公略：什么才是XR眼镜该有的样子？
 - 2026-05-21: All of the updates from Elon Musk and Sam Altman’s battle over OpenAI
 - 2026-05-13: The Deployment Company, Back to the 70s, Apple and Intel
 - 2026-05-15: 2026.20: Shifting Alliances in a Changing World
@@ -517,7 +538,7 @@ claims:
 - 2026-05-08: Plaud获头部大厂投资，目前估值达20亿美元｜硬氪独家
 - 2026-05-09: 9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉
 
-## 结构化声明 (78)
+## 结构化声明 (83)
 
 - Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,
 ChatGPT（50%）

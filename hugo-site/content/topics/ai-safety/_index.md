@@ -5,9 +5,9 @@ slug: ai-safety
 aliases: []
 parent: null
 description: AI Safety 主题下的 AI 行业事件、实体和趋势。
-event_count: 33
+event_count: 36
 entity_count: 15
-source_count: 33
+source_count: 36
 related_tracks:
 - ai-governance
 - model-competition
@@ -73,4 +73,4 @@ AI Safety 主题下的 AI 行业事件、实体和趋势。
 
 ## 来源统计
 
-共 33 个来源。
+共 36 个来源。

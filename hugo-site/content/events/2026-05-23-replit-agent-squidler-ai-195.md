@@ -35,9 +35,9 @@ claims:
   confidence: 0.5
 sources:
 - url: https://x.com/Replit/status/2058261705998602548
-  title: Replit Agent与Squidler集成，实现全自动化AI质量保障
+  title: Replit Agent与Squidler集成，实现全自动化AI QA循环
   publisher: AI HOT 精选
-  date: '2026-05-23T19:00:06.000Z'
+  date: '2026-05-23T00:00:00Z'
 timeline:
   date: '2026-05-23'
   year: '2026'
@@ -82,4 +82,4 @@ Replit Agent与Squidler已完成集成，形成一套完整的AI驱动质量保�
 
 ## 来源
 
-- [Replit Agent与Squidler集成，实现全自动化AI质量保障](https://x.com/Replit/status/2058261705998602548)
+- [Replit Agent与Squidler集成，实现全自动化AI QA循环](https://x.com/Replit/status/2058261705998602548)

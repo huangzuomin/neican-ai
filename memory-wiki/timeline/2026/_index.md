@@ -2,7 +2,7 @@
 title: 2026 年时间线
 type: timeline
 year: '2026'
-event_count: 251
+event_count: 257
 ---
 
 # 2026 年 AI 行业时间线
@@ -28,6 +28,7 @@ event_count: 251
 - **2026-03-05** — Olmo Hybrid and future LLM architectures [model_release] · Meta AI, 美国证券交易委员会, 英伟达
 - **2026-03-06** — Dean Ball on open models and government control [model_release] · Anthropic, Meta AI, 英特尔
 - **2026-03-09** — Import AI 448: AI R&D; Bytedance’s CUDA-writing agent; on-device satellite AI [model_release] · 英特尔, 美国证券交易委员会, 英伟达
+- **2026-03-10** — From games to biology and beyond: 10 years of AlphaGo impact [model_release]
 - **2026-03-13** — Identifying Interactions at Scale for LLMs [model_release] · 英特尔, 美国证券交易委员会
 - **2026-03-16** — ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text [model_release] · OpenAI, Anthropic, 英特尔
 - **2026-03-16** — What comes next with open models [model_release] · OpenAI, Meta AI, 英特尔
@@ -40,6 +41,7 @@ event_count: 251
 - **2026-03-29** — Reimagining the mouse pointer for the AI era [other] · Google DeepMind
 - **2026-03-30** — Import AI 451: Political superintelligence; Google’s society of minds, and a robot drummer [model_release] · Anthropic, 英特尔, 美国证券交易委员会
 - **2026-03-30** — Latest open artifacts (#20): New orgs! New types of models! With Nemotron Super, Sarvam, Cohere Transcribe, & others [model_release] · 英伟达
+- **2026-04-02** — Gemma 4: Byte for byte, the most capable open models [model_release] · Google DeepMind, 英伟达
 - **2026-04-02** — Gemma 4: Byte for byte, the most capable open models [model_release] · 英特尔
 - **2026-04-03** — Gemma 4 and what makes an open model succeed [model_release] · Meta AI, 英特尔, 美国证券交易委员会
 - **2026-04-06** — Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting [model_release] · OpenAI, 美国证券交易委员会
@@ -47,6 +49,7 @@ event_count: 251
 - **2026-04-11** — The inevitable need for an open model consortium [model_release] · OpenAI, Anthropic, 英特尔
 - **2026-04-13** — Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment [model_release] · Google DeepMind, 英特尔, 美国证券交易委员会
 - **2026-04-13** — Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning [model_release]
+- **2026-04-14** — Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning [model_release] · Google DeepMind
 - **2026-04-14** — What I’ve been building: ATOM Report, post-training course, finishing my book, and ongoing research [model_release] · 美国证券交易委员会
 - **2026-04-15** — Gemini 3.1 Flash TTS: the next generation of expressive AI speech [model_release]
 - **2026-04-15** — My bets on open models, mid-2026 [model_release] · Meta AI, 英特尔, 美国证券交易委员会
@@ -61,6 +64,7 @@ event_count: 251
 - **2026-04-29** — llm 0.32a0 [model_release]
 - **2026-04-29** — LLM 0.32a0  is a major backwards-compatible refactor [model_release] · OpenAI, Anthropic, 美国证券交易委员会
 - **2026-04-29** — llm 0.32a1 [model_release]
+- **2026-04-30** — Enabling a new model for healthcare with AI co-clinician [model_release] · Google DeepMind
 - **2026-04-30** — The Zig project's rationale for their firm anti-AI contribution policy [model_release] · Anthropic
 - **2026-04-30** — Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes [other]
 - **2026-04-30** — Enabling a new model for healthcare with AI co-clinician [model_release]
@@ -257,4 +261,6 @@ event_count: 251
 - **2026-05-24** — 一季度韩国前五大企业出口占比达44% [other] · 三星电子
 - **2026-05-24** — 芬兰大学说新型AI聊天机器人有助抵抗错误健康信息 [other]
 - **2026-05-24** — 周鸿祎谈马斯克大尺度预言：十年后人类都不开车了？ [other] · 马斯克
+- **2026-05-24** — 对话VITURE姜公略：什么才是XR眼镜该有的样子？ [other] · 苹果
+- **2026-05-24** — OpenClaw 2026.5.22 is live [model_release]
 - **2026-05-24** — OpenClaw 2026.5.22发布：性能优化与安全加固 [model_release]

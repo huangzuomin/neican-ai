@@ -3,7 +3,7 @@ title: vibe coding
 slug: vibe-coding
 type: topic
 last_updated: '2026-05-24'
-related_events: 27
+related_events: 28
 related_entities:
 - 36-fac4f559
 - anthropic
@@ -22,8 +22,9 @@ related_entities:
 
 # vibe coding
 
-## 事件时间线 (27)
+## 事件时间线 (28)
 
+- 2026-05-24: 对话VITURE姜公略：什么才是XR眼镜该有的样子？
 - 2026-05-23: Replit Agent与Squidler集成，实现全自动化AI质量保障
 - 2026-05-23: 飞书-Claude Code桥接开源项目
 - 2026-05-23: 圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会
@@ -43,7 +44,6 @@ related_entities:
 - 2026-05-21: Datasette Agent
 - 2026-05-21: Anthropic’s Code with Claude showed off coding’s future—whether you like it or not
 - 2026-05-19: The last six months in LLMs in five minutes
-- 2026-05-18: Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment
 
 ## 相关实体 (13)
 
